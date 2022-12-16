@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96233c073d1720a45bb1431469c1f30e, type: 3}
+  m_Name: InsectAreaFieldData
+  m_EditorClassIdentifier: 
+  uid: 64a0abfe-cc42-4ae1-8050-c3817036a9a5
+  areaName: Lakomaer Feld
+  sceneName: InsectArea
+  areaDescription: "Eine furchtbare Insektenplage ist dabei, sich auszubreiten. Noch
+    befindet sie sich vor der Stadt. K\xE4mpfe gegen die Plage an bevor gr\xF6\xDFerer
+    Schaden entsteht.\r"
+  areaPreviewIMG: {fileID: 21300000, guid: 8b363e1f031639343a6d019e9918f7d0, type: 3}
+  areaIconIMG: {fileID: -763233237335567029, guid: 68c716fd175aef64e91cacf8ae8e85a7,
+    type: 3}
+  introSceneName: Insect
+  mapPositionOrOffset: {x: 26, y: 11}

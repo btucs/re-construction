@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 02-Firetruck
+  m_EditorClassIdentifier: 
+  uid: f0044b5b-5fac-4bec-a2de-18f4e60abf53
+  objectName: Feuerwehrauto
+  objectDescription: "Ein Feuerwehrauto. Die Feuerwehr unterst\xFCtzt das Krankenhauspersonal
+    bei den Transporten von Patient/Innen."
+  objectPrefab: {fileID: 1735169151603666757, guid: 89d26f5cfd601e44486e2e8bf3d5c35b,
+    type: 3}
+  objectThumbnail: {fileID: 3257671020179051692, guid: 25340eeb73668154b94d25d1676627a9,
+    type: 3}
+  cameraOffset: {x: -0.75, y: -0.25, z: 0}
+  markerOffset: {x: 0, y: 0}
+  cameraZoom: 0.8
+  taskInfos:
+  - task: {fileID: 11400000, guid: c1d3962c7eba8a04ca4eea8c4a8bd7df, type: 2}
+    taskButtonPosition: {x: -2, y: 0.5}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: m
+        icon: {fileID: 0}
+        textMeshProName: m
+        type: 0
+        textValue: 15000 kg
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Masse der Feuerwehr
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit
+          eines K\xF6rper gegen Beschleunigungskr\xE4fte beschreibt."
+        textMeshProValue: 80 kg
+      localAnalyzePosition: {x: 0, y: 0, z: 0}
+    - itemData:
+        name: a
+        icon: {fileID: 0}
+        textMeshProName: a
+        type: 0
+        textValue: 2 m/s^2
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Beschleunigung der Feuerwehr
+        definition: "Ist eine vektorielle Gr\xF6\xDFe, die die zeitlichen Ver\xE4nderung
+          der Geschwindigkeit beschreibt."
+        textMeshProValue: 5 m/s<sup>2</sup>
+      localAnalyzePosition: {x: 2, y: 0, z: 0}

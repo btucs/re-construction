@@ -1,0 +1,46 @@
+fileFormatVersion: 2
+guid: f391f1c908275394db3979c819e603ff
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - Thomas-Thomas.Start-0
+  - Thomas-Thomas.Start-1
+  - Thomas-Thomas.Start-2
+  - Thomas-Thomas.Start-3
+  - Thomas-Thomas.Start-4
+  - Thomas-Thomas.Start-5
+  - Thomas-Thomas.Start-6
+  - Thomas-Thomas.Start-7
+  - Thomas-Thomas.Start-8
+  - Thomas-Thomas.Exit-9
+  - Thomas-Thomas.Background-10
+  - Thomas-Thomas.Background-11
+  - Thomas-Thomas.Background-12
+  - Thomas-Thomas.Background-13
+  - Thomas-Thomas.Background-14
+  - Thomas-Thomas.Background-15
+  - Thomas-Thomas.Background-16
+  - Thomas-Thomas.Background-17
+  - Thomas-Thomas.Background-18
+  - Thomas-Thomas.Background-19
+  - Thomas-Thomas.Organisation-20
+  - Thomas-Thomas.Organisation-21
+  - Thomas-Thomas.Organisation-22
+  - Thomas-Thomas.Organisation-23
+  - Thomas-Thomas.Organisation-24
+  - Thomas-Thomas.Organisation-25
+  - Thomas-Thomas.Organisation-26
+  - Thomas-Thomas.Organisation-27
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: f391f1c908275394db3979c819e603ff,
+    type: 3}
+  localizations: []

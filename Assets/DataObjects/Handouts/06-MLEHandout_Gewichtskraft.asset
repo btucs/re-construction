@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 06-MLEHandout_Gewichtskraft
+  m_EditorClassIdentifier: 
+  mleName: Gewichtskraft
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize}\n\\item Die Gewichtskraft wird aus dem Gravitationsgesetz
+      nach Newton ermittelt. Sie beschreibt die Anziehungskraft zweier K\xF6rper
+      aufeinander. \n\\item Die Gewichtskraft auf der Erde kann mit dem Produkt aus
+      der Masse eines K\xF6rpers und der Erdbeschleunigung a_{Erde}  berechnet werden.
+      Die Beschleunigung auf der Erde wird auch k\xFCrzer mit g bezeichnet.\n\\item
+      $$\\vector{F}_G = m \\cdot \\vector{a}_{Erde} = m {\\cdot} \\vector{a}_{Erde}$$\r\n\\item
+      Erdbeschleunigung g = 9,81 m/s\xB2\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: "Was ist die Grundlage f\xFCr die Gewichtskraft?"
+    description: "\\begin{itemize}\r\n\\item\r Die Gewichtskraft wird aus dem Gravitationsgesetz
+      nach Newton bestimmt. \r\n\\item Das Gravitationsgesetz beschreibt die Anziehungskr\xE4fte
+      zweier Massen, bezogen auf den Abstand ihrer Massenmittelpunkte.\r\n\r\\item
+      $$ \\vector{F}_{Gravi} =  \\frac{m_1 \\cdot m_2}{r^2}{\\cdot} \\vector{G} $$              
+      \r\n\r\\begin{itemize}\n\\item $\\vector{F}_{Gravi}$ ... Gravitationskraft\n\\item
+      $m$ ... Masse\r\n\\item $r$ ... Abstand\r\n\\item $\\vector{G}$ ... Gravitationskonstante 
+      mit $$6,67430 {\\cdot} 10^{-11} \\frac{m^3}{kg {\\cdot} s^2}$$\r\n\r\\end{itemize}\n\\item
+      Wenn die Wechselwirkungen immer an einem Objekt betrachtet werden sollen, z.
+      B. der Erde, dann werden die Werte des Gravitationsgesetzes zusammengefasst
+      und es ergibt sich die vereinfachte Formel:\r\n$$ \\vector{F} = m {\\cdot}\uF0D7\\vector{a}_{Erde}
+      $$\r\n$ \\vector{a}_{Erde}$ ist die Beschleunigung, die der K\xF6rper durch
+      die Anziehungskraft erf\xE4hrt. F\xFCr $ \\vector{a}_{Erde} $ wird meist $\\vector{g}$
+      geschrieben:\n$$ \\vector{F} = m {\\cdot}\uF0D7 \\vector{g} $$\r\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: bd23bb35461f99d42b81fbac0b67600c, type: 3}
+  - title: Was ist der Unterschied zwischen Masse und Gewichtskraft?
+    description: "Wir verwenden die Begriffe Gewicht und Masse oft Synonym. Aus physikalischer
+      Sicht sind die beiden Begriffe aber unterschiedliche Konzepte. \r\n\\begin{itemize}\r\n\\item
+      Die Masse ist ein Ma\xDF daf\xFCr, wie der K\xF6rper von Gravitationsfeldern
+      allgemein beeinflusst wird und ist deshalb \xFCberall gleich gro\xDF. \n\\begin{itemize}\r\n\\item
+      d. h. ein K\xF6rper mit einer Masse von 25 kg hat auf der Erde eine Masse von
+      25 kg und auf dem Mond auch\n\\end{itemize}\r\r\n\r\\item Das Gewicht hingegen
+      beschreibt die Wechselwirkung zwischen zwei K\xF6rpern, sprich die Gewichtskraft
+      ist abh\xE4ngig vom \r\n\\begin{itemize}\r\n\\item zweiten K\xF6rper bzw. deren
+      Massen \r\n\\item und ihren Abst\xE4nden zueinander.\r\n\\item D. h. ein K\xF6rper
+      mit einer Masse von 25 kg besitzt eine andere Wechselwirkung mit der Erde als
+      mit dem Mond.\n\\end{itemize}\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 8aa3f1757f10c384f8f92224f2725047, type: 3}
+  - title: 'Beispiel: Welche Gewichtskraft hat 1 Kilogramm auf der Erde? '
+    description: "\\begin{itemize}\r\n\\item 1 kg erf\xE4hrt eine Kraft von etwa
+      9,81 N auf der Erdoberfl\xE4che und 1,62 N der Mondoberfl\xE4che. \n\\item
+      Der Zusammenhang kann folgenderma\xDFen bestimmt werden:\r\n\\end{itemize}\r\n\n\\textit{Gegeben}:
+      $$m = 1kg $$\r\n\t\t$$g = 9,81 m/s^2$$\r\n\t\t$$\\vector{a}_{Erde} = 1,62 m/s^2$$\n\n\\textit{Gesucht}:\t$$|\\vector{F}_G|
+      in N$$\n\n\\textit{L\xF6sung}: \t\r\n\t\t$$|\\vector{F}_{G,Erde}| = m {\\cdot}
+      |\\vector{g}|$$\r\n\t\t$$F_{G,Erde} = m {\\cdot} g$$\r\n\t\t$$F_{G,Erde} =
+      1 kg {\\cdot} 9,81 \\frac{m}{s^2}\r$$\n\t\t$$F_{G,Erde} = 9,81 N$$\n\n\t\t$$F_{G,Mond}
+      = m {\\cdot} a_{Mond}$$\r\n\t\t$$F_{G,Mond} = 1 kg {\\cdot} 1,62 \\frac{m}{s^2}$$\r\n\t\t$$F_{G,Mond}
+      = 1,62 N\r$$\n\n\\begin{itemize}\r\n\\item Die Beschleunigung auf dem Mond
+      ist ca. 6x kleiner als auf der Erde,\n\\item d. h. die Gewichtskraft auf dem
+      Mond ist ebenfalls ca. 6x kleiner als auf der Erde.\n\\item Zur Vereinfachung
+      rechnen wir in unserem Alltag mit der Faustformel: \n\\begin{itemize}\r\n\\item
+      100 Gramm = ca. 1 Newton bzw. \n\\item 1 Kilogramm = 10 Newton.\r\n\\end{itemize}\n\\end{itemize}\r\r"
+    picture: {fileID: 21300000, guid: f607651616d58a5479cab6ee93713a2c, type: 3}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize}\r\n\\item https://studyflix.de/ingenieurwissenschaften/gewichtskraft-1768
+      (Gibt einen kurzen \xDCberblick und bietet die M\xF6glichkeit durch Zeitmarken
+      im Lernvideo die relevanten Aspekte herauszufiltern.)\r\n\n\\item https://www.youtube.com/watch?v=wddT3OneOFQ
+      (Lernvideo des Anbieters studyhelp mit Beispielrechnungen.)\r\n\r\n\\item https://www.youtube.com/watch?v=9auPDNujfwk
+      (Lernvideo des Anbieters simpleclub \xFCber die Unterschiede zwischen Masse,
+      Gewicht und Gewichtskraft.)\r\n\r\n\\item https://www.geogebra.org/m/kemBTkwW#material/eEN9n7wj
+      (Webanwendung von geogebra.com, erstellt von Mathias Hornof; zeigt wie die
+      Gewichtskraft eines K\xF6rpers sich auf den unterschiedlichen Planeten ver\xE4ndert.)\r\n\\end{itemize}\r"
+    picture: {fileID: 0}

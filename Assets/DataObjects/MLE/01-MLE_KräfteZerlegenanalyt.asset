@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: "01-MLE_Kr\xE4fteZerlegenanalyt"
+  m_EditorClassIdentifier: 
+  uid: 9af38078-41af-40df-8544-9661c0dbc7e6
+  mleName: "Kr\xE4fte zerlegen (analytisch)"
+  mleHandout: {fileID: 11400000, guid: 446339deaac2f8745b20e7569b7a2fb0, type: 2}
+  mleIntroText: "Kr\xE4fte k\xF6nnen auch in ihre Bestandteile zerlegt werden. Wie
+    du das berechnest? Dazu hier mehr."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:2ade9ba89a4cfd1c704f93daf802c33b_1644248914.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wie werden die Kraftkomponenten beim Zerlegen der Gewichtskraft FG
+        an der schiefen Ebene bezeichnet?
+      choices:
+      - name: F(H) Hangabtriebskraft und F(N) Normalkraft
+        isAnswer: 1
+        feedbackMessage: "Die Normalkraft beschreibt die Kraft, die senkrecht zur
+          Unterlage wirkt und die Tangentialkraft beschreibt die Kraft, die parallel
+          zur Unterlage in Richtung Fu\xDF wirkt."
+      - name: Normalkraft F(N) und Orthogonalkraft F(O)
+        isAnswer: 0
+        feedbackMessage: Nein, nicht ganz. Normalkraft und Orthogonalkraft beschreiben
+          beide eine Kraft senkrecht zur Unterlage.
+      - name: Tangentialkraft F(T) und Parallelkraft F(P)
+        isAnswer: 0
+        feedbackMessage: Da ist ein Fehlerchen drin. Tangentialkraft und Parallelkraft
+          beschreiben beide eine Kraft parallel zur Unterlage.
+      - name: Biegemoment M(F) und Querkraft F(Q)
+        isAnswer: 0
+        feedbackMessage: "Das ist falsch. Diese beiden finden wir vor allem bei den
+          Schnittkr\xE4ften bzw. inneren Kr\xE4ften."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:93bb6073e7c03326ad4a986c53093f10_1644248926.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Welche Formeln werden bei der Kraftzerlegung im kartesischen Koordinatensystem
+        verwendet?
+      choices:
+      - name: F(X) = F * cos(alpha); F(Y) = F * sin(alpha)
+        isAnswer: 1
+        feedbackMessage: Super. Das sind die Winkelbeziehungen aus dem rechtwinkligen
+          Dreieck.
+      - name: F(X) = F / cos(alpha); F(Y) = F / sin(alpha)
+        isAnswer: 0
+        feedbackMessage: Nein. Hier wurden beim Umstellen der Winkelbeziehungen Fehler
+          gemacht.
+      - name: F(X) = F +cos(alpha); F(Y) = F + sin(alpha)
+        isAnswer: 0
+        feedbackMessage: "N\xF6. Das kann nicht sein. Es werden zwei verschiedene
+          Gr\xF6\xDFen mit unterschiedlichen Einheiten addiert? Das funktioniert
+          nicht. Das ist wie das Addieren von \xC4pfeln und Autos."
+      - name: F(X) = F - cos(alpha); F(Y) = F - sin(alpha)
+        isAnswer: 0
+        feedbackMessage: "Leider nein. Das kann nicht sein, Es werden zwei verschiedene
+          Gr\xF6\xDFen mit unterschiedlichen Einheiten subtrahiert. Das funktioniert
+          nicht. Das ist wie das Subtrahieren von Birnen und Booten."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:30cb87e653669a0eb650fbaeaa2c3ed3_1644248956.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Warum m\xFCssen Kr\xE4fte zerlegt werden?"
+      choices:
+      - name: "Durch das Kraftzerlegen k\xF6nnen Berechnungen, wie z. B. zentrale
+          ebene Kraftsysteme, einfacher durchgef\xFChrt werden."
+        isAnswer: 1
+        feedbackMessage: Prima! Dabei ist es sinnvoll, die Kraftkomponenten einer
+          Kraft entlang der Achsen eines Koordinatensystems zu bestimmen, d. h. Kraft
+          in x-Richtung und y-Richtung.
+      - name: "Durch das Kraftzerlegen k\xF6nnen Kr\xE4fte eingespart werden."
+        isAnswer: 0
+        feedbackMessage: "Nein, es werden keine Kr\xE4fte eingespart oder gehen verloren.
+          Das Gleichgewichtsprinzip gilt auch hier. Die Wirkung der Kraft und der
+          zerlegten Kr\xE4fte bleibt gleich."
+      - name: "Durch das Kraftzerlegen wird der Freischnitt \xFCbersprungen."
+        isAnswer: 0
+        feedbackMessage: "Nicht ganz. Das Kraftzerlegen \xFCberspringt nichts, sondern
+          ist ein notwendiger Schritt. Der Freischnitt dient als Grundlage f\xFCr
+          das Kr\xE4ftezerlegen und geschieht vorher."
+      - name: "Die zerlegten Kraftkomponenten zeigen als Summe eine andere Wirkung,
+          die ber\xFCcksichtigt werden muss."
+        isAnswer: 0
+        feedbackMessage: "Leider nein, die Wirkung der Kraft und der zerlegten Komponenten
+          ver\xE4ndert sich nicht."
+  requiredProgress: []

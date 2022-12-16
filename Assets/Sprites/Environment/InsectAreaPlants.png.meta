@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: 8680942138d6afc47878575702400f00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6364485806802032422
+    second: InsectArea_FGBushBig
+  - first:
+      213: -7751240850281279896
+    second: InsectArea_FGTree01
+  - first:
+      213: -6648921296730441888
+    second: InsectArea_FGStone01
+  - first:
+      213: -8284877087146206634
+    second: InsectArea_FGBush01
+  - first:
+      213: 1955157345181417715
+    second: InsectArea_FGStone02
+  - first:
+      213: -3672821217243644710
+    second: InsectArea_FGStone03
+  - first:
+      213: -6066676891233176795
+    second: InsectArea_FGStone04
+  - first:
+      213: 5431394721785452882
+    second: InsectArea_FGPlant01
+  - first:
+      213: 5389660222689707007
+    second: InsectArea_FGBush02
+  - first:
+      213: -6191103430884829432
+    second: InsectArea_FGBush03
+  - first:
+      213: -6560588176220627826
+    second: InsectArea_FGTree02
+  - first:
+      213: -2457079922365998366
+    second: InsectArea_FGTree03
+  - first:
+      213: -7511777562521267814
+    second: InsectArea_FGPlant02
+  - first:
+      213: 2233852337557762888
+    second: InsectArea_FGBush05
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InsectArea_FGBushBig
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 306
+        height: 374
+      alignment: 9
+      pivot: {x: 0.5079707, y: 0.043024223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8ac8311edcca7a0800000000000000
+      internalID: -6364485806802032422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGTree01
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 221
+        height: 534
+      alignment: 9
+      pivot: {x: 0.54181105, y: 0.012925357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ecc76b38f0e6490800000000000000
+      internalID: -7751240850281279896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGStone01
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 499
+        width: 325
+        height: 129
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.12674281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0673ad0ee494ab3a0800000000000000
+      internalID: -6648921296730441888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGBush01
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 10
+        width: 186
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5285531, y: 0.21071015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a90e43f24360d80800000000000000
+      internalID: -8284877087146206634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGStone02
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 355
+        width: 310
+        height: 142
+      alignment: 9
+      pivot: {x: 0.50483555, y: 0.1415319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0c88f1f3d122b10800000000000000
+      internalID: 1955157345181417715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGStone03
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 359
+        width: 114
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcbca6ff84870dc0800000000000000
+      internalID: -3672821217243644710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGStone04
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 185
+        width: 246
+        height: 174
+      alignment: 9
+      pivot: {x: 0.49999976, y: 0.12201636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523b9f29285decba0800000000000000
+      internalID: -6066676891233176795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGPlant01
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 5
+        width: 238
+        height: 328
+      alignment: 9
+      pivot: {x: 0.49999973, y: 0.047372673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25914f209b0306b40800000000000000
+      internalID: 5431394721785452882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGBush02
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1794
+        width: 567
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11592931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff30979ba6bebca40800000000000000
+      internalID: 5389660222689707007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGBush03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 276
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.057467062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80758624b38c41aa0800000000000000
+      internalID: -6191103430884829432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGTree02
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 250
+        height: 389
+      alignment: 9
+      pivot: {x: 0.09369923, y: 0.023836194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cddbe20db14f4a0800000000000000
+      internalID: -6560588176220627826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGTree03
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 631
+        width: 717
+        height: 393
+      alignment: 9
+      pivot: {x: 0.9833451, y: 0.5093563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea51aa24d2b6edd0800000000000000
+      internalID: -2457079922365998366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGPlant02
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 67
+        height: 294
+      alignment: 9
+      pivot: {x: 0.44140148, y: 0.03148089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a919b222b1ec0c790800000000000000
+      internalID: -7511777562521267814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsectArea_FGBush05
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 896
+        width: 280
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8437ec49ddc300f10800000000000000
+      internalID: 2233852337557762888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

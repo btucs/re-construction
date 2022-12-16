@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-MarsZelt
+  m_EditorClassIdentifier: 
+  uid: f2de0a58-ff3c-4bf4-84b8-b383b4fb8656
+  taskName: Wohnhaus fertigstellen
+  teaserDescription: "Die Mission Ersatzwelt nimmt Form an. Dabei muss ein Wohnhaus
+    an die Gegebenheiten des Planeten Mars angepasst werden. Die Berechnung f\xFCr
+    eine Seite steht noch aus."
+  teaserSolvedCorrect: Der Prototyp des Wohnhauses steht. Ein Teil des Teams ist
+    schon aufgebrochen, um das Haus im Himalaya zu testen.
+  teaserSolvedWrong: "Bei so vielen Baustellen werden Fertigstellungen manchmal vertagt.
+    Es wirkt so, als h\xE4tten die ausstehenden Analysen noch nicht zum gew\xFCnschten
+    Ergebnis gef\xFChrt."
+  fullDescription: Die Mission Ersatzwelt nimmt Form an. Vollziehe die letzte Berechnung
+    zur Fertigstellung des Wohnhauses.
+  teachAndPlayDescription: "Die Anlage simuliert die Konstruktion eines Wohnzelts
+    auf dem Mars. Zur Fertigstellung muss eine der Streben angefertigt werden. Berechne
+    daf\xFCr die n\xF6tige L\xE4nge."
+  topic: {fileID: 11400000, guid: f8dd5f782932950478a192b42804d04d, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: L_1
+      icon: {fileID: -736781546899463422, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+        type: 3}
+      textMeshProName: L<sub>1</sub>
+      type: 0
+      textValue: 1.5 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "L\xE4nge der inneren St\xFCtzstrebe."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1.5 m
+    - name: L_2
+      icon: {fileID: 2557849331642893097, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+        type: 3}
+      textMeshProName: L<sub>2</sub>
+      type: 0
+      textValue: 2.5 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "L\xE4nge der Bodenstrebe."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 2.5 m
+    - name: alpha
+      icon: {fileID: -6079726295474218731, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "130 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ausrichtung der inneren St\xFCtzstrebe zur Bodenstrebe."
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "130 \xB0"
+    dummyInputs:
+    - name: L_3
+      icon: {fileID: 0}
+      textMeshProName: L<sub>3</sub>
+      type: 0
+      textValue: 6 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Gesamtbreite des Marszelts.
+      definition: "Die L\xE4nge ist eine Grundgr\xF6\xDFe der Physik und beschreibt
+        die Erstreckung eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen
+        zwei Objekten."
+      textMeshProValue: 6 m
+    output:
+      name: L_3
+      icon: {fileID: -3928318080063736334, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+        type: 3}
+      textMeshProName: L<sub>3</sub>
+      unit: 4
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 20e24fa6780fbe844aa80a40fbc629d6, type: 2}
+    dialogs:
+    - "Die Besiedelung des Mars - das ist seit der Landung von Perseverance 2021
+      keine Fantasie mehr\u2026 das w\xE4re auch MEIN Traum.\n"
+    - "\u2026und damit der Dream auch Reality wird, gucken wir uns jetzt mal im Detail
+      das Wohnhaus mit seiner ~i:L_3|6 Meter~ L\xE4nge an. F\xFCr weitere Berechnungen
+      ben\xF6tigen wir noch die fehlende ~o:L_3|L\xE4nge~ der l\xE4ngsten Strebe.\n"
+    - "Die L\xE4nge der ~i:L_1|Bodenstrebe~ und der ~i:L_2|St\xFCtzstrebe~ haben
+      wir schon analysiert. Fehlt nur noch der innere Winkel zwischen dem Boden-
+      und der St\xFCtzstrebe von ~i:alpha|\u03B1 = 130\xB0~."
+    - "Lass uns zusammen Tr\xE4ume wahr werden lassen!"
+  hashtags:
+  - 'dreieck '
+  - 'cosinussatz '
+  - 'pythagoras '
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: af53bb306fe01ba49aecf110582f6631, type: 2}

@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 459d6f3121317d2468a59427e93e8de1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7883527425832295034
+    second: Hospital_Schild_01
+  - first:
+      213: -5960748412110280320
+    second: Hospital_Floor_01
+  - first:
+      213: -4034454623962011609
+    second: Hospital_Pfeiler
+  - first:
+      213: 7459718040423477363
+    second: Hospital_GradientEG
+  - first:
+      213: -7702314216511746630
+    second: Hospital_GradientOG
+  - first:
+      213: 767834933776495200
+    second: Hospital_GlassFront
+  - first:
+      213: 4144654897502751765
+    second: Hospital_StoneFront
+  - first:
+      213: -4083541558247293520
+    second: Hospital_ReceptionDesk
+  - first:
+      213: 584277775552867153
+    second: Hospital_ReceptionDocuments
+  - first:
+      213: -7738650754609092946
+    second: Hospital_ElevatorGreyBox01
+  - first:
+      213: -3794069787841046239
+    second: Hospital_ElevatorHolder
+  - first:
+      213: 1931237363387294954
+    second: Hospital_ElevatorSolid01
+  - first:
+      213: -4352001558423045007
+    second: Hospital_EntranceFlowers
+  - first:
+      213: -723471824990116079
+    second: Hospital_ChairDark
+  - first:
+      213: -4782373314760983711
+    second: Hospital_ChairLight
+  - first:
+      213: -8975401705540555610
+    second: Hospital_Table
+  - first:
+      213: 9079658404026150495
+    second: Hospital_ReceptionMonitor
+  - first:
+      213: 6496617737850732447
+    second: Hospital_LampOutter
+  - first:
+      213: -3642840076126869781
+    second: Hospital_LampInner
+  - first:
+      213: 6662811016482045908
+    second: Hospital_RoofShadow
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hospital_Schild_01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 712
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685673e2395189290800000000000000
+      internalID: -7883527425832295034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_Floor_01
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 179
+        width: 687
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 61, y: 0, z: 469, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08961bc86ea274da0800000000000000
+      internalID: -5960748412110280320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_Pfeiler
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 378
+        width: 108
+        height: 639
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728ef4c15ecb208c0800000000000000
+      internalID: -4034454623962011609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_GradientEG
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 374
+        width: 55
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370b304d80e368760800000000000000
+      internalID: 7459718040423477363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_GradientOG
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 375
+        width: 57
+        height: 629
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd40685702eb1590800000000000000
+      internalID: -7702314216511746630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_GlassFront
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 372
+        width: 199
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06232e9ddc5e7aa00800000000000000
+      internalID: 767834933776495200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_StoneFront
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 372
+        width: 107
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c0c328ba5c48930800000000000000
+      internalID: 4144654897502751765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_ReceptionDesk
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 622
+        width: 81
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdff1b96985457c0800000000000000
+      internalID: -4083541558247293520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_ReceptionDocuments
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 584
+        width: 98
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bebfd8a85cb1800800000000000000
+      internalID: 584277775552867153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_ElevatorGreyBox01
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 508
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea667bac32aca9490800000000000000
+      internalID: -7738650754609092946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_ElevatorHolder
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 385
+        width: 69
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12951ba31a1c85bc0800000000000000
+      internalID: -3794069787841046239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_ElevatorSolid01
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 404
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae469ad56222dca10800000000000000
+      internalID: 1931237363387294954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_EntranceFlowers
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 500
+        width: 333
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c7f38f3a59a93c0800000000000000
+      internalID: -4352001558423045007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_ChairDark
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 274
+        width: 106
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117e5725536b5f5f0800000000000000
+      internalID: -723471824990116079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_ChairLight
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 274
+        width: 110
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b3d5eeec891adb0800000000000000
+      internalID: -4782373314760983711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_Table
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 123
+        width: 292
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 81, y: 0, z: 86, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ace1d8d3b7f07380800000000000000
+      internalID: -8975401705540555610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_ReceptionMonitor
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 11
+        width: 161
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e6edd563d610e70800000000000000
+      internalID: 9079658404026150495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_LampOutter
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 695
+        width: 316
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f381a796f982a50800000000000000
+      internalID: 6496617737850732447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_LampInner
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 887
+        width: 440
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6a6e85048027dc0800000000000000
+      internalID: -3642840076126869781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital_RoofShadow
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 71
+        width: 88
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfb8f2815f077c50800000000000000
+      internalID: 6662811016482045908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_ResultierendeGraf
+  m_EditorClassIdentifier: 
+  uid: 65a1c876-0730-4d8d-ba80-f5dc78ac045b
+  mleName: "Resultierende grafisch l\xF6sen"
+  mleHandout: {fileID: 11400000, guid: 8aef48020846e6b46a5cc11d69627316, type: 2}
+  mleIntroText: "Weniger ist mehr. Hier findest du raus, wie sich viele einzelne
+    Kr\xE4fte in einer Skizze zu einer Einzigen verwandeln."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:751673ad2ecb802b68105ce4a9cb44b6_1645191552.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Was ist die Resultierende?
+      choices:
+      - name: "Die Resultierende ist eine Ersatzkraft von vielen Einzelkr\xE4ften
+          mit gleich bleibender Wirkung."
+        isAnswer: 1
+        feedbackMessage: Richtig. Die Resultierende kann grafisch mit dem Krafteck
+          ermittelt werden.
+      - name: Die Resultierende ist das Ergebnis des Ersatzmodells.
+        isAnswer: 0
+        feedbackMessage: "Mitnichten. Die Resultierende ist das Ergebnis der Kr\xE4fteaddition."
+      - name: Die Resultierende ist das Ergebnis des Freischnitts.
+        isAnswer: 0
+        feedbackMessage: "Keine Chance. Das Ergebnis des Freischneidens ist das Freik\xF6rperbild
+          und dient der Resultierenden als Grundlage."
+      - name: "Die Resultierende ist die Multiplikation der Kr\xE4fte mit verst\xE4rkter
+          Wirkung."
+        isAnswer: 0
+        feedbackMessage: "Nein, die Rechenoperation ist falsch und die Wirkung wird
+          nicht verst\xE4rkt."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:a1d7e11ff8042ec1c01de8b3f6224511_1645191589.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Was ist ein Krafteck?
+      choices:
+      - name: "Das Krafteck ist eine grafische Methode, die Resultierende von mehr
+          als zwei Kr\xE4ften am K\xF6rper zu bestimmen."
+        isAnswer: 1
+        feedbackMessage: "Perfekt! Die Resultierende ist wie eine Erweiterung des
+          Kr\xE4fteparallelogramms. Das Krafteck kann dabei offen oder geschlossen
+          sein."
+      - name: "Das Krafteck ist eine grafische Methode, um die gr\xF6\xDFte Einzelkraft
+          zu bestimmen."
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht ganz richtig. Das Krafteck bestimmt
+          die Summe aller Einzelkr\xE4fte."
+      - name: "Das Krafteck verschiebt die Kr\xE4fte ins Rechteck, ohne die Wirkung
+          zu ver\xE4ndern."
+        isAnswer: 0
+        feedbackMessage: "Hm, das Rechteck ist nur eine Sonderform, wie das Krafteck
+          aussehen kann und nicht die Regel. Dar\xFCber hinaus fehlt der Antwort
+          das Wozu!"
+      - name: Das Krafteck ist eine grafische Methode, um das Ersatzmodell der wirkenden
+          Vektoren zu generieren.
+        isAnswer: 0
+        feedbackMessage: "An dieser Stelle sollte das Ersatzmodell bereits vorhanden
+          sein. Denn das Ersatzmodell besch\xE4ftigt sich noch nicht mit Kr\xE4ften.
+          Hier ist allerdings die Aufgabe, Kr\xE4fte zu summieren."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:013af25748059488253d6e257066525b_1645191660.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wann kann ein Krafteck aufgespannt werden?
+      choices:
+      - name: "Ab zwei Kr\xE4ften mit einem Angriffspunkt und mindestens zwei unterschiedlichen
+          Wirkungslinien."
+        isAnswer: 1
+        feedbackMessage: "Sehr gut. Ein Sonderfall ist das Kr\xE4fteparallelogramm
+          mit zwei Kr\xE4ften."
+      - name: "Wenn die Kr\xE4fte auf einer Wirkungslinie liegen."
+        isAnswer: 0
+        feedbackMessage: "Damit entsteht leider kein Krafteck. Die Berechnung der
+          Resultierenden kann hier einfach \xFCber simple Addition erfolgen."
+      - name: "Immer nur dann, wenn ich drei Kr\xE4fte habe, von denen sich alle
+          Wirkungslinien in einem Punkt schneiden."
+        isAnswer: 0
+        feedbackMessage: "Die Antwort ist nicht ganz korrekt. Das Krafteck ist nicht
+          auf eine bestimmte Anzahl von Kr\xE4ften begrenzt."
+      - name: "Wenn zwei Kr\xE4fte auf einer Wirkungslinie liegen, gleich gro\xDF
+          und einander entgegengesetzt gerichtet sind."
+        isAnswer: 0
+        feedbackMessage: "Die Definition entspricht dem Wechselwirkungsaxiom. Dabei
+          wissen wir, dass die zwei Kr\xE4fte immer im Gleichgewicht sind. Folglich
+          ben\xF6tigen wir da kein Krafteck."
+  requiredProgress: []

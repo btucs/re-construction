@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 04-MLEHandout_Vektor
+  m_EditorClassIdentifier: 
+  mleName: Vektor
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\n\\item Vektorgr\xF6\xDFen sind \\textbf{richtungsabh\xE4ngige} 
+      Gr\xF6\xDFen, wie z. B. die Kraft, die Beschleunigung oder die Geschwindigkeit.
+      \r\n\\item Ein Vektor ist durch \\textbf{zwei Punkte}  klar definiert und wird
+      als \\textbf{Pfeil}  dargestellt. Daraus ergeben sich seine Richtung und L\xE4nge
+      (also der \\textbf{Betrag}).\r Der \\textbf{Ortsvektor}  eines Punktes ist
+      der Vektor, der vom Ursprung auf diesen Punkt zeigt. Der \\textbf{Richtungsvektor} 
+      verbindet zwei Punkte miteinander.\n\\item Mathematisch wird der Vektor h\xE4ufig
+      als \\textbf{Kleinbuchstabe mit einem Pfeil dar\xFCber}  dargestellt (z. B.
+      \\overrightarrow{x}). Sein \\textbf{Wert}  errechnet sich aus den Ortsvektoren
+      des Start- und Endpunkts. \\textbf{Wichtig}: Immer \\textbf{Endpunkt minus
+      Startpunkt}  rechnen!\r\n\\item $$\\vec{v_1} = \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix}
+      - \\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} = \\begin{pmatrix}x_2 -x_1\\\\y_2
+      - y_1\\end{pmatrix} $$ \n\\end{enumerate}"
+    picture: {fileID: 0}
+  - title: Was ist ein Vektor?
+    description: "\\begin{itemize}\n\\item Durch Vektoren werden \\textbf{richtungsabh\xE4ngige
+      Gr\xF6\xDFen}  (z. B. Kraft, Geschwindigkeit, Beschleunigung) dargestellt.
+      \n\\item Vektoren beschreiben die direkte \\textbf{geradlinige}  Verschiebung
+      eines Objektes, z. B. ein Auto auf einem Raster.\r\n\r\\item Ein Vektor ist
+      immer \\textbf{durch zwei Punkte}  definiert: einen Start- und einen Endpunkt.
+      Das \\textbf{Verbinden}  der Punkte geschieht \\textbf{\xFCber einen Pfeil},
+      der in eine bestimmte Richtung zeigt. In welche \\textbf{Richtung}  der Vektor
+      zeigt, \\textbf{h\xE4ngt}  davon \\textbf{ab}, welches der \\textbf{Start-
+      und}  welches der \\textbf{Endpunkt}  ist.  \r\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 2d7e8267d970818469560d6afc2299cd, type: 3}
+  - title: "Was ist der Unterschied von Vektor zur vektoriellen Gr\xF6\xDFe?"
+    description: "\\begin{itemize}\n\\item Vektorielle Gr\xF6\xDFen sind dem \\textbf{Vektor} 
+      sehr \\textbf{\xE4hnlich}, werden \\textbf{jedoch mit einem Angriffspunkt,
+      einer Wirkungslinie mit der Neigung um den Winkel \u03B1 und dem Betrag}  definiert.
+      \n\\item Der Endpunkt ist hier nicht entscheidend. Das bedeutet, dass die vektorielle
+      Gr\xF6\xDFe \\textbf{keine feste L\xE4nge}  von z. B. 5 cm hat, wenn der Betrag
+      5 N wie bei der Kraft aufweist.\r\n\\item Vektorielle Gr\xF6\xDFen werden genau
+      wie Vektoren \\textbf{als Pfeile dargestellt}. Damit sie \\textbf{im Koordinatensystem} 
+      eingetragen werden k\xF6nnen, \\textbf{braucht}  es einen \\textbf{Ma\xDFstab},
+      welcher eine Beziehung zwischen dem Betrag der vektoriellen Gr\xF6\xDFe und
+      dem Koordinatensystem herstellt. \\textbf{Aus}  dem \\textbf{Betrag}  l\xE4sst
+      sich damit eine \\textbf{L\xE4nge und damit ein Endpunkt}  beschreiben.\r\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 70633e97d6c49d04a8321b46f5a781ab, type: 3}
+  - title: 'Wie werden Vektoren dargestellt? '
+    description: "Die grafische Ausf\xFChrung eines Vektors bzw. einer vektoriellen
+      Gr\xF6\xDFe geschieht, wie oben beschrieben, als Pfeil. F\xFCr die analytische
+      Betrachtung bedarf es die Beschreibung mittels Koordinaten im Koordinatensystem.\r\n\\begin{itemize}\n\\item
+      Die Start- und Endpunkte werden mittels Koordinaten dargestellt. \n\\item In
+      ebenen Koordinatensystemen braucht es zwei Koordinaten zur eindeutigen Definition
+      der Position des Punktes. \r\n\\item Da ein ebenes Koordinatensystem mit einer
+      x- und y-Achse auskommt, haben die Punkte ebenfalls nur einen x- und y-Wert.
+      Bei r\xE4umlichen Koordinatensystemen gibt es die zus\xE4tzliche z-Achse. Dann
+      besitzt der Punkt eine Koordinate in z-Richtung.\r\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 4a59b9ce55112c549a47d719e7206e9e, type: 3}
+  - title: Beispiel
+    description: "Es sind zwei Punkte P_1 und P_2 gegeben. Diese zwei Punkte beschreiben
+      die Start- und Endposition eines Autos. Die Bewegung des Autos von P_1 zu P_2
+      soll durch einen Vektor dargestellt werden. Welchen Wert hat der Vektor v_1?\n\n\\textit{Gegeben}:
+      P_1 (2|3), P_2 (4|7) \n\n\\textit{Gesucht}: \\vector{v}_1\n\n\\textit{L\xF6sung}:\n$$\\vector{v}_1
+      = \\begin{pmatrix}x_2 -x_1\\\\y_2 - y_1\\end{pmatrix} $$ \n\n$$\\vector{v}_1=
+      \\begin{pmatrix}4 - 2\\\\7 - 3\\end{pmatrix} $$ \n\n$$ \\vector{v}_1= \\begin{pmatrix}2\\\\4\\end{pmatrix}}
+      $$ "
+    picture: {fileID: 21300000, guid: 3a512d5e8b4c5324cb694599abb75965, type: 3}

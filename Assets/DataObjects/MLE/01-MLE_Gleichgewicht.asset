@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_Gleichgewicht
+  m_EditorClassIdentifier: 
+  uid: e0a73ecf-9ca3-4d8a-afc4-3a957878d607
+  mleName: Gleichgewicht
+  mleHandout: {fileID: 11400000, guid: 76399b6128dcc1043b9c3a8d676375df, type: 2}
+  mleIntroText: Alles im Gleichgewicht? Erfahre hier mehr, was es mit diesem Gesetz
+    auf sich hat.
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:baf9eccaefadaa28a6034fd1a0c8a6e3_1638274622.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Wann wird ein Gleichgewichtszustand erreicht?        '
+      choices:
+      - name: "Die zwei Kr\xE4fte, die auf einen K\xF6rper wirken, m\xFCssen gleich
+          gro\xDF, entgegengesetzt gerichtet sein und auf einer Wirkungslinie liegen.  "
+        isAnswer: 1
+        feedbackMessage: "Ganz genau! Wenn diese Bedingungen gegeben sind, erreichen
+          die zwei Kr\xE4fte einen Gleichgewichtszustand.\r\n"
+      - name: "Die zwei Kr\xE4fte, die auf einen K\xF6rper wirken, m\xFCssen gleich
+          gro\xDF, gleich gerichtet sein und auf einer Wirkungslinie liegen.  "
+        isAnswer: 0
+        feedbackMessage: "Oh, ein Schusselfehler. Guck noch mal, welche Richtung
+          f\xFCr ein Kr\xE4ftegleichgewicht notwendig ist. \r\n"
+      - name: "Die zwei Kr\xE4fte, die auf einen K\xF6rper wirken, m\xFCssen gleich
+          gro\xDF, entgegengesetzt gerichtet sein und auf zwei Wirkungslinien liegen.  "
+        isAnswer: 0
+        feedbackMessage: "Leider liegst du hier nicht richtig. Wenn die zwei Kr\xE4fte
+          auf zwei Wirkungslinien liegen, k\xF6nnen sie kein Gleichgewicht erreichen,
+          da sie nicht entgegengesetzt sind.\r\n"
+      - name: "Die zwei Kr\xE4fte, die auf einen K\xF6rper wirken, m\xFCssen gleich
+          gro\xDF, gleich gerichtet sein und auf zwei Wirkungslinien liegen.  "
+        isAnswer: 0
+        feedbackMessage: "Hier ist einiges schief gelaufen. Kr\xE4fte im Gleichgewicht
+          m\xFCssen nicht nur gleich gro\xDF sein, sondern auch eine bestimmte Richtung
+          haben und auf einer Wirkungslinie liegen.\r\n"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:f41bf97ec193568ad6b14d7729191c06_1638275235.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Welche Beobachtung l\xE4sst darauf schlie\xDFen, dass sich Kr\xE4fte
+        im Gleichgewicht befinden?        "
+      choices:
+      - name: 'Wenn sich Objekte in Ruhe befinden oder sich mit konstanter Geschwindigkeit
+          weiter bewegen.  '
+        isAnswer: 1
+        feedbackMessage: "Genau das ist die L\xF6sung. Dann befinden sich die Objekte
+          im Gleichgewicht.\r"
+      - name: 'Wenn ein Objekt beschleunigt.  '
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Ein Objekt, welches schneller wird,
+          erf\xE4hrt eine zus\xE4tzliche Kraft in Bewegungsrichtung. Diese Kraft
+          f\xFChrt zu einem Ungleichgewicht.\r\n\r\n"
+      - name: 'Wenn ein Objekt seine Geschwindigkeit verringert.  '
+        isAnswer: 0
+        feedbackMessage: "Das stimmt nicht. Ein Objekt, welches langsamer wird, erf\xE4hrt
+          eine zus\xE4tzliche Kraft entgegen der Bewegungsrichtung. Diese Kraft f\xFChrt
+          zu einem Ungleichgewicht.\r\n"
+      - name: 'Wenn Objekte nach einer gewissen Zeit explodieren.  '
+        isAnswer: 0
+        feedbackMessage: "Nope - Explosion ist auf jeden Fall auch ein Zeichen f\xFCr
+          Ungleichgewicht. Denk an deine Eltern, wenn sie sauer sind, da kann von
+          Gleichgewicht keine Rede sein.\r"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:176621cb50feb2453cf88127843ed06c_1638275300.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was ist ein Beispiel f\xFCr ein Ungleichgewicht?        "
+      choices:
+      - name: 'Ein Raketenmann wird durch ein Katapult in die Luft geschossen.  '
+        isAnswer: 1
+        feedbackMessage: "Auch wenn er sich festh\xE4lt, ist die Kraft des Katapults
+          wesentlich st\xE4rker als seine und wirft ihn entlang der Wirkungslinie
+          in die Luft. Der Raketenmann erf\xE4hrt eine zus\xE4tzliche Beschleunigung.\r"
+      - name: "Zwei M\xE4nner halten beim Armdr\xFCcken minutenlang aus, ohne dass
+          einer gewinnt.  "
+        isAnswer: 0
+        feedbackMessage: "Doch, doch! Die M\xE4nner sind gleich stark und halten
+          den Gleichgewichtszustand 12 Stunden lang! Erst danach siegt das Ungleichgewicht
+          und einer gewinnt.\r"
+      - name: "Zwei Meerschweinchen ziehen gleichzeitig an einer M\xF6hre und kommen
+          nicht vorw\xE4rts oder zur\xFCck.  "
+        isAnswer: 0
+        feedbackMessage: "Und bilden damit eine perfekte Gleichgewichtssituation.
+          Gleiche St\xE4rke, entgegengesetzte Richtung und auf einer Linie.\r"
+      - name: 'Bei einer Wippe kann ein Schwebezustand gehalten werden.  '
+        isAnswer: 0
+        feedbackMessage: "Das ist ein besonderes Beispiel, weil die Kr\xE4fte nicht
+          auf einer Linie liegen und nicht entgegengesetzt sind. Das ist der Sonderfall
+          f\xFCr den Moment.\r"
+  requiredProgress: []

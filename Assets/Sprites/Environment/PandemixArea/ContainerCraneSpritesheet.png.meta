@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: 0467cb95e83c3f2479035d44a5708dfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7943362075328734967
+    second: ContainerCrane_livingBlock
+  - first:
+      213: 9182641915743701783
+    second: ContainerCrane_truck
+  - first:
+      213: -4359911456463272706
+    second: ContainerCrane_Platform
+  - first:
+      213: 9189981894958618660
+    second: ContainerCrane_Railing
+  - first:
+      213: 7210834683909489600
+    second: ContainerCrane_PlatformBroken
+  - first:
+      213: 4821873956157632227
+    second: ContainerCrane_ropeConnection
+  - first:
+      213: -6875806841634579168
+    second: ContainerCrane_Crane01
+  - first:
+      213: 7215309168075671279
+    second: ContainerCrane_CraneBroken1
+  - first:
+      213: -1877950453063283755
+    second: ContainerCrane_CraneBroken2
+  - first:
+      213: -8669874713388509341
+    second: ContainerCrane_Rope01
+  - first:
+      213: -4663474163877218392
+    second: ContainerCraneSpritesheet_Oese
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ContainerCrane_livingBlock
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 656
+        width: 657
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90998b9374283c190800000000000000
+      internalID: -7943362075328734967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_truck
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 200
+        width: 491
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b048fab2c4f6f70800000000000000
+      internalID: 9182641915743701783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_Platform
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 40
+        width: 332
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 192, y: 17, z: 44, w: 117}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4c95151ab7e73c0800000000000000
+      internalID: -4359911456463272706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_Railing
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 47
+        width: 251
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 203, y: 24, z: 17, w: 35}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4289745c7df598f70800000000000000
+      internalID: 9189981894958618660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_PlatformBroken
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 166
+        width: 180
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3cd7cb0f7021460800000000000000
+      internalID: 7210834683909489600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_ropeConnection
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 498
+        width: 180
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeab74d0dcbae240800000000000000
+      internalID: 4821873956157632227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_Crane01
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 11
+        width: 103
+        height: 1005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d9b2c6b1a3490a0800000000000000
+      internalID: -6875806841634579168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_CraneBroken1
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 523
+        width: 97
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe605c3c57de12460800000000000000
+      internalID: 7215309168075671279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_CraneBroken2
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 11
+        width: 103
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db0163430e20f5e0800000000000000
+      internalID: -1877950453063283755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCrane_Rope01
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 937
+        width: 11
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367165512ea6ea780800000000000000
+      internalID: -8669874713388509341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ContainerCraneSpritesheet_Oese
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 826
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7f2e2c4f2084fb0800000000000000
+      internalID: -4663474163877218392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 9239c6213b8a2774881158a68e6a9d3e, type: 3}
+      name: _AnalyzeTexture
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

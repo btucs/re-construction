@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: CosinusSatz
+  m_EditorClassIdentifier: 
+  uid: 6265cda6-cbc3-47a6-827e-85798bd5e1cf
+  mleName: Cosinussatz
+  mleHandout: {fileID: 11400000, guid: 522162874f94af44a909a266f9e39415, type: 2}
+  mleIntroText: "Walnuss, Haselnuss,\u2026 Cosinus? Wie daraus ein ordentlicher Satz
+    wird, erf\xE4hrst du hier."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:8fb9ab59ed113a7a789303e4b705a7e4_1644248386.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Welcher Zusammenhang besteht zwischen dem Cosinus und den Seiten
+        des rechtwinkligen Dreiecks?
+      choices:
+      - name: Der Cosinus eines Winkels ergibt sich aus dem Quotienten der Ankathete
+          und der Hypotenuse.
+        isAnswer: 1
+        feedbackMessage: "Richtig! Zur Erinnerung: Die Hypotenuse ist die l\xE4ngste
+          Seite und liegt dem rechten Winkel gegen\xFCber."
+      - name: Der Cosinus eines Winkels ergibt sich aus dem Produkt der Ankathete
+          und der Hypotenuse.
+        isAnswer: 0
+        feedbackMessage: "Na, da ist was schief gegangen. Der Cosinus ergibt sich
+          nicht aus dem Produkt von Ankathete und Hypotenuse. Hier wird eine andere
+          Rechenoperation ben\xF6tigt."
+      - name: Der Cosinus eines Winkels ergibt sich aus der Summe der Ankathete und
+          der Hypotenuse.
+        isAnswer: 0
+        feedbackMessage: Du bist auf dem richtigen Weg, aber die Rechenoperation
+          ist leider nicht richtig.
+      - name: "Der Cosinus eines Winkels ergibt sich aus dem Verh\xE4ltnis des Quadrates
+          der Ankathete und der Hypotenuse."
+        isAnswer: 0
+        feedbackMessage: "Naja, das ist noch nicht ganz korrekt. \xDCberdenke noch
+          mal die\nRechenoperation des Quadrats."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:3cfaa36e4b8ae0d9e205f80590dcdf09_1644248502.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wie lautet der Cosinussatz?
+      choices:
+      - name: "a\xB2 = b\xB2 + c\xB2 - 2cb * cos(\u03B1); b\xB2 = a\xB2 + c\xB2 -
+          2ac * cos(\u03B2); c\xB2 = a\xB2 + b\xB2 - 2ab * cos(\u03B3)"
+        isAnswer: 1
+        feedbackMessage: "Super! Immer mit dem zugeh\xF6rigen Winkel der gesuchten
+          Seite."
+      - name: "a\xB2 = b\xB2 + c\xB2 - 2cb * cos(\u03B2); b\xB2 = a\xB2 + c\xB2 -
+          2ac * cos(\u03B1); c\xB2 = a\xB2 + b\xB2 - 2ab * cos(\u03B3)"
+        isAnswer: 0
+        feedbackMessage: "Ui, was ist denn da mit den Winkeln passiert? Die sind
+          etwas verrutscht. \xDCberleg noch mal, welcher Winkel wo hin muss."
+      - name: "a = b\xB2 + c\xB2 - 2cb * cos(\u03B1); b = a\xB2 + c\xB2 - 2ac * cos(\u03B2);
+          c = a\xB2 + b\xB2 - 2ab * cos(\u03B3)"
+        isAnswer: 0
+        feedbackMessage: Hier hat sich ein fieser Fehler eingenistet. Check alle
+          vorkommenden oder fehlenden Potenzen.
+      - name: "a\xB2 = b\xB2 + c\xB2 - 2cb * cos(ab); b\xB2 = a\xB2 + c\xB2 - 2ac
+          * cos(ba); c\xB2 = a\xB2 + b\xB2 - 2ab * cos(ca)"
+        isAnswer: 0
+        feedbackMessage: Huch, wo sind denn hier die Winkel? Erinnerst du dich, wie
+          Seiten und Winkel beschrieben werden?
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:3cfaa36e4b8ae0d9e205f80590dcdf09_1644248502.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Unter welchen Voraussetzungen kann der Cosinussatz angewandt werden?
+      choices:
+      - name: "Die L\xE4ngen der drei Seiten bzw. zwei Seiten und der eingeschlossene
+          Winkel sollten bekannt sein."
+        isAnswer: 1
+        feedbackMessage: "Richtig! Nat\xFCrlich brauchst du, um die Formel zu l\xF6sen,
+          nur eine Unbekannte: \na\xB2=b\xB2+c\xB2-2cb*cos(\u03B1); \nb\xB2=a\xB2+c\xB2-2ac*cos(\u03B2);\nc\xB2=a\xB2+b\xB2-2ab*cos(\u03B3) "
+      - name: "Die L\xE4ngen von zwei Seiten und ein Winkel sollten bekannt sein."
+        isAnswer: 0
+        feedbackMessage: "Das ist etwas ungenau, schlie\xDFlich ist die Wahl des
+          Winkels entscheidend. Guck dir noch mal die Formel an: a\xB2=b\xB2+c\xB2-2cb*cos(\u03B1);\nb\xB2=a\xB2+c\xB2-2ac*cos(\u03B2);\nc\xB2=a\xB2+b\xB2-2ab*cos(\u03B3)"
+      - name: "Die L\xE4ngen der drei Seiten, zwei Seiten und der eingeschlossene
+          Winkel oder eine Seite und zwei angrenzende Winkel sollten bekannt sein."
+        isAnswer: 0
+        feedbackMessage: "Da ist viel richtig und eine Sache falsch. Guck dir noch
+          mal die Formel an und revidiere deine Auswahl: \na\xB2=b\xB2+c\xB2-2cb*cos(\u03B1);\nb\xB2=a\xB2+c\xB2-2ac*cos(\u03B2);\nc\xB2=a\xB2+b\xB2-2ab*cos(\u03B3)"
+      - name: Der Cosinussatz hat keine Voraussetzungen.
+        isAnswer: 0
+        feedbackMessage: "Leider schon. Wenn dir zu viele Variablen fehlen, kannst
+          du ihn nicht nutzen. Guck noch mal in die Formel und \xFCberlege, was notwendig
+          ist:\na\xB2=b\xB2+c\xB2-2cb*cos(\u03B1);\nb\xB2=a\xB2+c\xB2-2ac*cos(\u03B2);\nc\xB2=a\xB2+b\xB2-2ab*cos(\u03B3)"
+  requiredProgress: []

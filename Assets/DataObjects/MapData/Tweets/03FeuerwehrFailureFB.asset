@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 03FeuerwehrFailureFB
+  m_EditorClassIdentifier: 
+  uid: 9cbdd02e-6087-43be-a04a-27c49fb63fed
+  author: {fileID: 11400000, guid: 2c966b344fbb51142a01900c8ce06fa9, type: 2}
+  messageText: "Not und Mangel zeigen sich immer mehr. Ideen gesucht, wie alte Kraftfahrzeuge
+    Logistik entlasten k\xF6nnen. #staysafe #ideengesucht #kraftangeben "
+  relatedTask: {fileID: 11400000, guid: c1d3962c7eba8a04ca4eea8c4a8bd7df, type: 2}
+  taskCondition: 1

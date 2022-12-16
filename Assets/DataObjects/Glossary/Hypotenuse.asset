@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Hypotenuse
+  m_EditorClassIdentifier: 
+  headline: Hypotenuse
+  easy:
+    content: "Was ist eine Hypotenuse?\r\n\r\n- Die l\xE4ngste Seite im recht-winkligen
+      Drei-Eck.\r\n- Die Seite gegen\xFCber vom [rechten Winkel](glossary:Rechter_Winkel).\r\n\r\nWoraus
+      besteht ein recht-winkliges Drei-Eck?\r\n\r\n- 3 Seiten\r\n- 3 Winkel\r\n-
+      Einer der 3 Winkel ist recht-winklig.\r\n- Ein rechter Winkel hat 90 Grad."
+    image: {fileID: 21300000, guid: 043e62994e1c2704b811f13fafc78dd7, type: 3}
+    tmpContent: "Was ist eine Hypotenuse?\n\n\u2022 Die l\xE4ngste Seite im recht-winkligen
+      Drei-Eck.\n\u2022 Die Seite gegen\xFCber vom <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color>.\n\nWoraus besteht ein recht-winkliges Drei-Eck?\n\n\u2022
+      3 Seiten\n\u2022 3 Winkel\n\u2022 Einer der 3 Winkel ist recht-winklig.\n\u2022
+      Ein rechter Winkel hat 90 Grad."
+  medium:
+    content: "Das rechtwinklige Dreieck besteht aus drei verbundenen Seiten und drei
+      Winkeln. Ein Winkel ist ein [rechter Winkel](glossary:Rechter_Winkel), d. h.
+      er ist immer 90\xB0 gro\xDF. Die Seite, die dem rechten Winkel gegen\xFCberliegt,
+      wird Hypotenuse genannt. Die Hypotenuse ist immer die l\xE4ngste Seite im rechtwinkligen
+      Dreieck. "
+    image: {fileID: 21300000, guid: a3d184616cfacd446805fde0a1ff2708, type: 3}
+    tmpContent: "Das rechtwinklige Dreieck besteht aus drei verbundenen Seiten und
+      drei Winkeln. Ein Winkel ist ein <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechter
+      Winkel</link></u></color>, d. h. er ist immer 90\xB0 gro\xDF. Die Seite, die
+      dem rechten Winkel gegen\xFCberliegt, wird Hypotenuse genannt. Die Hypotenuse
+      ist immer die l\xE4ngste Seite im rechtwinkligen Dreieck."
+  scientific:
+    content: "Die Hypotenuse ist die Seite, die dem [rechten Winkel](glossary:Rechter_Winkel)
+      im rechtwinkligen Dreieck gegen\xFCberliegt. Sie ist demnach die l\xE4ngste
+      Seite im rechtwinkligen Dreieck. "
+    image: {fileID: 21300000, guid: 2a88cce5cb18bd345b366c6c351d9c77, type: 3}
+    tmpContent: "Die Hypotenuse ist die Seite, die dem <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color> im rechtwinkligen Dreieck gegen\xFCberliegt. Sie
+      ist demnach die l\xE4ngste Seite im rechtwinkligen Dreieck."
+  tmpHeadline: 

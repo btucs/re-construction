@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-DummySwingReplacementModel
+  m_EditorClassIdentifier: 
+  uid: bc4a51cf-36c7-4842-8129-7655e86efa87
+  taskName: Ersatzmodell erstellen
+  teaserDescription: Wir kommen hier mit der Konstruktion nicht weiter. Bei der Alten
+    bleiben oder die Neue installieren? Kannst du uns raten, welche der beiden mehr
+    belastet wird?
+  teaserSolvedCorrect: "Das Vorhaben Prototyp Therapieschaukel 2.0 wurde vorerst
+    abgeschlossen. Die Anzahl der Vorbestellungen steigt t\xE4glich. Es scheint ein
+    voller Erfolg zu werden.\r\n"
+  teaserSolvedWrong: 'Der Umbau der Schaukel liegt gerade auf Eis. Kannst du das
+    Projekt, durch das Anfertigen einer Skizze, erneut vorantreiben?
+
+'
+  fullDescription: "Bevor die Schaukel umgebaut wird, brauchen wir ein Modell davon.
+    Kannst du das \xFCbernehmen?\r\n"
+  topic: {fileID: 11400000, guid: 990a9b3680e5f38479322b420ba65074, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 3
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: L_1
+      icon: {fileID: 3825516110488602536, guid: fa7e64065b0593c44bb8a5ad829123b1,
+        type: 3}
+      textMeshProName: L<sub>1</sub>
+      type: 0
+      textValue: 1 m
+      startPointText: 
+      replacementModelType: 1
+      shortDescription: "L\xE4nge des Seils rechts."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1
+    - name: L_2
+      icon: {fileID: 8056862562731791995, guid: fa7e64065b0593c44bb8a5ad829123b1,
+        type: 3}
+      textMeshProName: L<sub>2</sub>
+      type: 0
+      textValue: 1 m
+      startPointText: 
+      replacementModelType: 1
+      shortDescription: "L\xE4nge des Seils links."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 2
+    - name: M
+      icon: {fileID: -7449996239595432829, guid: fa7e64065b0593c44bb8a5ad829123b1,
+        type: 3}
+      textMeshProName: M
+      type: 0
+      textValue: 80 kg
+      startPointText: 
+      replacementModelType: 0
+      shortDescription: Masse des Testdummys.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 3
+    - name: L_3
+      icon: {fileID: -6008964520614680638, guid: fa7e64065b0593c44bb8a5ad829123b1,
+        type: 3}
+      textMeshProName: L<sub>3</sub>
+      type: 0
+      textValue: 0.3 m
+      startPointText: 
+      replacementModelType: 2
+      shortDescription: "L\xE4nge des Sitzbrettes der Schaukel."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 4
+    dummyInputs: []
+    output:
+      name: E
+      icon: {fileID: 0}
+      textMeshProName: E
+      unit: 20
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 40cc7a949c3d9384ea2d4c7bfd1267eb, type: 2}
+    dialogs:
+    - "Hier siehst du das Vorhaben Therapie- und Rehaschaukel. Zur Qualit\xE4tssicherung
+      sollen die Elemente  ~i:L_1|rechtes Seil~, ~i:L_2|linkes Seil~, der ~i:M|Dummy~
+      und das ~i:L_3|Sitzbrett~  n\xE4her betrachtet werden."
+    - 'Welche Kraft wirkt wo? Wir brauchen das ~o:E|Ersatzmodell~ der vorliegenden
+      Schaukel.
+
+'
+    - "Ich freu mich schon auf das Testen danach. Ein kurzer Moment zur\xFCck in
+      eine scheinbar sorglose Kindheit.\r\n"
+  hashtags:
+  - "kr\xE4fte"
+  - "st\xE4be"
+  - seile
+  - balken
+  connectedObject: {fileID: 11400000, guid: 3c69270d54ba624419aae9238f43393b, type: 2}

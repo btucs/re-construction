@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Wirkungslinie
+  m_EditorClassIdentifier: 
+  headline: Wirkungslinie
+  easy:
+    content: "Die Wirkungs-Linie ist eine imagin\xE4re Linie.\r\n\r\nDeshalb siehst
+      du die Wirkungs-Linie **nicht**.\r\n\r\nAuf der Wirkungs-Linie liegen [Kr\xE4fte](glossary:Kraft).\r\n\r\nWas
+      macht die Wirkungs-Linie?\r\n\r\n- Die Wirkungs-Linie gibt die [Richtung](glossary:Richtung)
+      der Kraft an.\r\n\r  - Eine Kraft ist eine Gr\xF6\xDFe mit einer Richtung.\r\n\r\nWas
+      musst du beachten?\r\n\r\n- Kr\xE4fte kannst du als Pfeile darstellen.\r\n-
+      Die Pfeil-Spitze gibt den [Richtungs-Sinn](glossary:Richtungssinn) an. \r\n-
+      Die Wirkungs-Linie gibt nur die Richtung an."
+    image: {fileID: 21300000, guid: 2d7e8267d970818469560d6afc2299cd, type: 3}
+    tmpContent: "Die Wirkungs-Linie ist eine imagin\xE4re Linie.\n\nDeshalb siehst
+      du die Wirkungs-Linie <b>nicht</b>.\n\nAuf der Wirkungs-Linie liegen <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>.\n\nWas
+      macht die Wirkungs-Linie?\n\n\u2022 Die Wirkungs-Linie gibt die <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>
+      der Kraft an.\n  \n  \u2022 Eine Kraft ist eine Gr\xF6\xDFe mit einer Richtung.\n\nWas
+      musst du beachten?\n\n\u2022 Kr\xE4fte kannst du als Pfeile darstellen.\n\u2022
+      Die Pfeil-Spitze gibt den <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungs-Sinn</link></u></color>
+      an.\n\u2022 Die Wirkungs-Linie gibt nur die Richtung an."
+  medium:
+    content: "Die Wirkungslinie ist eine imagin\xE4re Linie, auf der eine [Kraft](glossary:Kraft)
+      liegt. Sie gibt die prinzipielle [Richtung](glossary:Richtung) einer Kraft
+      an, aber nicht den [Richtungssinn](glossary:Richtungssinn). Der Richtungssinn
+      wird durch die Pfeilspitze des [Vektors](glossary:Vektor) angegeben.\r\n\r\nKr\xE4fte
+      k\xF6nnen als Pfeile dargestellt werden. Die Linie, auf welcher die Pfeile
+      liegen, wird Wirkungslinie genannt."
+    image: {fileID: 21300000, guid: f3d5782abc6201546b0ca3a7e8419595, type: 3}
+    tmpContent: "Die Wirkungslinie ist eine imagin\xE4re Linie, auf der eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      liegt. Sie gibt die prinzipielle <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>
+      einer Kraft an, aber nicht den <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungssinn</link></u></color>.
+      Der Richtungssinn wird durch die Pfeilspitze des <color=#131313><u><link=\"glossary:Vektor\">Vektors</link></u></color>
+      angegeben.\n\nKr\xE4fte k\xF6nnen als Pfeile dargestellt werden. Die Linie,
+      auf welcher die Pfeile liegen, wird Wirkungslinie genannt."
+  scientific:
+    content: 'Die Wirkungslinie beschreibt die prinzipielle [Richtung](glossary:Richtung
+      (eines Vektors)) einer [Kraft](glossary:Kraft), aber nicht den [Richtungssinn](glossary:Richtungssinn
+      (eines Vektors)).
+
+
+
+'
+    image: {fileID: 21300000, guid: c4ffd88a74736b14baf764e8ddd06a11, type: 3}
+    tmpContent: Die Wirkungslinie beschreibt die prinzipielle <color=#131313><u><link="glossary:Richtung">Richtung</link></u></color>
+      einer <color=#131313><u><link="glossary:Kraft">Kraft</link></u></color>, aber
+      nicht den <color=#131313><u><link="glossary:Richtungssinn">Richtungssinn</link></u></color>.
+  tmpHeadline: 

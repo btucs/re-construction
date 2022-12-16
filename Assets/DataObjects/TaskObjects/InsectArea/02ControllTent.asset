@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 02ControllTent
+  m_EditorClassIdentifier: 
+  uid: ebac981d-1454-4dcf-be47-69632b0cf339
+  objectName: Strategieplaner 3000
+  objectDescription: "Die Schw\xE4rme bewegen sich in Richtung des Windes. Ein Mix
+    aus Beobachtung, Wetterdaten und Berechnungen versucht den n\xE4chsten Befall
+    vorherzusagen."
+  objectPrefab: {fileID: 5996837297545991425, guid: 0e0bbc21929ad9f44bf9ee22412c9f6a,
+    type: 3}
+  objectThumbnail: {fileID: -3998937747717929321, guid: 7f5b7e7347038964c82d8daed24c19cd,
+    type: 3}
+  cameraOffset: {x: 0, y: 0.75, z: 0}
+  markerOffset: {x: 0, y: 0}
+  cameraZoom: 1.15
+  taskInfos:
+  - task: {fileID: 11400000, guid: 07102daf5d6b54745855c82123cdce44, type: 2}
+    taskButtonPosition: {x: -1.9, y: 0}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: P_1
+        icon: {fileID: -8127697415850259238, guid: 7848c3d85030f7249abb0372b8decdf9,
+          type: 3}
+        textMeshProName: P<sub>1</sub>
+        type: 1
+        textValue: (-2.5 -1 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Ort des aktuellen Standorts der Insekten.
+        definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+          von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+          dargestellt. "
+        textMeshProValue: (-2.5 -1 0)
+      localAnalyzePosition: {x: -0.847, y: -0.712, z: 0}
+    - itemData:
+        name: P_2
+        icon: {fileID: -8625807478309713623, guid: 7848c3d85030f7249abb0372b8decdf9,
+          type: 3}
+        textMeshProName: P<sub>2</sub>
+        type: 1
+        textValue: (-2 0.5 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Ort des Zugstandorts der Insekten.
+        definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+          von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+          dargestellt. "
+        textMeshProValue: (-2 0.5 0)
+      localAnalyzePosition: {x: -0.47, y: 0.279, z: 0}

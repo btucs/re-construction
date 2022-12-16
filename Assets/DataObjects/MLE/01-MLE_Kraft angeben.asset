@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_Kraft angeben
+  m_EditorClassIdentifier: 
+  uid: d14ec323-8589-4417-a732-fb1b354b3ae8
+  mleName: Kraft angeben
+  mleHandout: {fileID: 11400000, guid: f9b0ea862becf6f4396e30cfe90ef312, type: 2}
+  mleIntroText: "Koordinatensysteme sind sehr hilfreich, um Kr\xE4fte zu zeichnen
+    und in Kraftgr\xF6\xDFen umzurechnen. Wie das geht, erf\xE4hrst du hier."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:e3c52375efb5b92790f0f3d03cf1ff36_1644248466.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Mit welchem Hilfsmittel kann ich Kr\xE4fte in einem Koordinatensystem
+        grafisch darstellen?"
+      choices:
+      - name: "Mit einem Ma\xDFstab."
+        isAnswer: 1
+        feedbackMessage: "Mit diesem\nHilfsmittel kann die vektorielle Gr\xF6\xDFe
+          Kraft (in Newton) im Koordinatensystem (in L\xE4ngeneinheiten) umgewandelt
+          und dargestellt werden."
+      - name: Mit einem  Vektor.
+        isAnswer: 0
+        feedbackMessage: "Im Koordinatensystem ist die Kraft zwar ein Vektor, aber
+          dazu braucht es noch eine Verkn\xFCpfung von der Kraftpfeil und dem Koordinatensystem."
+      - name: Mit einer weiteren Achse.
+        isAnswer: 0
+        feedbackMessage: Die dritte Achse erweitert die Ebene zum Raum. Das hat nichts
+          mit der Darstellung des Kraftpfeils zu tun.
+      - name: "Es ben\xF6tigt  keine weiteren Hilfsmittel."
+        isAnswer: 0
+        feedbackMessage: Es gibt ein Hilfsmittel, was z. B. auch bei Landkarten zum
+          Einsatz kommt.
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:f3a9d672cf26dc12006f51b94bdc3929_1644248214.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was wird durch den Ma\xDFstab beschrieben?"
+      choices:
+      - name: "Der Ma\xDFstab beschreibt das Verh\xE4ltnis der L\xE4ngeneinheit im
+          Koordinatensystem und einer Kraftgr\xF6\xDFe."
+        isAnswer: 1
+        feedbackMessage: "So ist es und der Ma\xDFsstab muss immer beim Koordinatensystem
+          \neingetragen werden."
+      - name: "Der Ma\xDFstab legt die L\xE4nge der Achsen fest."
+        isAnswer: 0
+        feedbackMessage: "Leider nicht, die \nAchsl\xE4nge passt sich an den vorhandenen
+          Platz an."
+      - name: "Der Ma\xDFstab beschreibt einen Stab, mit einer L\xE4nge von 1 m."
+        isAnswer: 0
+        feedbackMessage: "Niet, der \nMa\xDFsstab ist kein Stab im herk\xF6mmlichen
+          Sinn. Er beschreibt ein bestimmtes Verh\xE4ltnis."
+      - name: "Der Ma\xDFstab beschreibt das Verh\xE4ltnis der Achseneinteilung von
+          x-Achse zur y-Achse"
+        isAnswer: 0
+        feedbackMessage: "Nah dran aber nicht ganz. Das hier beschriebene Verh\xE4ltnis
+          wird auch als Einstellungsverh\xE4ltnis bezeichnet."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:37ad4a42488ddea421cc82cb8272c48b_1644248276.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Was ist der Unterschied von grafischen und analytischen Angeben /
+        Umrechnen der Kraft?
+      choices:
+      - name: "Die  grafische L\xF6sung ist nicht so genau wie die analytische."
+        isAnswer: 1
+        feedbackMessage: "Genau, denn\n die Berechnung kann auf viele Kommastellen
+          berechnet werden."
+      - name: "Die  analytische L\xF6sung ist nicht so genau, wie die grafische."
+        isAnswer: 0
+        feedbackMessage: "Das ist \nnicht korrekt, \xFCberlege, wie genau beide verfahren
+          sein k\xF6nnen."
+      - name: "Beide  L\xF6sungen sind gleich genau."
+        isAnswer: 0
+        feedbackMessage: "Nein, eine \nder L\xF6sung ist genauer als die andere."
+      - name: "Die grafische L\xF6sung beschreibt einen Zwischenschritt bei der analytischen
+          L\xF6sung."
+        isAnswer: 0
+        feedbackMessage: "Das ist \nnicht richtig. Beide L\xF6sungen k\xF6nnen sich
+          erg\xE4nzen aber auch unabh\xE4ngig voneinander sein. Die Antwort bezieht
+          sich auf den Detailgrad der L\xF6sungen."
+  requiredProgress: []

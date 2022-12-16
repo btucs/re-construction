@@ -1,0 +1,58 @@
+title: PoliceStart
+tags: 
+colorID: 0
+position: 17,-52
+---
+<<AutoContinue>>
+Guten Tag! Kann ich Ihnen helfen?
+[[Was macht die Polizei hier?|Police]]
+[[Ich würde Sie gern unterstützen...|PoliceHelp]]
+[[Nö, alles gut.|PoliceExit]]
+===
+title: Police
+tags: 
+colorID: 0
+position: -316,249
+---
+Wir sorgen dafür, dass Schutzmaßnahmen eingehalten werden und helfen bei der Versorgung der Bevölkerung.
+<<AutoContinue>>
+Es gibt viel zu tun, aber leider sind jetzt bereits die Ersten von uns selbst erkrankt und fallen aus.
+[[Ich würde Sie gern unterstützen...|PoliceHelp]]
+<<if visited("Polizeizentrale") is false>>
+[[Ist das hier nicht eigentlich ein Elektrohandel? |Polizeizentrale]]
+<<endif>>
+===
+title: PoliceHelp
+tags: 
+colorID: 0
+position: 390,161
+---
+<<AutoContinue>>
+Ich weiß nicht... Eigentlich nehmen wir keine Hilfe von Zivilisten an.
+-> ich bin von der Organisation.
+Achso, ich verstehe. Gut, dann schauen Sie mal hinten bei den Monitoren.
+<<AutoContinue>>
+Vielleicht können Sie uns bei der Planung helfen.
+[[Alles klar!|PoliceExit]]
+===
+title: PoliceExit
+tags: 
+colorID: 0
+position: 86,462
+---
+Passen Sie auf sich auf!
+===
+title: Polizeizentrale
+tags: 
+colorID: 0
+position: 389,160
+---
+Ja, wir mussten hier vorerst eine provisorische Zentrale einrichten.
+Die Polizeistation liegt eigentlich weiter außerhalb vom Zentrum.
+<<AutoContinue>>
+Von hier aus können wir schneller eingreifen, wenn etwas passiert.
+[[Das war erstmal alles, was ich wissen wollte.|PoliceExit]]
+<<if visited("PoliceHelp") is false>>
+[[Kann ich euch unterstützen?|PoliceHelp]]
+<<endif>>
+===

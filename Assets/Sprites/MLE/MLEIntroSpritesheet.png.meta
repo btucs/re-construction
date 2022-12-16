@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 3e40b0b99713ec646948571cbf5f3595
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7414704988458772703
+    second: MLEIntro_ContainerLeft1
+  - first:
+      213: -6484632472099750752
+    second: MLEIntro_ContainerLeft2
+  - first:
+      213: -1149181675513219810
+    second: MLEIntro_ContainerLeft2_Arm
+  - first:
+      213: 3344680716470384083
+    second: MLEIntro_RoboArm_1
+  - first:
+      213: -3702333711186345306
+    second: MLEIntro_RoboArm_2
+  - first:
+      213: 1173884456364747628
+    second: MLEIntro_RoboArm_3
+  - first:
+      213: 4111331934340242987
+    second: MLEIntro_RoboArm_Grabber
+  - first:
+      213: 3840095206633709404
+    second: MLEIntro_MLEChipHolder
+  - first:
+      213: -227346354929563287
+    second: MLEIntro_SchienenlaeuferBot
+  - first:
+      213: -289312077803088864
+    second: MLEIntro_Schiene
+  - first:
+      213: -588380829434757859
+    second: MLEIntro_RoboArmHolder1Top
+  - first:
+      213: 208296367800772482
+    second: MLEIntro_RoboArmHolder1Bot
+  - first:
+      213: -4354252274958527073
+    second: MLEIntro_RoboArmHolder2Bot
+  - first:
+      213: 816592448606767674
+    second: MLEIntro_RoboArmHolder2Top
+  - first:
+      213: -393862669211414137
+    second: MLEIntro_RightForeground
+  - first:
+      213: -7324326817216409567
+    second: MLEIntro_RightForeground2
+  - first:
+      213: 8522489097449291925
+    second: MLEIntro_LeftContainer2
+  - first:
+      213: 3758258264731849150
+    second: MLEIntro_RightGrabber
+  - first:
+      213: -8013611785866329669
+    second: MLEIntro_RightContainer2
+  - first:
+      213: -4209938457466609412
+    second: MLEIntro_MLEChipHolderBot
+  - first:
+      213: 1039364846804033761
+    second: MLEIntro_MLEChipHolderClipper
+  - first:
+      213: 5807186677841972573
+    second: MLEIntro_SecondChipPart
+  - first:
+      213: 8655594151193351980
+    second: MLEIntro_SchienenlaeuferTop
+  - first:
+      213: 4292231169544709453
+    second: MLEIntro_loadingAnim
+  - first:
+      213: -419662901619401262
+    second: MLEIntro_FileTextImg
+  - first:
+      213: -3493582558053033234
+    second: MLEIntro_LoadingText
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MLEIntro_ContainerLeft1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1022
+        width: 327
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 0, z: 302, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8e667f6e256e660800000000000000
+      internalID: 7414704988458772703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_ContainerLeft2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1043
+        width: 211
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acf789af15f106a0800000000000000
+      internalID: -6484632472099750752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_ContainerLeft2_Arm
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1351
+        width: 254
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 0, z: 203, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1575a0da594d00f0800000000000000
+      internalID: -1149181675513219810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RoboArm_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 595
+        width: 101
+        height: 386
+      alignment: 9
+      pivot: {x: 0.5788722, y: -0.012318349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5f0580461ba6e20800000000000000
+      internalID: 3344680716470384083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RoboArm_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 596
+        width: 77
+        height: 385
+      alignment: 9
+      pivot: {x: 0.48911592, y: 0.016772779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2c8c00b1bae9cc0800000000000000
+      internalID: -3702333711186345306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RoboArm_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 596
+        width: 83
+        height: 300
+      alignment: 9
+      pivot: {x: 0.4745057, y: 0.020360311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b29fc81b97a4010800000000000000
+      internalID: 1173884456364747628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RoboArm_Grabber
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 928
+        width: 81
+        height: 92
+      alignment: 9
+      pivot: {x: 0.49999925, y: 0.17671867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ed11c8c926e0930800000000000000
+      internalID: 4111331934340242987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_MLEChipHolder
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 769
+        width: 803
+        height: 526
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 327, z: 0, w: 85}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f1517ae32ca4530800000000000000
+      internalID: 3840095206633709404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_SchienenlaeuferBot
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 197
+        width: 800
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9698179d1bd48dcf0800000000000000
+      internalID: -227346354929563287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_Schiene
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 85
+        width: 843
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0241155b2382cfbf0800000000000000
+      internalID: -289312077803088864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RoboArmHolder1Top
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 46
+        width: 228
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d34e4c0c6a5d7f0800000000000000
+      internalID: -588380829434757859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RoboArmHolder1Bot
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 52
+        width: 449
+        height: 516
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 22, y: 0, z: 386, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287e4c2617404e200800000000000000
+      internalID: 208296367800772482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RoboArmHolder2Bot
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 46
+        width: 266
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 340, z: 0, w: 23}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9519a030a69293c0800000000000000
+      internalID: -4354252274958527073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RoboArmHolder2Top
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 481
+        width: 192
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a0979618e155b00800000000000000
+      internalID: 816592448606767674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RightForeground
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1507
+        width: 538
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 12, z: 0, w: 166}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781dd573df7b88af0800000000000000
+      internalID: -393862669211414137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RightForeground2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1331
+        width: 392
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 12, z: 0, w: 113}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120d2f0d093ca5a90800000000000000
+      internalID: -7324326817216409567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_LeftContainer2
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1445
+        width: 218
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 0, z: 201, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590ca971ea6f54670800000000000000
+      internalID: 8522489097449291925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RightGrabber
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1325
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1948bcaf3082430800000000000000
+      internalID: 3758258264731849150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_RightContainer2
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 642
+        width: 357
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 323, y: 0, z: 17, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1cd87e98ee9c090800000000000000
+      internalID: -8013611785866329669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_MLEChipHolderBot
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 615
+        width: 783
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 273, y: 0, z: 268, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf06274374b4395c0800000000000000
+      internalID: -4209938457466609412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_MLEChipHolderClipper
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 626
+        width: 42
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e068c542d09c6e00800000000000000
+      internalID: 1039364846804033761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_SecondChipPart
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1529
+        width: 645
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dc6250485479050800000000000000
+      internalID: 5807186677841972573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_SchienenlaeuferTop
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 399
+        width: 789
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 242, y: 0, z: 232, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2714dd6509de1870800000000000000
+      internalID: 8655594151193351980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_loadingAnim
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1807
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45629ae181119b30800000000000000
+      internalID: 4292231169544709453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_FileTextImg
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1887
+        width: 518
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddd09f70de0d2af0800000000000000
+      internalID: -419662901619401262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MLEIntro_LoadingText
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1740
+        width: 171
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea9fb95c2d448fc0800000000000000
+      internalID: -3493582558053033234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

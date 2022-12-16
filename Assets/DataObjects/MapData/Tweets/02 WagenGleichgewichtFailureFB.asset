@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 02 WagenGleichgewichtFailureFB
+  m_EditorClassIdentifier: 
+  uid: a0e6f6d2-6dff-412f-9c21-ca56af61f05b
+  author: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+  messageText: "Edel geht die Welt zugrunde. Slapstick in Logistik f\xFChrt zu Verz\xF6gerungen
+    in Nachschublieferungen. Ist das ihr Ernst? #NoGleichgewicht #nachschub"
+  relatedTask: {fileID: 11400000, guid: 4a1b7ef0344cf0c408730684b17c32fa, type: 2}
+  taskCondition: 1

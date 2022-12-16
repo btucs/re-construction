@@ -1,0 +1,66 @@
+fileFormatVersion: 2
+guid: 6db04faeb5c19f84494f675d71fa595a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - MentorDialog-Start-0
+  - MentorDialog-Start-1
+  - MentorDialog-Start-2
+  - MentorDialog-Start-3
+  - MentorDialog-Help-4
+  - MentorDialog-Help-5
+  - MentorDialog-Help-6
+  - MentorDialog-Help-7
+  - MentorDialog-Help-8
+  - MentorDialog-Chat-9
+  - MentorDialog-Chat-10
+  - MentorDialog-Chat-11
+  - MentorDialog-Chat-12
+  - MentorDialog-Chat-13
+  - MentorDialog-Chat-14
+  - MentorDialog-Chat-15
+  - MentorDialog-Chat-16
+  - MentorDialog-Modules-17
+  - MentorDialog-Modules-18
+  - MentorDialog-Modules-19
+  - MentorDialog-Modules-20
+  - MentorDialog-Modules-21
+  - MentorDialog-Analyzer-22
+  - MentorDialog-Analyzer-23
+  - MentorDialog-Analyzer-24
+  - MentorDialog-MentorProfile-25
+  - MentorDialog-MentorProfile-26
+  - MentorDialog-MentorProfile-27
+  - MentorDialog-MentorProfile-28
+  - MentorDialog-MentorProfile-29
+  - MentorDialog-MentorRang-30
+  - MentorDialog-MentorRang-31
+  - MentorDialog-MentorRang-32
+  - MentorDialog-MentorRang-33
+  - MentorDialog-Mentor.Exit-34
+  - MentorDialog-MentorQuest-35
+  - MentorDialog-MentorQuest-36
+  - MentorDialog-MentorQuest-37
+  - MentorDialog-MentorQuest-38
+  - MentorDialog-MentorGameWorld-39
+  - MentorDialog-MentorKonstruktor-40
+  - MentorDialog-MentorKonstruktor-41
+  - MentorDialog-MentorKonstruktor-42
+  - MentorDialog-Variables-43
+  - MentorDialog-Variables-44
+  - MentorDialog-Variables-45
+  - MentorDialog-Variables-46
+  - MentorDialog-Variables-47
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 6db04faeb5c19f84494f675d71fa595a,
+    type: 3}
+  localizations: []

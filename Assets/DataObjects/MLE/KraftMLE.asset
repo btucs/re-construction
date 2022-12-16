@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: KraftMLE
+  m_EditorClassIdentifier: 
+  uid: efca2945-b718-42d8-8b33-11c4223cc8ca
+  mleName: Kraft - Grundlagen
+  mleHandout: {fileID: 11400000, guid: c1da7a86057c9ca41b47bd04a3fd1f7c, type: 2}
+  mleIntroText: "Volle Kraft voraus! Hier erf\xE4hrst du mehr \xFCber Kr\xE4fte und
+    wie du sie berechnest."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:926607a8eca64d151ac7873ee71a5c73_1645538886.smil/playlist.m3u8
+    navTitle: Intro
+    questions:
+    - question: Was ist eine Kraft?
+      choices:
+      - name: "Die Kraft beschreibt, wie stark die Masse eines K\xF6rpers beschleunigt
+          wird."
+        isAnswer: 1
+        feedbackMessage: 'Genau richtig! Im einfachsten Fall erfolgt das durch die
+          Gravitation (Erdanziehung) oder Massenanziehung. '
+      - name: "Die Kraft beschreibt, wie stark sich die Masse eines K\xF6rpers erhitzt. "
+        isAnswer: 0
+        feedbackMessage: "Nicht ganz. In bestimmten F\xE4llen (wie bei der Reibung
+          zum Beispiel) entsteht auch W\xE4rmeenergie, aber das betrachten wir erst
+          sp\xE4ter und ist nicht Teil der Definition der Kraft. "
+      - name: "Die Kraft beschreibt, wie stark sich die Masse eines K\xF6rpers vergr\xF6\xDFert. "
+        isAnswer: 0
+        feedbackMessage: "Leider nicht korrekt. Versuch es nochmal. Die Masse bleibt
+          unter idealen Bedingungen immer gleich, aber mit dem K\xF6rper geschieht
+          etwas..."
+      - name: "Die Kraft beschreibt, wie stark die Masse eines K\xF6rpers einen anderen
+          K\xF6rper anzieht. "
+        isAnswer: 0
+        feedbackMessage: "Fast. Unter bestimmten Bedingungen w\xE4re das richtig.
+          Die Aussage beschreibt allerdings einen Sonderfall. "
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:b61dbc99410d663db5f7db7b553c1c15_1645538844.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was ist KEINE Eigenschaft von Kr\xE4ften? "
+      choices:
+      - name: "Ein Newton entspricht immer der L\xE4nge von einem Zentimeter. "
+        isAnswer: 1
+        feedbackMessage: "Du hast den Fehler richtig erkannt!  F\xFCr die grafische
+          Darstellung in einem Koordinatensystem muss immer ein Ma\xDFstab angegeben
+          werden. Dieser variiert je nach vorhandenen Kr\xE4ften."
+      - name: "Die Kraft ist eine gerichtete (vektorielle) Gr\xF6\xDFe. "
+        isAnswer: 0
+        feedbackMessage: Leider nicht richtig, aber Achtung! Hier soll geschaut werden,
+          was keine Eigenschaft der Kraft ist. Eine Kraft hat immer eine Richtung
+          und einen Betrag  und ist daher auch vektoriell.
+      - name: 'Die Kraft besitzt eine Einheit. '
+        isAnswer: 0
+        feedbackMessage: Leider nicht richtig, aber Achtung! Hier soll geschaut werden,
+          was keine Eigenschaft der Kraft ist. Die Kraft hat die Einheit Newton.
+      - name: 'Die Kraft hat einen Richtungssinn. '
+        isAnswer: 0
+        feedbackMessage: Leider nicht richtig, aber Achtung! Hier soll geschaut werden,
+          was keine Eigenschaft der Kraft ist. Die Kraft zeigt ihren Richtungssinn
+          durch die Pfeilspitze des Kraftvektors auf der Wirkungslinie an.
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:a1fcb770ff0ff35ef7b5881c60f5319b_1645538853.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Welche der allt\xE4glichen Kr\xE4fte ist NICHT physikalisch? "
+      choices:
+      - name: Gewichtskraft.
+        isAnswer: 0
+        feedbackMessage: Nicht ganz. Achte bei der Frage darauf, dass die Kraft gesucht
+          wird, die nicht physikalisch ist. Die Gewichtskraft wirkt bei allen Objekten
+          aufgrund der Gravitation.
+      - name: Waschkraft.
+        isAnswer: 1
+        feedbackMessage: "Du l\xE4sst dir nichts vormachen. Die Waschkraft ist eine
+          Erfindung der Werbeindustrie, um ihr Waschmittel besser zu promoten."
+      - name: Muskelkraft.
+        isAnswer: 0
+        feedbackMessage: "Das klingt verr\xFCckt\u2026 aber die Muskelkraft ist tats\xE4chlich
+          eine physikalische Kraft. Sie h\xE4lt den K\xF6rper im Gleichgewicht und
+          wirkt der Gewichtskraft von Objekten, die auf oder an ihr lasten, entgegen."
+  requiredProgress: []

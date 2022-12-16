@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca8b6fd127f4ca439e72d6e7381864e, type: 3}
+  m_Name: Shoe_Slippers
+  m_EditorClassIdentifier: 
+  uid: 557a6899-9789-4411-9527-541893687890
+  itemName: Slippers
+  price: 100
+  image: {fileID: -6485949485012308100, guid: 4dc8238e11e360949a1943bac4893084, type: 3}
+  canBeBought: 0
+  requirement:
+    requiredTasks: []
+    finishedTopic: {fileID: 0}
+    finishedEvent: {fileID: 0}
+    activeQuest: {fileID: 0}
+    finishedQuest: {fileID: 0}
+    taskAmount: 0
+  category: 3
+  label: slippers
+  availableOnGameStart: 1

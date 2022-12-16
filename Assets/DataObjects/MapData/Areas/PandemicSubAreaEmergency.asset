@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96233c073d1720a45bb1431469c1f30e, type: 3}
+  m_Name: PandemicSubAreaEmergency
+  m_EditorClassIdentifier: 
+  uid: 53c96f18-fa17-472b-8fe1-e7c64d39455a
+  areaName: Notaufnahme
+  sceneName: PandemicEmergencyEntry
+  areaDescription: "Obwohl in der Notaufnahme nur noch schwere Krankheitsf\xE4lle
+    aufgenommen werden, ist schon seit Wochen die H\xF6lle los. Das Personal ben\xF6tigt
+    dringend  helfende H\xE4nde!\r"
+  areaPreviewIMG: {fileID: 21300000, guid: 0e52613d2afbb664fa10dac7029071f0, type: 3}
+  areaIconIMG: {fileID: -7348596064645043917, guid: 68c716fd175aef64e91cacf8ae8e85a7,
+    type: 3}
+  mapPositionOrOffset: {x: 3, y: -3}

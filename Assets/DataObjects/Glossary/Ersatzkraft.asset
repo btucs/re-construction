@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Ersatzkraft
+  m_EditorClassIdentifier: 
+  headline: Ersatzkraft
+  easy:
+    content: "Eine Ersatz-Kraft ersetzt [Kr\xE4fte](glossary:Kraft).\r\n\r\n- Eine
+      Kraft kann [Seil](glossary:Seile)-Ziehen sein.\r\n\r\nDie Ersatz-Kraft und
+      ersetzte Kr\xE4fte sind gleich gro\xDF.\r\n\r\nDas Ersetzen der Kr\xE4fte folgt
+      einem Muster.\r\n\r\nDas Ersetzen ist nur im [Kr\xE4fte-Parallelo-gramm](glossary:Kr\xE4fteparallelogramm)
+      m\xF6glich."
+    image: {fileID: 21300000, guid: a2a7f7597e9f8ef44b619b63ad269bf8, type: 3}
+    tmpContent: "Eine Ersatz-Kraft ersetzt <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>.\n\n\u2022
+      Eine Kraft kann <color=#131313><u><link=\"glossary:Seile\">Seil</link></u></color>-Ziehen
+      sein.\n\nDie Ersatz-Kraft und ersetzte Kr\xE4fte sind gleich gro\xDF.\n\nDas
+      Ersetzen der Kr\xE4fte folgt einem Muster.\n\nDas Ersetzen ist nur im <color=#131313><u><link=\"glossary:Kr\xE4fteparallelogramm\">Kr\xE4fte-Parallelo-gramm</link></u></color>
+      m\xF6glich."
+  medium:
+    content: "Eine Ersatzkraft ersetzt alle einzelnen [Kr\xE4fte](glossary:Kraft)
+      im [Kr\xE4fteparallelogramm](glossary:Kr\xE4fteparallelogramm). Dabei \xE4ndert
+      sich die Wirkung der Kraft nicht. \r\n\r\nUm eine Ersatzkraft zu bestimmen,
+      werden zwei angreifende Einzelkr\xE4fte \xFCber ihre [Vektoren](glossary:Vektor)
+      addiert. Alternativ kann die Ersatzkraft auch \xFCber ein [Krafteck](glossary:Krafteck)
+      bestimmt werden. "
+    image: {fileID: 21300000, guid: 3079bf08dc6830842a06cac2b7f5fab1, type: 3}
+    tmpContent: "Eine Ersatzkraft ersetzt alle einzelnen <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      im <color=#131313><u><link=\"glossary:Kr\xE4fteparallelogramm\">Kr\xE4fteparallelogramm</link></u></color>.
+      Dabei \xE4ndert sich die Wirkung der Kraft nicht.\n\nUm eine Ersatzkraft zu
+      bestimmen, werden zwei angreifende Einzelkr\xE4fte \xFCber ihre <color=#131313><u><link=\"glossary:Vektor\">Vektoren</link></u></color>
+      addiert. Alternativ kann die Ersatzkraft auch \xFCber ein <color=#131313><u><link=\"glossary:Krafteck\">Krafteck</link></u></color>
+      bestimmt werden."
+  scientific:
+    content: "Die Ersatzkraft kann als \xE4quivalente [Kraft](glossary:Kraft) im
+      [Kr\xE4fteparallelogramm](glossary:Kr\xE4fteparallelogramm) definiert werden.
+      Beim [Kr\xE4fteparallelogramm](glossary:Kr\xE4fteparallelogramm) werden die
+      zwei angreifenden Einzelkr\xE4fte mittels [Vektoraddition](glossary:Vektoraddition)
+      oder [Krafteck](glossary:Krafteck) zu einer Ersatzkraft zusammengefasst. Die
+      Wirkung der Ersatzkraft ist gleich der Wirkung der angreifenden Einzelkr\xE4fte."
+    image: {fileID: 21300000, guid: 72f3382a93b98024c9dbff91f8bdd780, type: 3}
+    tmpContent: "Die Ersatzkraft kann als \xE4quivalente <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      im <color=#131313><u><link=\"glossary:Kr\xE4fteparallelogramm\">Kr\xE4fteparallelogramm</link></u></color>
+      definiert werden. Beim <color=#131313><u><link=\"glossary:Kr\xE4fteparallelogramm\">Kr\xE4fteparallelogramm</link></u></color>
+      werden die zwei angreifenden Einzelkr\xE4fte mittels <color=#131313><u><link=\"glossary:Vektoraddition\">Vektoraddition</link></u></color>
+      oder <color=#131313><u><link=\"glossary:Krafteck\">Krafteck</link></u></color>
+      zu einer Ersatzkraft zusammengefasst. Die Wirkung der Ersatzkraft ist gleich
+      der Wirkung der angreifenden Einzelkr\xE4fte."
+  tmpHeadline: 

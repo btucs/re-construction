@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: "Linienfl\xFCchtigkeitsaxiom"
+  m_EditorClassIdentifier: 
+  headline: "Linienfl\xFCchtigkeitsaxiom"
+  easy:
+    content: "Was sagt das Gesetz der Linien-Fl\xFCchtigkeit?\r\n\r\n- Die Wirkung
+      der [Kraft](glossary:Kraft) bleibt gleich.\r\n- Dabei gibt es Besonderheiten.\r\n\r\nWann
+      bleibt die Wirkung einer Kraft gleich?\r\n\r\n- Wenn du die Kraft auf einer
+      imagin\xE4ren Linie verschiebst.\r\n\r  - Die imagin\xE4re Linie hei\xDFt [Wirkungs-Linie](glossary:Wirkungslinie).\r\n-
+      Die Kraft liegt auf der Wirkungs-Linie.\r\n  - Das hei\xDFt Linien-Fl\xFCchtigkeit.\r\n\r\n-
+      Wenn ein K\xF6rper gedr\xFCckt oder gezogen wird.\r\n\r  - Zieht oder schiebt
+      eine Person einen Boller-Wagen?\r\n  - Dabei ist die Wirkung der Kraft gleich.\r\n\r\n-
+      Wenn eine Kraft von oben dr\xFCckt oder an einem K\xF6per h\xE4ngt.\r\n\r 
+      - Stehst du auf einer Br\xFCcke oder h\xE4ngst du von einer Br\xFCcke?\r\n 
+      - Dabei ist die Wirkung gleich.\r\n\r\n- Wenn das Objekt ein [starrer K\xF6rper](glossary:Starrer_K\xF6rper)
+      ist.\r\n\r  - Ein starrer K\xF6rper \xE4ndert seine Form **nicht.**"
+    image: {fileID: 21300000, guid: 97f01f9fe8383c0479abaf55c38996f4, type: 3}
+    tmpContent: "Was sagt das Gesetz der Linien-Fl\xFCchtigkeit?\n\n\u2022 Die Wirkung
+      der <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color> bleibt
+      gleich.\n\u2022 Dabei gibt es Besonderheiten.\n\nWann bleibt die Wirkung einer
+      Kraft gleich?\n\n\u2022 Wenn du die Kraft auf einer imagin\xE4ren Linie verschiebst.\n 
+      \n  \u2022 Die imagin\xE4re Linie hei\xDFt <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungs-Linie</link></u></color>.\n\n\u2022
+      Die Kraft liegt auf der Wirkungs-Linie.\n  \n  \u2022 Das hei\xDFt Linien-Fl\xFCchtigkeit.\n\n\u2022
+      Wenn ein K\xF6rper gedr\xFCckt oder gezogen wird.\n  \n  \u2022 Zieht oder
+      schiebt eine Person einen Boller-Wagen?\n  \u2022 Dabei ist die Wirkung der
+      Kraft gleich.\n\n\u2022 Wenn eine Kraft von oben dr\xFCckt oder an einem K\xF6per
+      h\xE4ngt.\n  \n  \u2022 Stehst du auf einer Br\xFCcke oder h\xE4ngst du von
+      einer Br\xFCcke?\n  \u2022 Dabei ist die Wirkung gleich.\n\n\u2022 Wenn das
+      Objekt ein <color=#131313><u><link=\"glossary:Starrer_K\xF6rper\">starrer K\xF6rper</link></u></color>
+      ist.\n  \n  \u2022 Ein starrer K\xF6rper \xE4ndert seine Form <b>nicht.</b>"
+  medium:
+    content: "Wenn eine [Kraft](glossary:Kraft) auf einen [starren K\xF6rper](glossary:Starrer_K\xF6rper)
+      wirkt, macht es keinen Unterschied, ob der K\xF6rper gezogen oder geschoben
+      wird oder ob die Kraft von oben dr\xFCckt oder von unten an dem K\xF6rper zieht.
+      Es ist nur wichtig, dass der Kraftvektor entlang der [Wirkungslinie](glossary:Wirkungslinie)
+      verschoben wird. Die Wirkungslinie beschreibt eine imagin\xE4re Linie, auf
+      der der [Vektor](glossary:Vektor) verschoben werden kann. Der [Angriffspunkt](glossary:Angriffspunkt)
+      ver\xE4ndert sich zwar dadurch, die Wirkung bleibt aber gleich.  "
+    image: {fileID: 21300000, guid: dd299269d4cc9b4418bf9d8c98017995, type: 3}
+    tmpContent: "Wenn eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      auf einen <color=#131313><u><link=\"glossary:Starrer_K\xF6rper\">starren K\xF6rper</link></u></color>
+      wirkt, macht es keinen Unterschied, ob der K\xF6rper gezogen oder geschoben
+      wird oder ob die Kraft von oben dr\xFCckt oder von unten an dem K\xF6rper zieht.
+      Es ist nur wichtig, dass der Kraftvektor entlang der <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      verschoben wird. Die Wirkungslinie beschreibt eine imagin\xE4re Linie, auf
+      der der <color=#131313><u><link=\"glossary:Vektor\">Vektor</link></u></color>
+      verschoben werden kann. Der <color=#131313><u><link=\"glossary:Angriffspunkt\">Angriffspunkt</link></u></color>
+      ver\xE4ndert sich zwar dadurch, die Wirkung bleibt aber gleich."
+  scientific:
+    content: "Die Wirkung einer [Kraft](glossary:Kraft) auf einen [starren K\xF6rper](glossary:Starrer_K\xF6rper)
+      bleibt unver\xE4ndert, wenn die Kraft auf der [Wirkungslinie](glossary:Wirkungslinie)
+      verschoben wird.  "
+    image: {fileID: 21300000, guid: 1fb6a5ea817d5d44197b9d0df9c6d698, type: 3}
+    tmpContent: "Die Wirkung einer <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      auf einen <color=#131313><u><link=\"glossary:Starrer_K\xF6rper\">starren K\xF6rper</link></u></color>
+      bleibt unver\xE4ndert, wenn die Kraft auf der <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      verschoben wird."
+  tmpHeadline: 

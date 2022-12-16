@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Normalkraft
+  m_EditorClassIdentifier: 
+  headline: Normalkraft
+  easy:
+    content: "Eine Normal-Kraft hat Besonderheiten.\r\n\r\n- Die Normal-Kraft ist
+      eine [Kraft](glossary:Kraft).\r\n  - Eine Kraft kann ein Schlag sein.\r\n\r\n-
+      Die Normal-Kraft wirkt immer senkrecht zur Unterlage.\r\n\r\nWas ist bei der
+      Normal-Kraft egal?\r\n\r\n- Ob die Kraft von oben oder unten kommt.\r\n- Ob
+      die Kraft von rechts oder links kommt.\r\n- Der [Richtungs-Sinn](glossary:Richtungssinn)
+      ist der Normal-Kraft egal. \r\n\r\nWie hei\xDFt die Normal-Kraft noch?\r\n\r\n-
+      Bei [Seilen](glossary:Seile) hei\xDFt die Normal-Kraft Seil-Kraft.\r\n- Bei
+      [St\xE4ben](glossary:St\xE4be) hei\xDFt die Normal-Kraft Stab-Kraft."
+    image: {fileID: 21300000, guid: ab15bc8f8bae9fb4a8feb2123e1f1579, type: 3}
+    tmpContent: "Eine Normal-Kraft hat Besonderheiten.\n\n\u2022 Die Normal-Kraft
+      ist eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>.\n 
+      \n  \u2022 Eine Kraft kann ein Schlag sein.\n\n\u2022 Die Normal-Kraft wirkt
+      immer senkrecht zur Unterlage.\n\nWas ist bei der Normal-Kraft egal?\n\n\u2022
+      Ob die Kraft von oben oder unten kommt.\n\u2022 Ob die Kraft von rechts oder
+      links kommt.\n\u2022 Der <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungs-Sinn</link></u></color>
+      ist der Normal-Kraft egal.\n\nWie hei\xDFt die Normal-Kraft noch?\n\n\u2022
+      Bei <color=#131313><u><link=\"glossary:Seile\">Seilen</link></u></color> hei\xDFt
+      die Normal-Kraft Seil-Kraft.\n\u2022 Bei <color=#131313><u><link=\"glossary:St\xE4be\">St\xE4ben</link></u></color>
+      hei\xDFt die Normal-Kraft Stab-Kraft."
+  medium:
+    content: "Die Normalkraft wirkt immer senkrecht zu ihrer Unterlage. Dabei ist
+      der [Richtungssinn](glossary:Richtungssinn) der Normalkraft unwichtig. Demnach
+      macht es keinen Unterschied, ob die Kraft nach rechts oder links und oben oder
+      unten zeigt. Normalkr\xE4fte k\xF6nnen in [Zug](glossary:Zugkraft)- und [Druckkr\xE4fte](glossary:Druckkraft)
+      eingeteilt werden. \r\n\r\nEine besondere Bedeutung haben Normalkr\xE4fte beim
+      [Freischnitt](glossary:Freischneiden). Beim Freischnitt werden die Normalkr\xE4fte
+      an den betrachteten K\xF6rpern angewandt. Sie beschreiben hier Kr\xE4fte, die
+      senkrecht zur Schnittfl\xE4che wirken. \r\n\r\n[Balken](glossary:Balken) und
+      [St\xE4be](glossary:St\xE4be) k\xF6nnen sowohl Zug- als auch Druckkr\xE4fte
+      aufnehmen. [Seile](glossary:Seile) k\xF6nnen nur Zugkr\xE4fte aufnehmen. Bei
+      Druckkr\xE4ften fallen sie zusammen und k\xF6nnen nicht weiter als [starre
+      K\xF6rper](glossary:Starrer_K\xF6rper) betrachtet werden. Die Verwendung von
+      starren K\xF6rpern gilt allerdings als Voraussetzung f\xFCr die Anwendung des
+      Freischnitts."
+    image: {fileID: 21300000, guid: 619d20b4c832aa94ba28d36544aa6425, type: 3}
+    tmpContent: "Die Normalkraft wirkt immer senkrecht zu ihrer Unterlage. Dabei
+      ist der <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungssinn</link></u></color>
+      der Normalkraft unwichtig. Demnach macht es keinen Unterschied, ob die Kraft
+      nach rechts oder links und oben oder unten zeigt. Normalkr\xE4fte k\xF6nnen
+      in <color=#131313><u><link=\"glossary:Zugkraft\">Zug</link></u></color>- und
+      <color=#131313><u><link=\"glossary:Druckkraft\">Druckkr\xE4fte</link></u></color>
+      eingeteilt werden.\n\nEine besondere Bedeutung haben Normalkr\xE4fte beim <color=#131313><u><link=\"glossary:Freischneiden\">Freischnitt</link></u></color>.
+      Beim Freischnitt werden die Normalkr\xE4fte an den betrachteten K\xF6rpern
+      angewandt. Sie beschreiben hier Kr\xE4fte, die senkrecht zur Schnittfl\xE4che
+      wirken.\n\n<color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>
+      und <color=#131313><u><link=\"glossary:St\xE4be\">St\xE4be</link></u></color>
+      k\xF6nnen sowohl Zug- als auch Druckkr\xE4fte aufnehmen. <color=#131313><u><link=\"glossary:Seile\">Seile</link></u></color>
+      k\xF6nnen nur Zugkr\xE4fte aufnehmen. Bei Druckkr\xE4ften fallen sie zusammen
+      und k\xF6nnen nicht weiter als <color=#131313><u><link=\"glossary:Starrer_K\xF6rper\">starre
+      K\xF6rper</link></u></color> betrachtet werden. Die Verwendung von starren
+      K\xF6rpern gilt allerdings als Voraussetzung f\xFCr die Anwendung des Freischnitts."
+  scientific:
+    content: "Eine Normalkraft ist eine [Kraft](glossary:Kraft), die immer senkrecht
+      zu ihrer Unterlage wirkt. Der [Richtungssinn](glossary:Richtungssinn) ([Zug](glossary:Zugkraft)-
+      oder [Druckkraft](glossary:Druckkraft)) ist dabei unerheblich. \r\n\r\nNormalkr\xE4fte
+      finden v. a. beim [Freischnitt](glossary:Freischneiden) als [innere Kr\xE4fte](glossary:Innere_Kr\xE4fte)
+      Anwendung. Hier werden sie beim Freischneiden von zwei K\xF6rpern nach dem
+      [Wechselwirkungsaxiom](glossary:Wechselwirkungsaxiom) an beide K\xF6rper angetragen.
+      Als Normalkr\xE4fte werden bei den [starren K\xF6rpern](glossary:Starrer_K\xF6rper)
+      ([Balken](glossary:Balken), [St\xE4be](glossary:St\xE4be), [Seile](glossary:Seile))
+      die Kr\xE4fte bezeichnet, die senkrecht zur Schnittfl\xE4che wirken. Die Einteilung
+      der Normalkr\xE4fte kann in Zug- und Druckkr\xE4fte erfolgen. W\xE4hrend Balken
+      und St\xE4be jede Normalkraft aufnehmen, nehmen Seile nur Zugkr\xE4fte auf
+      (siehe Pfeilausrichtung). Normalkr\xE4fte werden mit F_N bezeichnet, wahlweise
+      mit F_Z f\xFCr Zugkr\xE4fte oder F_D f\xFCr Druckkr\xE4fte.\r"
+    image: {fileID: 21300000, guid: 4569101259c05c74ba62e9a5116bf434, type: 3}
+    tmpContent: "Eine Normalkraft ist eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>,
+      die immer senkrecht zu ihrer Unterlage wirkt. Der <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungssinn</link></u></color>
+      (<color=#131313><u><link=\"glossary:Zugkraft\">Zug</link></u></color>- oder
+      <color=#131313><u><link=\"glossary:Druckkraft\">Druckkraft</link></u></color>)
+      ist dabei unerheblich.\n\nNormalkr\xE4fte finden v. a. beim <color=#131313><u><link=\"glossary:Freischneiden\">Freischnitt</link></u></color>
+      als <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">innere Kr\xE4fte</link></u></color>
+      Anwendung. Hier werden sie beim Freischneiden von zwei K\xF6rpern nach dem
+      <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechselwirkungsaxiom</link></u></color>
+      an beide K\xF6rper angetragen. Als Normalkr\xE4fte werden bei den <color=#131313><u><link=\"glossary:Starrer_K\xF6rper\">starren
+      K\xF6rpern</link></u></color> (<color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>,
+      <color=#131313><u><link=\"glossary:St\xE4be\">St\xE4be</link></u></color>,
+      <color=#131313><u><link=\"glossary:Seile\">Seile</link></u></color>) die Kr\xE4fte
+      bezeichnet, die senkrecht zur Schnittfl\xE4che wirken. Die Einteilung der Normalkr\xE4fte
+      kann in Zug- und Druckkr\xE4fte erfolgen. W\xE4hrend Balken und St\xE4be jede
+      Normalkraft aufnehmen, nehmen Seile nur Zugkr\xE4fte auf (siehe Pfeilausrichtung).
+      Normalkr\xE4fte werden mit F<sub>N</sub> bezeichnet, wahlweise mit F<sub>Z</sub>
+      f\xFCr Zugkr\xE4fte oder F<sub>D</sub> f\xFCr Druckkr\xE4fte."
+  tmpHeadline: 

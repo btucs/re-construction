@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Einheitskreis
+  m_EditorClassIdentifier: 
+  headline: Einheitskreis
+  easy:
+    content: "Der Einheits-Kreis zeigt mathematische Funktionen.\r\n\r\nDer Einheits-Kreis
+      zeigt Funktionen am Dreieck.\r\n\r\nDie Funktionen am Dreieck werden auch trigono-metrische
+      Funktionen genannt.\r\n\r\nTrigono-metrische Funktionen sind \r\n\r\n- [Sinus](glossary:Sinus)\r\n-
+      [Cosinus](glossary:Cosinus)\r\n- [Tangens](glossary:Tangens)\r\n\r\nWie stellt
+      der Einheits-Kreis die Funktionen dar?\r\n\r\n- Der Einheits-Kreis befindet
+      sich in einem [Koordinaten-System](glossary:Koordinatensystem).\r\n\r\n- -
+      Ein Koordinaten-System hat eine x- und eine y-Achse. \r\n\r\n- Der Einheits-Kreis
+      zieht einen Radius um den Null-Punkt.\r\n\r\n- Ein recht-winkliges Dreieck
+      sitzt auf der x-Achse.\r\n\r\n- - Der [rechte Winkel](glossary:Rechter_Winkel)
+      befindet sich rechts.\r\n  - Die linke Dreieck-Ecke sitzt auf dem Null-Punkt."
+    image: {fileID: 21300000, guid: ecf3bb8206c791146830eea7c15c263e, type: 3}
+    tmpContent: "Der Einheits-Kreis zeigt mathematische Funktionen.\n\nDer Einheits-Kreis
+      zeigt Funktionen am Dreieck.\n\nDie Funktionen am Dreieck werden auch trigono-metrische
+      Funktionen genannt.\n\nTrigono-metrische Funktionen sind\n\n\u2022 <color=#131313><u><link=\"glossary:Sinus\">Sinus</link></u></color>\n\u2022
+      <color=#131313><u><link=\"glossary:Cosinus\">Cosinus</link></u></color>\n\u2022
+      <color=#131313><u><link=\"glossary:Tangens\">Tangens</link></u></color>\n\nWie
+      stellt der Einheits-Kreis die Funktionen dar?\n\n\u2022 Der Einheits-Kreis
+      befindet sich in einem <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordinaten-System</link></u></color>.\n\n\u2022
+      \n  \u2022 Ein Koordinaten-System hat eine x- und eine y-Achse.\n\n\u2022 Der
+      Einheits-Kreis zieht einen Radius um den Null-Punkt.\n\n\u2022 Ein recht-winkliges
+      Dreieck sitzt auf der x-Achse.\n\n\u2022 \n  \u2022 Der <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechte
+      Winkel</link></u></color> befindet sich rechts.\n  \u2022 Die linke Dreieck-Ecke
+      sitzt auf dem Null-Punkt."
+  medium:
+    content: "Der Einheitskreis ist ein mathematisches Modell. Der Einheitskreis
+      wird als Kreis mit einem Radius von r = 1 und dem Mittelpunkt im Koordinatenursprung
+      beschrieben. Im Einheitskreis k\xF6nnen trigonometrische Funktionen beschrieben
+      werden. Die Trigonometrie besch\xE4ftigt sich mit der Berechnung von Werten
+      am Dreieck. So beschreibt der Einheitskreis Funktionen wie [Sinus](glossary:Sinus),
+      [Cosinus](glossary:Cosinus) und [Tangens](glossary:Tangens). \r\n\r\nUm einen
+      Einheitskreis zu erstellen, wird folgenderma\xDFen vorgegangen:\r\n\r\n- Einen
+      Kreis mit Mittelpunkt im Nullpunkt eines kartesischen [Koordinatensystems](glossary:Koordinatensystem)
+      zeichnen.\r\n\r\n- Ein auf der x-Achse liegendes Dreieck einzeichnen:\r\n 
+      - der [rechte Winkel](glossary:Rechter_Winkel) liegt auf der rechten Seite,\r\n 
+      - der linke Seitenpunkt liegt auf dem Nullpunkt."
+    image: {fileID: 21300000, guid: 3c39c2b664a604b47b9421dea599fcab, type: 3}
+    tmpContent: "Der Einheitskreis ist ein mathematisches Modell. Der Einheitskreis
+      wird als Kreis mit einem Radius von r = 1 und dem Mittelpunkt im Koordinatenursprung
+      beschrieben. Im Einheitskreis k\xF6nnen trigonometrische Funktionen beschrieben
+      werden. Die Trigonometrie besch\xE4ftigt sich mit der Berechnung von Werten
+      am Dreieck. So beschreibt der Einheitskreis Funktionen wie <color=#131313><u><link=\"glossary:Sinus\">Sinus</link></u></color>,
+      <color=#131313><u><link=\"glossary:Cosinus\">Cosinus</link></u></color> und
+      <color=#131313><u><link=\"glossary:Tangens\">Tangens</link></u></color>.\n\nUm
+      einen Einheitskreis zu erstellen, wird folgenderma\xDFen vorgegangen:\n\n\u2022
+      Einen Kreis mit Mittelpunkt im Nullpunkt eines kartesischen <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordinatensystems</link></u></color>
+      zeichnen.\n\n\u2022 Ein auf der x-Achse liegendes Dreieck einzeichnen:\n  \n 
+      \u2022 der <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechte Winkel</link></u></color>
+      liegt auf der rechten Seite,\n  \u2022 der linke Seitenpunkt liegt auf dem
+      Nullpunkt."
+  scientific:
+    content: "Der Einheitskreis ist ein mathematisches Modell, mit dem trigonometrische
+      Funktionen wie [Sinus](glossary:Sinus), [Cosinus](glossary:Cosinus) und [Tangens](glossary:Tangens)
+      im kartesischen [Koordinatensystem](glossary:Koordinatensystem) beschrieben
+      werden k\xF6nnen. Der Kreis hat den Radius r = 1."
+    image: {fileID: 21300000, guid: ec304bc9629f4b447a581941d8a07ddf, type: 3}
+    tmpContent: "Der Einheitskreis ist ein mathematisches Modell, mit dem trigonometrische
+      Funktionen wie <color=#131313><u><link=\"glossary:Sinus\">Sinus</link></u></color>,
+      <color=#131313><u><link=\"glossary:Cosinus\">Cosinus</link></u></color> und
+      <color=#131313><u><link=\"glossary:Tangens\">Tangens</link></u></color> im
+      kartesischen <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordinatensystem</link></u></color>
+      beschrieben werden k\xF6nnen. Der Kreis hat den Radius r = 1."
+  tmpHeadline: 

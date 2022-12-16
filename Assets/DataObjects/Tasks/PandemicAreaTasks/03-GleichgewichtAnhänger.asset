@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: "03-GleichgewichtAnh\xE4nger"
+  m_EditorClassIdentifier: 
+  uid: 8773badf-29e4-492d-bc84-36b79e8f6bf3
+  taskName: "Transportproblem l\xF6sen"
+  teaserDescription: "Der Anh\xE4nger soll vom Rettungsdienst mitgenommen werden.
+    Nach dem Anfahren bewegt sich nichts vorw\xE4rts! Eine Skizze k\xF6nnte das Problem
+    aufkl\xE4ren."
+  teaserSolvedCorrect: "Die erste Ladung wurde direkt unter die Leute gebracht. Die
+    N\xE4chste steht schon gesichert bereit, aber mit aufmerksamen Transporteur/innen."
+  teaserSolvedWrong: "Der Anh\xE4nger befindet sich, mit dem dringend ben\xF6tigten
+    Gut, immer noch an Ort und Stelle. Eine erneute Intervention k\xF6nnte das Problem
+    l\xF6sen."
+  fullDescription: "Ein Anh\xE4nger, mit selbstgen\xE4hten Behelfsmasken, wird von
+    einem Rettungsdienst mitgenommen. Der Fahrer hat vergessen, den angeketteten
+    Anh\xE4nger von seiner Befestigung zu l\xF6sen! Nach dem Anfahren bewegt sich
+    nichts vorw\xE4rts!"
+  teachAndPlayDescription: "Die Trainingsanlage zeigt eine VR-Umgebung mit einem
+    Anh\xE4nger, der abtransportiert werden soll. In der Simulation tut sich jedoch
+    nichts, wenn das Fahrzeug losfahren will. Identifiziere den Fehler."
+  topic: {fileID: 11400000, guid: a9178f4711b157145a6a8987e6cc2891, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 5
+  coordinateSystemData:
+    origin: {x: -200, y: 0.006}
+    dimensions:
+      posX: 15
+      posY: 15
+      negX: 15
+      negY: 15
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 25
+  steps:
+  - inputs:
+    - name: F_1
+      icon: {fileID: 1226012512344897245, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: F<sub>1</sub>
+      type: 0
+      textValue: 100 N
+      startPointText: (1 0 0)
+      replacementModelType: -1
+      shortDescription: Kraftbetrag des Halteseils.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 100 N
+    - name: alpha
+      icon: {fileID: -4230611654046230864, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "180 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung der Haltekraft des Halteseils.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "180 \xB0"
+    - name: P_1
+      icon: {fileID: -4230611654046230864, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-9 -0.5 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ort, an dem das Halteseil am Anh\xE4nger, zur Wand hin,
+        befestigt ist."
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-9 -0.5 0)
+    - name: P_2
+      icon: {fileID: -4230611654046230864, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (-4.5 -0.5 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ort, an dem das Auto am Anh\xE4nger zieht."
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-4.5 -0.5 0)
+    dummyInputs:
+    - name: m
+      icon: {fileID: 4829588281735460003, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 250 kg
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Masse des Anh\xE4ngers."
+      definition: "Die Masse beschreibt die Tr\xE4gheit eines K\xF6rpers gegen Beschleunigungskr\xE4fte."
+      textMeshProValue: 250 kg
+    output:
+      name: F_2
+      icon: {fileID: -5185624550700831435, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: F<sub>2</sub>
+      unit: 6
+      textMeshProUnit: 
+      expectedStartingPointText: (-2 0 0)
+  taskNPCs:
+  - npc: {fileID: 0}
+    dialogs:
+    - "Wenn wir das so beobachten, w\xFCrde ich fast sagen, das ist ein tragisches,
+      aber gutes Beispiel f\xFCr ein Kr\xE4ftegleichgewicht.\r Der Wagen und die
+      Wand ziehen mit gleicher Kraft an ~i:P_1|Punkt 1~ und ~i:P_2|Punkt 2~.\n\n\n"
+    - 'Kannst du dem Fahrer schnell eine Skizze mit der wirkenden ~o:F_2|Kraft~ des
+      Fahrzeugs machen? Der wird sich wundern.
+
+'
+    - "Vom Pfahl geht jeweils ein ~i:F_1|Kraftbetrag~ aus und das W\xE4gelchen ist
+      ~i:m|250 kg~ schwer und bewegt sich in Richtung ~i:alpha|Alpha~. Dann mal los!
+      Ich sp\xFCre schon, wie negative Schwingungen beim Fahrer entstehen.\r\n"
+  hashtags:
+  - "kr\xE4fte"
+  - koordinatensystem
+  connectedObject: {fileID: 11400000, guid: 6ba9d35eeac5757459963b23d25ccf79, type: 2}

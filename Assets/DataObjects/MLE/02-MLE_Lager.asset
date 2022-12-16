@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 02-MLE_Lager
+  m_EditorClassIdentifier: 
+  uid: bf79bf98-9ee6-4ada-82f7-6cb7b633fbf0
+  mleName: Lager
+  mleHandout: {fileID: 11400000, guid: 4c8177dcf1e7e4e4594630067c8fbfac, type: 2}
+  mleIntroText: "Was eine Lagerhalle ist, wissen wir alle. Aber was haben Lager mit
+    Statik zu tun? Das erf\xE4hrst du hier."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:8b84070245010f77fa285dfea3e9cf03_1645539321.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Was ist ein Lager? '
+      choices:
+      - name: "Bauteil, welches die Bewegungsm\xF6glichkeit eines K\xF6rpers einschr\xE4nkt. "
+        isAnswer: 1
+        feedbackMessage: "Ganz genau, das ist korrekt. Je nachdem, was f\xFCr ein
+          Lager benutzt wird, k\xF6nnen eine, mehrere oder alle Freiheitsgrade des
+          K\xF6rpers eingeschr\xE4nkt werden. Das Lager erm\xF6glicht nur noch Bewegungen
+          in gew\xFCnschten Freiheitsgraden  und verhindert alle andere Bewegungen.\r\n"
+      - name: "Ein Bauteil, welches zur Stabilisierung an die Unterseite eines K\xF6rpers
+          befestigt wird.  "
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht korrekt. Das Lager ist zwar mit dem
+          K\xF6rper verbunden, aber nicht zwingend an der Unterseite. Die Bewegungsfreiheit
+          des K\xF6rpers kann durch ein Lager gezielt eingeschr\xE4nkt werden, hat
+          aber nichts mit der Stabilit\xE4t zu tun.\r\n"
+      - name: "Ein Bauteil, welches genau eine Bewegungsm\xF6glichkeit eines K\xF6rpers
+          einschr\xE4nkt. "
+        isAnswer: 0
+        feedbackMessage: "Das stimmt leider nicht ganz. Ein Lager kann  mehr als
+          nur eine Bewegungsm\xF6glichkeit einschr\xE4nken.\r\n"
+      - name: 'Ein Ort, wo Dinge aufbewahrt werden. '
+        isAnswer: 0
+        feedbackMessage: "Die Antwort ist leider nicht ganz richtig. In einem Lager
+          werden schon Dinge aufbewahrt, aber da wir uns hier in der Technischen
+          Mechanik befinden, muss deine Antwort anders lauten. Denke noch einmal
+          thematisch adr\xFCber nach.\r"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:932bf75543647665177fee90fe79bbca_1645539106.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Was gibt die Wertigkeit an? '
+      choices:
+      - name: "Wertigkeit gibt an, wie viele Freiheitsgrade von einem Lager eingeschr\xE4nkt
+          werden.  "
+        isAnswer: 1
+        feedbackMessage: "Bingo - genau richtig. Wenn die Wertigkeit des Lager beispielsweise
+          1 ist, wird ein Freiheitsgrad des K\xF6rpers eingeschr\xE4nkt. Das hei\xDFt,
+          dem K\xF6rper wird eine Bewegungsm\xF6glichkeit genommen.\r\n"
+      - name: "Wie gro\xDF die Kraft ist, die vom Lager aufgenommen werden kann. "
+        isAnswer: 0
+        feedbackMessage: "Nope, das stimmt leider nicht. Die Wertigkeit gibt eine
+          Aussage dar\xFCber, wie die Bewegungsm\xF6glichkeiten eines K\xF6rpers
+          eingeschr\xE4nkt werden.\r\n"
+      - name: "Wie viele Lager f\xFCr ein Bauteil ben\xF6tigt werden. "
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht korrekt. Die Wertigkeit trifft eine
+          Aussage \xFCber das Lager, nicht \xFCber den gelagerten K\xF6rper.\r\n"
+      - name: "Wie viele Freiheitsgrade der K\xF6rper hat. "
+        isAnswer: 0
+        feedbackMessage: "Das stimmt leider nicht. Die Wertigkeit trifft eine Aussage
+          \xFCber das Lager, nicht \xFCber den gelagerten K\xF6rper.\r\n"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:2b70d797e75af5157aaa16e4d3c2bf5e_1645539298.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie k\xF6nnen Lagerreaktionen bestimmt werden? "
+      choices:
+      - name: "\xDCber die Gleichgewichtsbedingungen. "
+        isAnswer: 1
+        feedbackMessage: "Ganz genau. F\xFCr jede Bewegungsm\xF6glichkeit wird eine
+          Gleichgewichtsbedingung aufgestellt. Es ergibt sich ein Gleichungssystem,
+          mit so vielen Formeln wie unbekannten Gr\xF6\xDFen.\r\n"
+      - name: "\xDCber eine Sch\xE4tzung. "
+        isAnswer: 0
+        feedbackMessage: "Nope, das stimmt leider nicht. Die Lagerreaktionen k\xF6nnen
+          konkret mit bestimmten Bedingungen ermittelt werden.\r\n"
+      - name: "\xDCber das Linienfl\xFCchtigkeitsaxiom. "
+        isAnswer: 0
+        feedbackMessage: "Nope, das stimmt leider nicht. Mit dem Linienfl\xFCchtigkeitsaxiom
+          kann keine Aussage \xFCber die Gr\xF6\xDFe der Lagerreaktionen getroffen
+          werden"
+      - name: "\xDCber das Kr\xE4ftegleichgewicht. "
+        isAnswer: 0
+        feedbackMessage: "Das stimmt leider nicht ganz. Es m\xFCssen alle Gleichgewichtsbedingungen
+          erf\xFCllt sein, also auch das Momentengleichgewicht \u2013 und nicht nur
+          das Kr\xE4ftegleichgewicht.\r\n"
+  requiredProgress: []

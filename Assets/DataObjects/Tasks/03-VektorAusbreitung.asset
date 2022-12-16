@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 03-VektorAusbreitung
+  m_EditorClassIdentifier: 
+  uid: 219e3b8d-9d78-4ac8-9e96-03f6643bd1d8
+  taskName: 'Mobile Infektionsherde beschreiben '
+  teaserDescription: "F\xFCr die Detektion neuer F\xE4lle brauchen wir den Stand
+    der aktuellen Ausbreitung. Eine kleine Zeichnung w\xE4re erst mal ausreichend.\r"
+  teaserSolvedCorrect: "Durch die Darstellung der regionalen Entwicklung der Infektionsherde
+    konnten pr\xE4ventive Ma\xDFnahmen ergriffen und Leben gerettet werden. \r\n"
+  teaserSolvedWrong: "Durch die starke Verbreitung ist \xFCberall Not am Mann und
+    Frau. Auch bei der Ausbreitung treten wir noch auf der Stelle - kannst du uns
+    erneut mit einer Skizze unterst\xFCtzen?\r\n"
+  fullDescription: "Verbinde die zwei Ausbruchsorte des Virus mit den dazugeh\xF6rigen
+    Verbreitungspunkten und zeige damit die regionale Ausbreitung.\r\n"
+  teachAndPlayDescription: "Die Software simuliert den Einsatz von digitalem Infektionsmonitoring
+    im Pandemiefall. Daf\xFCr muss die Ausbreitung der Krankheit eingezeichnet werden."
+  topic: {fileID: 11400000, guid: 0cc99d97a68171f48b736083425db2ab, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 1
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: -3138629938271393194, guid: 203f7311dd2ad3549be823738a21ba24,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-2 1 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ort des aktuellen Hotspots in Senftenberg.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-1.5 1 0)
+    - name: P_2
+      icon: {fileID: 6776619400158645466, guid: 203f7311dd2ad3549be823738a21ba24,
+        type: 3}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (-1 2 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ort des neuen Hotspots in Sachsendorf.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-0.5 2 0)
+    dummyInputs:
+    - name: P_3
+      icon: {fileID: 1693584928345215149, guid: 203f7311dd2ad3549be823738a21ba24,
+        type: 3}
+      textMeshProName: P<sub>3</sub>
+      type: 1
+      textValue: (0.5 0.5 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ort der n\xE4chstgelegenen Pizzeria da Toni."
+      definition: Bei Toni gibt's die beste Pizza!
+      textMeshProValue: (0.5 0.5 0)
+    output:
+      name: V_1
+      icon: {fileID: 2769552141051088886, guid: 203f7311dd2ad3549be823738a21ba24,
+        type: 3}
+      textMeshProName: V<sub>1</sub>
+      unit: 5
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 2c966b344fbb51142a01900c8ce06fa9, type: 2}
+    dialogs:
+    - "Dieser Virus bringt mich an die Grenzen. Der Abstand, die Kontaktsperre, das
+      Wegbrechen stabiler Strukturen\u2026\r\n"
+    - "Um gezielt und pr\xE4ventiv vorzugehen, brauchen wir die Richtung der regionalen
+      ~o:V_1|Ausbreitung~ zwischen den zwei Gebieten Sachsendorf und Senftenberg.
+      \r\n"
+    - "Der Herd in ~i:P_1|Senftenberg~ zieht wohl Richtung ~i:P_2|Sachsendorf~. Dann
+      Pobacken zusammenkneifen und los! \r\n"
+    - "Wenn wir hier fertig sind, holen wir uns erst mal was zum Bei\xDFen bei ~i:P_3|Tonis
+      Pizzeria~."
+  hashtags:
+  - ausgangspunkt
+  - koordinatensystem
+  connectedObject: {fileID: 11400000, guid: 01e0dfe48d98a994482a794b9da40400, type: 2}

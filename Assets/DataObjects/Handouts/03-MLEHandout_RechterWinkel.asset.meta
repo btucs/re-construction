@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/StreamingAssets/Master.bank.meta
+guid: 59544666e69d2094ca8cfe35f28a09b9
+labels:
+- FMOD
+DefaultImporter:
+=======
+guid: 1b9415ebdef761443b07bddd0993910b
+NativeFormatImporter:
+>>>>>>> master:Assets/DataObjects/Handouts/03-MLEHandout_RechterWinkel.asset.meta
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

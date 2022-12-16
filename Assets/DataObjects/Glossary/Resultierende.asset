@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Resultierende
+  m_EditorClassIdentifier: 
+  headline: Resultierende
+  easy:
+    content: "Du kannst mehrere [Kr\xE4fte](glossary:Kraft) zu einer Kraft zusammen-fassen.
+      \r\n\r\nDann hei\xDFt das Ergebnis Resultierende.\r\n\r\nDie Resultierende
+      hei\xDFt auch resultierende Kraft.\r\n\r\nDie Resultierende fasst alle Kr\xE4fte
+      zusammen.\r\n\r\nMit der Resultierenden misst du die gesamte Kraft-Wirkung.\r\n\r\nWelche
+      Arten der Resultierenden gibt es?\r\n\r\n- Die grafische Resultierende\r\n-
+      Die analytische Resultierende\r\n\r\nWie gehst du bei der grafischen Resultierenden
+      vor?\r\n\r\n- Du bildest ein [Kraft-Eck](glossary:Krafteck)\r\n\r  - Du verbindest
+      alle Kr\xE4fte an einem Punkt.\r\n  - So bildet sich eine Kette von Kr\xE4ften.\r\n 
+      - Dann verbindest du die 2 End-Punkte.\r\n  - Diese Verbindungs-Linie ist die
+      Resultierende.\r\n\r\nWie gehst du bei der analytischen Resultierenden vor?\r\n\r\n-
+      Du rechnest alle Kr\xE4fte zusammen.\r\n- Das hei\xDFt auch [Vektor-Addition](glossary:Vektoraddition).  "
+    image: {fileID: 21300000, guid: 9826c9894dfe7cd4e966212ad62af213, type: 3}
+    tmpContent: "Du kannst mehrere <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      zu einer Kraft zusammen-fassen.\n\nDann hei\xDFt das Ergebnis Resultierende.\n\nDie
+      Resultierende hei\xDFt auch resultierende Kraft.\n\nDie Resultierende fasst
+      alle Kr\xE4fte zusammen.\n\nMit der Resultierenden misst du die gesamte Kraft-Wirkung.\n\nWelche
+      Arten der Resultierenden gibt es?\n\n\u2022 Die grafische Resultierende\n\u2022
+      Die analytische Resultierende\n\nWie gehst du bei der grafischen Resultierenden
+      vor?\n\n\u2022 Du bildest ein <color=#131313><u><link=\"glossary:Krafteck\">Kraft-Eck</link></u></color>\n 
+      \n  \u2022 Du verbindest alle Kr\xE4fte an einem Punkt.\n  \u2022 So bildet
+      sich eine Kette von Kr\xE4ften.\n  \u2022 Dann verbindest du die 2 End-Punkte.\n 
+      \u2022 Diese Verbindungs-Linie ist die Resultierende.\n\nWie gehst du bei der
+      analytischen Resultierenden vor?\n\n\u2022 Du rechnest alle Kr\xE4fte zusammen.\n\u2022
+      Das hei\xDFt auch <color=#131313><u><link=\"glossary:Vektoraddition\">Vektor-Addition</link></u></color>."
+  medium:
+    content: "Die resultierende Kraft (Resultierende) fasst alle wirkenden [Kr\xE4fte](glossary:Kraft)
+      zusammen. Sie ist gleichzusetzen mit der [Ersatzkraft](glossary:Ersatzkraft).\r\n\r\nDie
+      Wirkung der Resultierenden entspricht der Wirkung der Einzelkr\xE4fte. Um die
+      Resultierende zu bestimmen, kann analytisch oder grafisch vorgegangen werden.\r\n\r\nBei
+      der analytischen Resultierenden werden alle wirkenden Kr\xE4fte addiert. Dies
+      erfolgt, indem die x- und y-[Komponenten](glossary:Kraftkomponenten) der jeweiligen
+      Kr\xE4fte zusammengefasst werden.\r\n\r\nBei der grafischen Methode wird ein
+      [Krafteck](glossary:Krafteck) gebildet. Das Krafteck verbindet alle wirkenden
+      Kr\xE4fte in einem Punkt. Dadurch entsteht eine Kraftlinie. Die offenen zwei
+      Enden werden mit einer Linie verbunden. Diese Linie ist die Resultierende. "
+    image: {fileID: 21300000, guid: b8d835a61edf09a4c8e04620b805ef75, type: 3}
+    tmpContent: "Die resultierende Kraft (Resultierende) fasst alle wirkenden <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      zusammen. Sie ist gleichzusetzen mit der <color=#131313><u><link=\"glossary:Ersatzkraft\">Ersatzkraft</link></u></color>.\n\nDie
+      Wirkung der Resultierenden entspricht der Wirkung der Einzelkr\xE4fte. Um die
+      Resultierende zu bestimmen, kann analytisch oder grafisch vorgegangen werden.\n\nBei
+      der analytischen Resultierenden werden alle wirkenden Kr\xE4fte addiert. Dies
+      erfolgt, indem die x- und y-<color=#131313><u><link=\"glossary:Kraftkomponenten\">Komponenten</link></u></color>
+      der jeweiligen Kr\xE4fte zusammengefasst werden.\n\nBei der grafischen Methode
+      wird ein <color=#131313><u><link=\"glossary:Krafteck\">Krafteck</link></u></color>
+      gebildet. Das Krafteck verbindet alle wirkenden Kr\xE4fte in einem Punkt. Dadurch
+      entsteht eine Kraftlinie. Die offenen zwei Enden werden mit einer Linie verbunden.
+      Diese Linie ist die Resultierende."
+  scientific:
+    content: "Die Resultierende ist mit der [Ersatzkraft](glossary:Ersatzkraft) gleichzusetzen.
+      Diese ist ein \xC4quivalent zu den angreifenden Kr\xE4ften am betrachteten
+      technischen System. D. h. beim [Kr\xE4fteparallelogramm](glossary:Kr\xE4fteparallelogramm)
+      oder bei [zentralen ebenen Kraftsystemen](glossary:Zentrales_ebenes_Kraftsystem)
+      ist die resultierende Kraft gleich der Summe der angreifenden Einzelkr\xE4fte.
+      Die Wirkung der Resultierenden entspricht demnach der Gesamtwirkung der Einzelkr\xE4fte.
+      Die grafische Darstellung kann mit dem [Krafteck](glossary:Krafteck) beschrieben
+      werden. Die analytische L\xF6sung erfolgt durch [Vektoraddition](glossary:Vektoraddition).
+      Die resultierende Kraft wird mit FR gekennzeichnet.\r"
+    image: {fileID: 21300000, guid: c5082ecd117108940a87f91dbc55a734, type: 3}
+    tmpContent: "Die Resultierende ist mit der <color=#131313><u><link=\"glossary:Ersatzkraft\">Ersatzkraft</link></u></color>
+      gleichzusetzen. Diese ist ein \xC4quivalent zu den angreifenden Kr\xE4ften
+      am betrachteten technischen System. D. h. beim <color=#131313><u><link=\"glossary:Kr\xE4fteparallelogramm\">Kr\xE4fteparallelogramm</link></u></color>
+      oder bei <color=#131313><u><link=\"glossary:Zentrales_ebenes_Kraftsystem\">zentralen
+      ebenen Kraftsystemen</link></u></color> ist die resultierende Kraft gleich
+      der Summe der angreifenden Einzelkr\xE4fte. Die Wirkung der Resultierenden
+      entspricht demnach der Gesamtwirkung der Einzelkr\xE4fte. Die grafische Darstellung
+      kann mit dem <color=#131313><u><link=\"glossary:Krafteck\">Krafteck</link></u></color>
+      beschrieben werden. Die analytische L\xF6sung erfolgt durch <color=#131313><u><link=\"glossary:Vektoraddition\">Vektoraddition</link></u></color>.
+      Die resultierende Kraft wird mit FR gekennzeichnet."
+  tmpHeadline: 

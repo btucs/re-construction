@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 16b-Handout_Resultierende_grafisch
+  m_EditorClassIdentifier: 
+  mleName: "Resultierende grafisch l\xF6sen"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\r\n\\item Wirken mehrere Kr\xE4fte an einem
+      K\xF6rper am gleichen Angriffspunkt, so ist die Wirkung der Summe der Einzelkr\xE4fte
+      gleich der Wirkung der Resultierenden.\r\n\\item graphische Ermittlung der
+      Resultierenden:\r\n\\begin{itemize}\r\n\\item die angreifenden wernde Kr\xE4fte
+      so verschoben, dass deren Angriffspunkt im Endpunkt eines anderen Kraftvektors
+      platziert ist\r\n\\item es entsteht eine Kette von Kraftvektoren (auch Kr\xE4ftepolygon
+      genannt)\r\n\\item die Verbindung des Startpunktes des ersten Kraftvektors
+      (der nicht verschoben wurde) mit dem Endpunkt des letztverschobenen Kraftvektors
+      ist die resultierende Kraft \r\n\\end{itemize}\r\n\\end{enumerate}\r\n"
+    picture: {fileID: 0}
+  - title: Was ist die Resultierende / resultierende Kraft?
+    description: "Die \\textbf{resultierende Kraft}  bei einem zentralen ebenen Kraftsystem
+      ist eine Kraft, die die \\textbf{gleiche Wirkung}  aufweist, wie die \\textbf{Summe} 
+      der an einem K\xF6rper an einem Angriffspunkt \\textbf{angreifenden Kr\xE4fte}.
+      \\\\\r\n\r\nBei \\textbf{starren K\xF6rpern}, bei denen die Kr\xE4fte nicht
+      an einem Punkt angreifen, muss zun\xE4chst gepr\xFCft werden, ob sich die Wirkungslinien
+      in der Ebene in einem Punkt schneiden. Ist das der Fall, kann das \\textbf{Linienfl\xFCchtigkeitsaxiom} 
+      genutzt werden, um die \\textbf{Kr\xE4fte in den Schnittpunkt der Wirkungslinien} 
+      zu verschieben. Somit haben sie einen \\textbf{gemeinsamen Angriffpunkt}. \\\\\r\n\r\nIn
+      Abbildung 1 und 2 wirken vier Kr\xE4fte (die Muskelkr\xE4fte der Personen)
+      auf den K\xF6rper (das Geschenk).\r\n"
+    picture: {fileID: 0}
+  - title: "Wie ermittele ich die grafische L\xF6sung f\xFCr die Resultierende?"
+    description: "In Abbildung 3 greifen drei Kr\xE4fte an einem K\xF6rper an einen
+      gemeinsamen Angriffspunkt an. Die Kr\xE4fte werden zun\xE4chst ma\xDFst\xE4blich
+      gezeichnet.\\\\\r\nAnschlie\xDFend werden zwei Kr\xE4fte so verschoben, dass
+      deren Angriffspunkte mit dem Endpunkt eines anderen Vektors \xFCbereinstimmt.
+      An Abbildung 4 wird der gelbe Kraftpfeil in den Endpunkt des lilafarbenen Kraftpfeils
+      und der t\xFCrkisfarbene Kraftpfeil in den Endpunkt des verschobenen gelben
+      Kraftpfeil verschoben. \\\\\r\nIn Abbildung 5 ist eine andere Reihenfolge gew\xE4hlt
+      und ebenso richtig. Dort werden erst der lilafarbene und dann der t\xFCrkisfarbene
+      Kraftpfeil verschoben. Bei der Aneinanderreihung der Kr\xE4fte wird auch von
+      Kraftkette gesprochen.\\\\\r\nBeginnend mit dem Angriffspunkt wird nun der
+      Vektor der resultierenden Kraft (helles lila) in Richtung des Endpunktes des
+      zuletzt verschobenen Kraftvektors gezeichnet. In Abbildung 6 und 7 sind das
+      jeweils der Endpunkt des t\xFCrkisfarbenen Kraftpfeils. Anschlie\xDFend wird
+      die Kraftpfeill\xE4nge gemessen und mit dem Ma\xDFstab wieder in die Kraft
+      zur\xFCckgerechnet.\r\n"
+    picture: {fileID: 0}
+  - title: "Wo finde ich weiterf\xFChrende Materialien? "
+    description: "\\begin{itemize}\n\\itemVideo zum Zentralen Kraftsystem und resultierende
+      Kraft von \u201Cdie tm-Seite\u201D\r\n\\link{https://www.youtube.com/watch?v=jBnSdDbybwM}\n\\item
+      Video zum zentralen Kraftsystem von \u201Clernflix\u201D\r\n\\link{https://www.youtube.com/watch?v=O2eRg_Drc6c\r}\n\\end{itemize}"
+    picture: {fileID: 0}

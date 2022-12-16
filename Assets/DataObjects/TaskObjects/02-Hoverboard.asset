@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 02-Hoverboard
+  m_EditorClassIdentifier: 
+  uid: c108e6de-3174-4831-bfdc-52a16c427d48
+  objectName: Hoverboard
+  objectDescription: "Nach Bike- und Roller-Sharing-Konzepten sollen also die Hoverboards
+    auf die Stra\xDFe. Hier im Headquarter des Netzwerks wird das schon mal im Kleinen
+    auf Risiken und Nebenwirkungen hin untersucht."
+  objectPrefab: {fileID: 5966415963724740974, guid: 364154e54c7d6064089aba52f99405dc,
+    type: 3}
+  objectThumbnail: {fileID: 5872251292748890160, guid: 19854860bcfb99e4cbaf7b5a8dfdf30e,
+    type: 3}
+  cameraOffset: {x: -4.5, y: 2, z: 0}
+  markerOffset: {x: -1, y: 1}
+  cameraZoom: 1
+  taskInfos:
+  - task: {fileID: 11400000, guid: f893bb71b488b5e468d0ac11a05c879d, type: 2}
+    taskButtonPosition: {x: -1, y: -0.2}
+    isRepeatable: 1
+    hiddenVariables: []

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 02-MLE_Gleichgewichtsbedingungen
+  m_EditorClassIdentifier: 
+  uid: 6af41349-f3d3-45aa-9571-e4aebc592c17
+  mleName: Gleichgewichtsbedingungen
+  mleHandout: {fileID: 11400000, guid: 8e177ff682b1768498f6c84200dcf616, type: 2}
+  mleIntroText: Bewegt es sich oder bewegt es sich nicht. Das ist hier die Frage.
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:c2f3775e124cab517d37b4e380c2a1c7_1645194414.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie lauten die Gleichgewichtsbedingungen f\xFCr ein ebenes Kraftsystem?"
+      choices:
+      - name: "\u03A3Fi = 0 und \u03A3Mi = 0"
+        isAnswer: 1
+        feedbackMessage: "Genau, das ist richtig! Gleichgewicht bedeutet, dass der
+          K\xF6rper weder beschleunigt noch gedreht wird (daher gleich 0)."
+      - name: "\u03A3Mi = 0"
+        isAnswer: 0
+        feedbackMessage: Das stimmt leider noch nicht ganz. Hier fehlt noch eine
+          Bedingung.
+      - name: "\u03A3Fi = 0"
+        isAnswer: 0
+        feedbackMessage: Das stimmt leider noch nicht ganz. Hier fehlt noch eine
+          Bedingung.
+      - name: "\u03A3Mi = \u03A3Fi"
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht korrekt. Kr\xE4fte sind keine Momente."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:0e280a7eab5577773756a2fb5366e301_1645194430.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Welche Angabe ist beim Momentengleichgewicht neben dem Bezugspunkt
+        noch wichtig?
+      choices:
+      - name: Der positive Drehsinn.
+        isAnswer: 1
+        feedbackMessage: "Rischtisch!!! Momente in Pfeilrichtung werden dabei positiv
+          gez\xE4hlt."
+      - name: Der Drehpunkt.
+        isAnswer: 0
+        feedbackMessage: Nope, das stimmt leider nicht. Denn Bezugspunkt und Drehpunkt
+          sind das Gleiche.
+      - name: Die Winkel-beschleunigung.
+        isAnswer: 0
+        feedbackMessage: Das stimmt leider nicht. Beim Momentengleichgewicht muss
+          man nicht wissen, wie schnell die Momente sich drehen.
+      - name: Die resultierende Kraft.
+        isAnswer: 0
+        feedbackMessage: Das ist leider falsch. Mit den Gleichgewichten wollen wir
+          ja dann erst die resultierende Kraft oder das resultierende Moment bestimmen.
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:fb98d9bce74a67cd82546f6d8cf6dd99_1645194493.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie viele Gleichgewichtsbedingungen werden bei einem ebenen Problem
+        maximal ben\xF6tigt?"
+      choices:
+      - name: Drei.
+        isAnswer: 1
+        feedbackMessage: Genau, das stimmt! Die Anzahl der Bedingungen entspricht
+          dabei auch der Anzahl der Freiheitsgrade eines Objektes in der Ebene.
+      - name: Eins.
+        isAnswer: 0
+        feedbackMessage: "Das stimmt leider nicht. Das sind viel zu wenig Bedingungen. 
+          \xDCberlege, wie viele Freiheitsgrade ein K\xF6rper in der Ebene besitzt."
+      - name: Zwei.
+        isAnswer: 0
+        feedbackMessage: Das stimmt leider nicht. Das sind zu wenige Bedingungen.
+          Die Anzahl der Bedingungen entspricht auch der Anzahl der Freiheitsgrade
+          eines Objektes in der  Ebene.
+      - name: Sechs.
+        isAnswer: 0
+        feedbackMessage: "Hmm, leider nicht ganz richtig. W\xE4re die Formulierung
+          der Frage f\xFCr ein r\xE4umliches Problem gewesen, h\xE4ttest du recht.
+          Das ist aber nicht die Aufgabe."
+  requiredProgress: []

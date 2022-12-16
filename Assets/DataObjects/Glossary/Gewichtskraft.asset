@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Gewichtskraft
+  m_EditorClassIdentifier: 
+  headline: Gewichtskraft
+  easy:
+    content: "Jeder K\xF6rper hat eine [Masse](glossary:Masse).\r\n\r\nDie K\xF6rper
+      dr\xFCcken mit ihrer Masse auf die Erde.\r\n\r\nDiese [Kraft](glossary:Kraft)
+      hei\xDFt Gewichts-Kraft.\r\n\r\nDie Erde zieht K\xF6rper an.\r\n\r\nDie Erd-Anziehung
+      hei\xDFt auch Gravitation.\r\n\r\nWie stark zieht die Erde einen K\xF6rper
+      an?\r\n\r\n- Das ist abh\xE4ngig von der Gewichts-Kraft.\r\n\r  - Die Erde
+      zieht einen schweren K\xF6rper sehr stark an.\r\n\r    - Ein schwerer K\xF6rper
+      hat eine gro\xDFe Masse.\r\n    - Eine gro\xDFe Masse hat auch eine gro\xDFe
+      Gewichts-Kraft.\r\n\r  - Die Erde zieht einen leichten K\xF6rper weniger stark
+      an.\r\n\r    - Ein leichter K\xF6rper hat eine kleine Masse.\r\n    - Eine
+      kleine Masse hat auch eine kleine Gewichts-Kraft.\r\n\r\nDurch die Gravitation
+      sind die K\xF6rper voneinander abh\xE4ngig.\r\n\r\nDas hei\xDFt auch [Wechsel-Wirkung](glossary:Wechselwirkungsaxiom).\r\n\r\nWie
+      zeichnest du eine Gewichts-Kraft?\r\n\r\n- Du zeichnest im K\xF6rper den Schwer-Punkt
+      ein.\r\n- Dann zeichnest du den K\xF6rper vom Schwer-Punkt in Richtung Erde."
+    image: {fileID: 21300000, guid: a54cf558627221a41a29f291e21fbcd2, type: 3}
+    tmpContent: "Jeder K\xF6rper hat eine <color=#131313><u><link=\"glossary:Masse\">Masse</link></u></color>.\n\nDie
+      K\xF6rper dr\xFCcken mit ihrer Masse auf die Erde.\n\nDiese <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      hei\xDFt Gewichts-Kraft.\n\nDie Erde zieht K\xF6rper an.\n\nDie Erd-Anziehung
+      hei\xDFt auch Gravitation.\n\nWie stark zieht die Erde einen K\xF6rper an?\n\n\u2022
+      Das ist abh\xE4ngig von der Gewichts-Kraft.\n  \n  \u2022 Die Erde zieht einen
+      schweren K\xF6rper sehr stark an.\n    \n    \u2022 Ein schwerer K\xF6rper
+      hat eine gro\xDFe Masse.\n    \u2022 Eine gro\xDFe Masse hat auch eine gro\xDFe
+      Gewichts-Kraft.\n  \n  \u2022 Die Erde zieht einen leichten K\xF6rper weniger
+      stark an.\n    \n    \u2022 Ein leichter K\xF6rper hat eine kleine Masse.\n   
+      \u2022 Eine kleine Masse hat auch eine kleine Gewichts-Kraft.\n\nDurch die
+      Gravitation sind die K\xF6rper voneinander abh\xE4ngig.\n\nDas hei\xDFt auch
+      <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechsel-Wirkung</link></u></color>.\n\nWie
+      zeichnest du eine Gewichts-Kraft?\n\n\u2022 Du zeichnest im K\xF6rper den Schwer-Punkt
+      ein.\n\u2022 Dann zeichnest du den K\xF6rper vom Schwer-Punkt in Richtung Erde."
+  medium:
+    content: "K\xF6rper ziehen sich aufgrund ihrer [Masse](glossary:Masse) an. Diese
+      Anziehung wird auch Gravitation genannt. Dabei ziehen K\xF6rper mit einer gro\xDFen
+      Masse st\xE4rker an (z. B. Planeten) als K\xF6rper mit einer kleinen Masse
+      (z. B. Smartphones). Sie stehen dadurch in [Wechselwirkung](glossary:Wechselwirkungsaxiom)
+      miteinander. Wie stark die K\xF6rper angezogen werden, wird Gewichtskraft genannt.
+      Die Gewichtskraft ist abh\xE4ngig von der Masse der K\xF6rper. Beim Kennzeichnen
+      der Gewichtskraft muss darauf geachtet werden, dass sie vom Schwerpunkt des
+      K\xF6rpers aus markiert wird. "
+    image: {fileID: 21300000, guid: 5f3e530d6079ecd4a9ece719ff4958e8, type: 3}
+    tmpContent: "K\xF6rper ziehen sich aufgrund ihrer <color=#131313><u><link=\"glossary:Masse\">Masse</link></u></color>
+      an. Diese Anziehung wird auch Gravitation genannt. Dabei ziehen K\xF6rper mit
+      einer gro\xDFen Masse st\xE4rker an (z. B. Planeten) als K\xF6rper mit einer
+      kleinen Masse (z. B. Smartphones). Sie stehen dadurch in <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechselwirkung</link></u></color>
+      miteinander. Wie stark die K\xF6rper angezogen werden, wird Gewichtskraft genannt.
+      Die Gewichtskraft ist abh\xE4ngig von der Masse der K\xF6rper. Beim Kennzeichnen
+      der Gewichtskraft muss darauf geachtet werden, dass sie vom Schwerpunkt des
+      K\xF6rpers aus markiert wird."
+  scientific:
+    content: "Die Gewichtskraft F_G ist die [Kraft](glossary:Kraft), die eine kleine
+      [Masse](glossary:Masse) im Schwerefeld einer gro\xDFen Masse (z. B. der Erde)
+      aufgrund der Gravitationswirkung erf\xE4hrt. Dadurch kann die Gewichtskraft
+      \xFCber die Formel F_G = m * g berechnet werden. Die zwei Massen treten dabei
+      in [Wechselwirkung](glossary:Wechselwirkungsaxiom). Die Gewichtskraft wirkt
+      im Schwerpunkt des K\xF6rpers.  "
+    image: {fileID: 21300000, guid: b7acf6be2b6573f4e8bb353d8bc44009, type: 3}
+    tmpContent: "Die Gewichtskraft F<sub>G</sub> ist die <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>,
+      die eine kleine <color=#131313><u><link=\"glossary:Masse\">Masse</link></u></color>
+      im Schwerefeld einer gro\xDFen Masse (z. B. der Erde) aufgrund der Gravitationswirkung
+      erf\xE4hrt. Dadurch kann die Gewichtskraft \xFCber die Formel F<sub>G</sub>
+      = m * g berechnet werden. Die zwei Massen treten dabei in <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechselwirkung</link></u></color>.
+      Die Gewichtskraft wirkt im Schwerpunkt des K\xF6rpers."
+  tmpHeadline: 

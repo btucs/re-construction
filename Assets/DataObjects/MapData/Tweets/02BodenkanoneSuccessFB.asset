@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 02BodenkanoneSuccessFB
+  m_EditorClassIdentifier: 
+  uid: 41769fe1-dc44-4980-a42b-4d1dc4f769ae
+  author: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+  messageText: "Schnellere Eins\xE4tze m\xF6glich! Berechnungen f\xFCr Boden durch
+    extreme Umwelteinfl\xFCsse sind zuk\xFCnftig Standard!  #innovativindiezukunft
+    #kraft #yeah  "
+  relatedTask: {fileID: 11400000, guid: 7142f07bc3dd010438b2c9e0e12fef52, type: 2}
+  taskCondition: 0

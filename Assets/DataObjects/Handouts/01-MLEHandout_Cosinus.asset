@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 01-MLEHandout_Cosinus
+  m_EditorClassIdentifier: 
+  mleName: Cosinussatz
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\n\\item Die Ecken eines Dreiecks werden mit
+      Gro\xDFbuchstaben, die Seiten mit Kleinbuchstaben und die Winkel mit griechischen
+      Kleinbuchstaben bezeichnet.\t\n\\item Die Innenwinkelsumme betr\xE4gt 180\xB0.\n\\item
+      Zur Bestimmung von fehlenden Seiten oder Winkeln in einem Dreieck kann ich
+      mir den Cosinussatz bzw. den Sinussatz bzw. den Tangens zur Hilfe nehmen.\n\\end{enumerate}"
+    picture: {fileID: 0}
+  - title: Wie werden Dreiecke bezeichnet?
+    description: "Die drei Ecken des Dreieckes werden mit Gro\xDFbuchstaben bezeichnet,
+      z. B. ABC.\n\nDazugeh\xF6rend werden die gegen\xFCberliegenden Seiten mit entsprechenden
+      Kleinbuchstaben gekennzeichnet, z. B. a, b, c. bspw. liegt dem Punkt A die
+      Seite a gegen\xFCber usw.  \n\nDie Winkel werden, beginnend der Reihenfolge
+      der Eckpunkte, mit griechischen Kleinbuchstaben in das Dreieck, mit einem Kreisbogen,
+      gezeichnet, z. B. alpha (\u03B1),beta (\u03B2), gamma (\u03B3). \n\nDie Innenwinkel
+      ergeben in Summe immer 180\xB0, d.h. \\textbf{\u03B1 + \u03B2 + \u03B3 = 180\xB0} 
+      gilt f\xFCr alle Dreiecksarten."
+    picture: {fileID: 21300000, guid: 3f84f3f18ce84c643a9d8858b2521dea, type: 3}
+  - title: Was ist der Cosinussatz?
+    description: "Zur Bestimmung unbekannter Winkel oder Seiten in allgemeinen Dreiecken
+      k\xF6nnen wir die trigonometrischen Funktionen Sinus, Cosinus und Tangens anwenden.
+      Diese stellen den Zusammenhang zwischen Seiten und Winkeln des Dreiecks her.
+      Je nachdem welche Seiten und Winkel gegeben sind, lassen sich die unterschiedlichen
+      Lehrs\xE4tze verwenden. \n\n\\begin{itemize}\n\\item Der Cosinussatz ist anzuwenden,
+      wenn f\xFCr das Dreieck nur die drei Seiten bekannt sind oder zwei Seiten und
+      der eingeschlossene Winkel.\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 447566c6b14702d4faa323a91b285c5a, type: 3}
+  - title: Beispielrechnung
+    description: "Gegeben ist ein Dreieck ABC mit den Seiten a = 4 cm, c = 6 cm und
+      dem Winkel beta \u03B2 = 125\xB0. Gesucht ist die l\xE4ngste Seite b des Dreiecks.\n\n\\textit{Gegeben}:
+      a = 4 cm, c  = 6 cm, \u03B2 =  125\xB0\n\n\\textit{Gesucht}: b in cm\n\n\\textit{L\xF6sung}:\n\n$$
+      b^2 = a^2 +c^2 - 2 {\\cdot} a {\\cdot} c {\\cdot} cos\u03B2 $$ N\xE4chster
+      Schritt: Wurzel ziehen \n$$ b = \\sqrt{a^2 + c^2 - 2 {\\cdot} a {\\cdot} c
+      {\\cdot} cos\u03B2} $$ N\xE4chster Schritt: Werte einsetzen \n$$ b = \\sqrt{(4
+      cm )^2 + (6 cm)^2 - (2 {\\cdot} 4 cm {\\cdot} 6 cm {\\cdot} cos(125^{\\circ}))}$$
+      \n$$\\underline{ b = 8,9 cm} $$"
+    picture: {fileID: 21300000, guid: f8e7afd697ffdc84da29c97b5879f875, type: 3}

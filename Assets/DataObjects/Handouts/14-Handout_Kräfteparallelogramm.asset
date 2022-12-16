@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: "14-Handout_Kr\xE4fteparallelogramm"
+  m_EditorClassIdentifier: 
+  mleName: "Kr\xE4fteparallelogramm analytisch l\xF6sen"
+  entries:
+  - title: Was muss ich wissen
+    description: "\\begin{itemize}\r\n\\item Wirken \\textbf{zwei Kr\xE4fte}  an
+      einem K\xF6rper am \\textbf{gleichen Angriffspunkt}, so ist die Wirkung der
+      Summe der Einzelkr\xE4fte \\textbf{gleich}  der Wirkung der \\textbf{Ersatzkraft}.\r\n\\item
+      \\textbf{Analytische L\xF6sung:} \r\n\\begin{enumerate}\r\n    \\item Die Kraftvektoren
+      werden in die \\textbf{x- und y-Komponenten}  zerlegt. \r\n    \\item Die Anteile
+      in x- und y-Richtung werden jeweils addiert, woraus sich die \\textbf{Ersatzkraftkomponenten} 
+      ergeben.\r\n    \\item die Ersatzkraft und die Ersatzkraftkomponenten spannen
+      ein \\textbf{rechtwinkliges Dreieck}  auf. Mithilfe des \\textbf{Satzes des
+      Pythagoras}  l\xE4sst sich die \\textbf{Ersatzkraft}  berechnen.\r\n\\end{enumerate}\r"
+    picture: {fileID: 0}
+  - title: "Wozu dient das Axiom des Kr\xE4fteparallelogramms?"
+    description: "Mit dem Kr\xE4fteparallelogramm lassen sich \\textbf{zwei Kr\xE4fte},
+      welche \\textbf{an einem Angriffspunkt}  angreifen, \\textbf{zu einer Ersatzkraft} 
+      zusammenfassen. \\\\\n\nBei starren K\xF6rpern, bei denen zwei Kr\xE4fte \\textbf{nicht
+      an einem Punkt}  angreifen, kann das \\textbf{Linienfl\xFCchtigkeitsaxiom genutzt} 
+      werden, um die zwei \\textbf{Kr\xE4fte in den Schnittpunkt}  der Wirkungslinien
+      \\textbf{zu verschieben}. Somit haben sie einen gemeinsamen Angriffpunkt und
+      das Kr\xE4fteparallelogramm kann erstellt werden. \\\\\n\nBeispielsweise kann
+      so die Gesamtschleppkraft des Frachtschiffes bestimmt werden, die durch die
+      zwei Schlepper aufgebracht wird."
+    picture: {fileID: 0}
+  - title: "Wie ermittele ich die analytische L\xF6sung f\xFCr das Kr\xE4fteparallelogramm?"
+    description: "\\underline{Vorangestellter Hinweis:} Die Grafiken zeigen die Kraftvektoren.
+      Bei den Berechnungen wird aber mit den Kraftbetr\xE4gen gerechnet. Somit wird
+      der Pfeil \xFCber der Kraft vernachl\xE4ssigt. Damit klar wird, was bei der
+      analytischen L\xF6sung passiert, werden hier auch immer Grafiken zur Unterst\xFCtzung
+      dienen.\\\\\n\n\\begin{itemize}\n    \\item Ausgangspunkt ist der Angriffspunkt
+      mit 2 Kr\xE4ften. Die Wirkungslinie bestimmt die Orientierung und die Pfeill\xE4nge
+      den Betrag der Kraft. \n    \\item Wir erweitern die Abbildung um ein Koordinatensystem
+      und die Winkel. Das ist essentiell zur Bestimmung der Lage und Richtung der
+      Kraftvektoren und des Ersatzkraftvektors.\n    \\item Der n\xE4chste Schritt
+      ist die Kraftzerlegung der beiden Einzelkr\xE4fte in die Kraftkomponenten in
+      die Koordinatenrichtungen. Dazu werden die Winkelfunktionen Sinus und Cosinus
+      verwendet:\n    $$F_{1,x}=F_1{\\cdot}\\cos \\alpha $$\n    $$F_{1,y}=F_1{\\cdot}\\sin
+      \\alpha $$\n    $$F_{2,x}=F_2{\\cdot}\\cos \\beta $$\n    $$F_{2,y}=F_2{\\cdot}\\sin
+      \\beta $$\n    \\item Nachdem die Kr\xE4fte zerlegt wurden, werden die Kraftkomponenten
+      in die jeweilige Richtung zu den Ersatzkraftkomponenten addiert (Vektoraddition
+      zweier gleichgerichteter Kr\xE4fte):\n    $$F_{R,x}=F_{1,x}+F_{2,x}$$\n   
+      $$F_{R,y}=F_{1,y}+F_{2,y}$$\n    \\item Die Ersatzkraftkomponenten werden aneinander
+      gereiht, sodass durch den Angriffspunkt des ersten Kraftpfeils und dem Endpunkt
+      des zweiten Kraftpfeils ein Vektor, der Ersatzkraftvektor, gezeichnet werden
+      kann. Der Ersatzkraftpfeil und die Kraftpfeile der Kraftkomponenten spannen
+      ein rechtwinkliges Dreieck auf. Daher kann die Ersatzkraft \xFCber den Satz
+      des Pythagoras berechnet werden:  \n    $$ \\left| \\overrightarrow{F_R} \\right|=F_R=\\sqrt{F_{R,x}^2+F_{R,y}^2}$$\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: Beispiel
+    description: "\\begin{tabulator}\ngeg: & $F_1=6000 N$ \\\\\n & $F_2=7500N$ \\\\\n&
+      $\\alpha=50^\\circ$\\\\\n & $\\beta=20^\\circ$\n & \\\\\n & \\\\\nges: & $F_{R}$
+      in N \\\\\n & \\\\\nL\xF6s: & $$F_{1,x}=F_1{\\cdot}\\cos \\alpha = 6000N{\\cdot}\\cos(50^\\circ)=3857N$$\\\\\n&
+      $$F_{1,y}=F_1{\\cdot}\\sin \\alpha = 6000N{\\cdot}\\sin(50^\\circ)=4596N$$\\\\\n
+      & $$F_{2,x}=F_1{\\cdot}\\cos \\beta = 7500N{\\cdot}\\sin(20^\\circ)=7048N$$\\\\\n
+      & $$F_{2,y}=F_1{\\cdot}\\sin \\alpha = 7500N{\\cdot}\\sin(20^\\circ)=2565N$$\\\\\n
+      & \\\\\n & $$F_{R,x}=F_{1,x}+F_{2,x}=3857 N+7048N=10.905N$$\\\\\n & $$F_{R,y}=F_{1,y}+F_{2,y}=4596N+2565N=7161N$$\\\\\n&
+      \\\\\n & $$F_R=\\sqrt{F_{R,x}^2+F_{R,y}^2}=\\sqrt{(10.905N)^2+(7161N)^2}=13.046N$$\n\\end{tabulator}"
+    picture: {fileID: 0}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize}\n\\item Video zum Kr\xE4fteparallelogramm von
+      \u201CLehrer Schmidt\u201D\r\nhttps://www.youtube.com/watch?v=-huc7Gz-Q0Y \r\n\\item
+      Video zum Kr\xE4fteparallelogramm von \u201CSimpleClub\u201D\r\nhttps://www.youtube.com/watch?v=QRtDbqEKdM0&t=91s
+      \r\n\\end{itemize}"
+    picture: {fileID: 0}

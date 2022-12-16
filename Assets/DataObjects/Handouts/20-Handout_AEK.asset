@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 20-Handout_AEK
+  m_EditorClassIdentifier: 
+  mleName: Allgemeines ebenes Kraftsystem
+  entries:
+  - title: Was muss ich wissen?
+    description: "In einem allgemeinen ebenen Kraftsystem\r\n\\begin{itemize}\r\n   
+      \\item liegen alle Kr\xE4fte auf einer Ebene.\r\n    \\item schneiden sich
+      die Wirkungslinien der Kr\xE4fte nicht alle in einem Punkt.\r\n    \\item kann
+      das Ergebnis der Berechnung eine Verschiebung sowie eine Drehung des K\xF6rpers
+      sein.\r\n\\end{itemize}\r\n"
+    picture: {fileID: 0}
+  - title: Was ist ein allgemeines ebenes Kraftsystem?
+    description: "Bei einem allgemeinen Kraftsystem schneiden sich die Wirkungslinien
+      der angreifenden Kr\xE4fte nicht alle in einem Punkt. Die Wirkungslinien schneiden
+      sich\r\n\\begin{itemize}\r\n    \\item in mehreren Punkten (mehrere Personen
+      ziehen einen K\xF6rper in verschiedene Richtungen) \r\n    \\item oder bei
+      parallelen Wirkungslinien gar nicht (Kraftwirkung am Fahrrad). \r\n\\end{itemize}\r\n\r\nDie
+      Kr\xE4fte, die an dem K\xF6rper angreifen, bewirken\r\n\\begin{itemize}\r\n   
+      \\item eine geradlinige Verschiebung des K\xF6rpers nach oben oder unten und
+      rechts oder links (Translation)\r\n    \\item und/oder eine Drehbewegung (Rotation).
+      Die Drehbewegung entsteht durch resultierende Momente am K\xF6rper.\r\n\\end{itemize}\r\n\r\n"
+    picture: {fileID: 0}
+  - title: Wie bestimmt man die Resultierende und die Lage ihrer Wirkungslinie?
+    description: "Wie bei zentralen ebenen Kraftsystemen, ist es auch wichtig die
+      Resultierende von Kr\xE4ften zu bestimmen, wenn sich die Wirkungslinien in
+      mehreren Punkten schneiden. Wenn beispielsweise mehrere Fische in einem Fischernetz
+      in verschiedene Richtungen schwimmen, kann man so herausfinden, wie sich das
+      Fischernetz bewegt.\r\n\r\n\\textit{(Hinweis: f\xFCr Systeme mit parallelen
+      Wirkungslinien: Handout parallel gerichtete Kr\xE4fte und Kr\xE4ftepaar anschauen)}\\\\\r\n\r\nF\xFCr
+      die analytische L\xF6sung sind mehrere Schritte notwendig:\r\n\r\n\\begin{enumerate}\r\n   
+      \\item Bestimme den Betrag $F_R$ und die Richtung (Winkel $\\Omega$) der Resultierenden:\r\n   
+      \\begin{itemize}\r\n        \\item einzelne Kr\xE4fte in x- und y-Komponenten
+      ($F_{i,x}$ und $F_{i,y}$) aufteilen\r\n        \\item fasse die x- und y-Komponenten
+      der zu den Resultiererendenkomponenten $F_{R,x}$ und $F_{R,y}$ zusammen:\r\n       
+      $$F_{R,x}=\\sum_ ^ F_{i,x} $$\n  und  $$ F_{R,y}=\\sum_ ^ F_{i,y}$$\r\n       
+      \\item bestimme mit $F_{R,x}$ und $F_{R,y}$ \xFCber den Satz des Pythagoras
+      die Resultierende $F_R$:\r\n        $$F_R=\\sqrt{F_{R,x}^2+F_{R,y}^2}$$\r\n       
+      \\item berechne den Winkel der Wirkungslinie der Resultierenden mit dem Arcustangens:\r\n       
+      $$\\Omega=arctan \\left( \\frac{F_{R,y}}{F_{R,x}} \\right)$$\r\n    \\end{itemize}\r\n   
+      \\item Bestimme das Resultierendes Moment $M_R$:\r\n    \\begin{itemize}\r\n       
+      \\item lege den Bezugspunkt fest\r\n        \\item bilde die  Summe aller Einzelmomente
+      (unter Beachtung der Drehrichtung), damit sich das resultierendes Moment ergibt:
+      \r\n        $$ M_R=\\sum_ ^ M_i = \\sum_ ^ (F_i{\\cdot}a_i)$$\r\n    \\end{itemize}\r\n   
+      \\item Bestimme die  Lage der Resultierenden \xFCber den Hebelarm:\r\n    \\begin{itemize}\r\n       
+      \\item berechne den Abstand der Resultierenden zum Bezugspunkt:\r\n       
+      $$M_R=F_R{\\cdot}a$$\r\n        $$a=\\frac{M_R}{F_R}$$\r\n        \\item zeichne
+      die Hilfslinie f\xFCr die Richtung der Resultierende ein (mit Winkel $\\Omega$)\r\n       
+      \\item verschiebe die Hilfslinie parallel bis Abstand a zu dem gew\xE4hlten
+      Bezugspunkt erreicht ist\r\n    \\end{itemize}\r\n\\end{enumerate}\r\n"
+    picture: {fileID: 0}

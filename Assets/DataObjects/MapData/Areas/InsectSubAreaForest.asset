@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96233c073d1720a45bb1431469c1f30e, type: 3}
+  m_Name: InsectSubAreaForest
+  m_EditorClassIdentifier: 
+  uid: ab1d6d9c-0bd7-42d7-82e4-711264a47134
+  areaName: Spreewald
+  sceneName: Insect_ForestArea
+  areaDescription: "Dieser Wald ist ein Ort der besonderen Artenvielfalt. In letzter
+    Zeit wurden hier jedoch immer weniger Pflanzen und Tiere gesichtet. Die nahende
+    Insektenplage k\xF6nnte gravierende Sch\xE4den anrichten.\r"
+  areaPreviewIMG: {fileID: 21300000, guid: ea9ecef0f7216fc4bbacefd82a14a701, type: 3}
+  areaIconIMG: {fileID: 2905905011506562312, guid: 68c716fd175aef64e91cacf8ae8e85a7,
+    type: 3}
+  mapPositionOrOffset: {x: 5, y: 1}

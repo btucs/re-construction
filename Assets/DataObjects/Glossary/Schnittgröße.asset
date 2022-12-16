@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: "Schnittgr\xF6\xDFe"
+  m_EditorClassIdentifier: 
+  headline: "Schnittgr\xF6\xDFe"
+  easy:
+    content: "Die Methode [Frei-Schneiden](glossary:Freischneiden) zeigt [innere
+      Kr\xE4fte](glossary:Innere_Kr\xE4fte).\r\n\r\nInnere Kr\xE4fte hei\xDFen auch
+      Schnitt-Gr\xF6\xDFen oder Schnitt-Kr\xE4fte. \r\n\r\nWann entstehen innere
+      Kr\xE4fte?\r\n\r\nWenn der K\xF6rper belastet wird.\r\n\r\nWas sind Schnitt-Kr\xE4fte?\r\n\r\n-
+      [Normal-Kr\xE4fte](glossary:Normalkraft)\r\n- [Quer-Kr\xE4fte](glossary:Querkraft)\r\n-
+      [Biege-Momente](glossary:Biegemoment)\r\n\r\nWof\xFCr brauchst du Schnitt-Kr\xE4fte?\r\n\r\n-
+      Mit Schnitt-Kr\xE4ften berechnest du Spannungen."
+    image: {fileID: 21300000, guid: 84d2610c5ab752a41996cbb69046abd5, type: 3}
+    tmpContent: "Die Methode <color=#131313><u><link=\"glossary:Freischneiden\">Frei-Schneiden</link></u></color>
+      zeigt <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">innere Kr\xE4fte</link></u></color>.\n\nInnere
+      Kr\xE4fte hei\xDFen auch Schnitt-Gr\xF6\xDFen oder Schnitt-Kr\xE4fte.\n\nWann
+      entstehen innere Kr\xE4fte?\n\nWenn der K\xF6rper belastet wird.\n\nWas sind
+      Schnitt-Kr\xE4fte?\n\n\u2022 <color=#131313><u><link=\"glossary:Normalkraft\">Normal-Kr\xE4fte</link></u></color>\n\u2022
+      <color=#131313><u><link=\"glossary:Querkraft\">Quer-Kr\xE4fte</link></u></color>\n\u2022
+      <color=#131313><u><link=\"glossary:Biegemoment\">Biege-Momente</link></u></color>\n\nWof\xFCr
+      brauchst du Schnitt-Kr\xE4fte?\n\n\u2022 Mit Schnitt-Kr\xE4ften berechnest
+      du Spannungen."
+  medium:
+    content: "Bei der Methode des [Freischneidens](glossary:Freischneiden) werden
+      [innere Kr\xE4fte](glossary:Innere_Kr\xE4fte) sichtbar gemacht. Diese [Kr\xE4fte](glossary:Kraft)
+      werden auch Schnittgr\xF6\xDFen oder Schnittkr\xE4fte genannt. Diese entstehen,
+      wenn der K\xF6rper von au\xDFen belastet wird.\r\n\r\nNach dem Freischnitt
+      werden die Schnittkr\xE4fte an den K\xF6rpern eingetragen. Je nach technischem
+      Element (z. B. [Balken](glossary:Balken), [Stab](glossary:St\xE4be) oder [Seil](glossary:Seile))
+      wirken unterschiedliche Schnittkr\xE4fte.\r\n\r\nSchnittkr\xE4fte k\xF6nnen
+      sein:\r\n\r\n- [Normalkraft](glossary:Normalkraft)\r\n- [Querkraft](glossary:Querkraft)\r\n-
+      [Biegemoment](glossary:Biegemoment).\r\n\r\nSchnittgr\xF6\xDFen erlauben die
+      Berechnungen von Spannungen und [Gleichgewicht](glossary:Gleichgewichtsaxiom)
+      im Bauteil."
+    image: {fileID: 21300000, guid: 2c91d32998b6130488d16f05b2a67e19, type: 3}
+    tmpContent: "Bei der Methode des <color=#131313><u><link=\"glossary:Freischneiden\">Freischneidens</link></u></color>
+      werden <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">innere Kr\xE4fte</link></u></color>
+      sichtbar gemacht. Diese <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      werden auch Schnittgr\xF6\xDFen oder Schnittkr\xE4fte genannt. Diese entstehen,
+      wenn der K\xF6rper von au\xDFen belastet wird.\n\nNach dem Freischnitt werden
+      die Schnittkr\xE4fte an den K\xF6rpern eingetragen. Je nach technischem Element
+      (z. B. <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>,
+      <color=#131313><u><link=\"glossary:St\xE4be\">Stab</link></u></color> oder
+      <color=#131313><u><link=\"glossary:Seile\">Seil</link></u></color>) wirken
+      unterschiedliche Schnittkr\xE4fte.\n\nSchnittkr\xE4fte k\xF6nnen sein:\n\n\u2022
+      <color=#131313><u><link=\"glossary:Normalkraft\">Normalkraft</link></u></color>\n\u2022
+      <color=#131313><u><link=\"glossary:Querkraft\">Querkraft</link></u></color>\n\u2022
+      <color=#131313><u><link=\"glossary:Biegemoment\">Biegemoment</link></u></color>.\n\nSchnittgr\xF6\xDFen
+      erlauben die Berechnungen von Spannungen und <color=#131313><u><link=\"glossary:Gleichgewichtsaxiom\">Gleichgewicht</link></u></color>
+      im Bauteil."
+  scientific:
+    content: "Schnittgr\xF6\xDFen, auch [innere Kr\xE4fte](glossary:Innere_Kr\xE4fte)
+      genannt, sind die [Kr\xE4fte](glossary:Kraft), die im K\xF6rper wirken, wenn
+      der K\xF6rper von au\xDFen belastet wird. Schnittgr\xF6\xDFen k\xF6nnen durch
+      gedankliches Trennen des K\xF6rpers sichtbar gemacht werden. Je nach Art des
+      K\xF6rpers ([Balken](glossary:Balken), [Stab](glossary:St\xE4be), [Seil](glossary:Seile))
+      werden an den beiden Schnittufern (Trennstellen) nach dem [Wechselwirkungsaxiom](glossary:Wechselwirkungsaxiom)
+      die Schnittgr\xF6\xDFen [Normalkraft](glossary:Normalkraft) (F_N), [Querkraft](glossary:Querkraft)
+      (F_Q) und [Biegemoment](glossary:Biegemoment) (M_B) angetragen. Mit den Schnittgr\xF6\xDFen
+      k\xF6nnen Spannungen im Bauteil berechnet werden."
+    image: {fileID: 21300000, guid: 7754b9eb9b4747945944ac987da702e6, type: 3}
+    tmpContent: "Schnittgr\xF6\xDFen, auch <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">innere
+      Kr\xE4fte</link></u></color> genannt, sind die <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>,
+      die im K\xF6rper wirken, wenn der K\xF6rper von au\xDFen belastet wird. Schnittgr\xF6\xDFen
+      k\xF6nnen durch gedankliches Trennen des K\xF6rpers sichtbar gemacht werden.
+      Je nach Art des K\xF6rpers (<color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>,
+      <color=#131313><u><link=\"glossary:St\xE4be\">Stab</link></u></color>, <color=#131313><u><link=\"glossary:Seile\">Seil</link></u></color>)
+      werden an den beiden Schnittufern (Trennstellen) nach dem <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechselwirkungsaxiom</link></u></color>
+      die Schnittgr\xF6\xDFen <color=#131313><u><link=\"glossary:Normalkraft\">Normalkraft</link></u></color>
+      (F<sub>N</sub>), <color=#131313><u><link=\"glossary:Querkraft\">Querkraft</link></u></color>
+      (F<sub>Q</sub>) und <color=#131313><u><link=\"glossary:Biegemoment\">Biegemoment</link></u></color>
+      (M<sub>B</sub>) angetragen. Mit den Schnittgr\xF6\xDFen k\xF6nnen Spannungen
+      im Bauteil berechnet werden."
+  tmpHeadline: 

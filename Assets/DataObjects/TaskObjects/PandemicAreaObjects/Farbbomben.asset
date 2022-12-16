@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: Farbbomben
+  m_EditorClassIdentifier: 
+  uid: 0d155156-95b4-4b96-86d0-954912ded3a7
+  objectName: Message
+  objectDescription: Lukas hat hier einen Stand aufgebaut, um im Namen des Netzwerks
+    gegen ignorantes Verhalten zu protestieren.
+  objectPrefab: {fileID: 2257372402648437270, guid: f81997bf259a3344dbe3a89b55faca43,
+    type: 3}
+  objectThumbnail: {fileID: -3434894147216737677, guid: 4c3c1cd2682fbb84b9b66863a4c5c64b,
+    type: 3}
+  cameraOffset: {x: 0.5, y: 1, z: 0}
+  markerOffset: {x: 0.5, y: 0.25}
+  cameraZoom: 1.15
+  taskInfos:
+  - task: {fileID: 11400000, guid: 96e81101a61292e408516ce8f3f6a6cb, type: 2}
+    taskButtonPosition: {x: 3, y: 1}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: P_1
+        icon: {fileID: 4057064671617809344, guid: 203f7311dd2ad3549be823738a21ba24,
+          type: 3}
+        textMeshProName: P<sub>1</sub>
+        type: 1
+        textValue: (-6 1 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Ort des Abwurfs der Farbkugel.
+        definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+          von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+          dargestellt. Hier Angriffspunkt der Kraft."
+        textMeshProValue: (-6 1 0)
+      localAnalyzePosition: {x: -2.93, y: 1.55, z: 0}
+    - itemData:
+        name: alpha
+        icon: {fileID: 1274681401015419743, guid: 203f7311dd2ad3549be823738a21ba24,
+          type: 3}
+        textMeshProName: "\u03B1"
+        type: 0
+        textValue: "30 \xB0"
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Wurfrichtung der Farbkugel.
+        definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+        textMeshProValue: "30 \xB0"
+      localAnalyzePosition: {x: -2.05, y: 1.36, z: 0}
+    - itemData:
+        name: F_1
+        icon: {fileID: 1820492224546190446, guid: 203f7311dd2ad3549be823738a21ba24,
+          type: 3}
+        textMeshProName: F<sub>1</sub>
+        type: 0
+        textValue: 200 N
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Kraftbetrag, mit der die Farbkugel beschleunigt wird.
+        definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+        textMeshProValue: 200 N
+      localAnalyzePosition: {x: -1.93, y: 2.66, z: 0}

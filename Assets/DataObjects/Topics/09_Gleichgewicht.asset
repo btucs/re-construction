@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1de5f26358d27e49ad7937ce5ecd4c8, type: 3}
+  m_Name: 09_Gleichgewicht
+  m_EditorClassIdentifier: 
+  name: Gleichgewichtsaxiom
+  internalName: DrawEquilibrium
+  mles:
+  - {fileID: 11400000, guid: 9fefab5bffbcd414e8b17d702b3868a2, type: 2}
+  prerequisites:
+  - {fileID: 11400000, guid: b8b22655c37ea13449c984ae3e831544, type: 2}
+  descriptionText: "Wird angezeigt, wenn der Inhalt in der Liste ausgew\xE4hlt wurde."
+  glossaryLinks: []
+  hasConnectedTasks: 1
+  icon: {fileID: 2033401088189600658, guid: 5757836ad70dc364c8b463067dccb62b, type: 3}

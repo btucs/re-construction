@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: VektorMLE
+  m_EditorClassIdentifier: 
+  uid: d3ab323b-2728-4f85-941d-05bd9226a45b
+  mleName: Vektor
+  mleHandout: {fileID: 11400000, guid: 549a85cebf0616e4cab737c762699baa, type: 2}
+  mleIntroText: "Schon mal geh\xF6rt, aber wieder vergessen? Kein Problem. Hier erf\xE4hrst
+    du mehr zum Thema Vektor."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:09968785485e51982d452c698706a8cc_1638276713.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'In wie viele Richtungen kann der Vektor zeigen? '
+      choices:
+      - name: In eine Richtung.
+        isAnswer: 1
+        feedbackMessage: Super! Ein Vektor hat nur eine Richtung. Die wird durch
+          die zwei verbundenen Punkte dargestellt.
+      - name: In zwei Richtungen gleichzeitig.
+        isAnswer: 0
+        feedbackMessage: Leider nicht richtig. Durch die zwei Punkte ist klar definiert,
+          in welche Richtung der Vektor zeigt und das sind NICHT mehrere.
+      - name: Der Vektor hat keine Richtung.
+        isAnswer: 0
+        feedbackMessage: Leider nicht richtig. Denn die Richtung ist eine der Eigenschaften,
+          die einen Vektor ausmachen.
+      - name: In unendliche Richtungen.
+        isAnswer: 0
+        feedbackMessage: Das stimmt so nicht. Die Verbindung zwischen Anfangs- und
+          Endpunkt definiert die Richtung des Vektors. Also sind die Richtungen begrenzt.
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:4dcc3ccee04184eb09e09eba8335b7e2_1638276791.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: In welche Richtung zeigt ein Vektor?
+      choices:
+      - name: Er kann in jegliche Richtung zeigen.
+        isAnswer: 1
+        feedbackMessage: "Genau so! Er zeigt genau in eine Richtung. In welche ist
+          egal.\_"
+      - name: Immer von links nach rechts.
+        isAnswer: 0
+        feedbackMessage: "Nicht ganz. Das ist sehr spezifisch und beinhaltet dadurch\_nicht
+          alle M\xF6glichkeiten der Richtungsnahme."
+      - name: Er zeigt in keine Richtung.
+        isAnswer: 0
+        feedbackMessage: 'Das ist leider nicht korrekt. Das gerichtete Verhalten
+          ist eine der Eigenschaften eines Vektors. '
+      - name: Immer ansteigend.
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Die Richtung kann weder an- noch
+          absteigend sein. Sie zeigt vielmehr die Weiterf\xFChrung einer Linie."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:49710745ae70a153a729bf93c8e2dd07_1638276849.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wie kann ich einen Vektor analytisch aus zwei Punkten erstellen?
+      choices:
+      - name: Ich nehme den x- und y-Wert des zweiten Punkts und ziehe jeweils den
+          x- und y-Wert des ersten Punkts ab.
+        isAnswer: 1
+        feedbackMessage: Genau! Dadurch ergibt sich x2-x1 und y2-y1.
+      - name: Ich addiere die beiden Punkte jeweils.
+        isAnswer: 0
+        feedbackMessage: Das ist nicht ganz richtig. Du gehst vom zweiten Punkt aus
+          und ziehst die jeweiligen Koordinaten des ersten Punktes ab.
+      - name: Ich nehme den x- und y-Wert des ersten Punkts und ziehe jeweils den
+          x- und y-Wert des zweiten Punkts ab.
+        isAnswer: 0
+        feedbackMessage: Da ist leider ein kleiner Dreher drin. Die Werte des ersten
+          Punktes werden von den Werten des zweiten Punktes abgezogen.
+      - name: Ich multipliziere die x- und y-Werte der zwei Punkte P1 und P2.
+        isAnswer: 0
+        feedbackMessage: "Das ist nicht korrekt. Hier wurde die falsche Rechenart
+          gew\xE4hlt. Zur Berechnung des Vektors aus zwei Punkten wird die Subtraktion
+          verwendet."
+  requiredProgress: []

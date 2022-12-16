@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 909902614e18c124d93f0fc218d6380a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9210846257899860612
+    second: Forest_TreeBranch01
+  - first:
+      213: -4396949662040517090
+    second: Forest_TreeBranch02
+  - first:
+      213: 5500711148302207024
+    second: Forest_TreeBranch03
+  - first:
+      213: 4316019642019957491
+    second: Forest_DeadTree01
+  - first:
+      213: 5887453595495430263
+    second: Forest_TreeBranch04
+  - first:
+      213: -3921880148662419104
+    second: Forest_DeadTree02
+  - first:
+      213: -5360732762006871518
+    second: Forest_DeadBush01
+  - first:
+      213: -2276909406745952800
+    second: Forest_DeadBush02
+  - first:
+      213: -3586020666354206544
+    second: Forest_DeadBush03
+  - first:
+      213: -4999446717409629501
+    second: Forest_GrassDark01
+  - first:
+      213: -8919621970530826405
+    second: Forest_GrassDark02
+  - first:
+      213: -8660766610351644951
+    second: Forest_GrassDark03
+  - first:
+      213: -1457541579615243109
+    second: Forest_GrassDark04
+  - first:
+      213: -4408484932658170369
+    second: Forest_LightGrass01
+  - first:
+      213: 3145502443274131911
+    second: Forest_LightGrass02
+  - first:
+      213: 182644009386758545
+    second: Forest_LightGrass03
+  - first:
+      213: -2990215790137387702
+    second: Forest_LightGrass04
+  - first:
+      213: -8577260602235158249
+    second: Forest_LightColor
+  - first:
+      213: 1438534791727374410
+    second: Forest_TreeTrunkColor
+  - first:
+      213: -5226243820283018341
+    second: Forest_LightGreenColor
+  - first:
+      213: -8187531873864026739
+    second: Forest_DarkGreenColor
+  - first:
+      213: -6571405749576502715
+    second: Forest_BlueishGreenColor
+  - first:
+      213: 2877617373841320486
+    second: Forest_GreyGreenColor
+  - first:
+      213: -8086554374039020382
+    second: Forest_ColorGradient01
+  - first:
+      213: 5677924867152952783
+    second: Forest_ColorGradient02
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forest_TreeBranch01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 560
+        width: 275
+        height: 457
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4827bd2dedf73df70800000000000000
+      internalID: 9210846257899860612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_TreeBranch02
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 651
+        width: 221
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e161dc21495eaf2c0800000000000000
+      internalID: -4396949662040517090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_TreeBranch03
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 660
+        width: 239
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038859635a3765c40800000000000000
+      internalID: 5500711148302207024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_DeadTree01
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 648
+        width: 263
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa45364ff495eb30800000000000000
+      internalID: 4316019642019957491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_TreeBranch04
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 299
+        width: 201
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778f91f1adf64b150800000000000000
+      internalID: 5887453595495430263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_DeadTree02
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 188
+        width: 297
+        height: 454
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0610257a8cea299c0800000000000000
+      internalID: -3921880148662419104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_DeadBush01
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 187
+        width: 144
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22228c094f9da95b0800000000000000
+      internalID: -5360732762006871518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_DeadBush02
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1
+        width: 220
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed792945fac660e0800000000000000
+      internalID: -2276909406745952800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_DeadBush03
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 510
+        width: 126
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b87fb81435eb3ec0800000000000000
+      internalID: -3586020666354206544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_GrassDark01
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 145
+        width: 519
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca6e4fd2b56e9ab0800000000000000
+      internalID: -4999446717409629501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_GrassDark02
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 24
+        width: 268
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b578db37313273480800000000000000
+      internalID: -8919621970530826405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_GrassDark03
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 11
+        width: 524
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee1d6397a6cec780800000000000000
+      internalID: -8660766610351644951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_GrassDark04
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 195
+        width: 511
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94fbadd7a5c5cbe0800000000000000
+      internalID: -1457541579615243109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_LightGrass01
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 139
+        width: 495
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff57f379f4ae1d2c0800000000000000
+      internalID: -4408484932658170369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_LightGrass02
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 266
+        width: 437
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c95a7b7ec117ab20800000000000000
+      internalID: 3145502443274131911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_LightGrass03
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 77
+        width: 524
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191d9d342c1e88200800000000000000
+      internalID: 182644009386758545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_LightGrass04
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 73
+        width: 267
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45d81be49e9086d0800000000000000
+      internalID: -2990215790137387702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_LightColor
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 551
+        width: 104
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71102d13de277f880800000000000000
+      internalID: -8577260602235158249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_TreeTrunkColor
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 449
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4063f975c3b6f310800000000000000
+      internalID: 1438534791727374410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_LightGreenColor
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 550
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93437e6fe6a877b0800000000000000
+      internalID: -5226243820283018341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_DarkGreenColor
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 551
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85752fd32b006e80800000000000000
+      internalID: -8187531873864026739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_BlueishGreenColor
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 450
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542788d994dadc4a0800000000000000
+      internalID: -6571405749576502715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_GreyGreenColor
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 451
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aed4751c95fe720800000000000000
+      internalID: 2877617373841320486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_ColorGradient01
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 393
+        width: 500
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acd58624a9c6cf80800000000000000
+      internalID: -8086554374039020382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_ColorGradient02
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 343
+        width: 500
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd3200759a0cce40800000000000000
+      internalID: 5677924867152952783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

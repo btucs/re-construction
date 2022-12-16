@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: "01-MarsGew\xE4chshaus"
+  m_EditorClassIdentifier: 
+  uid: dbbc9802-e3e6-4647-9197-a98f660bb65f
+  taskName: "Gew\xE4chshaus bauen"
+  teaserDescription: "Der Bau, des Space-Gew\xE4chshauses, ist schon in vollem Gange.
+    Bestimmte Berechnungen, wie die einer Dachseite, werden als N\xE4chstes ben\xF6tigt."
+  teaserSolvedCorrect: "Mit der Berechnung, der fehlenden Seite, konnte das Projekt
+    Space-Gew\xE4chshaus in die n\xE4chste Stufe bef\xF6rdert werden. Erste kleine
+    Salatk\xF6pfe sprie\xDFen schon.\r\n"
+  teaserSolvedWrong: "Komplikationen, bei der Berechnung der fehlenden Seite, f\xFChrten
+    zur Stagnation des Projekts. K\xF6nntest du die fehlende L\xE4nge erneut ermitteln?\r\n"
+  fullDescription: "Unterst\xFCtze das Team beim Bau des Gew\xE4chshauses, indem
+    du bei der Berechnung der fehlenden Seite hilfst."
+  teachAndPlayDescription: "Das VR-System simuliert den Aufbau eines Gew\xE4chshauses
+    mit dem Gem\xFCse auf anderen Planeten angebaut wird. Zur Fertigstellung muss
+    die L\xE4nge einer Dachseite berechnet werden."
+  topic: {fileID: 11400000, guid: 12b7de2e26f773344a74ed32c1222a8c, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: L_1
+      icon: {fileID: 4452760323339752450, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+        type: 3}
+      textMeshProName: L<sub>1</sub>
+      type: 0
+      textValue: 1.5 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "L\xE4nge der Dachst\xFCtze."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1,5 m
+    - name: H_1
+      icon: {fileID: 5198937261183471399, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+        type: 3}
+      textMeshProName: H<sub>1</sub>
+      type: 0
+      textValue: 2.5 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "L\xE4nge der Querstrebe am Gew\xE4chshaus."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen  zwei Objekten."
+      textMeshProValue: 2,5 m
+    dummyInputs: []
+    output:
+      name: L_2
+      icon: {fileID: -4235412705894725000, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+        type: 3}
+      textMeshProName: L<sub>2</sub>
+      unit: 3
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 40cc7a949c3d9384ea2d4c7bfd1267eb, type: 2}
+    dialogs:
+    - "Eins ist klar, umso mehr Fl\xE4che, desto mehr Space-Kartoffeln wird es geben.
+      Das Projekt ist die Zukunft.\r\n"
+    - "Nur noch die ~o:L_2|L\xE4nge der Dachstrebe~ fehlt und das Produkt kann getestet
+      werden. Nach regional und saisonal kommt Weltall.  \r\n"
+    - "Mein Auge misst 'ne ~i:H_1|H\xF6he x~ und 'ne ~i:L_1|L\xE4nge y~ der anderen
+      Seite... Damit sichern wir nicht nur das Leben im All, sondern vor allem auch
+      hier das Leben, unter widrigen Bedingungen.\r\n"
+  hashtags:
+  - 'dreieck '
+  - 'hypotenuse '
+  - 'kathete '
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: 3d784c26cba10434ca5247c75e832265, type: 2}

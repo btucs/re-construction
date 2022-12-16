@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Druckkraft
+  m_EditorClassIdentifier: 
+  headline: Druckkraft
+  easy:
+    content: "[Kr\xE4fte](glossary:Kraft) wirken auf K\xF6rper.\r\n\r\n- Die Kraft
+      kann ein [Gewicht](glossary:Gewichtskraft) sein.\r\n\r\n- Ein K\xF6rper ist
+      zum Beispiel ein Auto.\r\n\r\nDr\xFCckt die Kraft auf einen K\xF6rper.\r\n\r\nDann
+      hei\xDFt die Kraft Druck-Kraft.\r\n\r\nDie Druck-Kraft wirkt auf einen K\xF6rper
+      zu.\r\n\r\nWas sind Beispiele f\xFCr die Druck-Kraft?\r\n\r\n- Ein Mensch dr\xFCckt
+      mit seinem Gewicht auf den Boden.\r\n\r\n- Ein Mensch schiebt ein Auto."
+    image: {fileID: 21300000, guid: db5fb879c65a7ed4eb52de16309e5aa5, type: 3}
+    tmpContent: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      wirken auf K\xF6rper.\n\n\u2022 Die Kraft kann ein <color=#131313><u><link=\"glossary:Gewichtskraft\">Gewicht</link></u></color>
+      sein.\n\n\u2022 Ein K\xF6rper ist zum Beispiel ein Auto.\n\nDr\xFCckt die Kraft
+      auf einen K\xF6rper.\n\nDann hei\xDFt die Kraft Druck-Kraft.\n\nDie Druck-Kraft
+      wirkt auf einen K\xF6rper zu.\n\nWas sind Beispiele f\xFCr die Druck-Kraft?\n\n\u2022
+      Ein Mensch dr\xFCckt mit seinem Gewicht auf den Boden.\n\n\u2022 Ein Mensch
+      schiebt ein Auto."
+  medium:
+    content: "\xDCben [Kr\xE4fte](glossary:Kraft) einen Druck auf einen K\xF6rper
+      aus, k\xF6nnen sie Druckkraft genannt werden. Dabei wirkt die Kraft zu einem
+      Objekt hin. Druckkr\xE4fte sind z. B. eine auf dem Fu\xDFboden stehende Person.
+      Diese Person dr\xFCckt mit ihrem Gewicht auf den Fu\xDFboden."
+    image: {fileID: 21300000, guid: 8fdcf8e1e31777040a15b50004396f7c, type: 3}
+    tmpContent: "\xDCben <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      einen Druck auf einen K\xF6rper aus, k\xF6nnen sie Druckkraft genannt werden.
+      Dabei wirkt die Kraft zu einem Objekt hin. Druckkr\xE4fte sind z. B. eine auf
+      dem Fu\xDFboden stehende Person. Diese Person dr\xFCckt mit ihrem Gewicht auf
+      den Fu\xDFboden."
+  scientific:
+    content: "Als Druckkraft wird eine [Kraft](glossary:Kraft) bezeichnet, welche
+      zum Objekt hin wirkt. Beispielsweise dr\xFCckt der menschliche K\xF6rper mit
+      seiner [Gewichtskraft](glossary:Gewichtskraft) auf den Fu\xDFboden."
+    image: {fileID: 21300000, guid: 04131b04245da1b408d3f2a98139f36f, type: 3}
+    tmpContent: "Als Druckkraft wird eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      bezeichnet, welche zum Objekt hin wirkt. Beispielsweise dr\xFCckt der menschliche
+      K\xF6rper mit seiner <color=#131313><u><link=\"glossary:Gewichtskraft\">Gewichtskraft</link></u></color>
+      auf den Fu\xDFboden."
+  tmpHeadline: 

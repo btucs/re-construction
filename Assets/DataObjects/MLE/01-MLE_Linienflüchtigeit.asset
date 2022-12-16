@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: "01-MLE_Linienfl\xFCchtigeit"
+  m_EditorClassIdentifier: 
+  uid: 376a577e-2e00-4ab7-9ccc-4395921b05b7
+  mleName: "Linienfl\xFCchtigkeit"
+  mleHandout: {fileID: 11400000, guid: d291eb091626d694e83c8c4d942413ea, type: 2}
+  mleIntroText: "Ein Blick kann fl\xFCchtig sein, aber eine Linie? Ja, die auch.
+    Mehr dazu hier."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:33e8849dc363830422bf7e166e58dd77_1638275577.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Welche Voraussetzung muss f\xFCr die Linienfl\xFCchtigkeit an einem
+        K\xF6rper gegeben sein?    "
+      choices:
+      - name: "Es muss sich um einen starren K\xF6rper handeln. "
+        isAnswer: 1
+        feedbackMessage: "Alles richtig! Sonst w\xFCrde er sich verformen und andere
+          Einflussfaktoren m\xFCssten betrachtet werden. So sehen wir quasi die Ph\xE4nomene
+          im Reinraum und unter perfekten Bedingungen.\r"
+      - name: 'Das Gleichgewichtsgesetz muss gegeben sein. '
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Es ist schon verbunden, aber die
+          Linienfl\xFCchtigkeit ist als Voraussetzung f\xFCr das Gleichgewichtsgesetz
+          wichtig, nicht umgekehrt.\r"
+      - name: "Die Linienfl\xFCchtigkeit ben\xF6tigt keine Voraussetzungen. "
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Das w\xE4re sch\xF6n, aber wie oft
+          in den Ingenieurwissenschaften brauchen wir idealisierte K\xF6rper und
+          bestimmte Bedingungen und die brauchen auch die Linienfl\xFCchtigeit.\r"
+      - name: 'Das Wechselwirkungsgesetz. '
+        isAnswer: 0
+        feedbackMessage: "Moment - das ist leider nicht korrekt. \xDCberall, wo Kr\xE4fte
+          wirken, kommt das Gesetz der Linienfl\xFCchtigkeit zum Einsatz. Die Linienfl\xFCchtigkeit
+          aber bedarf dem Wechselwirkungsgesetz und nicht umgekehrt.\r"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:e1a87d3fdd02044ea64398e314d93254_1638275637.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Wie wird eine Wirkungslinie am ehesten beschrieben?     '
+      choices:
+      - name: "\xDCber eine Linie, die eine Kraftrichtung beschreibt, aber keinen
+          Richtungssinn. "
+        isAnswer: 1
+        feedbackMessage: "Richtig! Den Richtungssinn besitzt der Kraftvektor, der
+          auf der Wirkungslinie liegt.\r"
+      - name: "\xDCber eine Linie, die die Richtung und den Richtungssinn beschreibt. "
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Hier ist dir ein Missgeschick passiert.
+          Nur eines von beiden beschreibt die Wirkungslinie. Beides hat nur der Kraftvektor.
+          \r"
+      - name: 'Eine Kurve, die die Richtung beschreibt, aber nicht den Richtungssinn. '
+        isAnswer: 0
+        feedbackMessage: "Kokolores. Leider nicht richtig. Die Eigenschaften sind
+          richtig, aber handelt es sich dabei wirklich um eine Kurve?\r"
+      - name: 'Eine Kurve, die die Richtung und den Richtungssinn beschreibt. '
+        isAnswer: 0
+        feedbackMessage: "Ui, hier muss Ordnung reingebracht werden. Leider nicht
+          richtig. Die Form der Wirkungslinie ist nicht richtig. Der Richtungssinn
+          kann eher von einem Kraftvektor vorgeben werden, aber nicht von einer Wirkungslinie.\r"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:ebaedf1f8ff4386a2ed5ce5f19fd1ee3_1638275698.smil/playlist.m3u8
+    navTitle: Video
+    questions: []
+  requiredProgress: []

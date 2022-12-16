@@ -1,0 +1,1091 @@
+fileFormatVersion: 2
+guid: f19b8a9d066e72d4288a2fd7987c05c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2424865104445326408
+    second: Spite1_0
+  - first:
+      213: 3259332244810030815
+    second: Spite1_1
+  - first:
+      213: 930485972418615092
+    second: Spite1_2
+  - first:
+      213: -7003239933011752503
+    second: Spite1_3
+  - first:
+      213: 2938934504839118953
+    second: Spite1_4
+  - first:
+      213: 5170680686804783914
+    second: Spite1_5
+  - first:
+      213: -3506209703148763717
+    second: Spite1_6
+  - first:
+      213: 807251401398875857
+    second: Spite1_7
+  - first:
+      213: -3884392448689404625
+    second: Spite1_8
+  - first:
+      213: 8297764508823919330
+    second: Spite1_9
+  - first:
+      213: -4917747968307773084
+    second: Spite1_10
+  - first:
+      213: 2713909343218175675
+    second: Spite1_11
+  - first:
+      213: 4934453379754282878
+    second: Spite1_12
+  - first:
+      213: -8555052560597230412
+    second: Spite1_13
+  - first:
+      213: 1553168687538913962
+    second: Spite1_14
+  - first:
+      213: -7584459274518525255
+    second: Spite1_15
+  - first:
+      213: -421910113164704734
+    second: Spite1_16
+  - first:
+      213: 4118069941107278712
+    second: Spite1_17
+  - first:
+      213: 8361211913391724140
+    second: Spite1_18
+  - first:
+      213: -3935299034588923897
+    second: Spite1_19
+  - first:
+      213: 5228112860211594680
+    second: Spite1_20
+  - first:
+      213: -6794539731493976386
+    second: Spite1_21
+  - first:
+      213: 5495127790055328089
+    second: Spite1_22
+  - first:
+      213: -792848515123904309
+    second: Spite1_23
+  - first:
+      213: -4373539295445849755
+    second: Spite1_24
+  - first:
+      213: -6091639053081100773
+    second: Spite1_25
+  - first:
+      213: 7414193824497186174
+    second: Spite1_26
+  - first:
+      213: 1277884772227859060
+    second: Spite1_27
+  - first:
+      213: -5907604239276067211
+    second: Spite1_28
+  - first:
+      213: 8197054712526617979
+    second: Spite1_29
+  - first:
+      213: -6558612088281738512
+    second: Spite1_30
+  - first:
+      213: -5219618185167390053
+    second: Spite1_31
+  - first:
+      213: 1212669109579602021
+    second: Spite1_32
+  - first:
+      213: -2808656433014002270
+    second: Spite1_33
+  - first:
+      213: -1890611329823601297
+    second: Spite1_34
+  - first:
+      213: 1153740581888879662
+    second: Spite1_35
+  - first:
+      213: 6053713653613644700
+    second: Spite1_36
+  - first:
+      213: -3308075414568288521
+    second: Spite1_37
+  - first:
+      213: 6633877501657855034
+    second: Spite1_38
+  - first:
+      213: 3471650055023230219
+    second: Spite1_39
+  - first:
+      213: -1954539561157113462
+    second: Spite1_40
+  - first:
+      213: -3255595369499389909
+    second: Spite1_41
+  - first:
+      213: -977563359211636403
+    second: Spite1_42
+  - first:
+      213: -1999839957770629194
+    second: Spite1_43
+  - first:
+      213: -3229562637784695304
+    second: Spite1_44
+  - first:
+      213: -4659463117390645617
+    second: Spite1_45
+  - first:
+      213: -3818454329255776657
+    second: Spite1_46
+  - first:
+      213: -2428393674166877191
+    second: Spite1_47
+  - first:
+      213: 5600361455346768993
+    second: Spite1_48
+  - first:
+      213: -6791245291915755701
+    second: Spite1_49
+  - first:
+      213: -5254687158890342545
+    second: Spite1_50
+  - first:
+      213: 170056947618620641
+    second: Spite1_51
+  - first:
+      213: -2399665523519428001
+    second: Spite1_52
+  - first:
+      213: 2088077415107698254
+    second: Spite1_53
+  - first:
+      213: 6578595081892534736
+    second: Spite1_54
+  - first:
+      213: 8474976470769812403
+    second: Spite1_55
+  - first:
+      213: -6261264814909190136
+    second: Spite1_56
+  - first:
+      213: 1333671749481823295
+    second: Spite1_57
+  - first:
+      213: -317294456147806755
+    second: Spite1_58
+  - first:
+      213: 9062184857966459060
+    second: Spite1_59
+  - first:
+      213: -2314001316071479481
+    second: Spite1_60
+  - first:
+      213: -5271785223285547609
+    second: Spite1_61
+  - first:
+      213: -5693483525163713532
+    second: Spite1_62
+  - first:
+      213: -8121228294727122403
+    second: Spite1_63
+  - first:
+      213: -3317727136027886666
+    second: Spite1_64
+  - first:
+      213: -7724923250819517389
+    second: Spite1_65
+  - first:
+      213: 6892766419955413824
+    second: Spite1_66
+  - first:
+      213: -4218461159424264475
+    second: Spite1_67
+  - first:
+      213: -3373508166257340116
+    second: Spite1_68
+  - first:
+      213: 6633216988665824795
+    second: Spite1_69
+  - first:
+      213: 4414024690149299603
+    second: Spite1_70
+  - first:
+      213: -14161368081004732
+    second: Spite1_71
+  - first:
+      213: 1328740217971270687
+    second: Spite1_72
+  - first:
+      213: 1394930049768581048
+    second: Spite1_73
+  - first:
+      213: 1795814331749401087
+    second: Spite1_74
+  - first:
+      213: 5364574852263962266
+    second: Spite1_75
+  - first:
+      213: -1998608832819029699
+    second: Spite1_76
+  - first:
+      213: -3937522475725579880
+    second: Spite1_77
+  - first:
+      213: 5552233549340836563
+    second: Spite1_78
+  - first:
+      213: -2543240629879347665
+    second: Spite1_79
+  - first:
+      213: 2053543069058395262
+    second: Spite1_80
+  - first:
+      213: 9042927172067754045
+    second: Spite1_81
+  - first:
+      213: 3525019768967250903
+    second: Spite1_82
+  - first:
+      213: 8054490359972598015
+    second: Spite1_83
+  - first:
+      213: -534272503707650006
+    second: Spite1_84
+  - first:
+      213: -1703018661137157470
+    second: Spite1_85
+  - first:
+      213: 7872951592013060158
+    second: Spite1_86
+  - first:
+      213: -426348247872411062
+    second: Spite1_87
+  - first:
+      213: 1162524758444753379
+    second: Spite1_88
+  - first:
+      213: 2666103918154248786
+    second: Spite1_89
+  - first:
+      213: 7091910477266073907
+    second: Spite1_90
+  - first:
+      213: -4425870692477172381
+    second: Spite1_91
+  - first:
+      213: 7066582864999836061
+    second: Spite1_92
+  - first:
+      213: 8242262534343104670
+    second: Spite1_93
+  - first:
+      213: 7832890571251704122
+    second: Spite1_94
+  - first:
+      213: 2384217036313692774
+    second: Spite1_95
+  - first:
+      213: -4216716982016822575
+    second: Spite1_96
+  - first:
+      213: -6833415186609556463
+    second: Spite1_97
+  - first:
+      213: -8398110251579748596
+    second: Spite1_98
+  - first:
+      213: -2364039036783453247
+    second: Spite1_99
+  - first:
+      213: -851596511227962630
+    second: Spite1_100
+  - first:
+      213: 1322746513636691013
+    second: Spite1_101
+  - first:
+      213: 3007545815619567636
+    second: Spite1_102
+  - first:
+      213: 7044042120792743743
+    second: Spite1_103
+  - first:
+      213: 1481964770037911564
+    second: Spite1_104
+  - first:
+      213: -941210860896164696
+    second: Spite1_105
+  - first:
+      213: 8754733812175683599
+    second: Spite1_106
+  - first:
+      213: 7809617580402978437
+    second: Spite1_107
+  - first:
+      213: -8125755098260080922
+    second: Spite1_108
+  - first:
+      213: 774948100421581074
+    second: Spite1_109
+  - first:
+      213: -6659665033010607695
+    second: Spite1_110
+  - first:
+      213: 1635418445223295670
+    second: Spite1_111
+  - first:
+      213: -6353635732371090925
+    second: Spite1_112
+  - first:
+      213: 8151987639938965006
+    second: Spite1_113
+  - first:
+      213: 6804367103765750723
+    second: Spite1_114
+  - first:
+      213: 4280168065266078991
+    second: Spite1_115
+  - first:
+      213: -7974013571076750633
+    second: Spite1_116
+  - first:
+      213: -769363174345779042
+    second: Spite1_117
+  - first:
+      213: -3727724251257034774
+    second: Spite1_0
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spite1_8
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 3020
+        width: 535
+        height: 1075
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2588a7f5add71ac0800000000000000
+      internalID: -3884392448689404625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2792
+        width: 1416
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc00857e97c3ff4f0800000000000000
+      internalID: -792848515123904309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_25
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 3046
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e343d5e86267ba0800000000000000
+      internalID: -6091639053081100773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2337
+        width: 322
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d098d230333c5e0800000000000000
+      internalID: -1890611329823601297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_35
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2764
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c607a42f8e20010800000000000000
+      internalID: 1153740581888879662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_37
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2417
+        width: 1064
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe3478ffea5712d0800000000000000
+      internalID: -3308075414568288521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_44
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 2276
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd38f254e94e23d0800000000000000
+      internalID: -3229562637784695304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_45
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1769
+        width: 728
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8675eb4bf2465fb0800000000000000
+      internalID: -4659463117390645617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_46
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1994
+        width: 142
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e28a1c400220bc0800000000000000
+      internalID: -3818454329255776657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_48
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 1383
+        width: 677
+        height: 767
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cdbb7521b78bd40800000000000000
+      internalID: 5600361455346768993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_49
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 2140
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f31d87366a0c1a0800000000000000
+      internalID: -6791245291915755701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_51
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 2138
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4256294e92c5200800000000000000
+      internalID: 170056947618620641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_52
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2142
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a6fda9beca2bed0800000000000000
+      internalID: -2399665523519428001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_54
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1965
+        width: 610
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d916514f5ddb4b50800000000000000
+      internalID: 6578595081892534736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_58
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1785
+        width: 574
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5fb1c8f5eb89bf0800000000000000
+      internalID: -317294456147806755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_62
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 1814
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cf31436eeacf0b0800000000000000
+      internalID: -5693483525163713532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_69
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1547
+        width: 484
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b164387f4bbed0c50800000000000000
+      internalID: 6633216988665824795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_70
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1366
+        width: 751
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3951726b114c14d30800000000000000
+      internalID: 4414024690149299603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_87
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 1544
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a64f6078e451af0800000000000000
+      internalID: -426348247872411062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_90
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1506
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339b05821078b6260800000000000000
+      internalID: 7091910477266073907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_91
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1259
+        width: 728
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3650611fd062492c0800000000000000
+      internalID: -4425870692477172381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_93
+      rect:
+        serializedVersion: 2
+        x: 4062
+        y: 1472
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9818090b16626270800000000000000
+      internalID: 8242262534343104670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_110
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 963
+        width: 2026
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b90058dfed1493a0800000000000000
+      internalID: -6659665033010607695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_111
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 90
+        width: 108
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baf7ae396c22b610800000000000000
+      internalID: 1635418445223295670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_112
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 128
+        width: 200
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312dac3e6f953d7a0800000000000000
+      internalID: -6353635732371090925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_113
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 286
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0edfe3419da12170800000000000000
+      internalID: 8151987639938965006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_114
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 95
+        width: 453
+        height: 728
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3af4d64d7fd6e50800000000000000
+      internalID: 6804367103765750723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_115
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 122
+        width: 502
+        height: 707
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05d7259d26366b30800000000000000
+      internalID: 4280168065266078991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_116
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 138
+        width: 513
+        height: 669
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d283ddb7ec965190800000000000000
+      internalID: -7974013571076750633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spite1_117
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 144
+        width: 237
+        height: 679
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e985ad9e44ca255f0800000000000000
+      internalID: -769363174345779042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 00-Desk
+  m_EditorClassIdentifier: 
+  uid: 9582661e-b468-4199-8458-6d17a22f70a2
+  objectName: Schreibtisch
+  objectDescription: "Das ist dein Schreibtisch. Darauf liegen Stifte, Unterlagen
+    und eine Tasse mit Entspannungstee f\xFCr den ersten Tag."
+  objectPrefab: {fileID: 7912133142853163237, guid: c55a1165118b805439d20700da85314a,
+    type: 3}
+  objectThumbnail: {fileID: 5372514573060677218, guid: a95ca048c1044b547aba0df50ad26c46,
+    type: 3}
+  cameraOffset: {x: 0, y: 1.5, z: 0}
+  markerOffset: {x: 0, y: 0.5}
+  cameraZoom: 1.15
+  taskInfos:
+  - task: {fileID: 11400000, guid: 1f99036ae1350a144a227f8735959cb3, type: 2}
+    taskButtonPosition: {x: 1.75, y: 0.4}
+    isRepeatable: 0
+    hiddenVariables: []

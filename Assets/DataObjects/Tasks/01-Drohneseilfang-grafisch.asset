@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-Drohneseilfang-grafisch
+  m_EditorClassIdentifier: 
+  uid: 2f11182a-cd96-477f-ad66-24e9e4d9120f
+  taskName: Drohneseilfang-grafisch
+  teaserDescription: "Komm her!!! Wir brauchen deine Hilfe bei der Vorhersage der
+    Richtung. Wir m\xFCssen das Ding wieder einfangen, aber die Fernbedienung klemmt. "
+  teaserSolvedCorrect: 
+  teaserSolvedWrong: 
+  fullDescription: 
+  topic: {fileID: 11400000, guid: 8fb863d03d3aef84b904fa5631be32ce, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: F_1
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 200 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Zugkraftbetrag, der von Person 1 in Seilrichtung aufgebracht
+        wird.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 
+    - name: F_2
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 120 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Zugkraftbetrag, der von Person 2 in Seilrichtung aufgebracht
+        wird.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 
+    - name: F_3
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 140 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Zugkraftbetrag, der von Person 3 in Seilrichtung aufgebracht
+        wird.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 
+    - name: alpha
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: "120 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung des Fangseils 1.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: 
+    - name: beta
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: "60 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung des Fangseils 2.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: 
+    - name: gamma
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 270
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung des Fangseils 3.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: 
+    dummyInputs: []
+    output:
+      name: F_R
+      icon: {fileID: 0}
+      textMeshProName: 
+      unit: 3
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 0}
+    dialogs:
+    - "Wenn das Ger\xE4t kaputt geht, bist du tot, Alter. Struggle nicht und zeichne
+      lieber die Kr\xE4fte, das geht schneller!"
+    - "Schneller! Ich ziehe mit einer gro\xDFen Force von ~i:F_1|200 Newton~. "
+    - "Ja ja, ~i:F_1|200 Newton~ und ein Winkel von ~i:alpha|120\xB0~. Wir brauchen
+      die ~o:F_R|Ersatzkraft~ damit die Drohne nicht komplett adios macht und wir
+      sie fix reinkriegen."
+  - npc: {fileID: 0}
+    dialogs:
+    - "Wir m\xFCsse alle zusammenhalte, dann sind wir stark. Mein analytisches  K\xF6pfle
+      sagt mir, i zieh mit einer Kraft von ~i:F_2|120 Newton~."
+    - "Wenn du alle nett fragst, kriegst du schon alle Kr\xE4ftle und kannst sie
+      zeichnen. Meine ist, wie gesagt, ~i:F_2|120 Newton~ und ein Winkele von ~i:beta|60\xB0~.
+      Doch, wie ist die ~o:F_R|Ersatzkraft~ und der dazugeh\xF6rige ~o:Omega|Winkel~?"
+  - npc: {fileID: 0}
+    dialogs:
+    - "Wir brauchen die Drohne f\xFCr einen baldigen Probeflug. Fang sie ein, wie
+      einen Regenbogen!"
+    - "Ach so, ja, ich sch\xE4tze, ich ziehe mit einer Kraft von ~i:F_3|140 Newton~."
+    - Puh, auch noch der ~i:gamma|Winkel~? Also ok, ~i:F_3|140 Newton~ und ~i:gamma|Winkel~.
+  hashtags: []

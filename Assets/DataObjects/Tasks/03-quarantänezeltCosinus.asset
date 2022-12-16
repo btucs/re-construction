@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: "03-quarant\xE4nezeltCosinus"
+  m_EditorClassIdentifier: 
+  uid: 9cd49112-05e5-40b9-917e-1718014ed32a
+  taskName: "Quarant\xE4nezelt aufstellen"
+  teaserDescription: "Zus\xE4tzlicher Raum f\xFCr Infizierte ben\xF6tigt! Leider
+    sind Befestigungsseile f\xFCr Zelte rar geworden. Bevor wir starten, gehen wir
+    am besten den Bauplan durch. Welche Seill\xE4nge passt genau auf die fehlende
+    Seite?"
+  teaserSolvedCorrect: "Gl\xFCck gehabt. Die berechnete Seite hat genau mit dem verf\xFCgbaren
+    Seilrest \xFCbereingestimmt."
+  teaserSolvedWrong: "Die Berechnung war fehlerhaft. Seitdem probiert Jelena erfolglos,
+    das Quarant\xE4nezelt aufzustellen. W\xFCrdest du noch mal unterst\xFCtzen?"
+  fullDescription: "Berechne die L\xE4nge der fehlenden Seilseite f\xFCr den Aufbau
+    eines zus\xE4tzlichen Quarant\xE4nezelts."
+  teachAndPlayDescription: "Die Trainingsanlage simuliert die Konstruktion eines
+    Quarant\xE4nezelts, in das Patienten verschoben werden k\xF6nnen, wenn die Betten
+    im Krankenhaus knapp werden. Das Zelt wird durch ein Spannseil stabilisiert,
+    aber wie lang muss es sein?"
+  topic: {fileID: 11400000, guid: f8dd5f782932950478a192b42804d04d, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: L_1
+      icon: {fileID: 6231980464441404830, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: L<sub>1</sub>
+      type: 0
+      textValue: 6 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "H\xF6he der Befestigungs\xF6se des Halteseils."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 6 m
+    - name: L_2
+      icon: {fileID: -4282037037714832489, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: L<sub>2</sub>
+      type: 0
+      textValue: 2 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Entfernung des Quarant\xE4nezelts von der Seilbefestigung."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 2 m
+    - name: alpha
+      icon: {fileID: 355210619307605381, guid: 79f9576d7ca26924bb90a6762e9f97c3, type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "100 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ausrichtung der inneren St\xFCtzstrebe zur Bodenstrebe."
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "100 \xB0"
+    dummyInputs:
+    - name: L_4
+      icon: {fileID: 0}
+      textMeshProName: L<sub>4</sub>
+      type: 0
+      textValue: 8 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "L\xE4nge des, insgesamt noch verf\xFCgbaren, Seils."
+      definition: "Die L\xE4nge beschreibt die Erstreckung eines K\xF6rpers in eine
+        Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 8 m
+    output:
+      name: L_3
+      icon: {fileID: -4598560074526507346, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: L<sub>3</sub>
+      unit: 4
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: da8a196e6f08170408d6ebd4ff84c9b2, type: 2}
+    dialogs:
+    - "Am besten ist es, wenn es perfekt passt. So viel ~i:L_4|Seil~ steht n\xE4mlich
+      nicht mehr zur Verf\xFCgung\u2026 K\xFCmmerst du dich um die unbekannte ~o:L_3|L\xE4nge~,
+      um das Zelt zu befestigen?"
+    - "Zum Gl\xFCck gibt es genug zu tun und ich sitze nicht eingesperrt zu Hause
+      rum. Ich w\xFCrde WAHNSINNIG werden!"
+    - "F\xFCr die Berechnung hab' ich schon die ~i:L_1|H\xF6he~, die ~i:L_2|Entfernung~
+      und den Winkel von ~i:alpha|100\xB0~ ermittelt. Dann mal ans Werk!"
+  hashtags:
+  - allgemeinesDreieck
+  - dreieck
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: cb789e85d0ad9cd40bbb45197d91d008, type: 2}

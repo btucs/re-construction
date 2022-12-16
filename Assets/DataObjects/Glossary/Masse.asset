@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Masse
+  m_EditorClassIdentifier: 
+  headline: Masse
+  easy:
+    content: "Die Masse beschreibt, wie schwer ein K\xF6rper ist.\r\n\rDie Schwere
+      ist abh\xE4ngig vom Material.\r\n\r- Eine Metall-Kugel ist schwerer als eine
+      Plastik-Kugel.\r\n\r\nWas ist das Formel-Zeichen der Masse?\r\n\r- Die Masse
+      hat das Formel-Zeichen m.\r\n\r\nWas ist die Einheit der Masse?\r\n\r- Die
+      Masse hat die Einheit Kilo-Gramm.\r\n\r- Kilo-Gramm kannst du mit kg abk\xFCrzen. "
+    image: {fileID: 21300000, guid: 8aa3f1757f10c384f8f92224f2725047, type: 3}
+    tmpContent: "Die Masse beschreibt, wie schwer ein K\xF6rper ist.\n\nDie Schwere
+      ist abh\xE4ngig vom Material.\n\n\u2022 Eine Metall-Kugel ist schwerer als
+      eine Plastik-Kugel.\n\nWas ist das Formel-Zeichen der Masse?\n\n\u2022 Die
+      Masse hat das Formel-Zeichen m.\n\nWas ist die Einheit der Masse?\n\n\u2022
+      Die Masse hat die Einheit Kilo-Gramm.\n\n\u2022 Kilo-Gramm kannst du mit kg
+      abk\xFCrzen."
+  medium:
+    content: "Die Masse ist eine physikalische Gr\xF6\xDFe. Sie beschreibt die Schwereeigenschaften
+      eines K\xF6rpers. Die Schwere ist abh\xE4ngig von dem jeweiligen Material.
+      Das Formelzeichen der Masse ist m und die Einheit Kilogramm (kg). Die Masse
+      ist unabh\xE4ngig vom Ort, an dem sie sich befindet und von der Bewegung, die
+      sie erf\xE4hrt.  "
+    image: {fileID: 21300000, guid: 4f4e55bd62f67ff488855279ee05c08d, type: 3}
+    tmpContent: "Die Masse ist eine physikalische Gr\xF6\xDFe. Sie beschreibt die
+      Schwereeigenschaften eines K\xF6rpers. Die Schwere ist abh\xE4ngig von dem
+      jeweiligen Material. Das Formelzeichen der Masse ist m und die Einheit Kilogramm
+      (kg). Die Masse ist unabh\xE4ngig vom Ort, an dem sie sich befindet und von
+      der Bewegung, die sie erf\xE4hrt."
+  scientific:
+    content: "Die Masse beschreibt die Schwereeigenschaft eines Objektes aus einem
+      bestimmten Material. Diese ist vom Ort und der Bewegung unabh\xE4ngig. Die
+      Masse hat das Formelzeichen m und die Einheit Kilogramm (kg).  "
+    image: {fileID: 21300000, guid: d816100d2f4bc8448a949b9975a34861, type: 3}
+    tmpContent: "Die Masse beschreibt die Schwereeigenschaft eines Objektes aus einem
+      bestimmten Material. Diese ist vom Ort und der Bewegung unabh\xE4ngig. Die
+      Masse hat das Formelzeichen m und die Einheit Kilogramm (kg)."
+  tmpHeadline: 

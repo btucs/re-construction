@@ -1,0 +1,65 @@
+title: Franzi.Start
+tags: 
+colorID: 0
+position: 456,-805
+---
+<<if visited("Franzi.Start") is false>>
+Oh, ein neues Gesicht!
+Ich hoffe, es ist okay, wenn ich du sage?
+<<AutoContinue>>
+Wie heißt du?
+-> Meinen Namen behalte ich erstmal für mich.
+	Okay, schon gut. Wird Zeit, dass du dich mal etwas locker machst...
+-> Ich bin {$playername}.
+	Freut mich {$playername}! Ich bin Francesca - aber du kannst mich auch Franzi nennen!
+<<AutoContinue>>
+Kann ich dir weiterhelfen oder willst du dich erstmal ein bisschen umschauen?
+[[Hast du ein paar Infos zu den Gerätschaften hier?|Franzi.Objects]]
+[[Alles gut. Ich schaue mich erstmal um.|Franzi.Exit]]
+<<else>>
+Sei gegrüßt!
+Wie kann ich dir behilflich sein?
+[[Was ist das hier alles?|Franzi.Objects]]
+[[Wollte nur kurz hallo sagen, tschüssi.|Franzi.Exit]]
+<<endif>>
+===
+title: Franzi.Exit
+tags: 
+colorID: 0
+position: 363,566
+---
+Dann fühl dich hier wie zuhause!
+Wir sehen uns bestimmt bald wieder.
+===
+title: Franzi.Objects
+tags: 
+colorID: 0
+position: 363,566
+---
+Du bist hier in unserer Werkstatt.
+<<AutoContinue>>
+Hier tüfteln wir an neuen Erfindungen, die hoffentlich eines Tages die Welt verändern!
+<<if $isQuestActive_fb2d62de is true>>
+    [[Habt ihr auch Hoverboards?|Franzi.Quest]]
+<<endif>>
+[[Danke für die Info.|Franzi.Exit]]
+===
+title: Franzi.Quest
+tags: 
+colorID: 0
+position: 363,566
+---
+Ja, wir arbeiten auch an neuen Technologien zur Fortbewegung, wie etwa Hoverboards.
+<<AutoContinue>>
+Wieso bist du an Hoverboards interessiert?
+-> Ach, einfach so. Ich find' die Technologie spannend.
+	Die Hoverboards sind hier in der Werkstatt.
+	Die Technologie ist aber noch nicht ganz ausgereift, deshalb sollten sie lieber nur unter Aufsicht genutzt werden.
+	Wenn du eins ausprobieren möchtest, melde dich bei mir an. Dann trage ich dich für eine der bevorstehenden Testsitzungen ein.
+-> Thomas möchte eines der Hoverboards benutzen.
+	Achso? Ich denke, dass ist schon okay. Aber er sollte lieber dabei beaufsichtigt werden... 
+	Er hat vor kurzem eines unserer Magnetkatapulte geschrottet...
+	Sag ihm, er soll einfach mal vorbeikommen.
+<<ContinueQuest fb2d62de>>
+[[Danke für die Info.|Franzi.Exit]]
+===

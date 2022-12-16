@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: "Starrer K\xF6rper"
+  m_EditorClassIdentifier: 
+  headline: "Starrer K\xF6rper"
+  easy:
+    content: "Der starre K\xF6rper stellt die Realit\xE4t einfach dar.\r\n\r\nDadurch
+      kannst du mit der Realit\xE4t einfacher arbeiten.\r\n\r\nWelche Besonderheiten
+      hat der starre K\xF6rper?\r\n\r\n- Der starre K\xF6rper \xE4ndert seine Form
+      **nicht**.\r\n\r\nKommt der starre K\xF6rper in der Realit\xE4t vor?\r\n\r\n-
+      Den starren K\xF6rper gibt es in der Realit\xE4t **nicht**.\r\n\r\nF\xFCr welche
+      Prinzipien gilt der starre K\xF6rper?\r\n\r\n1. F\xFCr die [Linien-Fl\xFCchtigkeit](glossary:Linienfl\xFCchtigkeitsaxiom).\r\n2.
+      F\xFCr das [Gleich-Gewicht](glossary:Gleichgewichtsaxiom).  "
+    image: {fileID: 21300000, guid: a3110122717f7c94480e04b610029d4f, type: 3}
+    tmpContent: "Der starre K\xF6rper stellt die Realit\xE4t einfach dar.\n\nDadurch
+      kannst du mit der Realit\xE4t einfacher arbeiten.\n\nWelche Besonderheiten
+      hat der starre K\xF6rper?\n\n\u2022 Der starre K\xF6rper \xE4ndert seine Form
+      <b>nicht</b>.\n\nKommt der starre K\xF6rper in der Realit\xE4t vor?\n\n\u2022
+      Den starren K\xF6rper gibt es in der Realit\xE4t <b>nicht</b>.\n\nF\xFCr welche
+      Prinzipien gilt der starre K\xF6rper?\n\n1. F\xFCr die <color=#131313><u><link=\"glossary:Linienfl\xFCchtigkeitsaxiom\">Linien-Fl\xFCchtigkeit</link></u></color>.\n2.
+      F\xFCr das <color=#131313><u><link=\"glossary:Gleichgewichtsaxiom\">Gleich-Gewicht</link></u></color>."
+  medium:
+    content: "Ein starrer K\xF6rper ist ein Ideal von einem realen Objekt. Er ver\xE4ndert
+      seine Form auch dann nicht, wenn [Kr\xE4fte](glossary:Kraft) auf ihn wirken.
+      Starre K\xF6rper gibt es in der Realit\xE4t nicht. Eine Art von Verformung
+      geschieht immer, auch wenn sie mit dem Auge nicht wahrnehmbar ist.\r\n\r\nDas
+      Ideal des starren K\xF6rpers ist eine Voraussetzung f\xFCr\r\n\r\n- das Axiom
+      der [Linienfl\xFCchtigkeit](glossary:Linienfl\xFCchtigkeitsaxiom),\r\n- das
+      [Gleichgewichtsaxiom](glossary:Gleichgewichtsaxiom)."
+    image: {fileID: 21300000, guid: fc3e9eebd3408cc43b0b003ee694718d, type: 3}
+    tmpContent: "Ein starrer K\xF6rper ist ein Ideal von einem realen Objekt. Er
+      ver\xE4ndert seine Form auch dann nicht, wenn <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      auf ihn wirken. Starre K\xF6rper gibt es in der Realit\xE4t nicht. Eine Art
+      von Verformung geschieht immer, auch wenn sie mit dem Auge nicht wahrnehmbar
+      ist.\n\nDas Ideal des starren K\xF6rpers ist eine Voraussetzung f\xFCr\n\n\u2022
+      das Axiom der <color=#131313><u><link=\"glossary:Linienfl\xFCchtigkeitsaxiom\">Linienfl\xFCchtigkeit</link></u></color>,\n\u2022
+      das <color=#131313><u><link=\"glossary:Gleichgewichtsaxiom\">Gleichgewichtsaxiom</link></u></color>."
+  scientific:
+    content: "Der starre K\xF6rper ist eine idealisierte Vorstellung eines Objektzustandes,
+      bei dem das Objekt trotz Krafteinwirkung unverformbar bleibt. Dieser Zustand
+      ist in Wirklichkeit nicht erreichbar. Diese Annahme gilt f\xFCr das Axiom der
+      [Linienfl\xFCchtigkeit](glossary:Linienfl\xFCchtigkeitsaxiom) und des [Gleichgewichts](glossary:Gleichgewichtsaxiom)
+      als Voraussetzung.  "
+    image: {fileID: 21300000, guid: f2cc651c6f83878428304e5729bb4b71, type: 3}
+    tmpContent: "Der starre K\xF6rper ist eine idealisierte Vorstellung eines Objektzustandes,
+      bei dem das Objekt trotz Krafteinwirkung unverformbar bleibt. Dieser Zustand
+      ist in Wirklichkeit nicht erreichbar. Diese Annahme gilt f\xFCr das Axiom der
+      <color=#131313><u><link=\"glossary:Linienfl\xFCchtigkeitsaxiom\">Linienfl\xFCchtigkeit</link></u></color>
+      und des <color=#131313><u><link=\"glossary:Gleichgewichtsaxiom\">Gleichgewichts</link></u></color>
+      als Voraussetzung."
+  tmpHeadline: 

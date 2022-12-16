@@ -1,0 +1,755 @@
+fileFormatVersion: 2
+guid: ac6dfb60aaec8e74f848b9d218e5ac3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7435560602032833931
+    second: InsektenArea_whitebG
+  - first:
+      213: 8186775426748260263
+    second: InsektenArea_SkyGradient
+  - first:
+      213: -715376683868525079
+    second: InsektenArea_Floor01
+  - first:
+      213: -1227990774336445033
+    second: InsektenArea_Floor02
+  - first:
+      213: -2717070585772887884
+    second: InsektenArea_Floor03
+  - first:
+      213: 831208066903223337
+    second: InsektenArea_Floor04
+  - first:
+      213: -190664677397436615
+    second: InsektenArea_Floor05
+  - first:
+      213: -5338594315164930056
+    second: InsektenArea_Floor06
+  - first:
+      213: 5542635018551716699
+    second: InsektenArea_Sun
+  - first:
+      213: 1736130167348324579
+    second: InsektenArea_Tree01
+  - first:
+      213: 1099800343876556367
+    second: InsektenArea_Tree02
+  - first:
+      213: -6435096465262713012
+    second: InsektenArea_IllTree01
+  - first:
+      213: -7026368237373855297
+    second: InsektenArea_Grass01
+  - first:
+      213: -6111921944673735095
+    second: InsektenArea_Grass02
+  - first:
+      213: -6788270619948420299
+    second: InsektenArea_Grass03
+  - first:
+      213: -2574526520531179590
+    second: InsektenArea_Grass04
+  - first:
+      213: 5596377665881949161
+    second: InsektenArea_Mountain01
+  - first:
+      213: -7841910665314346301
+    second: InsektenArea_Mountain02
+  - first:
+      213: -6450096646284381535
+    second: InsektenArea_BigRock
+  - first:
+      213: 7498858546826857710
+    second: InsektenArea_SmallRock
+  - first:
+      213: -1985316675106720880
+    second: InsektenArea_BackgroundStructure
+  - first:
+      213: 1538363164738963082
+    second: InsektenArea_Corn01
+  - first:
+      213: -4763546140479046262
+    second: InsektenArea_Corn02
+  - first:
+      213: -3484225448410257093
+    second: InsektenArea_Canon
+  - first:
+      213: -8641972312300688588
+    second: InsektenArea_House
+  - first:
+      213: 5116276358519569675
+    second: InsektenArea_Cloud01
+  - first:
+      213: -7307053225069025824
+    second: InsektenArea_Cloud02
+  - first:
+      213: 7720776849361936792
+    second: InsektenArea_Cloud03
+  - first:
+      213: 6895842270047349012
+    second: InsektenArea_SkyGradient2
+  - first:
+      213: 3531098212057069017
+    second: InsektenArea_WhiteGradient2
+  - first:
+      213: -7501254334256311800
+    second: InsektenArea_WhiteBG
+  - first:
+      213: -4112116153183077439
+    second: InsektenArea_GrassRect
+  - first:
+      213: -5069374523197182639
+    second: InsektenAreaSpritesheet_SkyRect
+  - first:
+      213: -6389355637657303029
+    second: InsektenAreaSpritesheet_1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InsektenArea_SkyGradient
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 1
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b714f2d082ba4ae4f92d09d6e434eed1
+      internalID: 8186775426748260263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Sun
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 870
+        width: 152
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf934bfb84be1b4194f28135c5e8c3a
+      internalID: 5542635018551716699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Tree01
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 317
+        width: 110
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a588832cfa49944aad5634831e93e38
+      internalID: 1736130167348324579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Tree02
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 317
+        width: 132
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1799b191a87a5742a1f2d74e82479e4
+      internalID: 1099800343876556367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_IllTree01
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 726
+        width: 176
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90724eb75f632e478c659ce3a69e268
+      internalID: -6435096465262713012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Grass01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 506
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b97374d8ee75ca49a4d9007a20d26bc
+      internalID: -7026368237373855297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Grass02
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 217
+        width: 347
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ece8e5b20f875448b89b692a76517e5
+      internalID: -6111921944673735095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Grass03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 570
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c72e714e79463041a665506c3919c31
+      internalID: -6788270619948420299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Grass04
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 272
+        width: 445
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c9637d7c632e44d9b4f96dcc5d7ff3
+      internalID: -2574526520531179590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Mountain01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 627
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfa2b79184051f4fb3cbaa25cf08b77
+      internalID: 5596377665881949161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Mountain02
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 368
+        width: 443
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbabf80b5acd4d47ad5d6609708ccc7
+      internalID: -7841910665314346301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_BigRock
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 433
+        width: 213
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b074237ead8ac0947a89380257d35d34
+      internalID: -6450096646284381535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_SmallRock
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 373
+        width: 202
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efd665bbb4fec647b2b2a74a60b8a49
+      internalID: 7498858546826857710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_BackgroundStructure
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 476
+        width: 164
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00c386434365dc4da00350e9791358e
+      internalID: -1985316675106720880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Corn01
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 958
+        width: 281
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4df9ad866381ac46b353f10e2acfcbb
+      internalID: 1538363164738963082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Corn02
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 896
+        width: 279
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c536f6e2e1156f74896914057ea66622
+      internalID: -4763546140479046262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Cloud01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 822
+        width: 580
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7033044257c070449aaa720097395b58
+      internalID: 5116276358519569675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Cloud02
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 759
+        width: 562
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a42a4f7b59ea04d922f425361fedc5
+      internalID: -7307053225069025824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_Cloud03
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 680
+        width: 564
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca91ef6b0d03f449bbe55a8813eb857
+      internalID: 7720776849361936792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_SkyGradient2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 994
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe33b7a34930b145806dcaf4584c838
+      internalID: 6895842270047349012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_WhiteGradient2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 927
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cfe7ac32d3db141bd4e37040adc29b
+      internalID: 3531098212057069017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_WhiteBG
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1021
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e136c872e1c4645a51ffe31073b1c3
+      internalID: -7501254334256311800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenArea_GrassRect
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 997
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfb7b5493dfbe346826f54a36b07f33
+      internalID: -4112116153183077439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenAreaSpritesheet_SkyRect
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 692
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15daa67dab6f5a9b0800000000000000
+      internalID: -5069374523197182639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InsektenAreaSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 660
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b080cc956e27457a0800000000000000
+      internalID: -6389355637657303029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801df15636ee0f84381ca88409fcee9f, type: 3}
+  m_Name: 01_OfficeQuest
+  m_EditorClassIdentifier: 
+  title: Ausbildung absolvieren
+  description: "L\xF6se erste Aufgaben und schlie\xDFe deine Ausbildung in der Zentrale
+    ab. Qualifiziere dich damit f\xFCr Au\xDFeneins\xE4tze.\nDer Schreibtisch, das
+    MuFu-Board und das Magnetkatapult sind hier von besonderem Interesse."
+  objectives:
+  - type: 0
+    progressText: Erledige erste Aufgaben in der Zentrale.
+    requiredAmount: 3
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: 
+    topic: {fileID: 0}
+  followUpQuest: {fileID: 11400000, guid: 0404df5a9cd850f4cabf4221cbafc2a8, type: 2}
+  isMainQuest: 1
+  uid: 37a0792a-0f70-4bfd-a8e4-0756f8f785a2

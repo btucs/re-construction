@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Schiefe Ebene
+  m_EditorClassIdentifier: 
+  headline: Schiefe Ebene
+  easy:
+    content: "Was ist eine schiefe Ebene?\r\n\r\nEine Ebene mit Anstieg.\r\n\r\nAnstieg
+      hei\xDFt auch Neigung.\r\n\r\nDie schiefe Ebene hat einen Neigungs-Winkel Alpha.\r\n\r\nDie
+      schiefe Ebene hei\xDFt auch geneigte Ebene. \r\n\r\nZum Beispiel ist ein Berg
+      eine schiefe Ebene.\r\n\r\n- Die Joggerin l\xE4uft den Berg hinauf.\r\n- Der
+      Berg hat einen Anstieg.\r\n\r\nBei der schiefen Ebene wirkt die [Gewichts-Kraft](glossary:Gewichtskraft)
+      nach unten.\r\n\r\nZum Rechnen kannst du die Gewichts-Kraft teilen.\r\n\r\nWie
+      teilst du die Gewichts-Kraft?\r\n\r\nDu teilst die Gewichts-Kraft in:\r\n\r\n-
+      [Normal-Kraft](glossary:Normalkraft)\r\n\r  - Die Normal-Kraft wirkt senkrecht
+      zum Berg.\r\n  - Orthogonal bedeutet: 90 Grad gedreht.\r\n\r\n- Tangential-Kraft\r\n-
+      Die Tangential-Kraft wirkt parallel zum Berg.\r\n  - Die Tangential-Kraft wirkt
+      parallel zum Anstieg."
+    image: {fileID: 21300000, guid: eb7acb59577234041b25ff4d7c3aa876, type: 3}
+    tmpContent: "Was ist eine schiefe Ebene?\n\nEine Ebene mit Anstieg.\n\nAnstieg
+      hei\xDFt auch Neigung.\n\nDie schiefe Ebene hat einen Neigungs-Winkel Alpha.\n\nDie
+      schiefe Ebene hei\xDFt auch geneigte Ebene.\n\nZum Beispiel ist ein Berg eine
+      schiefe Ebene.\n\n\u2022 Die Joggerin l\xE4uft den Berg hinauf.\n\u2022 Der
+      Berg hat einen Anstieg.\n\nBei der schiefen Ebene wirkt die <color=#131313><u><link=\"glossary:Gewichtskraft\">Gewichts-Kraft</link></u></color>
+      nach unten.\n\nZum Rechnen kannst du die Gewichts-Kraft teilen.\n\nWie teilst
+      du die Gewichts-Kraft?\n\nDu teilst die Gewichts-Kraft in:\n\n\u2022 <color=#131313><u><link=\"glossary:Normalkraft\">Normal-Kraft</link></u></color>\n 
+      \n  \u2022 Die Normal-Kraft wirkt senkrecht zum Berg.\n  \u2022 Orthogonal
+      bedeutet: 90 Grad gedreht.\n\n\u2022 Tangential-Kraft\n\n\u2022 Die Tangential-Kraft
+      wirkt parallel zum Berg.\n  \n  \u2022 Die Tangential-Kraft wirkt parallel
+      zum Anstieg."
+  medium:
+    content: "Die schiefe Ebene beschreibt eine Ebene mit Neigung. Sie kann auch
+      geneigte Ebene genannt werden und besitzt einen Neigungswinkel Alpha. F\xFCr
+      bestimmte Berechnungen wird die [Gewichtskraft](glossary:Gewichtskraft), die
+      auf einer schiefen Ebene wirkt, zerlegt. Daf\xFCr wird die Gewichtskraft in
+      die Tangential- und [Normalkraft](glossary:Normalkraft) geteilt. Die Normalkraft
+      wirkt orthogonal zur Ebene und die Tangentialkraft mit der Ebene."
+    image: {fileID: 21300000, guid: 25a962f1205623d4ca76c748103dc056, type: 3}
+    tmpContent: "Die schiefe Ebene beschreibt eine Ebene mit Neigung. Sie kann auch
+      geneigte Ebene genannt werden und besitzt einen Neigungswinkel Alpha. F\xFCr
+      bestimmte Berechnungen wird die <color=#131313><u><link=\"glossary:Gewichtskraft\">Gewichtskraft</link></u></color>,
+      die auf einer schiefen Ebene wirkt, zerlegt. Daf\xFCr wird die Gewichtskraft
+      in die Tangential- und <color=#131313><u><link=\"glossary:Normalkraft\">Normalkraft</link></u></color>
+      geteilt. Die Normalkraft wirkt orthogonal zur Ebene und die Tangentialkraft
+      mit der Ebene."
+  scientific:
+    content: "Die schiefe Ebene (oder auch geneigte Ebene) beschreibt eine Ebene,
+      welche um einen Winkel Alpha nach oben geneigt ist. An der geneigten Ebene
+      (ohne Reibung) l\xE4sst sich die [Gewichtskraft](glossary:Gewichtskraft) (F_G)
+      in die [Normalkraft](glossary:Normalkraft) (F_N) und die Tangentialkraft (F_T)
+      zerlegen."
+    image: {fileID: 21300000, guid: c99dbcc9e53d3ec42ab1efdf8dd25337, type: 3}
+    tmpContent: "Die schiefe Ebene (oder auch geneigte Ebene) beschreibt eine Ebene,
+      welche um einen Winkel Alpha nach oben geneigt ist. An der geneigten Ebene
+      (ohne Reibung) l\xE4sst sich die <color=#131313><u><link=\"glossary:Gewichtskraft\">Gewichtskraft</link></u></color>
+      (F<sub>G</sub>) in die <color=#131313><u><link=\"glossary:Normalkraft\">Normalkraft</link></u></color>
+      (F<sub>N</sub>) und die Tangentialkraft (F<sub>T</sub>) zerlegen."
+  tmpHeadline: 

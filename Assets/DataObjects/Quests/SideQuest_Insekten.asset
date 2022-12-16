@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801df15636ee0f84381ca88409fcee9f, type: 3}
+  m_Name: SideQuest_Insekten
+  m_EditorClassIdentifier: 
+  title: Kampf den Insekten
+  description: "Hilf dabei, das nat\xFCrliche Gleichgewicht wiederherzustellen, indem
+    du die Insektenplage bek\xE4mpfst."
+  objectives:
+  - type: 2
+    progressText: Mach' die beiden Insektenkanonen einsatzbereit.
+    requiredAmount: 0
+    specificTopic: {fileID: 0}
+    specificTasks:
+    - {fileID: 11400000, guid: 04d5a43a24438b64ba0b21e2fdcd8830, type: 2}
+    - {fileID: 0}
+    targetAreaName: 
+    topic: {fileID: 0}
+  followUpQuest: {fileID: 0}
+  isMainQuest: 0
+  uid: 00af9692-31db-4c54-b52a-79e245bd30e9

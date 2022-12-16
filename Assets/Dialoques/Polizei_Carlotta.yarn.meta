@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 9c44d2886e862ae4fbd8fe9b9d658796
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - Polizei_Carlotta-PoliceStart-0
+  - Polizei_Carlotta-PoliceStart-1
+  - Polizei_Carlotta-PoliceStart-2
+  - Polizei_Carlotta-PoliceStart-3
+  - Polizei_Carlotta-Police-4
+  - Polizei_Carlotta-Police-5
+  - Polizei_Carlotta-Police-6
+  - Polizei_Carlotta-Police-7
+  - Polizei_Carlotta-PoliceHelp-8
+  - Polizei_Carlotta-PoliceHelp-9
+  - Polizei_Carlotta-PoliceHelp-10
+  - Polizei_Carlotta-PoliceHelp-11
+  - Polizei_Carlotta-PoliceHelp-12
+  - Polizei_Carlotta-PoliceExit-13
+  - Polizei_Carlotta-Polizeizentrale-14
+  - Polizei_Carlotta-Polizeizentrale-15
+  - Polizei_Carlotta-Polizeizentrale-16
+  - Polizei_Carlotta-Polizeizentrale-17
+  - Polizei_Carlotta-Polizeizentrale-18
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 9c44d2886e862ae4fbd8fe9b9d658796,
+    type: 3}
+  localizations: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1063f0c700470f4ab0c3f71f8a20ec9, type: 3}
+  m_Name: DialogueAchievement
+  m_EditorClassIdentifier: 
+  uid: c6c26f02-7301-4a56-ab7c-fef31497ffb0
+  title: Socializing
+  progressText: "Gespr\xE4che gef\xFChrt"
+  description: "Unterhalte dich mit anderen Charakteren, um einen Fortschritt zu
+    erhalten. Jede der Antworten gew\xE4hrt dir einen Punkt."
+  icon: {fileID: -5584798705071955958, guid: 3bd5c213d0a84194385e1ce811a6567d, type: 3}
+  category: 0
+  levels:
+  - threshold: 5
+    levelName: Smalltalker*in
+  - threshold: 10
+    levelName: Quasselstrippe
+  - threshold: 20
+    levelName: Networker*in
+  - threshold: 50
+    levelName: Stufe 4
+  tint: {r: 0.7122642, g: 0.952044, b: 1, a: 1}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: "03Quarant\xE4nezeltFailureFB"
+  m_EditorClassIdentifier: 
+  uid: d278ecf8-65ef-40a8-bf12-2b716e5d0cec
+  author: {fileID: 11400000, guid: da8a196e6f08170408d6ebd4ff84c9b2, type: 2}
+  messageText: "S-O-S! Alleine k\xF6nnen wir das nicht mehr wuppen. Wir brauchen
+    Hilfe von au\xDFen! #help #hilfe #aufbauhilfegesucht #dreieck"
+  relatedTask: {fileID: 11400000, guid: b334320baea201b4db27f82db2b09e46, type: 2}
+  taskCondition: 1

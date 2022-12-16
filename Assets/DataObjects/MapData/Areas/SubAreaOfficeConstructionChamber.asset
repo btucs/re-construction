@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96233c073d1720a45bb1431469c1f30e, type: 3}
+  m_Name: SubAreaOfficeConstructionChamber
+  m_EditorClassIdentifier: 
+  uid: dfa236af-ecec-40e1-af21-032aa8b2ae71
+  areaName: Werkstatt
+  sceneName: OfficeConstructionChamber
+  areaDescription: "Die Werkstatt ist ein Ort des Machens und Ausprobierens. Komm
+    vorbei und hilf beim T\xFCfteln an neuen Formen der Mobilit\xE4t, wie z. B. Hoverboards
+    und E-Bikes. \r"
+  areaPreviewIMG: {fileID: 21300000, guid: 0a6a7d03392f03647b52d7b32563aa63, type: 3}
+  areaIconIMG: {fileID: -6313002280704479065, guid: 68c716fd175aef64e91cacf8ae8e85a7,
+    type: 3}
+  introSceneName: 
+  mapPositionOrOffset: {x: -2, y: 4}

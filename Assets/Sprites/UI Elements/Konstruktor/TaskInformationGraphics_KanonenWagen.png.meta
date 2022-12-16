@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: 71f9bd2adafe4aa4f8197e5f9160449a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5200539816831931210
+    second: TaskInformationGraphics_KanonenWagen_0
+  - first:
+      213: 2904859486164084582
+    second: TaskInformationGraphics_KanonenWagen_1
+  - first:
+      213: -736677809926102549
+    second: TaskInformationGraphics_KanonenWagen_2
+  - first:
+      213: -294278630169475177
+    second: TaskInformationGraphics_KanonenWagen_3
+  - first:
+      213: 2310017083756127902
+    second: TaskInformationGraphics_KanonenWagen_4
+  - first:
+      213: -8841563487002947818
+    second: TaskInformationGraphics_KanonenWagen_5
+  - first:
+      213: -619596832456905956
+    second: TaskInformationGraphics_KanonenWagen_6
+  - first:
+      213: -1494092216235617697
+    second: TaskInformationGraphics_KanonenWagen_7
+  - first:
+      213: -6996522927769553458
+    second: TaskInformationGraphics_KanonenWagen_8
+  - first:
+      213: -8130657687242532374
+    second: TaskInformationGraphics_KanonenWagen_9
+  - first:
+      213: -4627528703312521274
+    second: TaskInformationGraphics_KanonenWagen_10
+  - first:
+      213: 7839046321211688288
+    second: TaskInformationGraphics_KanonenWagen_11
+  - first:
+      213: -8358376290293990467
+    second: TaskInformationGraphics_KanonenWagen_12
+  - first:
+      213: -486457220413099989
+    second: TaskInformationGraphics_KanonenWagen_13
+  - first:
+      213: -1951599773514015282
+    second: TaskInformationGraphics_KanonenWagen_14
+  - first:
+      213: 93424459457383917
+    second: TaskInformationGraphics_KanonenWagen_15
+  - first:
+      213: 5587737600256165517
+    second: TaskInformationGraphics_KanonenWagen_16
+  - first:
+      213: 2778081742462298465
+    second: TaskInformationGraphics_KanonenWagen_17
+  - first:
+      213: -8229712422072704175
+    second: TaskInformationGraphics_KanonenWagen_18
+  - first:
+      213: 8975903364590600668
+    second: TaskInformationGraphics_KanonenWagen_19
+  - first:
+      213: -2064761168898347226
+    second: TaskInformationGraphics_KanonenWagen_20
+  - first:
+      213: -2722561899498033818
+    second: TaskInformationGraphics_KanonenWagen_21
+  - first:
+      213: -5677116860652130798
+    second: TaskInformationGraphics_KanonenWagen_22
+  - first:
+      213: 79532598627636516
+    second: TaskInformationGraphics_KanonenWagen_23
+  - first:
+      213: 7891210198925800492
+    second: TaskInformationGraphics_KanonenWagen_24
+  - first:
+      213: 7651523595383303787
+    second: TaskInformationGraphics_KanonenWagen_25
+  - first:
+      213: -4990708485534128124
+    second: TaskInformationGraphics_KanonenWagen_26
+  - first:
+      213: -1123095314469901063
+    second: TaskInformationGraphics_KanonenWagen_27
+  - first:
+      213: 4613272228328168826
+    second: TaskInformationGraphics_KanonenWagen_28
+  - first:
+      213: 8494693895349506878
+    second: TaskInformationGraphics_KanonenWagen_29
+  - first:
+      213: 8115762522144647669
+    second: TaskInformationGraphics_KanonenWagen_30
+  - first:
+      213: -6178454919769496925
+    second: TaskInformationGraphics_KanonenWagen_31
+  - first:
+      213: -4777801174791725656
+    second: TaskInformationGraphics_KanonenWagen_32
+  - first:
+      213: 8087850215323478677
+    second: TaskInformationGraphics_KanonenWagen_33
+  - first:
+      213: -4511558831025814794
+    second: TaskInformationGraphics_KanonenWagen_34
+  - first:
+      213: -1546268856884241247
+    second: TaskInformationGraphics_KanonenWagen_35
+  - first:
+      213: -442231661742033686
+    second: TaskInformationGraphics_KanonenWagen_36
+  - first:
+      213: 2780397797360156471
+    second: TaskInformationGraphics_KanonenWagen_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43da86e8670c2840800000000000000
+      internalID: 5200539816831931210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667eb33ef42205820800000000000000
+      internalID: 2904859486164084582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be121795f6bc6c5f0800000000000000
+      internalID: -736677809926102549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79782cf15238aebf0800000000000000
+      internalID: -294278630169475177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e962e567c44de0020800000000000000
+      internalID: 2310017083756127902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f002a6ad47c4580800000000000000
+      internalID: -8841563487002947818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1be271b6ffb667f0800000000000000
+      internalID: -619596832456905956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52999d9b0be34be0800000000000000
+      internalID: -1494092216235617697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec57b63677b57ee90800000000000000
+      internalID: -6996522927769553458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae91c9959e91a2f80800000000000000
+      internalID: -8130657687242532374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7122b7927b7cfb0800000000000000
+      internalID: -4627528703312521274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065c7a99813e9cc60800000000000000
+      internalID: 7839046321211688288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbbafd6c05110c80800000000000000
+      internalID: -8358376290293990467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b207ad24cb1cf39f0800000000000000
+      internalID: -486457220413099989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_KanonenWagen_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdd6f398568ae4e0800000000000000
+      internalID: -1951599773514015282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

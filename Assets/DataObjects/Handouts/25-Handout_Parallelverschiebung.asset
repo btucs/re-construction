@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 25-Handout_Parallelverschiebung
+  m_EditorClassIdentifier: 
+  mleName: Parallelverschiebung
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\r\n    \\item Eine Kraft kann parallel verschoben
+      werden, wenn ein zus\xE4tzliches Versetzungsmoment angetragen wird\r\n    \\item
+      Das Versetzungsmoment M berechnet sich aus der Kraft F, die verschoben wird,
+      und der Strecke h, um die die Kraft F verschoben wird.\r\n\\end{enumerate}\r\n"
+    picture: {fileID: 0}
+  - title: "K\xF6nnen Kr\xE4fte parallel verschoben werden?"
+    description: "Das Linienfl\xFCchtigkeitsaxiom sagt aus, dass zwei Kr\xE4fte,
+      die auf der gleichen Wirkungslinie liegen, den gleichen Betrag und die gleiche
+      Richtung haben, die gleiche Wirkung auf einen K\xF6rper haben. Das bedeutet,
+      dass eine Kraft entlang ihrer Wirkungslinie verschoben werden kann ohne dass
+      sich die Wirkung auf den K\xF6rper \xE4ndert. \\\\\n\nWenn eine Kraft allerdings
+      \\textbf{parallel}  zu ihrer Wirkungslinie verschoben wird, \\textbf{ver\xE4ndert
+      sich die Wirkung}  auf den K\xF6rper. Es kann bspw. zu einer \\textbf{zus\xE4tzlichen
+      Drehung}  kommen. Eine Kraft kann also \\textbf{nicht}  einfach so parallel
+      verschoben werden.\\\\\n\nUm eine Kraft dennoch parallel zu verschieben, muss
+      ein \\textbf{\xE4quivalentes System}  erzeugt werden. Das geschieht durch \\textbf{Hinzuf\xFCgen
+      eines Versetzungsmoments}."
+    picture: {fileID: 0}
+  - title: Wie wird eine Kraft parallel verschoben?
+    description: "Die Kraft $F$ soll parallel von Punkt A in den Punkt B verschoben
+      werden. Die Punkte haben einen Abstand $h$ zueinander.\nDie Kr\xE4ftebilanz
+      in y-Richtung und die Momentenbilanz um den Punkt B sehen wie folgt aus:\n$$\\sum_
+      ^ F_{i,y}=F$$\n$$M^{(A)}=F{\\cdot}h$$\n\nUm die Kraft parallel zu verschieben
+      und mithilfe eines Versetzungsmomentes ein \xE4quivalentes System zu erstellen,
+      m\xFCssen folgende Schritte durchgef\xFChrt werden:\\\\\n\n\\begin{enumerate}\n   
+      \\item \\textbf{Hinzuf\xFCgen einer Gleichgewichtsgruppe:}\n    \\begin{itemize}\n       
+      \\item Kraft $F$ (in Abb. gelber Kraftpfeil F) soll parallel in den Punkt B
+      verschoben werden\n        \\item am Punkt B wird eine Gleichgewichtsgruppe
+      mit der gleichen Gr\xF6\xDFe der zu verschiebenden Kraft und einer parallelen
+      Wirkungslinie hinzugef\xFCgt (in Abb. zwei blaue Kraftpfeile)\n        \\item
+      Kr\xE4ftebilanz in die y-Richtung und die Momentenbilanz um den Punkt B:\n       
+      $$\\sum_ ^ F_{i,y}=F+F-F=F$$\n        $$M^{(A)}=F{\\cdot}h$$\n    \\end{itemize}\n   
+      \\item \\textbf{Kr\xE4ftepaar bilden:}\n    \\begin{itemize}\n        \\item
+      die zu verschiebende Kraft und eine Kraft aus der Gleichgewichtsgruppe bilden
+      ein Kr\xE4ftepaar (in Abb. gr\xFCn markiert)\n        \\item die beiden Kr\xE4fte
+      haben parallele Wirkungslinien, den gleichen Betrag und wirken in entgegengesetzte
+      Richtungen\n        \\item das Kr\xE4ftepaar bewirkt eine Drehbewegung\n       
+      \\item Kr\xE4ftebilanz in die y-Richtung und die Momentenbilanz um den Punkt
+      B:\n        $$\\sum_ ^ F_{i,y}=F+F-F=F$$\n        $$M^{(A)}=F{\\cdot}h$$\n   
+      \\end{itemize}\n    \\item \\textbf{Moment des Kr\xE4ftepaares einzeichnen:
+      }\n    \\begin{itemize}\n        \\item das Kr\xE4ftepaar verursacht ein Moment
+      $M$\n        \\item es l\xE4sst sich aus der Kraft $F$ und dem Hebelarm berechnen
+      \n        \\item der Hebelarm entspricht dabei der Strecke $h$, um die die
+      Kraft $F$ parallel verschoben wurde\n        \\item Kr\xE4ftebilanz in die
+      y-Richtung und die Momentenbilanz um den Punkt B:\n        $$\\sum_ ^ F_{i,y}=F$$\n       
+      $$M^{(A)}=F{\\cdot}h=M$$\n        \\item die Kr\xE4fte- und die Momentenbilanz
+      um den Punkt B sind gleich wie beim Ausgangssystem \n        \\item durch das
+      Hinzuf\xFCgen des zus\xE4tzlichen Momentes bei der parallelen Verschiebung
+      der Kraft wird ein \xE4quivalentes System erzeugt\n        \\item das Moment,
+      welches zus\xE4tzlich aufgebracht werden muss, nennt sich \\textbf{Versetzungsmoment}\n   
+      \\end{itemize}\n\\end{enumerate}"
+    picture: {fileID: 0}
+  - title: 'Beispiel:'
+    description: "\\begin{itemize}\n    \\item Beim Schieben eines Einkaufswagens
+      soll nicht mehr in der Mitte (Ausgangssystem), sondern am Rand angefasst werden.\n   
+      \\item Wenn nur an der Seite geschoben wird, also die Kraft aus der Mitte parallel
+      an den Rand verschoben wird, muss zus\xE4tzlich ein Moment aufgebracht werden.\n   
+      \\item Ansonsten w\xFCrde sich der Einkaufswagen zus\xE4tzlich zur Vorw\xE4rtsbewegegung
+      drehen.\n\\end{itemize}"
+    picture: {fileID: 0}

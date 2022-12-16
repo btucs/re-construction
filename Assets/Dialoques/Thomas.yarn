@@ -1,0 +1,115 @@
+title: Thomas.Start
+tags: 
+colorID: 2
+position: 492,-102
+---
+<<if visited("Thomas.Start") is false>>
+    Hi!
+    Dich habe ich hier noch nicht gesehen, oder? Freut mich, dich kennen zu lernen!
+    Mein Name ist Thomas und ich bin selbst noch nicht lange in der Organisation...
+    <<AutoContinue>>
+    Die Anfangszeit kann schon etwas verwirrend sein, aber keine Sorge, man lernt schnell, wie die Dinge hier laufen.
+<<else>>
+    Hey. Da bist du ja wieder.
+    <<AutoContinue>>
+    Hast du noch eine Frage?
+<<endif>>
+<<if not visited("Thomas.Organisation")>>
+    [[Was kannst du mir über die Organisation erzählen?|Thomas.Organisation]]
+
+<<elseif not visited("Thomas.Backgroud")>>
+    [[Wie bist du zur Organisation gekommen?|Thomas.Background]]
+
+<<endif>>
+<<if $isQuestActive_fb2d62de is false && $isQuestCompleted_fb2d62de is false>>
+    [[Kann ich irgendwas für dich tun?|Thomas.QuestStart]]
+
+<<elseif $isQuestActive_fb2d62de is true>>
+    [[Ich wollte über die Hoverboards sprechen|Thomas.QuestActive]]
+  
+<<endif>>
+
+[[Bis später.|Thomas.Exit]]
+===
+title: Thomas.Exit
+tags: 
+colorID: 6
+position: 486,733
+---
+Mach's gut!
+===
+title: Thomas.Background
+tags: 
+colorID: 0
+position: 879,386
+---
+Schon meine Mutter war hier Mitglied.
+<<AutoContinue>>
+Sie war eine bekannte Klimaforscherin. 
+-> Jetzt nicht mehr?
+    <<AutoContinue>>
+    Nein, sie ist leider von uns gegangen.
+    -> Das tut mir leid...
+    -> Wie war ihr Name?
+       <<AutoContinue>>         
+        Berta.
+-> Und dein Vater?
+    <<AutoContinue>>
+    Der ist LKW-Fahrer.
+[[Bis später.|Thomas.Exit]]
+===
+title: Thomas.Organisation
+tags: 
+colorID: 3
+position: -246,380
+---
+Diese Truppe hier ist der Wahnsinn!
+<<AutoContinue>>
+Der geballte Gehirnschmalz aller namenhafter Forscher/Innen und Ingenieur/Innen des Landes!
+-> Da fühle ich mich fehl am Platz.
+    <<AutoContinue>>
+    Ach Quatsch!
+-> Und wieso ist niemand davon hier?
+    Die sind alle im Einsatz.
+    <<AutoContinue>>
+    In letzter Zeit ist so viel los, dass die Führungsebene kaum Zeit hat, durchzuatmen.
+    <<if not visited("Thomas.Background")>>
+    [[Wie bist du zur Organisation gekommen?|Thomas.Background]]
+    <<endif>>
+[[Bis später.|Thomas.Exit]]
+===
+title: Thomas.QuestStart
+tags: 
+colorID: 4
+position: 98,397
+---
+Ich hätte da wirklich eine kleine Bitte!
+Ich hab' gehört, hier im Büro wird an neuen Hoverboards zur Fortbewegung in dringenden Einsätzen gearbeitet.
+<<AutoContinue>>
+Leider wurde ich aber vor ein paar Tagen zu Schreibtischarbeit verdonnert...
+-> Wieso?
+    Naja... Sagen wir mal, es gab da einen... Zwischenfall mit einem anderen Gerät... Mehr möchte ich dazu nicht sagen!
+-> Ach, Mensch! Das tut mir leid für dich.
+Könntest du vielleicht für mich herausbekommen, wie ich an eines der Hoverboards rankomme?
+<<AutoContinue>>
+Sprich am besten mal mit Francesca. Sie verwaltet hier im Büro die Gadgets, soweit ich weiß.
+<<AddQuest fb2d62de-93f8-4116-b43a-cbcaea328e90>>
+[[Bis später.|Thomas.Exit]]
+===
+title: Thomas.QuestActive
+tags: 
+colorID: 4
+position: 383,395
+---
+<<AutoContinue>>
+Gibt es Neuigkeiten?
+<<if $questIndex_fb2d62de is 1>>
+-> Ja. Sprich mit Franzi.
+    Sie lässt mich eins ausprobieren? Aber nur unter Aufsicht?
+    Okay, dann werd ich mal mit ihr sprechen. Danke dir!
+    <<ContinueQuest fb2d62de>>
+<<else>>
+-> Leider hab' ich noch nichts herausgefunden...
+    Alles klar. Sag Bescheid, sobald du etwas weißt.
+<<endif>>
+===

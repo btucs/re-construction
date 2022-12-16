@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: RechtwinkligesDreieckMLE
+  m_EditorClassIdentifier: 
+  uid: 04b6c7ca-75da-4f8f-ae1a-60f4c2f35de5
+  mleName: Rechtwinkliges Dreieck
+  mleHandout: {fileID: 11400000, guid: 59544666e69d2094ca8cfe35f28a09b9, type: 2}
+  mleIntroText: Du springst gleich im Dreieck? Dann aber im rechten Winkel bitte!
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:b89f2de8ccb676acd8eaa00224871ac4_1644248611.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wie wird der rechte Winkel dargestellt?
+      choices:
+      - name: Der rechte Winkel wird mit einem Punkt am Winkel dargestellt.
+        isAnswer: 1
+        feedbackMessage: Genau! Der rechte Winkel wird durch einen kleinen Punkt
+          im Winkelkreis oder auch durch ein kleines Quadrat im Winkel dargestellt.
+      - name: Als normaler griechischer Buchstabe.
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Nat\xFCrlich kann der rechte Winkel
+          auch wie ein normaler Winkel gekennzeichnet werden, aber hier ist die spezifische
+          Darstellung gesucht."
+      - name: Durch einen doppelten Winkelbogen.
+        isAnswer: 0
+        feedbackMessage: Leider nicht ganz richtig. Das ist etwas zu viel des Guten,
+          aber du bist auf dem richtigen Weg.
+      - name: Durch einen Kreis mit einem Punkt und dem Winkel herum.
+        isAnswer: 0
+        feedbackMessage: "Leider nicht ganz richtig. Der Punkt ist schon mal ein
+          guter Anfang, aber der durchgezogene Kreis ist etwas \xFCbertrieben."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:68b66342d587abbaa40643c0685c05f7_1644248630.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Was besagt der Satz des Pythagoras in Worten?
+      choices:
+      - name: Das Quadrat der Hypotenuse ist gleich der Summe der Quadrate der Katheten.
+        isAnswer: 1
+        feedbackMessage: "Richtig! In der Formel hei\xDFt das: c\xB2 = a\xB2 + b\xB2."
+      - name: Das Quadrat der Hypotenuse ist gleich der Summe der Katheten.
+        isAnswer: 0
+        feedbackMessage: "Hier ist ein kleiner Schusselfehler passiert. Guck dir
+          noch mal die richtige Formel an:  c\xB2 = a\xB2 + b\xB2."
+      - name: Das Hypotenusenquadrat ist gleich dem Produkt der Katheten.
+        isAnswer: 0
+        feedbackMessage: "Ups, hier ist was schief gelaufen. Guck dir noch mal die
+          richtige Formel an:  c\xB2 = a\xB2 + b\xB2."
+      - name: Das Quadrat der Hypotenuse ist gleich der Division der Quadrate der
+          Katheten.
+        isAnswer: 0
+        feedbackMessage: "Ein kleiner Rechenartfehler hat sich eingeschlichen. Guck
+          dir noch mal die richtige Formel an:  c\xB2 = a\xB2 + b\xB2."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:07cbc49b91645b7da4f101143f1a0ec4_1644248683.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was muss f\xFCr die Nutzung des Satz des Pythagoras gegeben sein?"
+      choices:
+      - name: Ein rechtwinkliges Dreieck.
+        isAnswer: 1
+        feedbackMessage: "Richtig! Das ergibt sich aus der Definition, n\xE4mlich,
+          dass die Fl\xE4chenquadrate der Katheten gleich dem Quadrat der Hypotenuse
+          sind. Wenn du das mal aufzeichnest, geht es blo\xDF mit einem rechtwinkligen
+          Dreieck."
+      - name: Ein gleichschenkliges Dreieck.
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. In dem Sonderfall, dass zwei Winkel
+          45\xB0 sind, w\xE4re das sogar richtig, entspricht aber nicht der Voraussetzung."
+      - name: "Es sind keine spezifischen Voraussetzungen n\xF6tig."
+        isAnswer: 0
+        feedbackMessage: "Oh doch, wenn der Satz besagt, dass die Fl\xE4chenquadrate
+          der k\xFCrzeren Seiten gleich der l\xE4ngsten Seite sind, funktioniert
+          das nur, wenn das Dreieck eine spezifische Eigenschaft hat."
+      - name: Ein spitzwinkliges Dreieck.
+        isAnswer: 0
+        feedbackMessage: "Das ist nicht richtig. Ein spitzwinkliges Dreieck hat nur
+          spitze Winkel und diese sind kleiner als 90\xB0."
+  requiredProgress: []

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-CatapultDummyShooting
+  m_EditorClassIdentifier: 
+  uid: 76ce0776-3edb-441e-b93f-b90ccf5ca2fb
+  taskName: Kraft beim Verlassen der Maschine messen
+  teaserDescription: "Gleich startet der n\xE4chste Versuch des Magnetkatapults.
+    Das Magnetkatapult surrt nun besser und schneller. Jetzt m\xFCssen wir nur noch
+    die Kraft des Dummys beim Verlassen der Maschine \xFCberpr\xFCfen. Kannst du
+    helfen? "
+  teaserSolvedCorrect: "Der zweite Probeflug wurde erfolgreich abgeschlossen. Gespr\xE4che
+    mit f\xFChrenden Flugunternehmen und Regierungen wurden aufgenommen.\r\n"
+  teaserSolvedWrong: 'Positive Ergebnisse zum zweiten Probeflug stehen noch aus.
+    Die Kraft beim Verlassen des Katapults konnte noch nicht festgestellt werden.
+
+'
+  fullDescription: "F\xFChre letzte Berechnungen zur Austrittsst\xE4rke der Kraft
+    im Katapult durch."
+  teachAndPlayDescription: Das VR-System simuliert eine Laborumgebung, in der mit
+    einem Magnetkatapult experimentiert wird. Testweise wird ein Testdummy durch
+    die Luft katapultiert und die Kraft beim Verlassen der Maschine muss berechnet
+    werden.
+  topic: {fileID: 11400000, guid: 6be83b90b36d60e4c9232e18dd5b6f4b, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: m
+      icon: {fileID: -8761453942129067329, guid: c8856296191bae842bf5300f1182897c,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 80 kg
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Masse des Testdummys.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 80 kg
+    - name: a
+      icon: {fileID: 329665159147008118, guid: c8856296191bae842bf5300f1182897c, type: 3}
+      textMeshProName: a
+      type: 0
+      textValue: 5 m/s^2
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Beschleunigung des Katapultes.
+      definition: "Ist eine vektorielle Gr\xF6\xDFe, die die zeitliche Ver\xE4nderung
+        der Geschwindigkeit beschreibt."
+      textMeshProValue: 5 m/s<sup>2</sup>
+    dummyInputs:
+    - name: g
+      icon: {fileID: 0}
+      textMeshProName: g
+      type: 0
+      textValue: 9,81 m/s^2
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Erdbeschleunigung
+      definition: "Die Erdbeschleunigung gibt an, welche Beschleunigung ein K\xF6rper
+        im freien Fall innerhalb der Erdgravitation erf\xE4hrt."
+      textMeshProValue: 9,81 m/s<sup>2</sup>
+    output:
+      name: F
+      icon: {fileID: -5766204359431747727, guid: c8856296191bae842bf5300f1182897c,
+        type: 3}
+      textMeshProName: F
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 40cc7a949c3d9384ea2d4c7bfd1267eb, type: 2}
+    dialogs:
+    - "Der n\xE4chste Versuch steht an. Der Dummy soll mit ~i:a|5 m/s\xB2~ beschleunigt
+      werden. Mit welcher ~o:F|Kraft~ wird er aus dem Katapult geschossen?"
+    - "~i:m|80 Kilogramm~ wiegt der Dummy? Bei der Lebensmittelknappheit ist das
+      Durchnittsgewicht eines Erwachsenen eher bei 60kg\u2026"
+    - "Vergiss den Helm f\xFCr den Dummy nicht, so viele haben wir nicht mehr \u2026
+      \rDie Erdbschleunigung ist \xFCbrigens ~i:g|9,81 m/s\xB2~."
+  hashtags:
+  - 'kraft '
+  - 'aufindieluft '
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: dc2a5620b11698e46a7b2b38cea6f9cd, type: 2}

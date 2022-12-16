@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_ZEK
+  m_EditorClassIdentifier: 
+  uid: 8d5e947e-9bd3-4ab5-b398-12e0eed36e80
+  mleName: Zentrales ebenes Kraftsystem
+  mleHandout: {fileID: 11400000, guid: 76aca08c261d9a44a93c0e55b0b5380b, type: 2}
+  mleIntroText: Was ein zentrales von einem allgemeinen Kraftsystem unterscheidet?
+    Das wird hier beantwortet.
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:0642c8884beb4fd52449b53a3dcfef84_1644248777.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wir wird das Kraftsystem genannt, wenn sich die Wirkungslinien aller
+        angreifenden Kr\xE4fte am K\xF6rper in einem Schnittpunkt schneiden?"
+      choices:
+      - name: Zentrales ebenes Kraftsystem (ZEK)
+        isAnswer: 1
+        feedbackMessage: Perfecto! Um die Ersatzkraft/Resultierende zu bestimmen,
+          sollte stets ein Koordinatensystem genutzt werden, welches mit dem Ursprung
+          im Angriffspunkt platziert wird.
+      - name: Allgemeines ebenes Kraftsystem (AEK)
+        isAnswer: 0
+        feedbackMessage: "Nah dran. Das Allgemeine bezieht sich hier auf die Orientierung
+          der Kr\xE4fte. Diese m\xFCssen entsprechend angeordnet sein. Beim Allgemeinen
+          gibt es keine speziellen Vorgaben."
+      - name: "Zentrales r\xE4umliches Kraftsystem (ZRK)"
+        isAnswer: 0
+        feedbackMessage: "Fast. \u201AR\xE4umlich\u2018 bezieht sich dabei auf die
+          Dimension des Ortes, an dem die Kr\xE4fte angreifen. Es wird kein Koordinatensystem
+          mit drei Achsen ben\xF6tigt."
+      - name: "Allgemeines r\xE4umliches Kraftsystem (ARK)"
+        isAnswer: 0
+        feedbackMessage: "Diese Antwort bezieht sich auf den Extremfall, dass das
+          Kraftsystem \xFCber viele Schnittpunkte und r\xE4umlich definiert ist.
+          Hier sind Orientierung und Dimension zu weit gegriffen."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:23a2a7301ce0fd5d20c52b4880bb134d_1644248795.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was ist ein zentrales ebenes Kraftsystem? Ein zentrales ebenes Kraftsystem
+        \u2026"
+      choices:
+      - name: "\u2026 ist eine Kr\xE4ftegruppe, die in einer Ebene liegt und bei
+          der die Wirkungslinien aller Kr\xE4fte sich in einem Punkt schneiden."
+        isAnswer: 1
+        feedbackMessage: "Supi! Befinden sich die Kr\xE4fte im dreidimensionalen
+          Raum, so wird von r\xE4umlichen Kraftsystemen gesprochen. Zentral bedeutet
+          dies, dass sich die Wirkungslinien in einem Schnittpunkt treffen."
+      - name: "\u2026 ist eine Kr\xE4ftegruppe, die in einem Raum liegt  und bei
+          der die Wirkungslinien aller Kr\xE4fte sich in einem Punkt schneiden."
+        isAnswer: 0
+        feedbackMessage: "Leider nicht ganz! Liegen die Kr\xE4fte im dreidimensionalen
+          Raum, wird von r\xE4umlichen Kr\xE4ftegruppen gesprochen. Hier geht es
+          aber um ein ebenes zentrales Kraftsystem."
+      - name: "\u2026 ist eine Kr\xE4ftegruppe, die in einer Ebene liegt und bei
+          der die Wirkungslinien aller Kr\xE4fte sich in mehreren Punkten schneiden."
+        isAnswer: 0
+        feedbackMessage: "Da ist leider ein kleiner Fehler \u02C8drin. Deine Antwort
+          ist die Definition einer allgemeinen ebenen Kr\xE4ftegruppe, da sich die
+          Wirkungslinien in mehreren Punkten in einer Ebene schneiden. Achtung, es
+          geht um die zentrale ebene Kr\xE4ftegruppe!"
+      - name: "\u2026 ist eine Kr\xE4ftegruppe, die in einem Raum liegt und bei der
+          die Wirkungslinien aller Kr\xE4fte sich in mehreren Punkten schneiden."
+        isAnswer: 0
+        feedbackMessage: "Nein, da sind leider zwei kleine Fehlerchen vorhanden.
+          Deine Antwort ist die Definition einer allgemeinen r\xE4umlichen Kr\xE4ftegruppe,
+          da sich die Wirkungslinien in mehreren Punkten schneiden und sich im Raum
+          befinden. Achtung, es geht um die zentrale ebene Kr\xE4ftegruppe!"
+  requiredProgress: []

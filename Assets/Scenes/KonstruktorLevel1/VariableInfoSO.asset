@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec82d4f032c92f4492660876d08acb6, type: 3}
+  m_Name: VariableInfoSO
+  m_EditorClassIdentifier: 
+  iconInfos:
+  - type: 0
+    icon: {fileID: 4202219352597337317, guid: c5ac6e35d31f4cd41b09be22cc15759f, type: 3}
+  - type: 1
+    icon: {fileID: 5853200948304020119, guid: c5ac6e35d31f4cd41b09be22cc15759f, type: 3}
+  - type: 4
+    icon: {fileID: 5347782778416495705, guid: c5ac6e35d31f4cd41b09be22cc15759f, type: 3}
+  - type: 6
+    icon: {fileID: -6572303338749779407, guid: c5ac6e35d31f4cd41b09be22cc15759f, type: 3}
+  - type: 2
+    icon: {fileID: -2413239381414700280, guid: c5ac6e35d31f4cd41b09be22cc15759f, type: 3}
+  - type: 3
+    icon: {fileID: 542876221509227956, guid: c5ac6e35d31f4cd41b09be22cc15759f, type: 3}
+  - type: 7
+    icon: {fileID: -4900663466716028173, guid: c5ac6e35d31f4cd41b09be22cc15759f, type: 3}
+  - type: 5
+    icon: {fileID: 5347782778416495705, guid: c5ac6e35d31f4cd41b09be22cc15759f, type: 3}
+  entries:
+  - variableType: 13
+    description: "Die [Ersatzkraft](glossary:Ersatzkraft) ist eine \xE4quivalente
+      [Kraft](glossary:Kraft) zu zwei an einem Punkt angreifenden Kr\xE4ften.\n\n[#Kr\xE4fteparallelogramm](glossary:Kr\xE4fteparallelogramm),
+      [#Ersatzkraft](glossary:Ersatzkraft), [#Vektoraddition](glossary:Vektoraddition)"
+    tmpDescription: "Die <color=#131313><u><link=\"glossary:Ersatzkraft\">Ersatzkraft</link></u></color>
+      ist eine \xE4quivalente <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      zu zwei an einem Punkt angreifenden Kr\xE4ften.\n\n<color=#131313><u><link=\"glossary:Kr\xE4fteparallelogramm\">#Kr\xE4fteparallelogramm</link></u></color>,
+      <color=#131313><u><link=\"glossary:Ersatzkraft\">#Ersatzkraft</link></u></color>,
+      <color=#131313><u><link=\"glossary:Vektoraddition\">#Vektoraddition</link></u></color>"
+    mle: {fileID: 11400000, guid: 0d33ee65de98ba0428c23fb8cdf94f2d, type: 2}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: '$$ F_Rx = F_x1 + F_x2 $$
+
+      $$ F_Ry = F_y1 + F_y2 $$'
+  - variableType: 14
+    description: "Die [Ersatzkraft](glossary:Ersatzkraft) ist eine \xE4quivalente
+      [Kraft](glossary:Kraft) zu zwei, an einem Punkt angreifenden Kr\xE4ften.\n\n[#Kr\xE4fteparallelogramm](glossary:Kr\xE4fteparallelogramm),
+      [#Ersatzkraft](glossary:Ersatzkraft), [#Vektoraddition](glossary:Vektoraddition)"
+    tmpDescription: "Die <color=#131313><u><link=\"glossary:Ersatzkraft\">Ersatzkraft</link></u></color>
+      ist eine \xE4quivalente <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      zu zwei, an einem Punkt angreifenden Kr\xE4ften.\n\n<color=#131313><u><link=\"glossary:Kr\xE4fteparallelogramm\">#Kr\xE4fteparallelogramm</link></u></color>,
+      <color=#131313><u><link=\"glossary:Ersatzkraft\">#Ersatzkraft</link></u></color>,
+      <color=#131313><u><link=\"glossary:Vektoraddition\">#Vektoraddition</link></u></color>"
+    mle: {fileID: 0}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: 
+  - variableType: 20
+    description: "Das [Ersatzmodell](glossary:Ersatzmodell) stellt skizzenhaft das
+      technische System mit [starren K\xF6rpern](glossary:Starrer_K\xF6rper) dar.\n\n[#Ersatzmodell](glossary:Ersatzmodell),
+      [#Freischnitt](glossary:Freischneiden), [#Seile](glossary:Seile), [#St\xE4be](glossary:St\xE4be),
+      [#Balken](glossary:Balken)"
+    tmpDescription: "Das <color=#131313><u><link=\"glossary:Ersatzmodell\">Ersatzmodell</link></u></color>
+      stellt skizzenhaft das technische System mit <color=#131313><u><link=\"glossary:Starrer_K\xF6rper\">starren
+      K\xF6rpern</link></u></color> dar.\n\n<color=#131313><u><link=\"glossary:Ersatzmodell\">#Ersatzmodell</link></u></color>,
+      <color=#131313><u><link=\"glossary:Freischneiden\">#Freischnitt</link></u></color>,
+      <color=#131313><u><link=\"glossary:Seile\">#Seile</link></u></color>, <color=#131313><u><link=\"glossary:St\xE4be\">#St\xE4be</link></u></color>,
+      <color=#131313><u><link=\"glossary:Balken\">#Balken</link></u></color>"
+    mle: {fileID: 0}
+    glossaryEntries: []
+    calculator: 10
+    line: {fileID: 0}
+    formula: $$ Vorhandene Bauteile durch mechanische Elemente ersetzen $$
+  - variableType: 1
+    description: "Die [Gewichtskraft](glossary:Gewichtskraft) F_G gibt an, welche
+      [Kraft](glossary:Kraft) ein K\xF6rper im Schwerefeld eines anderen K\xF6rpers
+      erf\xE4hrt.\n\n[#Gewichtskraft](glossary:Gewichtskraft), [#Kraft](glossary:Kraft)"
+    tmpDescription: "Die <color=#131313><u><link=\"glossary:Gewichtskraft\">Gewichtskraft</link></u></color>
+      F<sub>G</sub> gibt an, welche <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      ein K\xF6rper im Schwerefeld eines anderen K\xF6rpers erf\xE4hrt.\n\n<color=#131313><u><link=\"glossary:Gewichtskraft\">#Gewichtskraft</link></u></color>,
+      <color=#131313><u><link=\"glossary:Kraft\">#Kraft</link></u></color>"
+    mle: {fileID: 11400000, guid: 92b77be072d2f1940a38d1212c202f11, type: 2}
+    glossaryEntries: []
+    calculator: 3
+    line: {fileID: 0}
+    formula: $$ F_G = m * g $$
+  - variableType: 3
+    description: "Die [Hypotenuse](glossary:Hypotenuse) ist die Seite im [rechtwinkligen
+      Dreieck](glossary:Kathete), die dem [rechten Winkel](glossary:Rechter_Winkel)
+      gegen\xFCberliegt.\n\n[#Satz des Pythagoras](glossary:Satz_des_Pythagoras),
+      [#Sinus](glossary:Sinus), [#Cosinus](glossary:Cosinus)"
+    tmpDescription: "Die <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>
+      ist die Seite im <color=#131313><u><link=\"glossary:Kathete\">rechtwinkligen
+      Dreieck</link></u></color>, die dem <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color> gegen\xFCberliegt.\n\n<color=#131313><u><link=\"glossary:Satz_des_Pythagoras\">#Satz
+      des Pythagoras</link></u></color>, <color=#131313><u><link=\"glossary:Sinus\">#Sinus</link></u></color>,
+      <color=#131313><u><link=\"glossary:Cosinus\">#Cosinus</link></u></color>"
+    mle: {fileID: 11400000, guid: af24d71dc8980a6408777c6b0f4ffcf4, type: 2}
+    glossaryEntries: []
+    calculator: 4
+    line: {fileID: 0}
+    formula: $$ c^2 = a^2 + b^2 $$
+  - variableType: 0
+    description: 'Die [Kraft](glossary:Kraft) F gibt an, wie stark zwei Objekte aufeinander
+      wirken.
+
+
+      [#Kraft](glossary:Kraft), [#Gewichtskraft](glossary:Gewichtskraft)'
+    tmpDescription: 'Die <color=#131313><u><link="glossary:Kraft">Kraft</link></u></color>
+      F gibt an, wie stark zwei Objekte aufeinander wirken.
+
+
+      <color=#131313><u><link="glossary:Kraft">#Kraft</link></u></color>,
+      <color=#131313><u><link="glossary:Gewichtskraft">#Gewichtskraft</link></u></color>'
+    mle: {fileID: 11400000, guid: a6e4a5b1946338e4992a3a434f24b511, type: 2}
+    glossaryEntries: []
+    calculator: 3
+    line: {fileID: 0}
+    formula: $$ F_G = m * a $$
+  - variableType: 9
+    description: 'Die [Kraftkomponenten](glossary:Kraftkomponenten) in x-Richtung
+      sind der horizontale Anteil einer [Kraft](glossary:Kraft) im [Koordinatensystem](glossary:Koordinatensystem).
+
+
+      [#Kraftkomponenten](glossary:Kraftkomponenten),
+      [#Cosinus](glossary:Cosinus), [#Kraft](glossary:Kraft)'
+    tmpDescription: 'Die <color=#131313><u><link="glossary:Kraftkomponenten">Kraftkomponenten</link></u></color>
+      in x-Richtung sind der horizontale Anteil einer <color=#131313><u><link="glossary:Kraft">Kraft</link></u></color>
+      im <color=#131313><u><link="glossary:Koordinatensystem">Koordinatensystem</link></u></color>.
+
+
+      <color=#131313><u><link="glossary:Kraftkomponenten">#Kraftkomponenten</link></u></color>,
+      <color=#131313><u><link="glossary:Cosinus">#Cosinus</link></u></color>, <color=#131313><u><link="glossary:Kraft">#Kraft</link></u></color>'
+    mle: {fileID: 11400000, guid: e67f8b863df089b4fb10914d6dcb7028, type: 2}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: $$ F_x = F * \cos(\alpha) $$
+  - variableType: 10
+    description: 'Die [Kraftkomponenten](glossary:Kraftkomponenten) in x-Richtung
+      F_X sind der horizontale Anteil einer [Kraft](glossary:Kraft) im [Koordinatensystem](glossary:Koordinatensystem).
+
+
+      [#Kraftkomponenten](glossary:Kraftkomponenten),
+      [#Cosinus](glossary:Cosinus), [#Kraft](glossary:Kraft)'
+    tmpDescription: 'Die <color=#131313><u><link="glossary:Kraftkomponenten">Kraftkomponenten</link></u></color>
+      in x-Richtung F<sub>X</sub> sind der horizontale Anteil einer <color=#131313><u><link="glossary:Kraft">Kraft</link></u></color>
+      im <color=#131313><u><link="glossary:Koordinatensystem">Koordinatensystem</link></u></color>.
+
+
+      <color=#131313><u><link="glossary:Kraftkomponenten">#Kraftkomponenten</link></u></color>,
+      <color=#131313><u><link="glossary:Cosinus">#Cosinus</link></u></color>, <color=#131313><u><link="glossary:Kraft">#Kraft</link></u></color>'
+    mle: {fileID: 0}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: 
+  - variableType: 11
+    description: 'Die [Kraftkomponenten](glossary:Kraftkomponenten) in y-Richtung
+      F_Y sind der vertikale Anteil einer [Kraft](glossary:Kraft) im [Koordinatensystem](glossary:Koordinatensystem).
+
+
+      [#Kraftkomponenten](glossary:Kraftkomponenten),
+      [#Sinus](glossary:Sinus), [#Kraft](glossary:Kraft)'
+    tmpDescription: 'Die <color=#131313><u><link="glossary:Kraftkomponenten">Kraftkomponenten</link></u></color>
+      in y-Richtung F<sub>Y</sub> sind der vertikale Anteil einer <color=#131313><u><link="glossary:Kraft">Kraft</link></u></color>
+      im <color=#131313><u><link="glossary:Koordinatensystem">Koordinatensystem</link></u></color>.
+
+
+      <color=#131313><u><link="glossary:Kraftkomponenten">#Kraftkomponenten</link></u></color>,
+      <color=#131313><u><link="glossary:Sinus">#Sinus</link></u></color>, <color=#131313><u><link="glossary:Kraft">#Kraft</link></u></color>'
+    mle: {fileID: 11400000, guid: e67f8b863df089b4fb10914d6dcb7028, type: 2}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: $$ F_y = F * \sin(\alpha) $$
+  - variableType: 12
+    description: 'Die [Kraftkomponenten](glossary:Kraftkomponenten) in y-Richtung
+      sind der vertikale Anteil einer [Kraft](glossary:Kraft) im [Koordinatensystem](glossary:Koordinatensystem).
+
+
+      [#Kraftkomponenten](glossary:Kraftkomponenten),
+      [#Sinus](glossary:Sinus), [#Kraft](glossary:Kraft)'
+    tmpDescription: 'Die <color=#131313><u><link="glossary:Kraftkomponenten">Kraftkomponenten</link></u></color>
+      in y-Richtung sind der vertikale Anteil einer <color=#131313><u><link="glossary:Kraft">Kraft</link></u></color>
+      im <color=#131313><u><link="glossary:Koordinatensystem">Koordinatensystem</link></u></color>.
+
+
+      <color=#131313><u><link="glossary:Kraftkomponenten">#Kraftkomponenten</link></u></color>,
+      <color=#131313><u><link="glossary:Sinus">#Sinus</link></u></color>, <color=#131313><u><link="glossary:Kraft">#Kraft</link></u></color>'
+    mle: {fileID: 0}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: 
+  - variableType: 2
+    description: "[Kr\xE4fte](glossary:Kraft) sind vektorielle Gr\xF6\xDFen und werden
+      als Kraftpfeil / [Vektor](glossary:Vektor) dargestellt.\n\n[#Kraft](glossary:Kraft),
+      [#Vektor](glossary:Vektor), [Ma\xDFstab](glossary:Ma\xDFstab)"
+    tmpDescription: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      sind vektorielle Gr\xF6\xDFen und werden als Kraftpfeil / <color=#131313><u><link=\"glossary:Vektor\">Vektor</link></u></color>
+      dargestellt.\n\n<color=#131313><u><link=\"glossary:Kraft\">#Kraft</link></u></color>,
+      <color=#131313><u><link=\"glossary:Vektor\">#Vektor</link></u></color>, <color=#131313><u><link=\"glossary:Ma\xDFstab\">Ma\xDFstab</link></u></color>"
+    mle: {fileID: 11400000, guid: c4bfc1ebee05aa64a93ad01acb9273c6, type: 2}
+    glossaryEntries: []
+    calculator: 9
+    line: {fileID: 11400000, guid: f8a131ee708c5124abe635b3942b8f01, type: 2}
+    formula: $$ \vector{F} = \begin{pmatrix}F_x\\F_y\end{pmatrix} $$
+  - variableType: 6
+    description: "Zwei [Kr\xE4fte](glossary:Kraft) sind im Gleichgewicht, wenn sie
+      gleich gro\xDF und entgegengesetzt gerichtet sind und auf einer [Wirkungslinie](glossary:Wirkungslinie)
+      liegen.\n\n[#Gleichgewichtsaxiom(glossary:Gleichgewichtsaxiom), [#Kraft](glossary:Kraft)"
+    tmpDescription: "Zwei <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      sind im Gleichgewicht, wenn sie gleich gro\xDF und entgegengesetzt gerichtet
+      sind und auf einer <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      liegen.\n\n[#Gleichgewichtsaxiom(glossary:Gleichgewichtsaxiom), <color=#131313><u><link=\"glossary:Kraft\">#Kraft</link></u></color>"
+    mle: {fileID: 11400000, guid: 9fefab5bffbcd414e8b17d702b3868a2, type: 2}
+    glossaryEntries: []
+    calculator: 11
+    line: {fileID: 11400000, guid: 63f7691a11426c34faceae9e76925ee4, type: 2}
+    formula: $$ \sum F = 0 $$
+  - variableType: 7
+    description: "Zu jeder [Kraft](glossary:Kraft) gibt es stets eine gleich gro\xDFe,
+      entgegengesetzt gerichtete, auf derselben [Wirkungslinie](glossary:Wirkungslinie)
+      liegende Gegenkraft.\n\n[#Wechselwirkungsaxiom](glossary:Wechselwirkungsaxiom),
+      [#Kraft](glossary:Kraft)"
+    tmpDescription: "Zu jeder <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      gibt es stets eine gleich gro\xDFe, entgegengesetzt gerichtete, auf derselben
+      <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      liegende Gegenkraft.\n\n<color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">#Wechselwirkungsaxiom</link></u></color>,
+      <color=#131313><u><link=\"glossary:Kraft\">#Kraft</link></u></color>"
+    mle: {fileID: 11400000, guid: 8f7e5967675715043810912bc1a504ff, type: 2}
+    glossaryEntries: []
+    calculator: 13
+    line: {fileID: 0}
+    formula: $$ F_1 = -F_1 $$
+  - variableType: 8
+    description: "[Kr\xE4fte](glossary:Kraft) k\xF6nnen entlang der [Wirkungslinie](glossary:Wirkungslinie)
+      verschoben werden, ohne die Wirkung auf den K\xF6rper zu \xE4ndern.\n\n[#Linienfl\xFCchtigkeit](glossary:Linienfl\xFCchtigkeitsaxiom),
+      [#Kraft](glossary:Kraft)"
+    tmpDescription: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      k\xF6nnen entlang der <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      verschoben werden, ohne die Wirkung auf den K\xF6rper zu \xE4ndern.\n\n<color=#131313><u><link=\"glossary:Linienfl\xFCchtigkeitsaxiom\">#Linienfl\xFCchtigkeit</link></u></color>,
+      <color=#131313><u><link=\"glossary:Kraft\">#Kraft</link></u></color>"
+    mle: {fileID: 11400000, guid: 3d939b7e35a4d424080e78df099d8b03, type: 2}
+    glossaryEntries: []
+    calculator: 12
+    line: {fileID: 0}
+    formula: $$ \rightarrow \boxminus= \boxminus \rightarrow $$
+  - variableType: 16
+    description: "Die [Resultierende](glossary:Resultierende) F_R ist eine \xE4quivalente
+      [Kraft](glossary:Kraft) zu beliebigen, an einem Punkt angreifenden, [Kr\xE4ften](glossary:Kraft).\n\n[#Resultierende](glossary:Resultierende),
+      [#Vektoraddition](glossary:Vektoraddition), [#Satz des Pythagoras](glossary:Satz_des_Pythagoras)"
+    tmpDescription: "Die <color=#131313><u><link=\"glossary:Resultierende\">Resultierende</link></u></color>
+      F<sub>R</sub> ist eine \xE4quivalente <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      zu beliebigen, an einem Punkt angreifenden, <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4ften</link></u></color>.\n\n<color=#131313><u><link=\"glossary:Resultierende\">#Resultierende</link></u></color>,
+      <color=#131313><u><link=\"glossary:Vektoraddition\">#Vektoraddition</link></u></color>,
+      <color=#131313><u><link=\"glossary:Satz_des_Pythagoras\">#Satz des Pythagoras</link></u></color>"
+    mle: {fileID: 11400000, guid: 0d33ee65de98ba0428c23fb8cdf94f2d, type: 2}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: '$$ R_x =F_x1 + F_x2 + ... $$
+
+      $$ R_y =F_y1 + F_y2 + ... $$'
+  - variableType: 17
+    description: "Die [Resultierende](glossary:Resultierende) ist eine \xE4quivalente
+      [Kraft](glossary:Kraft) zu beliebigen an einem Punkt angreifenden [Kr\xE4ften](glossary:Kraft).\n\n[#Resultierende](glossary:Resultierende),
+      [#Vektoraddition](glossary:Vektoraddition), [#Satz des Pythagoras](glossary:Satz_des_Pythagoras)"
+    tmpDescription: "Die <color=#131313><u><link=\"glossary:Resultierende\">Resultierende</link></u></color>
+      ist eine \xE4quivalente <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      zu beliebigen an einem Punkt angreifenden <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4ften</link></u></color>.\n\n<color=#131313><u><link=\"glossary:Resultierende\">#Resultierende</link></u></color>,
+      <color=#131313><u><link=\"glossary:Vektoraddition\">#Vektoraddition</link></u></color>,
+      <color=#131313><u><link=\"glossary:Satz_des_Pythagoras\">#Satz des Pythagoras</link></u></color>"
+    mle: {fileID: 0}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: 
+  - variableType: 4
+    description: "Die Seiten im Dreieck (z. B. a, b oder c) k\xF6nnen je nach Vorgabe
+      mit verschiedenen mathematischen S\xE4tzen bestimmt werden\r.\n\n[#Cosinussatz](glossary:Cosinussatz),
+      [#Cosinus](glossary:Cosinus), [#Kr\xE4fteparallelogramm](glossary:Kr\xE4fteparallelogramm)"
+    tmpDescription: "Die Seiten im Dreieck (z. B. a, b oder c) k\xF6nnen je nach
+      Vorgabe mit verschiedenen mathematischen S\xE4tzen bestimmt werden .\n\n<color=#131313><u><link=\"glossary:Cosinussatz\">#Cosinussatz</link></u></color>,
+      <color=#131313><u><link=\"glossary:Cosinus\">#Cosinus</link></u></color>, <color=#131313><u><link=\"glossary:Kr\xE4fteparallelogramm\">#Kr\xE4fteparallelogramm</link></u></color>"
+    mle: {fileID: 11400000, guid: a1f3e15fe3e8d2b4f833d39551c20862, type: 2}
+    glossaryEntries: []
+    calculator: 2
+    line: {fileID: 0}
+    formula: '$$ a^2 = b^2 +c^2 -2bc * \cos(\alpha) $$
+
+      $$ c^2 = a^2 + b^2
+      $$'
+  - variableType: 5
+    description: "Ein [Vektor](glossary:Vektor) ist eine gerichtete Gr\xF6\xDFe,
+      die durch ihren [Betrag](glossary:Betrag) und ihre [Richtung](glossary:Richtung)
+      eindeutig festgelegt ist.\n\n[#Vektor](glossary:Vektor), [#Kraftkomponenten](glossary:Kraftkomponenten),
+      [#Vektoraddition](glossary:Vektoraddition)"
+    tmpDescription: "Ein <color=#131313><u><link=\"glossary:Vektor\">Vektor</link></u></color>
+      ist eine gerichtete Gr\xF6\xDFe, die durch ihren <color=#131313><u><link=\"glossary:Betrag\">Betrag</link></u></color>
+      und ihre <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>
+      eindeutig festgelegt ist.\n\n<color=#131313><u><link=\"glossary:Vektor\">#Vektor</link></u></color>,
+      <color=#131313><u><link=\"glossary:Kraftkomponenten\">#Kraftkomponenten</link></u></color>,
+      <color=#131313><u><link=\"glossary:Vektoraddition\">#Vektoraddition</link></u></color>"
+    mle: {fileID: 11400000, guid: 492f41cf59773ef4d92a998cf0c80048, type: 2}
+    glossaryEntries: []
+    calculator: 8
+    line: {fileID: 11400000, guid: f8a131ee708c5124abe635b3942b8f01, type: 2}
+    formula: $$ \vector{v} = \vector{P_1 P_2} $$
+  - variableType: 15
+    description: 'Der Winkel der [Ersatzkraft](glossary:Ersatzkraft) beschreibt die
+      Neigung der [Ersatzkraft](glossary:Ersatzkraft) zur positiven [x-Achse](glossary:Koordinatensystem).
+
+
+      [#Tangens](glossary:Tangens),
+      [#Ersatzkraft](glossary:Ersatzkraft), [#rechtwinkliges Dreieck](glossary:Kathete)'
+    tmpDescription: 'Der Winkel der <color=#131313><u><link="glossary:Ersatzkraft">Ersatzkraft</link></u></color>
+      beschreibt die Neigung der <color=#131313><u><link="glossary:Ersatzkraft">Ersatzkraft</link></u></color>
+      zur positiven <color=#131313><u><link="glossary:Koordinatensystem">x-Achse</link></u></color>.
+
+
+      <color=#131313><u><link="glossary:Tangens">#Tangens</link></u></color>,
+      <color=#131313><u><link="glossary:Ersatzkraft">#Ersatzkraft</link></u></color>,
+      <color=#131313><u><link="glossary:Kathete">#rechtwinkliges Dreieck</link></u></color>'
+    mle: {fileID: 0}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: $$ \alpha = \arctan(F_Ry / F_Rx) $$
+  - variableType: 18
+    description: 'Der Winkel der [Resultierenden](glossary:Resultierende) beschreibt
+      die Neigung der [Resultierenden](glossary:Resultierende) zur positiven [x-Achse](glossary:Koordinatensystem).
+
+
+      [#Tangens](glossary:Tangens),
+      [#Resultierenden](glossary:Resultierende), [#rechtwinkliges Dreieck](glossary:Kathete)'
+    tmpDescription: 'Der Winkel der <color=#131313><u><link="glossary:Resultierende">Resultierenden</link></u></color>
+      beschreibt die Neigung der <color=#131313><u><link="glossary:Resultierende">Resultierenden</link></u></color>
+      zur positiven <color=#131313><u><link="glossary:Koordinatensystem">x-Achse</link></u></color>.
+
+
+      <color=#131313><u><link="glossary:Tangens">#Tangens</link></u></color>,
+      <color=#131313><u><link="glossary:Resultierende">#Resultierenden</link></u></color>,
+      <color=#131313><u><link="glossary:Kathete">#rechtwinkliges Dreieck</link></u></color>'
+    mle: {fileID: 11400000, guid: 0d33ee65de98ba0428c23fb8cdf94f2d, type: 2}
+    glossaryEntries: []
+    calculator: 0
+    line: {fileID: 0}
+    formula: $$ \alpha = \acrtan (R_y / R_x) $$

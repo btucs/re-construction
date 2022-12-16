@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74220fa486c6e0445977227a2b353bfd, type: 3}
+  m_Name: AssessmentFeedbackSO
+  m_EditorClassIdentifier: 
+  entries:
+  - feedbackType: 21
+    feedback:
+    - "Das Ergebnis ist nicht richtig. \xDCberpr\xFCfe die eingesetzten Werte.\r\n"
+    - "Gehe zur\xFCck in das Modul und pr\xFCfe, ob die richtigen Werte genutzt wurden.\r"
+  - feedbackType: 20
+    feedback:
+    - 'Das Ergebnis wurde richtig berechnet.
+
+'
+  - feedbackType: 28
+    feedback:
+    - "Der Kraftpfeil zeigt in die falsche Richtung und liegt nicht auf der Wirkungslinie.
+      \r"
+    - "Gehe zur\xFCck ins Modul und vergewissere dich, dass die Richtung und Position
+      des Kraftpfeils an der richtigen Stelle sind. \r"
+    - "Gehe zur\xFCck und stelle die richtige Position und den Winkel durch das Verschiebungs-
+      und Winkelwerkzeug oben mittig ein. \r"
+  - feedbackType: 26
+    feedback:
+    - "Der Kraftpfeil zeigt in die falsche Richtung. \r"
+    - "Gehe zur\xFCck ins Gleichgewichtsmodul und \xFCberpr\xFCfe, ob du die Gradzahl
+      richtig eingestellt hast.\r"
+    - "Gehe zur\xFCck und stelle die richtige Richtung durch die Winkeleinstellungen
+      oben mittig ein.\r"
+  - feedbackType: 25
+    feedback:
+    - 'Du hast keine Kraft eingezeichnet oder erstellt.
+
+'
+    - "Zeichne den Kraftvektor ein und erstelle einen neuen Wert, den du dann erneut
+      abgeben kannst.\r"
+    - "Um einen Gleichgewichtspfeil abzugeben, muss die Kraft gezeichnet und ein
+      neuer Wert erstellt werden. \r"
+  - feedbackType: 29
+    feedback:
+    - "Alles richtig! Du hast die Richtung richtig festgelegt und der Kraftpfeil
+      liegt auf der Wirkungslinie.\r"
+  - feedbackType: 27
+    feedback:
+    - "Du hast zwar die richtige Richtung gew\xE4hlt, aber der Kraftpfeil liegt nicht
+      auf der Wirkungslinie.\r"
+    - "Kehre ins Modul zur\xFCck und \xE4ndere die Position des Kraftpfeils. Der
+      Winkel ist bereits richtig gew\xE4hlt.\r"
+    - "Gehe zur\xFCck und stelle die richtige Position durch das Verschiebungswerkzeug
+      oben mittig ein. \r"
+  - feedbackType: 24
+    feedback:
+    - Du hast dem gesuchten Wert kein Ergebnis zugeordnet.
+    - "Gehe zur\xFCck in das Modul und ziehe die gew\xFCnschte L\xF6sung der gegebenen
+      Werte in den gesuchten Wert rechts oben.\r"
+    - 'Um ein Ergebnis abzugeben, musst du einen gegebenen Wert in die gesuchte Wert-Ablage
+      oben rechts ziehen.
+
+'
+  - feedbackType: 23
+    feedback:
+    - "Du hast f\xFCr diesen Bearbeitungsschritt kein Modul ausgew\xE4hlt."
+    - "W\xE4hle im n\xE4chsten Schritt ein Modul und fahre mit der Bearbeitung fort.\r"
+  - feedbackType: 5
+    feedback:
+    - "Du hast keinen Vektor eingezeichnet. \r\n\n"
+    - "Gehe erneut in das Vektormodul und zeichne einen Vektor, indem du mit ausgew\xE4hltem
+      Zeichen-Tool den Anfangs- mit dem Zielpunkt verbindest.\r"
+    - "Um einen Vektor zu zeichnen, musst du zwei Punkte platzieren und dann mit
+      ausgew\xE4hltem Zeichen-Tool eine Verbindung zwischen Anfangs- und Endpunkt
+      ziehen.\n"
+  - feedbackType: 10
+    feedback:
+    - "Du hast keinen Kraftpfeil eingezeichnet. \r \r\n"
+    - "Gehe erneut in das Kraft-zeichnen-Modul und zeichne eine Kraft, indem du die
+      L\xE4nge, den Winkel und den Ausgangspunkt bestimmst und dann mit ausgew\xE4hltem
+      Zeichnen-Tool eine Linie zwischen Ausgangspunkt und Betragsende ziehst."
+    - Um einen Kraftpfeil zu platzieren, musst du den Ausgangspunkt, den Winkel und
+      den Betrag der Kraft festlegen. Ziehe dann eine Linie von Ausgangspunkt zu
+      Betragsende und erstelle einen neuen Wert.
+  - feedbackType: 18
+    feedback:
+    - "Der Kraftbetrag (=L\xE4nge) wurde nicht richtig eingestellt.\r "
+    - "\xDCberpr\xFCfe in der Aufgabenstellung und bei den zugeordneten, gegebenen
+      Werten den Betrag der Kraft.\r \n"
+    - 'Um einen Kraftbetrag zu definieren, ziehe eine Kraftangabe in die linke Ablage
+      und schiebe den Betrag entlang der Gerade beginnend beim Startpunkt.
+
+'
+  - feedbackType: 12
+    feedback:
+    - "Der Ausgangspunkt,  der Winkel und der Betrag (die L\xE4nge) sind falsch gesetzt.\r\n"
+    - "Gehe zur\xFCck ins Modul und setze erneut den Punkt, den Winkel und den Betrag
+      des Kraftpfeils. \r\n"
+    - "Um den Ausgangspunkt, den Winkel und den Betrag (die L\xE4nge) zu definieren,
+      ziehst du die gegebenen Werte in die linke Seite und nutzt zum Feststellen
+      der Position die Schieberegler.\r\n"
+  - feedbackType: 15
+    feedback:
+    - "Der Ausgangspunkt und der Betrag (die L\xE4nge) des Kraftpfeils sind falsch
+      gesetzt.\r\n"
+    - "Kehre in das Kraft-einzeichnen-Modul zur\xFCck und stelle die Position des
+      Ausgangspunktes und den Betrag erneut ein.\r\n"
+    - "Du kannst die richtige Position und die L\xE4nge pr\xFCfen, indem du die angegebenen
+      Werte mit den Informationen der gegebenen Variablen abgleichst.\r\n"
+  - feedbackType: 16
+    feedback:
+    - "Der Betrag (die L\xE4nge) des Kraftpfeils und der Winkel sind falsch gew\xE4hlt.\r\n"
+    - "Gehe zur\xFCck in das Modul und \xFCberpr\xFCfe den ausgef\xFChrten Betrag
+      und Winkel mit den gegebenen Angaben.\r\n"
+    - "Um den Winkel richtig einzustellen, nutzt du die Drehscheibe um den Punkt
+      herum. Den Betrag kannst du \xFCber den kleinen Strich entlang der Wirkungslinie
+      festlegen.\r\n"
+  - feedbackType: 17
+    feedback:
+    - 'Der Startpunkt und der Winkel wurden nicht richtig eingestellt.
+
+'
+    - "\xDCberpr\xFCfe und passe den gesetzten Ausgangspunkt und den Winkel im Modul
+      \"Kr\xE4fte einzeichnen\" an.\r\n"
+    - "Um den Ausgangspunkt und Winkel richtig zu setzen, ziehst du den gew\xFCnschten
+      Wert in die Linke Seite und definierst die Position durch die Nutzung von Schiebereglern
+      bzw. des R\xE4dchens um den Punkt drum herum.\r\n"
+  - feedbackType: 14
+    feedback:
+    - 'Der Startpunkt wurde nicht richtig eingestellt.
+
+'
+    - 'Kontrolliere den gesetzten Punkt und passe ihn an.
+
+'
+    - 'Um Fehler zu vermeiden, kannst du die Koordinaten der gesetzten Punkte mit
+      den Informationen der Punkte abgleichen.
+
+'
+    - "Setze einen Punkt, indem du einen gegebenen Punkt in die linke Ablage ziehst
+      und seinen Wert anhand der vorhandenen Koordination definierst.\r"
+  - feedbackType: 13
+    feedback:
+    - 'Dein eingezeichneter Winkel entspricht nicht den Vorgaben.
+
+'
+    - "Schaue dir nochmal die Aufgabenstellung an und pr\xFCfe den eingestellten
+      Winkel.\r\n"
+    - "Um den Winkel zu zeichnen, ziehst du die gew\xFCnschte Variable links in das
+      Winkel-Tool und bestimmst mit den kreisf\xF6rmigen Schieberegler die Gradzahl\r.\n"
+  - feedbackType: 11
+    feedback:
+    - "Du hast den Ausgangspunkt, den Winkel und den Kraftbetrag (die L\xE4nge) richtig
+      eingetragen.\n"
+  - feedbackType: 19
+    feedback:
+    - 'Die Richtung des gezeichneten (Kraft-)Vektors ist noch nicht  korrekt.
+
+'
+    - 'Die Richtung ergibt sich aus der Auswahl des Start- und Endpunktes des Vektors
+      beim Zeichen-Tool.
+
+'
+  - feedbackType: 32
+    feedback:
+    - 'Der Angriffspunkt ist nicht korrekt definiert.
+
+'
+    - "Gehe zur\xFCck ins Linienfl\xFCchtigkeitsmodul und schiebe den Kraftpfeil
+      anhand des Verschiebe-Tools oben mittig an den passenden Ort.\r\n"
+    - "Der Angriffspunkt und der Bildkontext k\xF6nnen dir helfen, den Angriffspunkt
+      an die richtige Stelle zu setzen.\r\n"
+  - feedbackType: 31
+    feedback:
+    - "Der Angriffspunkt und die Position des Kraftpfeils sind richtig gew\xE4hlt.\r\n"
+  - feedbackType: 30
+    feedback:
+    - 'Du hast keine Kraft eingezeichnet oder erstellt.
+
+'
+    - 'Zeichne den Kraftvektor ein und erstelle einen neuen Wert, den du dann erneut
+      abgeben kannst.
+
+'
+    - "Um einen Kraftpfeil abzugeben, muss die Kraft gezeichnet und ein neuer Wert
+      erstellt werden. \r\n"
+  - feedbackType: 4
+    feedback:
+    - "Du hast ein unpassendes Modul ausgew\xE4hlt.\r\n"
+    - 'Gehe erneut zur Modulauswahl und probiere es mit einer anderen Methode.
+
+'
+    - "Um dir die Modulsauswahl zu erleichtern, \xFCberpr\xFCfe, ob eine analytische
+      oder eine grafische L\xF6sung gefordert ist und orientiere dich an den gesuchten
+      Werten.\r\n"
+  - feedbackType: 3
+    feedback:
+    - "Du hast das richtige Bearbeitungsmodul gew\xE4hlt.\r\n"
+  - feedbackType: 9
+    feedback:
+    - "Dein gezeichneter Vektor ist noch nicht korrekt.\r "
+  - feedbackType: 7
+    feedback:
+    - "\xDCberpr\xFCfe deine Auswahl des Start- und Endpunkts des Vektors.\r "
+    - 'Du hast Start- mit Endpunkt verwechselt - der eingezeichnete Vektor zeigt
+      in die falsche Richtung auf. '
+    - 'Die Richtung ergibt sich aus der Auswahl des Start- und Endpunktes des Vektors.
+
+'
+  - feedbackType: 6
+    feedback:
+    - 'Du hast alle notwendigen (Kraft-)Vektoren richtig gezeichnet.
+
+'
+  - feedbackType: 8
+    feedback:
+    - "Der Vektor hat zwar den richtigen Betrag (= L\xE4nge) wei\xDFt aber die falsche
+      Position auf. "
+    - "Die Position des (Kraft-)Vektors ist nicht richtig\r. \xDCberpr\xFCfe noch
+      mal die Startpunkte und deinen L\xF6sungsweg.\r"
+    - "Verschiebe den richtig langen Vektor an die passende Position indem du die
+      Position der beteiligten Punkte \xE4nderst. "
+  - feedbackType: 36
+    feedback:
+    - "Der Kraftpfeil zeigt in die falsche Richtung und liegt nicht auf der Wirkungslinie.
+      \r"
+    - "Gehe zur\xFCck ins Modul und vergewissere dich, dass die Richtung und Position
+      des Kraftpfeils an der richtigen Stelle sind. \r\n"
+    - "Gehe zur\xFCck und stelle die richtige Position und den Winkel durch das Verschiebungs-
+      und Winkelwerkzeug oben mittig ein. \r"
+  - feedbackType: 34
+    feedback:
+    - "Der Kraftpfeil zeigt in die falsche Richtung. \r\n"
+    - "Gehe zur\xFCck ins Gleichgewichtsmodul und \xFCberpr\xFCfe, ob du die Gradzahl
+      richtig eingestellt hast.\r\n"
+    - "Gehe zur\xFCck und stelle die richtige Richtung durch die Winkeleinstellungen
+      oben mittig ein.\r\n"
+  - feedbackType: 33
+    feedback:
+    - 'Du hast keine Kraft eingezeichnet.
+
+'
+    - 'Zeichne den Kraftvektor ein und erstelle einen neuen Wert, den du dann erneut
+      abgeben kannst.
+
+'
+    - "Um eine Gegenkraft abzugeben, muss die Kraft gezeichnet und ein neuer Wert
+      erstellt werden. \r\n"
+  - feedbackType: 37
+    feedback:
+    - 'Alles richtig! Du hast die Richtung richtig festgelegt und der Kraftpfeil
+      liegt auf der Wirkungslinie.
+
+'
+  - feedbackType: 35
+    feedback:
+    - "Du hast zwar die richtige Richtung gew\xE4hlt aber der Kraftpfeil liegt nicht
+      auf der Wirkungslinie.\r\n"
+    - "Kehre ins Modul zur\xFCck und \xE4ndere die Position des Kraftpfeils. Der
+      Winkel ist bereits richtig gew\xE4hlt.\r\n"
+    - "Gehe zur\xFCck und stelle die richtige Position durch das Verschiebungswerkzeug
+      oben mittig ein. \r\n"
+  - feedbackType: 2
+    feedback:
+    - "Es wurden nicht alle notwendigen Werte identifiziert.\t\n"
+    - "Checke erneut die Dialoge, um fehlende Werte aufzusp\xFCren."
+    - "Die vorhandenen leeren Blasen geben dir einen Hinweis, wie viele Informationen
+      ben\xF6tigt werden.\r\n"
+  - feedbackType: 0
+    feedback:
+    - Du hast alle notwendigen Werte identifiziert.
+  - feedbackType: 1
+    feedback:
+    - "Du hast einen Wert mehrmals identifiziert.\t "
+    - 'Checke erneut die Dialoge und achte darauf, alle notwendigen Werte nur ein
+      Mal einzuordnen.
+
+'

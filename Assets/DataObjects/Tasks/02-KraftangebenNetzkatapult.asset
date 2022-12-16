@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02-KraftangebenNetzkatapult
+  m_EditorClassIdentifier: 
+  uid: 0aabdf81-9db2-40ea-997b-70ddf80b9e30
+  taskName: Schussrichtung feststellen
+  teaserDescription: "Mit dem Katapult k\xF6nnen wir die Plage etwas eind\xE4mmen.
+    Aber wie funktioniert das Ger\xE4t \xFCberhaupt und in welche Richtung geht das
+    Geschoss?\r"
+  teaserSolvedCorrect: 'Die Richtung des Katapults wurde richtig vorhergesagt. Es
+    ist nun in Betrieb.
+
+'
+  teaserSolvedWrong: "Die Bestimmung der Kraftrichtung des Katapults steht noch aus.
+    \r\n"
+  fullDescription: 'Das Insektennetz soll gegen die Plage geschossen werden. Hilf
+    bei der Berechnung der Austrittskraft, um die Kanone richtig einzustellen.
+
+'
+  teachAndPlayDescription: "Die VR-Brille zeigt eine Insektenpandemie. Zur Bek\xE4mpfung 
+    der Insekten werden Fangnetze mit Kanonen abgeschossen, doch die Kraft f\xFCr
+    den Abschuss muss noch eingezeichnet werden."
+  topic: {fileID: 11400000, guid: f518bd6517e68054c9898a7d36789002, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 2
+  coordinateSystemData:
+    origin: {x: 19, y: -30}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: -2587508390151529874, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-3 1 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Position des Verlassens der Insektenstopkugel aus der Kanone.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. Hier Angriffspunkt der Kraft."
+      textMeshProValue: (-3.5 1 0)
+    - name: alpha
+      icon: {fileID: 4333750855001864491, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "142 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Neigung der Kanone f\xFCr den Abschuss."
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "142 \xB0"
+    - name: F_1
+      icon: {fileID: -2775312652306825909, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+        type: 3}
+      textMeshProName: F<sub>1</sub>
+      type: 0
+      textValue: 500 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Kraftbetrag, mit der die Insektenstopkugel die Kanone verl\xE4sst."
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 500 N
+    dummyInputs:
+    - name: m
+      icon: {fileID: 7338915466576782459, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 100 kg
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Masse des Katapults.
+      definition: "Die Masse beschreibt die Tr\xE4gheit eines K\xF6rpers gegen Beschleunigungskr\xE4fte."
+      textMeshProValue: 100 kg
+    output:
+      name: F
+      icon: {fileID: -2432421373872174742, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+        type: 3}
+      textMeshProName: F
+      unit: 2
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: aaf810f3b5ed4924b812b400009ed97b, type: 2}
+    dialogs:
+    - "Jetzt aber ran an den Speck. Das Unheil naht und die ~o:F|Kraftrichtung~ f\xFCr
+      den Abwurf fehlt noch. \r\n"
+    - Verlier keine Zeit mit Vektorzeichnen, diesmal brauchen wir den ~o:F|Kraftpfeil~!
+  - npc: {fileID: 11400000, guid: d60d2682d473dd94fa76bf04e84b0832, type: 2}
+    dialogs:
+    - "Unter Stress kann ich nicht arbeiten. Was wir schon haben? Ja, ja\u2026 die
+      ~i:F_1|Kraft~ und den Winkel ~i:alpha|Alpha~.\r\n"
+    - '... oh und den ~i:P_1|Startpunkt~ und die ~i:m|Masse~ des Netzkatapults haben
+      wir auch! Dann mal los!
+
+'
+  hashtags:
+  - "kr\xE4fte"
+  connectedObject: {fileID: 11400000, guid: 3129ecb04feca8945afd8c4c4b413be7, type: 2}

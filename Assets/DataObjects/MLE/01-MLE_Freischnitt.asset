@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_Freischnitt
+  m_EditorClassIdentifier: 
+  uid: d325ead4-7584-4193-82ff-35c99d453b62
+  mleName: Freischnitt
+  mleHandout: {fileID: 11400000, guid: 2aa2164034a3bce45af10b0f0144cc62, type: 2}
+  mleIntroText: "Einmal Spitzen\u2026 \xE4h K\xF6rperschneiden, bitte! Wie du einen
+    Freischnitt machst, erf\xE4hrst du hier."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:baf9eccaefadaa28a6034fd1a0c8a6e3_1638274622.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Was ist der Freischnitt? '
+      choices:
+      - name: "Der Freischnitt dient der Sichtbarmachung aller an einem K\xF6rper/Objekt
+          angreifenden Kr\xE4fte. "
+        isAnswer: 1
+        feedbackMessage: "Das ist die richtige Antwort. Das betrifft alle \xE4u\xDFeren
+          und inneren Kr\xE4fte.\r\n"
+      - name: "Der Freischnitt bezeichnet das Berechnen der gr\xF6\xDFten Kr\xE4fte
+          im System. "
+        isAnswer: 0
+        feedbackMessage: "Leider nicht ganz richtig. Hier geht es noch nicht um die
+          Berechnung. Der Freischnitt kann der weiteren Berechnung dienen, hat aber
+          nichts mit der Gr\xF6\xDFe der Kraft zu tun.\r\n"
+      - name: "Der Freischnitt zeigt nur die \xE4u\xDFeren Kr\xE4fte an einem K\xF6rper. "
+        isAnswer: 0
+        feedbackMessage: "Das stimmt leider nur zur H\xE4lfte. Beim Freischnitt werden
+          \xE4u\xDFere und innere Kr\xE4fte betrachtet.\r\n"
+      - name: 'Der Freischnitt hilft dem Ingenieur, das Ersatzmodell auf Papier zu
+          skizzieren. '
+        isAnswer: 0
+        feedbackMessage: "M\xF6\xF6p, nicht wirklich. Der Freischnitt kommt erstens
+          nach dem Ersatzmodell und zweitens zeigt er \xE4u\xDFere und innere Kr\xE4fte
+          an.\r\n"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:1876d785d139350f6f87be7952c7d51b_1638274818.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Welche Reihenfolge gilt es, beim Freischnitt zu beachten? Wie wird
+        ein Freischnitt durchgef\xFChrt? "
+      choices:
+      - name: "1. Gedankliche Schnitte festlegen, ggf. Systemgrenzen darstellen und
+          die Elemente separat skizzieren. 2. Ggf. Skizze f\xFCr Teilsysteme anfertigen.
+          3. \xC4u\xDFere Kr\xE4fte antragen. 4. Schnittgr\xF6\xDFen antragen. "
+        isAnswer: 1
+        feedbackMessage: "Richtig! Aufbauend auf dem Ersatzmodell l\xE4sst sich so
+          ein vorbildlicher Freischnitt realisieren. Danach geht es mit spannenden
+          Berechnungen weiter.\r\n"
+      - name: "1. Schnittgr\xF6\xDFen antragen. 2. Gedankliche Schnitte festlegen,
+          ggf. Systemgrenzen darstellen und die Elemente separat skizzieren. 3. Ggf.
+          Skizze f\xFCr Teilsysteme anfertigen. 4. \xC4u\xDFere Kr\xE4fte antragen. "
+        isAnswer: 0
+        feedbackMessage: "Uhlala, hier ist ein wenig Unordnung reingekommen. Bevor
+          du startest, mach lieber einen Plan in Gedanken und auf Papier, wo \xFCberall
+          \"geschnitten\" werden soll.\r\n"
+      - name: "1. Schnittgr\xF6\xDFen antragen. 2. \xC4u\xDFere Kr\xE4fte antragen.
+          3. Gedankliche Schnitte festlegen, ggf. Systemgrenzen darstellen und die
+          Elemente separat skizzieren. 4. Ggf. Skizze f\xFCr Teilsysteme anfertigen. "
+        isAnswer: 0
+        feedbackMessage: 'Leider nein. Du bist einer von der schnellen Sorte, aber
+          bevor du startest gehe das Vorhaben besser in Gedanken und anhand einer
+          Skizze durch, dann wird das was!
+
+'
+      - name: "1. Ggf. Skizze f\xFCr Teilsysteme anfertigen. 2. Gedankliche Schnitte
+          festlegen, ggf. Systemgrenzen darstellen und die Elemente separat skizzieren.
+          3. \xC4u\xDFere Kr\xE4fte antragen. 4. Schnittgr\xF6\xDFen antragen. "
+        isAnswer: 0
+        feedbackMessage: 'Leider nicht korrekt. Einen Schritt nach dem anderen! Bevor
+          du startest, lieber alles in Ruhe in Gedanken durchgehen.
+
+'
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:f8d2511862dab395584211da1d28747e_1638274828.smil/playlist.m3u8
+    navTitle: Video
+    questions: []
+  requiredProgress: []

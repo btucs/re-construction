@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 4448099dc85a9c9489ba5bbd72a404c1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - TeachAndPlay-TaP.Start-0
+  - TeachAndPlay-TaP.Start-1
+  - TeachAndPlay-TaP.Start-2
+  - TeachAndPlay-TaP.Start-3
+  - TeachAndPlay-TaP.Start-4
+  - TeachAndPlay-TaP.Start-5
+  - TeachAndPlay-TaP.Start-6
+  - TeachAndPlay-TaP.Start-7
+  - TeachAndPlay-TaP.Exit-8
+  - TeachAndPlay-TaP.Joerg-9
+  - TeachAndPlay-TaP.Joerg-10
+  - TeachAndPlay-TaP.Joerg-11
+  - TeachAndPlay-TaP.Joerg-12
+  - TeachAndPlay-TaP.QuestIntro-13
+  - TeachAndPlay-TaP.QuestIntro-14
+  - TeachAndPlay-TaP.QuestIntro-15
+  - TeachAndPlay-TaP.QuestIntro-16
+  - TeachAndPlay-TaP.QuestIntro-17
+  - TeachAndPlay-TaP.QuestIntro-18
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 4448099dc85a9c9489ba5bbd72a404c1,
+    type: 3}
+  localizations: []

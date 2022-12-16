@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: e9675d557e1aa184f88bd317a2e9e5de
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - PandemicIntro-Start-0
+  - PandemicIntro-Start-1
+  - PandemicIntro-Start-2
+  - PandemicIntro-Start-3
+  - PandemicIntro-Start-4
+  - PandemicIntro-Start-5
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: e9675d557e1aa184f88bd317a2e9e5de,
+    type: 3}
+  localizations: []

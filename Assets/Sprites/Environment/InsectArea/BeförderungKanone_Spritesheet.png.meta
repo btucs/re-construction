@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 4e93496c81cebd446b345c909d6701a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7995523117029337516
+    second: "Bef\xF6rderung_HalterungSeilzug"
+  - first:
+      213: -4453604569302071884
+    second: "Bef\xF6rderung_Kanone"
+  - first:
+      213: -8486137734488916808
+    second: "Bef\xF6rderung_Seil"
+  - first:
+      213: 7077830751314623485
+    second: "Bef\xF6rderung_WagenOffen"
+  - first:
+      213: -7888790011682956168
+    second: "Bef\xF6rderung_WagenGeschlossen"
+  - first:
+      213: 952883348183068928
+    second: "Bef\xF6rderung_BandLinks"
+  - first:
+      213: 602502927658150130
+    second: "Bef\xF6rderung_BandMitte"
+  - first:
+      213: -5273439799039062197
+    second: "Bef\xF6rderung_BandRechts"
+  - first:
+      213: -4095447897823442022
+    second: "Bef\xF6rderung_BodenBefestigung"
+  - first:
+      213: 523019830383512665
+    second: "Bef\xF6rderung_BergLinks"
+  - first:
+      213: -8256369112530853086
+    second: "Bef\xF6rderung_BergRechts"
+  - first:
+      213: 2483972097260358769
+    second: "Bef\xF6rderung_BergMitte"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_HalterungSeilzug"
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 569
+        width: 546
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca925ffa9edc5fe60800000000000000
+      internalID: 7995523117029337516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_Kanone"
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 695
+        width: 309
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b581bc8d3e9132c0800000000000000
+      internalID: -4453604569302071884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_Seil"
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 644
+        width: 100
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 22, y: 0, z: 16, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcffb421be2b3a80800000000000000
+      internalID: -8486137734488916808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_WagenOffen"
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 100
+        width: 376
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbb1708191893260800000000000000
+      internalID: 7077830751314623485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_WagenGeschlossen"
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 100
+        width: 306
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cdcfde743658290800000000000000
+      internalID: -7888790011682956168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_BandLinks"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 496
+        width: 186
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00136d84b52593d00800000000000000
+      internalID: 952883348183068928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_BandMitte"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 496
+        width: 180
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8623378358c5800800000000000000
+      internalID: 602502927658150130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_BandRechts"
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 496
+        width: 176
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f8ed1517af0d6b0800000000000000
+      internalID: -5273439799039062197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_BodenBefestigung"
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 510
+        width: 436
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 157, y: 0, z: 94, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0d16e5db0a27c0800000000000000
+      internalID: -4095447897823442022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_BergLinks"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 240
+        width: 573
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c8e70c3c3224700800000000000000
+      internalID: 523019830383512665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_BergRechts"
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 240
+        width: 356
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2236719490c7b6d80800000000000000
+      internalID: -8256369112530853086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bef\xF6rderung_BergMitte"
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 240
+        width: 46
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 8, y: 0, z: 9, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c8f293677d87220800000000000000
+      internalID: 2483972097260358769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

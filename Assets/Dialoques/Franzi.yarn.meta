@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 0a9c8dabb113e5f478452ad78e00a33e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - Franzi-Franzi.Start-0
+  - Franzi-Franzi.Start-1
+  - Franzi-Franzi.Start-2
+  - Franzi-Franzi.Start-3
+  - Franzi-Franzi.Start-4
+  - Franzi-Franzi.Start-5
+  - Franzi-Franzi.Start-6
+  - Franzi-Franzi.Start-7
+  - Franzi-Franzi.Start-8
+  - Franzi-Franzi.Start-9
+  - Franzi-Franzi.Start-10
+  - Franzi-Franzi.Start-11
+  - Franzi-Franzi.Start-12
+  - Franzi-Franzi.Start-13
+  - Franzi-Franzi.Exit-14
+  - Franzi-Franzi.Exit-15
+  - Franzi-Franzi.Objects-16
+  - Franzi-Franzi.Objects-17
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 0a9c8dabb113e5f478452ad78e00a33e,
+    type: 3}
+  localizations: []

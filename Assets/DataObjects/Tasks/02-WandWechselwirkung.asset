@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02-WandWechselwirkung
+  m_EditorClassIdentifier: 
+  uid: bbc79c88-c63f-4b56-b677-331f9792d33e
+  taskName: "Einsturzgefahr pr\xFCfen"
+  teaserDescription: Uns ist da ein kleines Missgeschick passiert. Kannst du sicherstellen,
+    was die Wand abbekommen hat?
+  teaserSolvedCorrect: "Die Wand h\xE4lt noch einiges aus. Bei zuk\xFCnftigen Eins\xE4tzen
+    muss nicht noch zus\xE4tzlich auf die Einsturzgefahr geachtet werden."
+  teaserSolvedWrong: "Es gab Probleme bei der Analyse der wirkenden Kr\xE4fte. Seitdem
+    ist das Gebiet, aufgrund potenzieller Einsturzgefahr, gesperrt."
+  fullDescription: "Stelle die wirkenden Kr\xE4fte, beim Aufprall einer Bombe an
+    der Wand, dar."
+  teachAndPlayDescription: "Die VR-Brille zeigt den Aufprall eines Geschosses auf
+    einer Hauswand. Identifiziere den zu erwartenden Schaden, indem du die wirkenden
+    Kr\xE4fte bestimmst."
+  topic: {fileID: 11400000, guid: 90a1fd32fa050fe44a37cdd0102de122, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: -4627528703312521274, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (4 5 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausgangspunkt des Zusammenpralls der Hauswand mit der Insektenstopkugel.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (4 5 0)
+    - name: alpha
+      icon: {fileID: 0}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "135 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Aufprallrichtung der Insektenstopkugel.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "135 \xB0"
+    - name: Betrag_F_1
+      icon: {fileID: -8130657687242532374, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: Betrag<sub>F</sub><sub>1</sub>
+      type: 0
+      textValue: 300 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Kraftbetrag der Insektenstopkugel.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 200 N
+    dummyInputs: []
+    output:
+      name: F_1
+      icon: {fileID: -6996522927769553458, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: F<sub>2</sub>
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  - inputs:
+    - name: P_2
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 1
+      textValue: (2 3 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Aufprallort des Zusammenpralls der Hauswand mit der Insektenstopkugel.
+      definition: Geometrisches Objekt ohne Ausdehnung zur gedachten Postitionsangabe
+        von Objekten.
+      textMeshProValue: 
+    dummyInputs: []
+    output:
+      name: F_2
+      icon: {fileID: -6996522927769553458, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: 
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+    dialogs:
+    - "Oh nein, was ein Ungl\xFCck! Da muss jetzt nachgemessen werden, wie gro\xDF
+      die ~o:F_1|Bombenkraft~ und wie stark die  ~o:F_2|Hauswand~ reagiert hat, um
+      gegebenfalls St\xFCtzen aufstellen zu m\xFCssen. "
+    - "Das ist echt eine Wissenschaft f\xFCr sich. Hier die ~i:Betrag_F_1|Einschlagskraft
+      der Bombe~."
+  - npc: {fileID: 11400000, guid: 1bd5a7685d537ea418fa58ee5c0ae31b, type: 2}
+    dialogs:
+    - "Ach Quatsch mit So\xDFe! Das Haus bleibt stabil! Aber schauen wir besser nach.
+      Die Kanonenkugel traf ~i:P_2|hier~, im Winkel von ~i:alpha|-135 \xB0~ auf die
+      Hauswand und wurde auf der ~i:P_1|H\xF6he~ festgestellt."
+    - "\u2026 und selbst, wenn das Haus einst\xFCrzt. Eine Herausforderung mehr oder
+      weniger macht auch keinen Unterschied."
+  hashtags:
+  - "kr\xE4fte"
+  connectedObject: {fileID: 11400000, guid: e1dacaedfedbde644a280f4dca2e4f78, type: 2}

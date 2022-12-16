@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Richtungssinn
+  m_EditorClassIdentifier: 
+  headline: Richtungssinn
+  easy:
+    content: 'Was ist der Richtungs-Sinn?
+
+      - Der Richtungs-Sinn bestimmt eine
+      genaue [Richtung](glossary:Richtung).
+
+      - Ein [Vektor](glossary:Vektor)
+      hat einen Richtungs-Sinn.
+
+      - Es gibt nur einen Richtungs-Sinn.
+
+
+
+      Den
+      Richtungs-Sinn erkennst du an der Pfeil-Spitze.  '
+    image: {fileID: 21300000, guid: d285237d92ed03944a0ce8b502373fce, type: 3}
+    tmpContent: "Was ist der Richtungs-Sinn?\n\n\u2022 Der Richtungs-Sinn bestimmt
+      eine genaue <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>.\n\u2022
+      Ein <color=#131313><u><link=\"glossary:Vektor\">Vektor</link></u></color> hat
+      einen Richtungs-Sinn.\n\u2022 Es gibt nur einen Richtungs-Sinn.\n\nDen Richtungs-Sinn
+      erkennst du an der Pfeil-Spitze."
+  medium:
+    content: 'Der Richtungssinn bestimmt die exakte [Richtung](glossary:Richtung)
+      eines [Vektors](glossary:Vektor). Der Richtungssinn ist dabei durch die Pfeilspitze
+      des Vektors erkennbar. '
+    image: {fileID: 21300000, guid: 46cbed874a0916540b3bf0c74561652b, type: 3}
+    tmpContent: Der Richtungssinn bestimmt die exakte <color=#131313><u><link="glossary:Richtung">Richtung</link></u></color>
+      eines <color=#131313><u><link="glossary:Vektor">Vektors</link></u></color>.
+      Der Richtungssinn ist dabei durch die Pfeilspitze des Vektors erkennbar.
+  scientific:
+    content: "Der Richtungssinn bestimmt die exakte [Richtung](glossary:Richtung)
+      f\xFCr einen [Vektor](glossary:Vektor). Er wird durch die Pfeilspitze angezeigt. "
+    image: {fileID: 21300000, guid: 530bc7569514979449f79324b716ce48, type: 3}
+    tmpContent: "Der Richtungssinn bestimmt die exakte <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>
+      f\xFCr einen <color=#131313><u><link=\"glossary:Vektor\">Vektor</link></u></color>.
+      Er wird durch die Pfeilspitze angezeigt."
+  tmpHeadline: 

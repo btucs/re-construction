@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: "Anh\xE4ngerPickUp"
+  m_EditorClassIdentifier: 
+  uid: dc6fab62-25ea-42fa-86c1-8db87b8fd30c
+  objectName: Nachschubwagen
+  objectDescription: "Ein Anh\xE4nger mit selbstgen\xE4hten Behelfsmasken wird von
+    einem Rettungsdienst mitgenommen. Der Fahrer hat vergessen, den angeketteten
+    Anh\xE4nger von seiner Befestigung zu l\xF6sen! Nach dem Anfahren bewegt sich
+    nichts vorw\xE4rts!"
+  objectPrefab: {fileID: 9045803871762702413, guid: aa7cff9a1e26c8940bf0a09d5ee59172,
+    type: 3}
+  objectThumbnail: {fileID: 830650211732990310, guid: c8fde1330831bfd46b40a89332b4410a,
+    type: 3}
+  cameraOffset: {x: -4, y: 1, z: 0}
+  markerOffset: {x: -2, y: 0}
+  cameraZoom: 0.8
+  taskInfos:
+  - task: {fileID: 11400000, guid: 95bb95bddfdaec647a45f510fef5e782, type: 2}
+    taskButtonPosition: {x: -1.5, y: 0.5}
+    isRepeatable: 1
+    hiddenVariables: []

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801df15636ee0f84381ca88409fcee9f, type: 3}
+  m_Name: 04_LastQuest
+  m_EditorClassIdentifier: 
+  title: Die Welt retten
+  description: "Die Welt brennt. Entdecke neue Orte und stelle dich insgesamt 12
+    Herausforderungen an den unterschiedlichen Orten und leiste damit einen nachhaltigen
+    Beitrag zur Erhaltung der Lebensf\xE4higkeit auf dieser Erde."
+  objectives:
+  - type: 0
+    progressText: "Jetzt geht es um Masse! Schlie\xDFe Aufgaben ab."
+    requiredAmount: 15
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: 
+    topic: {fileID: 0}
+  - type: 3
+    progressText: "Kehre in die Zentrale zur\xFCck."
+    requiredAmount: 1
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: OfficeStartScene
+    topic: {fileID: 0}
+  followUpQuest: {fileID: 0}
+  isMainQuest: 1
+  uid: be4f9267-3075-452e-9865-980a297f408d

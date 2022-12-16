@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: FloatingSpeeder
+  m_EditorClassIdentifier: 
+  uid: 666a57ed-0a2e-4af9-923a-0475d4ba353c
+  objectName: Hovercraft
+  objectDescription: "Ein Fahrzeug, dass durch ein Gebl\xE4se, unterhalb des Rumpfes,
+    ein dauerhaftes \"Luftkissen\" erzeugt und dadurch sehr schnell beschleunigen
+    kann."
+  objectPrefab: {fileID: 9024457249455579149, guid: ccfe1ecb02debfb458873bf002ab1d96,
+    type: 3}
+  objectThumbnail: {fileID: -4774333007869825047, guid: e1a5babeaf2728e468d1ded69cd5c9fe,
+    type: 3}
+  cameraOffset: {x: 0.5, y: -1, z: 0}
+  markerOffset: {x: 0.25, y: -2.5}
+  cameraZoom: 1.25
+  taskInfos:
+  - task: {fileID: 11400000, guid: c1f4da10b08687e4d99ef2e402d9887e, type: 2}
+    taskButtonPosition: {x: -1, y: 0}
+    isRepeatable: 1
+    hiddenVariables: []

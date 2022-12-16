@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Biegemoment
+  m_EditorClassIdentifier: 
+  headline: Biegemoment
+  easy:
+    content: "Das Biege-Moment hat Besonderheiten.\r\n\r\n- Das Biege-Moment ist
+      ein Moment.\r\n\r\n- Ein Moment biegt oder dreht einen K\xF6rper.\r\n\r\nWelche
+      K\xF6rper haben Biege-Momente?\r\n\r\n- Der [Balken](glossary:Balken) hat Biege-Momente.\r\n-
+      Den Balken kannst du drehen.\r\n- Den Balken kannst du biegen.\r\n\r\nWie k\xFCrzt
+      du Biege-Momente ab?\r\n\r\n- Du k\xFCrzt das Biege-Moment mit M_B ab.\r\n\r\nWie
+      kannst du Biege-Momente sehen?\r\n\r\n- Du benutzt die Methode [Frei-Schneiden](glossary:Freischneiden).\r\n\r\nWozu
+      geh\xF6ren Biege-Momente noch?\r\n\r\n- [Innere Kr\xE4fte](glossary:Innere_Kr\xE4fte)\r\n-
+      [Schnitt-Kr\xE4fte](glossary:Schnittgr\xF6\xDFe)"
+    image: {fileID: 21300000, guid: a979c697e7f96d6428a3220202437ca1, type: 3}
+    tmpContent: "Das Biege-Moment hat Besonderheiten.\n\n\u2022 Das Biege-Moment
+      ist ein Moment.\n\n\u2022 Ein Moment biegt oder dreht einen K\xF6rper.\n\nWelche
+      K\xF6rper haben Biege-Momente?\n\n\u2022 Der <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>
+      hat Biege-Momente.\n\u2022 Den Balken kannst du drehen.\n\u2022 Den Balken
+      kannst du biegen.\n\nWie k\xFCrzt du Biege-Momente ab?\n\n\u2022 Du k\xFCrzt
+      das Biege-Moment mit M<sub>B</sub> ab.\n\nWie kannst du Biege-Momente sehen?\n\n\u2022
+      Du benutzt die Methode <color=#131313><u><link=\"glossary:Freischneiden\">Frei-Schneiden</link></u></color>.\n\nWozu
+      geh\xF6ren Biege-Momente noch?\n\n\u2022 <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">Innere
+      Kr\xE4fte</link></u></color>\n\u2022 <color=#131313><u><link=\"glossary:Schnittgr\xF6\xDFe\">Schnitt-Kr\xE4fte</link></u></color>"
+  medium:
+    content: "Biegemomente sind Momente, die einen K\xF6rper biegen oder drehen k\xF6nnen.
+      In diesem Fall biegen die Momente den K\xF6rper. Das Biegemoment wird mit M_B
+      abgek\xFCrzt. Nur der [Balken](glossary:Balken) kann Biegemomente aufnehmen.
+      Damit ist gemeint, dass sich nur der Balken biegen kann. Ein [Seil](glossary:Seile)
+      kann sich z. B. nicht biegen.\r\n\r\nUm Biegemomente sichtbar zu machen, wird
+      die Methode des [Freischneidens](glossary:Freischneiden) verwendet. Demnach
+      sind Biegemomente auch [innere Kr\xE4fte](glossary:Innere_Kr\xE4fte) oder [Schnittkr\xE4fte](glossary:Schnittgr\xF6\xDFe)."
+    image: {fileID: 21300000, guid: 5b1c7a4879ef45542b58d81f0c099bd9, type: 3}
+    tmpContent: "Biegemomente sind Momente, die einen K\xF6rper biegen oder drehen
+      k\xF6nnen. In diesem Fall biegen die Momente den K\xF6rper. Das Biegemoment
+      wird mit M<sub>B</sub> abgek\xFCrzt. Nur der <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>
+      kann Biegemomente aufnehmen. Damit ist gemeint, dass sich nur der Balken biegen
+      kann. Ein <color=#131313><u><link=\"glossary:Seile\">Seil</link></u></color>
+      kann sich z. B. nicht biegen.\n\nUm Biegemomente sichtbar zu machen, wird die
+      Methode des <color=#131313><u><link=\"glossary:Freischneiden\">Freischneidens</link></u></color>
+      verwendet. Demnach sind Biegemomente auch <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">innere
+      Kr\xE4fte</link></u></color> oder <color=#131313><u><link=\"glossary:Schnittgr\xF6\xDFe\">Schnittkr\xE4fte</link></u></color>."
+  scientific:
+    content: "Als Biegemomente werden die Momente bei den [starren K\xF6rpern](glossary:Starrer_K\xF6rper)
+      bezeichnet, die den K\xF6rper biegen k\xF6nnen. Biegemomente k\xF6nnen nur
+      von [Balken](glossary:Balken) aufgenommen werden. Sie werden mit M_B bezeichnet.\r\n\r\nBeim
+      [Freischneiden](glossary:Freischneiden) k\xF6nnen Biegemomente, die durch [\xE4u\xDFere](glossary:\xC4u\xDFere_Kr\xE4fte)
+      Belastungen hervorgerufen werden, sichtbar gemacht werden. Demnach geh\xF6ren
+      Biegemomente zu den [inneren](glossary:Innere_Kr\xE4fte) oder [Schnittkr\xE4ften](glossary:Schnittkr\xE4fte)."
+    image: {fileID: 21300000, guid: 25cf1fe6e7243ca41bc9255314fea878, type: 3}
+    tmpContent: "Als Biegemomente werden die Momente bei den <color=#131313><u><link=\"glossary:Starrer_K\xF6rper\">starren
+      K\xF6rpern</link></u></color> bezeichnet, die den K\xF6rper biegen k\xF6nnen.
+      Biegemomente k\xF6nnen nur von <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>
+      aufgenommen werden. Sie werden mit M<sub>B</sub> bezeichnet.\n\nBeim <color=#131313><u><link=\"glossary:Freischneiden\">Freischneiden</link></u></color>
+      k\xF6nnen Biegemomente, die durch <color=#131313><u><link=\"glossary:\xC4u\xDFere_Kr\xE4fte\">\xE4u\xDFere</link></u></color>
+      Belastungen hervorgerufen werden, sichtbar gemacht werden. Demnach geh\xF6ren
+      Biegemomente zu den <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">inneren</link></u></color>
+      oder <color=#131313><u><link=\"glossary:Schnittkr\xE4fte\">Schnittkr\xE4ften</link></u></color>."
+  tmpHeadline: 

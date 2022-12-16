@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 02-MLE_Parallelverschiebung
+  m_EditorClassIdentifier: 
+  uid: d327e5d6-d17f-4de0-8cd8-23e100cab663
+  mleName: Parallelverschiebung
+  mleHandout: {fileID: 11400000, guid: 6f5410f6e3c430b4db9a4746ab4e9f71, type: 2}
+  mleIntroText: "Du dachstest man kann Kr\xE4fte nur entlang der Wirkungslinie verschieben?
+    Falsch gedacht. Hier findest du raus, wie es funktioniert."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:e2cc1c6dcb8752b189dc56452c11ce76_1645191447.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Welche Aussage stimmt NICHT?
+      choices:
+      - name: "Eine Kraft kann beliebig verschoben werden. Nur die Richtung und der
+          Betrag d\xFCrfen dabei nicht ver\xE4ndert werden."
+        isAnswer: 1
+        feedbackMessage: "Bingo! Das ist nicht m\xF6glich. Bei der Verschiebung parallel
+          zur Wirkungslinie m\xFCssen bestimmte Bedingungen erf\xFCllt werden."
+      - name: "Eine Kraft kann laut dem Linienfl\xFCchtigkeitsaxiom ohne Weiteres
+          entlang der Wirkungslinie verschoben werden."
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht die richtige Antwort. Die Aussage
+          stimmt n\xE4mlich. Die Verschiebung einer Kraft entlang der Wirkungslinie
+          stellt kein Problem dar."
+      - name: Eine Kraft kann nur unter bestimmten Bedingungen parallel zur Wirkungslinie
+          verschoben werden.
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht die richtige Antwort. Die Aussage
+          ist n\xE4mlich wahr. Um ein \xE4quivalentes System zu erzeugen, muss bei
+          der parallelen Verschiebung ein Versetzungsmoment hinzugef\xFCgt werden."
+      - name: "Es ist m\xF6glich, eine Kraft entlang der Wirkungslinie und parallel
+          zur Wirkungslinie zu verschieben."
+        isAnswer: 0
+        feedbackMessage: "Nope, das stimmt leider nicht. Diese Aussage stimmt n\xE4mlich.
+          Allerdings m\xFCssen bei der parallelen Verschiebung bestimmte Bedingungen
+          beachtet werden."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:ebbcc774dc76a40ff9d67d4c35a99398_1645191486.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Was ist der Hebelarm beim Versetzungsmoment?
+      choices:
+      - name: Die Strecke, um die die Kraft verschoben werden soll.
+        isAnswer: 1
+        feedbackMessage: "Richtig. Das ist n\xE4mlich der Abstand der Wirkungslinien
+          der urspr\xFCnglichen Kraft und der verschobenen Kraft."
+      - name: "Der Abstand der beiden Kr\xE4fte der Gleichgewichtsgruppe."
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht richtig. Die Kr\xE4fte der Gleichgewichtsgruppe
+          liegen auf derselben Wirkungslinie und der Abstand ist daher null."
+      - name: Der Betrag der Kraft.
+        isAnswer: 0
+        feedbackMessage: Das ist leider nicht richtig. Der Hebelarm ist eine Strecke.
+      - name: "Der doppelte Abstand der Wirkungslinie der Gleichgewichtsgruppe und
+          die urspr\xFCngiche Kraft, da zwei Kr\xE4fte hinzugef\xFCgt werden."
+        isAnswer: 0
+        feedbackMessage: "Das stimmt leider nicht. Der Hebelarm ist der einfache
+          Abstand der Wirkungslinien der urspr\xFCnglichen Kraft und der verschobenen
+          Kraft."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:adce709d3d0dea862825a5108bf705e8_1645191486.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wann darf eine Kraft parallel verschoben werden?
+      choices:
+      - name: "Wenn durch das Hinzuf\xFCgen eines Versetzungsmoments ein \xE4quivalentes
+          System erzeugt wird."
+        isAnswer: 1
+        feedbackMessage: "Ganz genau. Dann ist die Wirkung auf den K\xF6rper die
+          gleiche wie zuvor."
+      - name: Immer, da gibt es keine Regeln.
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht richtig. Bei der Verschiebung parallel
+          zur Wirkungslinie muss ein \xE4quivalentes System entstehen. Wie kann das
+          gelingen?"
+      - name: "Wenn nur eine einzige Kraft an dem K\xF6rper angreift."
+        isAnswer: 0
+        feedbackMessage: "Nope, das stimmt leider nicht. Es ist egal, wie viele Kr\xE4fte
+          angreifen. Allerdings muss etwas anderes beachtet werden."
+      - name: Nie. Eine Kraft darf nur entlang der Wirkungslinie verschoben werden.
+        isAnswer: 0
+        feedbackMessage: Das stimmt leider nicht. Allerdings muss bei der parallelen
+          Verschiebung etwas beachtet werden.
+  requiredProgress: []

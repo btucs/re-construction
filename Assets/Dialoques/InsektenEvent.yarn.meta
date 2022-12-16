@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b925901b21bc54b40962904fba1742f0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - InsektenEvent-Start-0
+  - InsektenEvent-Start-1
+  - InsektenEvent-Start-2
+  - InsektenEvent-Start-3
+  - InsektenEvent-Start-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: b925901b21bc54b40962904fba1742f0,
+    type: 3}
+  localizations: []

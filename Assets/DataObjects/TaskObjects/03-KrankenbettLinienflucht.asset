@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 03-KrankenbettLinienflucht
+  m_EditorClassIdentifier: 
+  uid: 1ab2b5b1-a6e9-46fb-95c3-3e81511c2201
+  objectName: Mobiles Krankenbett
+  objectDescription: "Mobile Krankenbetten erm\xF6glichen den Transport Kranker,
+    ohne diese gro\xDF zu beanspruchen. Aber wie anstrengend ist der Transport  f\xFCr
+    die Pflegekr\xE4fte?"
+  objectPrefab: {fileID: 974729709484964380, guid: 7e412953dbd775f4b9bc57ec9d788312,
+    type: 3}
+  objectThumbnail: {fileID: 8051140218489162856, guid: ea5ebf6dfc673ea4ea62f9971bfc2b01,
+    type: 3}
+  cameraOffset: {x: 0, y: 2, z: 0}
+  markerOffset: {x: 0, y: 0.5}
+  cameraZoom: 1.05
+  taskInfos:
+  - task: {fileID: 11400000, guid: 001d0087434c713479de54f2e194127f, type: 2}
+    taskButtonPosition: {x: 1.25, y: 0.25}
+    isRepeatable: 1
+    hiddenVariables: []

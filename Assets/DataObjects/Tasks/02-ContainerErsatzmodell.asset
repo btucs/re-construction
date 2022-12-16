@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02-ContainerErsatzmodell
+  m_EditorClassIdentifier: 
+  uid: 8e270473-4763-4674-af15-094cd922d0dc
+  taskName: Container aufstellen
+  teaserDescription: "Wir versuchen den Rest des Hauses, mit Hilfe eines Containers,
+    zu stabilisieren. Um zu pr\xFCfen, ob der Kran den Container transportieren kann,
+    brauchen wir einen Modellplan f\xFCr die Transportkonstruktion. \r"
+  teaserSolvedCorrect: 'Das Modell wurde erfolgreich erstellt und half dem Team,
+    den Container richtig aufzustellen.
+
+'
+  teaserSolvedWrong: "Beim Setzen des Containers gab es scheinbar Probleme. Vielleicht
+    kannst du eine Skizze f\xFCr die Umsetzung anfertigen?\r\n"
+  fullDescription: "F\xFCr die Behebung des Fressschadens soll ein Container genutzt
+    werden. F\xFCr die Aufstellung mit dem Kran brauchen wir ein Ersatzmodell.\r\n"
+  teachAndPlayDescription: "Das VR-System simuliert den Transport eines Wohncontainers
+    mit einem Kranwagen. Aber kann der Kran den Container auch stemmen? Zur \xDCberpr\xFCfung
+    muss zuerst ein Modellplan angefertigt werden."
+  topic: {fileID: 11400000, guid: 990a9b3680e5f38479322b420ba65074, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 3
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: L_1
+      icon: {fileID: 4594321703258975787, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: L<sub>1</sub>
+      type: 0
+      textValue: 1.5 m
+      startPointText: 
+      replacementModelType: 1
+      shortDescription: "L\xE4nge der linken Kette des Hebezeugs. "
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1.5 m
+    - name: L_2
+      icon: {fileID: -9032011696293665815, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: L<sub>2</sub>
+      type: 0
+      textValue: 1.5 m
+      startPointText: 
+      replacementModelType: 1
+      shortDescription: "L\xE4nge der rechten Kette des Hebezeugs."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1.5 m
+    - name: m
+      icon: {fileID: -6618745631222096391, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 12 t
+      startPointText: 
+      replacementModelType: 0
+      shortDescription: Masse des Containers.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 12 t
+    - name: L_3
+      icon: {fileID: -2789193558042442394, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: L<sub>3</sub>
+      type: 0
+      textValue: 2 m
+      startPointText: 
+      replacementModelType: 1
+      shortDescription: "L\xE4nge der Krankette."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 2 m
+    dummyInputs:
+    - name: h
+      icon: {fileID: 0}
+      textMeshProName: h
+      type: 0
+      textValue: 6 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Breite des Containers.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 6 m
+    output:
+      name: E
+      icon: {fileID: -3116505895780933312, guid: b6748bbc979be6f4680c7cd411376a40,
+        type: 3}
+      textMeshProName: E
+      unit: 20
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: aaf810f3b5ed4924b812b400009ed97b, type: 2}
+    dialogs:
+    - "Das ist doch als L\xF6sung ganz nice. Leider brauchen wir noch einen Zwischenschritt:
+      das ~o:E|Modell~ des Containers und der Aufh\xE4ngung, um abzusichern, dass
+      der  Kran den ~i:m|schweren~ und ~i:h|hohen~ Container \xFCberhaupt halten
+      kann.\n"
+  - npc: {fileID: 11400000, guid: d60d2682d473dd94fa76bf04e84b0832, type: 2}
+    dialogs:
+    - "Puh, das ganze Vorhaben macht mir etwas Angst... Wir haben allerdings schon
+      Daten \xFCber die Seill\xE4ngen der linken ~i:L_1|Befestigung~, der rechten
+      ~i:L_2|Befestigung~ und der ~i:L_3|Krankette~.\r\n"
+    - "Aus Fehlern lernen wir zwar, aber hier sind Fehler lebensentscheidend. \r\n"
+  hashtags:
+  - "kr\xE4fte"
+  - "st\xE4be"
+  - seile
+  - balken
+  connectedObject: {fileID: 11400000, guid: abc8d654c5b544b468f9c2440e3e0de7, type: 2}

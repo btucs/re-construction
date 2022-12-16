@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_ResultierendeAnalyt
+  m_EditorClassIdentifier: 
+  uid: eb60b777-aebf-4a3c-8359-7f7e7b3d58b9
+  mleName: "Resultierende analytisch l\xF6sen"
+  mleHandout: {fileID: 11400000, guid: 44f2356bc0becdc43b2ad281b8d23d1d, type: 2}
+  mleIntroText: "Weniger ist mehr. Hier findest du raus, wie viele einzelne Kr\xE4fte
+    zu einer Einzigen werden."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:b22cceac7558c6cb3e92af87e326d14b_1644249124.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie lauten die Formeln f\xFCr die Bestimmung der Resultierendenkomponenten
+        aus den Einzelkraftkomponenten?"
+      choices:
+      - name: "RX = \u03A3FiX; RY = \u03A3FiY"
+        isAnswer: 1
+        feedbackMessage: "Alternativ l\xE4sst sich die Formel auch als Summenformel
+          darstellen."
+      - name: RX = F1X * F2X; RY = F1Y * F2Y
+        isAnswer: 0
+        feedbackMessage: "Oh, hier ist ein Fehlerchen drin. Hier sollte die Einheitenkontrolle
+          durchgef\xFChrt werden. Diese w\xFCrde Newton\xB2 ergeben und das kann
+          nicht sein."
+      - name: RX = F1X + F1Y; RY = F2Y + F2X
+        isAnswer: 0
+        feedbackMessage: "Nee, hier ist etwas verrutscht. Schau dir nochmal die Indizes
+          an. Au\xDFerdem sind zwei Kr\xE4fte ein Sonderfall."
+      - name: "FR = \u221A(RX\xB2 + RY\xB2)"
+        isAnswer: 0
+        feedbackMessage: "Diese Formel geht einen Schritt weiter. Mit ihr k\xF6nnen
+          die Resultierenden aus den Resultierendenkomponenten ermittelt werden.
+          Die Fragestellung war aber eine andere."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:4040ac8ac56072e53a28905010596f02_1644249130.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie lautet die Formel f\xFCr den Winkel der Resultierenden?"
+      choices:
+      - name: "\u03A9 = arctan(RY / RX)"
+        isAnswer: 1
+        feedbackMessage: "Super! Der Arkustangens (arctan, tan-1) ist die Umkehrfunktion
+          des Tangens. Die Formel tan(\u03A9) = (RY / RX) ist auch richtig."
+      - name: "FR = \u221A(RX\xB2 + RY\xB2)"
+        isAnswer: 0
+        feedbackMessage: Nein, leider nicht. Dennoch ist diese Formel wichtig, denn
+          sie beschreibt die Resultierende aus den Resultierendenkomponenten.
+      - name: "\u03A9 = arctan(RY * RX)"
+        isAnswer: 0
+        feedbackMessage: Nah dran und doch falsch. Hier besteht leider ein Fehler
+          in der Rechenoperation.
+      - name: "\u03A9 = \u03B1 + \u03B2"
+        isAnswer: 0
+        feedbackMessage: "Nein, so einfach geht es leider nicht. Die Winkel f\xFCr
+          die Resultierende aus zwei Einzelkr\xE4ften k\xF6nnen nicht einfach addiert
+          werden. Hier fehlt der Bezug zu den Resultierendenkomponenten."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:b6d085d2367e300c50e79b71f2454c43_1644249179.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Welcher Zusammenhang besteht zwischen dem Satz des Pythagoras und
+        der Resultierenden?
+      choices:
+      - name: Mit dem Satz des Pythagoras und den Resultierendenomponenten kann die
+          Resultierende bestimmt werden.
+        isAnswer: 1
+        feedbackMessage: Absolut richtig. Die Resultierendenkomponenten und die Ersatzkraft
+          spannen ein rechtwinkliges Dreieck auf.
+      - name: Es gibt keinen.
+        isAnswer: 0
+        feedbackMessage: Na aber. Die Resultierendenkomponenten und die Resultierende
+          spannen doch ein rechtwinkliges Dreieck auf.
+      - name: Mit dem Satz des Pythagoras kann der Winkel der Ersatzkraft bestimmt
+          werden.
+        isAnswer: 0
+        feedbackMessage: "Nein, das ist falsch. Der Winkel kann mit \u03A9 = arctan(RY
+          / RX) berechnet werden. Beim Satz des Pythagoras wird ein rechtwinkliges
+          Dreieck ben\xF6tigt. Wie stehen die \"Seiten\" bei der Resultierenden zueinander?"
+      - name: "Mit dem Satz des Pythagoras k\xF6nnen die Einzelkr\xE4fte in ihre
+          Einzelkraftkomponenten zerlegt werden, die f\xFCr die Bestimmung der Ersatzkraft
+          ben\xF6tigt werden."
+        isAnswer: 0
+        feedbackMessage: "Hmm, das ist eher untypisch. Die Resultierendenkomponenten
+          werden \xFCber den Sinus oder Cosinus bestimmt. Hier werden aber die Einzelkraftkomponenten
+          f\xFCr die Bestimmung der Resultierendenkomponenten ben\xF6tigt."
+  requiredProgress: []

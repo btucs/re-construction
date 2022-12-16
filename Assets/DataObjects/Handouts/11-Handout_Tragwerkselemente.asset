@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 11-Handout_Tragwerkselemente
+  m_EditorClassIdentifier: 
+  mleName: Tragwerkselemente
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize}\n\\item Seile k\xF6nnen nur Zugkr\xE4fte aufnehmen.
+      \n\\begin{itemize}\n\\item Sie sind entweder dehnstarr oder dehnbar. \n\\item
+      Aus Gr\xFCnden der Einfachheit, betrachten wir nur dehnstarre Seile. Das bedeutet,
+      dass sich die Seile nicht oder nur geringf\xFCgig verl\xE4ngern, wenn man an
+      beiden Enden zieht.\n\\end{itemize}\n\\item St\xE4be k\xF6nnen sowohl Zug-,
+      als auch Druckkr\xE4fte aufnehmen.\n\\item Balken k\xF6nnen sowohl Zug-, Druck-
+      und Querkr\xE4fte sowie Biegemomente aufnehmen.\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: "Warum werden Seile, St\xE4be und Balken eingesetzt?"
+    description: "\\begin{itemize}\n\\item In der Realit\xE4t sind die Gegenst\xE4nde,
+      Fahrzeuge oder Maschinen f\xFCr die wir Berechnungen vornehmen wollen, einem
+      komplexen System von Krafteinwirkungen ausgesetzt. \r\n\\item So wirken bspw.
+      zahlreiche Druck- und Zugkr\xE4fte auf die Br\xFCcke in der Abbildung (z.B.
+      Wind, Fahrzeuge, die die Br\xFCcke passieren, etc.).\n\\begin{itemize}\n\\item
+      Um dennoch statische Berechnungen f\xFCr diese Br\xFCcke vorzunehmen, werden
+      einige physikalische Sachverhalte auf das Notwendigste reduziert bzw. idealisiert.\r\n\\item
+      Daf\xFCr wird zun\xE4chst ein Ersatzmodell des realen Tragwerks erstellt, in
+      dem die Zusammenh\xE4nge der Kr\xE4fte, die auf das Tragwerk wirken, dargestellt
+      werden. \r\n\\item Das Ersatzmodell ist eine grafische Darstellung der realen
+      Kr\xE4ftesysteme auf einem Tragwerk, das sich geometrischer Formen bzw. Tragwerkselementen
+      bedient. Z.B. Seile, St\xE4be und Balken. Diese haben unterschiedliche Eigenschaften
+      und k\xF6nnen unterschiedliche Arten von Kr\xE4ften aufnehmen.\r\n\\end{itemize}\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 2c777cb9c2fb58e4fb6f9ab8e59c297f, type: 3}
+  - title: Wann zeichne ich Seile?
+    description: "Das Element des Seils wird vor allem dort eingesetzt, wo ausschlie\xDFlich
+      Zugkr\xE4fte wirken sollen (Heben von Lasten mit einem Hebezeug oder H\xE4ngebr\xFCcken).\r\nEine
+      Modellvorstellung von Seilen ist, dass sie biegenschlaff und dehnstarr sind.
+      \r\n\r\n\\begin{itemize}\n\\item Biegeschlaffheit bedeutet, dass sie ausschlie\xDFlich
+      Zugkr\xE4fte aufnehmen, also nur Kr\xE4fte, die nach au\xDFen in Seill\xE4ngsrichtung
+      wirken.\r\n\\item Dehnstarr bedeutet, dass sich die Seile nicht oder nur geringf\xFCgig
+      verl\xE4ngern (idealisiert: vernachl\xE4ssigbar klein), wenn man an beiden
+      Enden Zugkr\xE4fte einbringt.\r\n\r\\end{itemize}\n\n\\textbf{Hinweis}: Die
+      Seilkraft muss auf Grund der Biegeschlaffheit des Seils bei der Berechnung
+      stets positiv sein. Ist sie negativ \xFCbertr\xE4gt sie die Kr\xE4fte nicht.
+      Hier ist in der Konstruktion oder der Berechnung ein Fehler aufgetreten.\r"
+    picture: {fileID: 21300000, guid: c14f93c58a3bf6440a2a6ad2d78a33d4, type: 3}
+  - title: "Wann zeichne ich St\xE4be?"
+    description: "Der Stab ist ein Element, welches ausschlie\xDFlich Normalkr\xE4fte
+      (Zug- und Druckkr\xE4fte) \xFCbertr\xE4gt.\n\\begin{itemize}\n\\item Diese
+      Kr\xE4fte werden in Richtung der Verbindungslinie der Anschlussgelenke \xFCbertragen.
+      \r\n\\item Idealisiert wird der Stab, wie das Seil als dehnstarr angesehen,
+      sowohl in Zug und Druckrichtung.\r\n\\end{itemize}\n\nSt\xE4be werden in Stabwerken
+      bzw. Fachwerken eingesetzt, bei denen die St\xE4be nur durch Zug- und Druckbelastungen
+      ausgesetzt sind (z.B. Dachst\xFChle, Kr\xE4ne und Fachwerkbr\xFCcken)."
+    picture: {fileID: 21300000, guid: 73028168ea2a6004f940e3319660c9bc, type: 3}
+  - title: Wann zeichne ich Balken?
+    description: "Um zu kl\xE4ren, ob es sich bei dem Tragwerkselement um einen Balken
+      oder ein Stab handelt, ist zu pr\xFCfen, welche Art der Belastung aufgenommen
+      wird oder aufgenommen werden kann:\r\n\\begin{itemize}\n\\item K\xF6nnen nur
+      Zug- und Druckkr\xE4fte aufgenommen werden, so ist es ein Stab. \r\n\\item
+      K\xF6nnen zus\xE4tzlich auch Querkr\xE4fte oder Biegemomente aufgenommen werden,
+      so ist es ein Balken.\r\n\r\\end{itemize}\n"
+    picture: {fileID: 21300000, guid: a53dd5bae5401c9479ef903e41dbcb67, type: 3}
+  - title: " Wie stelle ich Seile, St\xE4be und Balken im Ersatzmodell dar?"
+    description: "\\begin{itemize}\n\\item Im Ersatzmodell sehen die Elemente gleich
+      aus. Sie werden h\xE4ufig als d\xFCnnes Rechteck oder Linie gezeichnet. \r\n\\item
+      Die Elemente Seil, Stab und Balken gelten als starre K\xF6rper (dehnstarr)
+      und sind masselos. \r\n\\item Elemente die massereich sind, werden entweder
+      als Punkmassen dargestellt (Punktmassen konzentrieren die Gewichtskraft im
+      Schwerpunkt) oder oft als Rechtecke dargestellt.\r\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 1f2fea0863d55b64a831ae00cde0143f, type: 3}
+  - title: Wo finde ich weitere Materialien?
+    description: "\\begin{itemize}\n\\item Umfassende \xDCbersicht \xFCber Tragelemente,
+      inklusive kleinen Wissenstests\r\nhttps://www.ingenieurkurse.de/baustatik-1/kurs-baustatik/aufgaben-der-baustatik/tragelemente/eindimensionale-tragelemente.html\r\n\\end{itemize}"
+    picture: {fileID: 0}

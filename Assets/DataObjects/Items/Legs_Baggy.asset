@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca8b6fd127f4ca439e72d6e7381864e, type: 3}
+  m_Name: Legs_Baggy
+  m_EditorClassIdentifier: 
+  uid: 2da5f6ad-00f7-4e1a-8bf0-0d8c9589a1c2
+  itemName: Baggy
+  price: 100
+  image: {fileID: 21300000, guid: f0aa77c1acf7fce4886556504a38d5cb, type: 3}
+  canBeBought: 0
+  requirement:
+    requiredTasks: []
+    finishedTopic: {fileID: 0}
+    finishedEvent: {fileID: 0}
+    activeQuest: {fileID: 0}
+    finishedQuest: {fileID: 0}
+    taskAmount: 0
+  category: 1
+  label: Baggy
+  availableOnGameStart: 1

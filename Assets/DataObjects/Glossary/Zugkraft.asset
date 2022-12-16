@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Zugkraft
+  m_EditorClassIdentifier: 
+  headline: Zugkraft
+  easy:
+    content: "[Kr\xE4fte](glossary:Kraft) wirken in eine Richtung.\r\n\r\nDie Zug-Kraft
+      wirkt weg von einem K\xF6rper.\r\n\r\nDie Zug-Kraft zieht an einem K\xF6rper.\r\n\r\nEin
+      Beispiel f\xFCr die Zug-Kraft ist eine Auto-Panne.\r\n\r\nEin Auto schleppt
+      ein kaputtes Auto ab.\r\n\r\nEs zieht das kaputte Auto.\r\n\r\nEs gibt einen
+      Sonder-Fall f\xFCr die Zug-Kraft.\r\n\r\nDie Zug-Kraft wirkt entlang des K\xF6rpers
+      bei\r\n\r\n- [Balken](glossary:Balken),\r\n- [St\xE4ben](glossary:St\xE4be)
+      und\r\n- [Seilen](glossary:Seile)."
+    image: {fileID: 21300000, guid: fcd76d52d980b294081ea290904bb1a3, type: 3}
+    tmpContent: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      wirken in eine Richtung.\n\nDie Zug-Kraft wirkt weg von einem K\xF6rper.\n\nDie
+      Zug-Kraft zieht an einem K\xF6rper.\n\nEin Beispiel f\xFCr die Zug-Kraft ist
+      eine Auto-Panne.\n\nEin Auto schleppt ein kaputtes Auto ab.\n\nEs zieht das
+      kaputte Auto.\n\nEs gibt einen Sonder-Fall f\xFCr die Zug-Kraft.\n\nDie Zug-Kraft
+      wirkt entlang des K\xF6rpers bei\n\n\u2022 <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>,\n\u2022
+      <color=#131313><u><link=\"glossary:St\xE4be\">St\xE4ben</link></u></color>
+      und\n\u2022 <color=#131313><u><link=\"glossary:Seile\">Seilen</link></u></color>."
+  medium:
+    content: "[Kr\xE4fte](glossary:Kraft) wirken in eine bestimmte [Richtung](glossary:Richtung).
+      Die Zugkraft beschreibt die Kraft, die von einem K\xF6rper weg wirkt. Ein Beispiel
+      f\xFCr die Zugkraft ist das Abschleppen eines Autos. Auf das abgeschleppte
+      Auto wirkt \xFCber das Abschleppseil eine Zugkraft. Das Auto wird bewegt.\r\n\r\nBei
+      [Balken](glossary:Balken), [St\xE4ben](glossary:St\xE4be) und [Seilen](glossary:Seile)
+      wirkt die Zugkraft immer in L\xE4ngsrichtung."
+    image: {fileID: 21300000, guid: c8352d7ed33258e49b7e87ba4868afa1, type: 3}
+    tmpContent: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      wirken in eine bestimmte <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>.
+      Die Zugkraft beschreibt die Kraft, die von einem K\xF6rper weg wirkt. Ein Beispiel
+      f\xFCr die Zugkraft ist das Abschleppen eines Autos. Auf das abgeschleppte
+      Auto wirkt \xFCber das Abschleppseil eine Zugkraft. Das Auto wird bewegt.\n\nBei
+      <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>, <color=#131313><u><link=\"glossary:St\xE4be\">St\xE4ben</link></u></color>
+      und <color=#131313><u><link=\"glossary:Seile\">Seilen</link></u></color> wirkt
+      die Zugkraft immer in L\xE4ngsrichtung."
+  scientific:
+    content: "Als Zugkraft wird die [Kraft](glossary:Kraft) bezeichnet,welche vom
+      Objekt weg wirkt. Beispielsweise beim Abschleppen eines Autos zieht das vordere
+      Auto mit einer [Kraft](glossary:Kraft), mittels [Seil](glossary:Seile), am
+      zweiten Auto. Bei [Balken](glossary:Balken), [St\xE4ben](glossary:St\xE4be)
+      und [Seilen](glossary:Seile) beziehen sich die Zugkr\xE4fte immer auf die L\xE4ngsrichtung
+      der Elemente."
+    image: {fileID: 21300000, guid: 4cad1d1660dcb1f4895892cf71a09b6b, type: 3}
+    tmpContent: "Als Zugkraft wird die <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      bezeichnet,welche vom Objekt weg wirkt. Beispielsweise beim Abschleppen eines
+      Autos zieht das vordere Auto mit einer <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>,
+      mittels <color=#131313><u><link=\"glossary:Seile\">Seil</link></u></color>,
+      am zweiten Auto. Bei <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>,
+      <color=#131313><u><link=\"glossary:St\xE4be\">St\xE4ben</link></u></color>
+      und <color=#131313><u><link=\"glossary:Seile\">Seilen</link></u></color> beziehen
+      sich die Zugkr\xE4fte immer auf die L\xE4ngsrichtung der Elemente."
+  tmpHeadline: 

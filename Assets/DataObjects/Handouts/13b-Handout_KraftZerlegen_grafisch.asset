@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 13b-Handout_KraftZerlegen_grafisch
+  m_EditorClassIdentifier: 
+  mleName: "Kr\xE4fte zerlegen (grafisch)"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\n\\item Um eine Kraft zu zerlegen, teile ich
+      sie in ihre Komponenten auf. Diese Komponenten sind von den Wirkungslinien
+      abh\xE4ngig.\r\n\\item Das grafische Kraftzerlegen wird oftmals \xFCber ein
+      Koordinatensystem durchgef\xFChrt, da es mehrere Kr\xE4fte und deren Kraftkomponenten
+      auf ein System zur\xFCckf\xFChrt. Um die grafische L\xF6sung zu bestimmen wird
+      zus\xE4tzlich ein Ma\xDFstab ben\xF6tigt. \r \n\\end{enumerate}"
+    picture: {fileID: 0}
+  - title: Wozu dient die Kraftzerlegung?
+    description: "Mit dem Kraftzerlegen teile ich \\textbf{eine Kraft in zwei Komponenten} 
+      auf. Diese Kraftkomponenten greifen am gleichen Angriffspunkt an wie die Ausgangskraft.
+      Die \\textbf{Kraftwirkung der Ausgangskraft}  ist \\textbf{\xE4quivalent} 
+      zu der \\textbf{Wirkung der beiden Kraftkomponenten}  zusammen. Die Richtung
+      der Kraftkomponenten ist abh\xE4ngig von den Wirkungslinien, die f\xFCr die
+      Kraftzerlegung vorgegeben sind.\\\\\r\nBspw. ist die Kraftzerlegung relevant,
+      wenn ein Frachtschiff durch zwei Schlepper in den Hafen man\xF6vriert werden
+      soll.\r\\\\\n"
+    picture: {fileID: 0}
+  - title: "Welche Hilfsmittel ben\xF6tige ich zum grafische Kraftzerlegen?"
+    description: "Ich ben\xF6tige \\textbf{zwei Richtungen}, in welche die Kraftkomponenten
+      zeigen sollen. Au\xDFerdem ben\xF6tige ich einen \\textbf{Ma\xDFstab}, um die
+      tats\xE4chlichen Betr\xE4ge der Kraftkomponenten zu berechnen.\r\nIn den meisten
+      F\xE4llen werden die Kr\xE4fte mittels \\textbf{Koordinatensystem}  zerlegt:\r\n   
+      \\begin{itemize}\r\n        \\item im Raum zeigen die Kraftkomponenten in die
+      x-, y- und z-Richtung des Koordinatensystems, d.h. sie sind parallel zu den
+      Koordinatenachsen\r\n        \\item in der Ebene werden nur die x- und y-Richtung
+      betrachtet\r\n    \\end{itemize}\r\nDer Vorteil des Einsatzes eines Koordinatensystems
+      ist, dass die \\textbf{Wirkungslinien senkrecht zueinander}  stehen und somit
+      die Kraftkomponenten\r\n\\begin{itemize}\r\n\\item mittels Sinus\u2013 und
+      Cosinusfunktion bestimmt werden k\xF6nnen \r\n\\item bzw. eine Bestimmung der
+      Kr\xE4fte auch durch das Lotf\xE4llen m\xF6glich ist.\r\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: "Wie zerlege ich Kr\xE4fte grafisch?"
+    description: "\\begin{enumerate}\r\n    \\item Die zu zerlegende Kraft wird zun\xE4chst
+      mit ihrem Angriffspunkt ma\xDFst\xE4blich gezeichnet.\r\n    \\item Die Kraft
+      wird so in ein Koordinatensystem gelegt, dass der Angriffspunkt im Koordinatenursprung
+      liegt. Die Kraft soll in ihre x- und y-Komponente aufgeteilt werden, d.h. die
+      Komponenten sollen in die x- bzw. y-Richtung zeigen und parallel zu den Koordinatenachsen
+      sein.\r\n    \\item Nun kann von der Pfeilspitze jeweils ein Lot (Senkrechte
+      von einem Punkt aus zu einer anderen Gerade) auf die Koordinatenachsen abgetragen
+      werden.\r\n    \\item Die so entstandenen Schnittpunkte mit den Koordinatenachsen
+      werden eingezeichnet. Danach werden vom Koordinatenursprung (Angriffspunkt)
+      zu den neuen Punkten die Kraftpfeile gezeichnet. \r\n    \\item Die Kraftpfeilbetr\xE4ge
+      in L\xE4ngeneinheiten (L\xE4nge der Kraftpfeile im Koordinatensystem) k\xF6nnen
+      nun ausgemessen bzw. abgelesen werden und mittels Ma\xDFstab in die Kraftbetr\xE4ge
+      der Kraftkomponenten umgerechnet werden.\r\n\\end{enumerate}\r\n\r\n\\textit{Hinweis:Sind
+      die Wirkungslinien nicht senkrecht zueinander, so gilt folgender Ablauf.}\r\n\\textit{\r\n\\begin{enumerate}\r\n   
+      \\item die Kraft mit ihrem Angriffspunkt wird ma\xDFst\xE4blich gezeichnet\r\n   
+      \\item die Wirkungslinien der Kr\xE4fte, in die die Kraft zerlegt wird, werden
+      gezeichnet\r\n    \\item die Wirkungslinien werden parallel in den Endpunkt
+      der zu zerlegenden Kraft verschoben\r\n    \\item die verschobenen und vorgegebenen
+      Wirkungslinien erzeugen Schnittpunkte\r\n    \\item der Angriffspunkt und die
+      entstandenen Schnittpunkte  ergeben die neuen Kraftvektoren\r\n    \\item die
+      Kraftbetr\xE4ge werden in L\xE4ngeneinheiten ausgemessen und mittels Ma\xDFstab
+      in den Kraftbetrag umgerechnet\r\n\\end{enumerate}\r\n}\r\n"
+    picture: {fileID: 0}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize}\n\\item Video zum Kraft zerlegen von \u201CLyrelda\u201D\r\nhttps://www.youtube.com/watch?v=qL-nMRS1uEs&t=267s\r\n\\item
+      Video zum Kraft zerlegen mit einen sehr guten Beispiel von \u201CWinter_Physik_und_Mathe\u201D\r\nhttps://www.youtube.com/watch?v=UHtfbCRSAoE\r\n\\end{itemize}"
+    picture: {fileID: 0}

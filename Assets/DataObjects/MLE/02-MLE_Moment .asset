@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: '02-MLE_Moment '
+  m_EditorClassIdentifier: 
+  uid: 048d9a77-93c3-4956-84bc-e8d37c45028c
+  mleName: Moment einer Kraft
+  mleHandout: {fileID: 11400000, guid: 718295737a81fa242adae2192a9bc033, type: 2}
+  mleIntroText: Alles dreht sich. Wie bewirkt eine Kraft eine Drehung? Dazu hier
+    mehr.
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:452bdec98e1ddaf53494cf3b1ca6f096_1645191320.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Welche Wirkung hat  das Moment einer Kraft auf einen K\xF6rper?"
+      choices:
+      - name: Das Moment einer Kraft bewirkt eine Drehbewegung um einen Bezugspunkt.
+        isAnswer: 1
+        feedbackMessage: "Das stimmt auffallend. Das Ma\xDF f\xFCr die St\xE4rke
+          wird dabei aus dem Produkt der Kraft und dem k\xFCrzesten Abstand der Kraft
+          zum Bezugspunkt bestimmt."
+      - name: Das Moment einer Kraft bewirkt eine geradlinige Bewegung.
+        isAnswer: 0
+        feedbackMessage: "Nein, das stimmt leider nicht. Es ist eben keine geradlinige
+          Bewegung, die das Moment einer Kraft auf einen K\xF6rper bewirkt."
+      - name: Das Moment einer Kraft bewirkt eine Schwingung.
+        isAnswer: 0
+        feedbackMessage: "Nein, das ist leider nicht korrekt. Der K\xF6rper schwingt
+          nicht hin und her. Aber es wird eine Bewegung ausgel\xF6st. Welche?"
+      - name: Es bewirkt nichts.
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht richtig. Denn es gibt eine Wirkung,
+          n\xE4mliche eine Bewegung, aber welche?"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:1692966fffeb1175f13a9b0cc55ff251_1645191344.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wie wird das Vorzeichen des Moments bestimmt?
+      choices:
+      - name: "Mit der Rechte-Hand-Regel. Dabei zeigt der Daumen in die positive
+          Drehachsenrichtung und die gekr\xFCmmten Finger in die positive Drehrichtung."
+        isAnswer: 1
+        feedbackMessage: 'Bingo. Genau richtig. '
+      - name: "Mit der Linke-Hand-Regel. Dabei zeigt der Daumen in die positive Drehachsenrichtung
+          und die gekr\xFCmmten Finger in die positive Drehrichtung."
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht richtig. Das ist die falsche Hand
+          und w\xFCrde genau das Gegenteil bedeuten."
+      - name: Mit der Drei-Finger-Regel. Wenn der Daumen in die X-Richtung und der
+          Zeigefinger in die Y-Richtung zeigt, dann zeigt der Mittelfinger in die
+          positive Drehrichtung.
+        isAnswer: 0
+        feedbackMessage: "Nein, das stimmt leider nicht. Die x- und y-Achse des Koordinatensystems
+          haben erstmal nichts mit der Drehrichtung zu tun. Welche Achse k\xF6nnte
+          stattdessen eine Rolle spielen?"
+      - name: "Es gibt keine Festlegung f\xFCr die Vorzeichenkonvention bei Momenten."
+        isAnswer: 0
+        feedbackMessage: "Das stimmt leider nicht. Das Vorzeichen ist abh\xE4ngig
+          von der Drehrichtung und l\xE4sst sich mit einem Trick \u201Eim Handumdrehen\u201C
+          ganz einfach bestimmen."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:3bbe17b035209d77b3fc1316e6081b58_1645191375.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie lautet eine typische Einheit f\xFCr das Moment?"
+      choices:
+      - name: Nm (Newtonmeter).
+        isAnswer: 1
+        feedbackMessage: "Das ist die richtige Einheit. Prima, denn das Moment =
+          Kraft mal Abstand der Kr\xE4fte."
+      - name: N/m (Newton pro Meter).
+        isAnswer: 0
+        feedbackMessage: "Nein, das stimmt leider nicht. Das Moment ist Kraft mal
+          Abstand der Kr\xE4fte. Mache anhand dieser Info einmal die Einheitenprobe.
+          Welche Antwort macht dann Sinn?"
+      - name: "N\xB2."
+        isAnswer: 0
+        feedbackMessage: "Niet. Das stimmt leider nicht. Das Moment ist Kraft mal
+          Abstand der Kr\xE4fte. Bei der Antwort fehlt also die Einheit der L\xE4nge."
+      - name: "M\xB2."
+        isAnswer: 0
+        feedbackMessage: "N\xF6, das stimmt leider nicht. Das Moment ist Kraft mal
+          Abstand der Kr\xE4fte. Bei der Antwort fehlt also die Einheit der Kraft."
+  requiredProgress: []

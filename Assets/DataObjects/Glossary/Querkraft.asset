@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Querkraft
+  m_EditorClassIdentifier: 
+  headline: Querkraft
+  easy:
+    content: "Eine Quer-Kraft hat Besonderheiten.\r\n\r\n- Die Quer-Kraft ist eine
+      [Kraft](glossary:Kraft).\r\n\n\r- Die Quer-Kraft ist eine [Schnitt-Kraft](glossary:Schnittgr\xF6\xDFe).\r\n\n-
+      Dadurch wird sie beim [Frei-Schnitt](glossary:Freischneiden) verwendet.\r\n\r\n-
+      Die Quer-Kraft ist quer zum Schnitt-Linie.\r\n  - F\xFCr quer kannst du auch
+      parallel sagen.\r\n\r\nWelche K\xF6rper haben Quer-Kr\xE4fte?\r\n\r\n- Der
+      [Balken](glossary:Balken) hat Quer-Kr\xE4fte.\r\n\r\nWie k\xFCrzt du die Quer-Kraft
+      ab?\r\n\r\n- Du k\xFCrzt die Quer-Kraft mit F_Q ab.\r\n\r\nWie kannst du Quer-Kr\xE4fte
+      sehen?\r\n\r\n- Du nutzt die Methode Frei-Schneiden.\r\n\r\nWie kannst du Quer-Kr\xE4fte
+      noch nennen?\r\n\r\n- [Innere Kr\xE4fte](glossary:Innere_Kr\xE4fte)\r\n- Schnitt-Kr\xE4fte"
+    image: {fileID: 21300000, guid: fde37edda311eca48a7ad3ecb037ae1f, type: 3}
+    tmpContent: "Eine Quer-Kraft hat Besonderheiten.\n\n\u2022 Die Quer-Kraft ist
+      eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>.\n\n\u2022
+      Die Quer-Kraft ist eine <color=#131313><u><link=\"glossary:Schnittgr\xF6\xDFe\">Schnitt-Kraft</link></u></color>.\n\n\u2022
+      Dadurch wird sie beim <color=#131313><u><link=\"glossary:Freischneiden\">Frei-Schnitt</link></u></color>
+      verwendet.\n\n\u2022 Die Quer-Kraft ist quer zum Schnitt-Linie.\n  \n  \u2022
+      F\xFCr quer kannst du auch parallel sagen.\n\nWelche K\xF6rper haben Quer-Kr\xE4fte?\n\n\u2022
+      Der <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color> hat
+      Quer-Kr\xE4fte.\n\nWie k\xFCrzt du die Quer-Kraft ab?\n\n\u2022 Du k\xFCrzt
+      die Quer-Kraft mit F<sub>Q</sub> ab.\n\nWie kannst du Quer-Kr\xE4fte sehen?\n\n\u2022
+      Du nutzt die Methode Frei-Schneiden.\n\nWie kannst du Quer-Kr\xE4fte noch nennen?\n\n\u2022
+      <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">Innere Kr\xE4fte</link></u></color>\n\u2022
+      Schnitt-Kr\xE4fte"
+  medium:
+    content: "Um Querkr\xE4fte sichtbar zu machen, wird der [Freischnitt](glossary:Freischneiden)
+      angewandt. Querkr\xE4fte geh\xF6ren demnach der Oberkategorie der [inneren](glossary:Innere_Kr\xE4fte)
+      bzw. [Schnittkr\xE4fte](glossary:Schnittgr\xF6\xDFe) an.\r\n\r\nDie Querkraft
+      wirkt immer quer, d. h. tangential oder parallel zur Schnittfl\xE4che. Die
+      Kurzbezeichnung f\xFCr Querkraft lautet F_Q. \r\n\r\nNur der [Balken](glossary:Balken)
+      kann Querkr\xE4fte aufnehmen. "
+    image: {fileID: 21300000, guid: 10a8ca16da78b8f4b895aa55bc6f52f3, type: 3}
+    tmpContent: "Um Querkr\xE4fte sichtbar zu machen, wird der <color=#131313><u><link=\"glossary:Freischneiden\">Freischnitt</link></u></color>
+      angewandt. Querkr\xE4fte geh\xF6ren demnach der Oberkategorie der <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">inneren</link></u></color>
+      bzw. <color=#131313><u><link=\"glossary:Schnittgr\xF6\xDFe\">Schnittkr\xE4fte</link></u></color>
+      an.\n\nDie Querkraft wirkt immer quer, d. h. tangential oder parallel zur Schnittfl\xE4che.
+      Die Kurzbezeichnung f\xFCr Querkraft lautet F<sub>Q</sub>.\n\nNur der <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>
+      kann Querkr\xE4fte aufnehmen."
+  scientific:
+    content: "Beim [Freischneiden](glossary:Freischneiden) von K\xF6rpern k\xF6nnen
+      [innere Kr\xE4fte](glossary:Innere_Kr\xE4fte) bzw. [Schnittkr\xE4fte](glossary:Schnittgr\xF6\xDFe)
+      sichtbar gemacht werden. Querkr\xE4fte geh\xF6ren zu diesen inneren oder Schnittkr\xE4ften.\r\n\r\nAls
+      Querkr\xE4fte werden bei den [starren K\xF6rpern](glossary:Starrer_K\xF6rper)
+      die [Kr\xE4fte](glossary:Kraft) bezeichnet, die quer zur L\xE4ngsrichtung auf
+      den jeweiligen K\xF6rper wirken und damit parallel / tangential zur Schnittfl\xE4che.
+      Querkr\xE4fte k\xF6nnen nur durch [Balken](glossary:Balken) aufgenommen werden
+      und werden mit F_Q bezeichnet. "
+    image: {fileID: 21300000, guid: b2b8b3ebde02d9143bc016cbf6038d3d, type: 3}
+    tmpContent: "Beim <color=#131313><u><link=\"glossary:Freischneiden\">Freischneiden</link></u></color>
+      von K\xF6rpern k\xF6nnen <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">innere
+      Kr\xE4fte</link></u></color> bzw. <color=#131313><u><link=\"glossary:Schnittgr\xF6\xDFe\">Schnittkr\xE4fte</link></u></color>
+      sichtbar gemacht werden. Querkr\xE4fte geh\xF6ren zu diesen inneren oder Schnittkr\xE4ften.\n\nAls
+      Querkr\xE4fte werden bei den <color=#131313><u><link=\"glossary:Starrer_K\xF6rper\">starren
+      K\xF6rpern</link></u></color> die <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      bezeichnet, die quer zur L\xE4ngsrichtung auf den jeweiligen K\xF6rper wirken
+      und damit parallel / tangential zur Schnittfl\xE4che. Querkr\xE4fte k\xF6nnen
+      nur durch <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>
+      aufgenommen werden und werden mit F<sub>Q</sub> bezeichnet."
+  tmpHeadline: 

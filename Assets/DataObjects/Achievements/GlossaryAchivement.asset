@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1063f0c700470f4ab0c3f71f8a20ec9, type: 3}
+  m_Name: GlossaryAchivement
+  m_EditorClassIdentifier: 
+  uid: 73ee6aca-d4ea-4dcf-9997-614df0948396
+  title: Wissensnetz
+  progressText: "Glossareintr\xE4ge gelesen"
+  description: "\xD6ffne Glossareintr\xE4ge \xFCber die Bibliothek oder indem du
+    Verlinkungen folgst."
+  icon: {fileID: 2292571641523786905, guid: 3bd5c213d0a84194385e1ce811a6567d, type: 3}
+  category: 3
+  levels:
+  - threshold: 5
+    levelName: Stufe 1
+  - threshold: 15
+    levelName: Stufe 2
+  - threshold: 30
+    levelName: Stufe 3
+  - threshold: 50
+    levelName: Stufe 4
+  tint: {r: 0.6666667, g: 0.70632553, b: 1, a: 1}

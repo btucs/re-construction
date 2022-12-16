@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801df15636ee0f84381ca88409fcee9f, type: 3}
+  m_Name: 03_UnlockBatmanToolQuest
+  m_EditorClassIdentifier: 
+  title: Der Analyzer
+  description: Nutze die neue Technologie des Analyzers und treibe Entwicklungen
+    in der Zentrale voran.
+  objectives:
+  - type: 3
+    progressText: Gehe in die Zentrale.
+    requiredAmount: 1
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: OfficeStartScene
+    topic: {fileID: 0}
+  - type: 2
+    progressText: Erledige Aufgaben in der Werkstatt. Werkle am zweiten Magnetkatapult
+      und stelle das Marshaus fertig.
+    requiredAmount: 1
+    specificTopic: {fileID: 0}
+    specificTasks:
+    - {fileID: 11400000, guid: c2f3cc8c54d2adc469e3c93e79a48c5c, type: 2}
+    - {fileID: 11400000, guid: 09e9b4bd1cdd9bc4480c7a81d876bc4c, type: 2}
+    targetAreaName: 
+    topic: {fileID: 0}
+  followUpQuest: {fileID: 11400000, guid: 1122acc57de4fec4f96c3ad546cfa3b0, type: 2}
+  isMainQuest: 1
+  uid: b205eef4-ea65-456a-9b93-b399bd5e10c1

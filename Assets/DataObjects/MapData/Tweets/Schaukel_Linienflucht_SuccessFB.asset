@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: Schaukel_Linienflucht_SuccessFB
+  m_EditorClassIdentifier: 
+  uid: cb178889-7e11-41ad-af48-b1ec8918d780
+  author: {fileID: 11400000, guid: 20e24fa6780fbe844aa80a40fbc629d6, type: 2}
+  messageText: "Herausforderung angenommen und gel\xF6st! Die Schaukel kann bleiben.
+    Come along! #Linienfl\xFCchtigkeit #schaukellove #kindsein"
+  relatedTask: {fileID: 11400000, guid: daf51e31b12a7ea4da3495b41f504daa, type: 2}
+  taskCondition: 0

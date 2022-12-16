@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 6adca4dcdb431ba45ab21bd6abf80aa7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3757417892629877944
+    second: Pandemic_BG_Houswall01
+  - first:
+      213: 4109365309808013508
+    second: Pandemic_BG_Houswall01b
+  - first:
+      213: -5295082162634261914
+    second: Pandemic_BG_WallLight01
+  - first:
+      213: -8986383319438486138
+    second: Pandemic_BG_WallRainProtect
+  - first:
+      213: 1097767532159916784
+    second: Pandemic_BG_WallQuad01
+  - first:
+      213: -3089725056474546856
+    second: Pandemic_BG_HousesFloorMark
+  - first:
+      213: -8205388674910454751
+    second: Pandemic_Door01
+  - first:
+      213: -6763585975882340393
+    second: Pandemic_BG_WallPipe01
+  - first:
+      213: 4349978156978132188
+    second: Pandemic_BG_Window01
+  - first:
+      213: 40902710390567872
+    second: Pandemic_BG_Shop01
+  - first:
+      213: 8886212963204910920
+    second: Pandemic_BG_HouseWall02
+  - first:
+      213: -986009581385509557
+    second: Pandemic_BG_WallBroken3
+  - first:
+      213: 5070075763926694954
+    second: Pandemic_BG_Houses_Cables
+  - first:
+      213: 2104197817962934559
+    second: Pandemic_BG_Houses_Boardwalk
+  - first:
+      213: -4624414395415002236
+    second: Pandemic_BG_Houses_14
+  - first:
+      213: 8458104309571272673
+    second: Pandemic_BG_BrokenWall
+  - first:
+      213: 1694167372695836013
+    second: Pandemic_BrokenWall2
+  - first:
+      213: 8543504980589107930
+    second: Pandemic_BG_HousesSolid01
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pandemic_BG_Houswall01
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 13
+        width: 42
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 0, z: 12, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b69159558fadbc0800000000000000
+      internalID: -3757417892629877944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_Houswall01b
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 582
+        width: 42
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 0, z: 10, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c07b671af5670930800000000000000
+      internalID: 4109365309808013508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_WallLight01
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 236
+        width: 130
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a7dafd3d61486b0800000000000000
+      internalID: -5295082162634261914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_WallRainProtect
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 75
+        width: 296
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 126, y: 0, z: 83, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6859f5d9bf3f94380800000000000000
+      internalID: -8986383319438486138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_WallQuad01
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 25
+        width: 227
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa595811cd0c3f00800000000000000
+      internalID: 1097767532159916784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_HousesFloorMark
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 5
+        width: 252
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 38, y: 0, z: 35, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85df5336e671f15d0800000000000000
+      internalID: -3089725056474546856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_Door01
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 7
+        width: 282
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cf2f3697a902e80800000000000000
+      internalID: -8205388674910454751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_WallPipe01
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 16
+        width: 121
+        height: 541
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d728b3d36ae222a0800000000000000
+      internalID: -6763585975882340393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_Window01
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 217
+        width: 163
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4d36b261a3e5c30800000000000000
+      internalID: 4349978156978132188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_Shop01
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 416
+        width: 662
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c33e236cc0519000800000000000000
+      internalID: 40902710390567872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_HouseWall02
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 119
+        width: 199
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 49, y: 15, z: 42, w: 42}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fcc4edb9b225b70800000000000000
+      internalID: 8886212963204910920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_WallBroken3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 850
+        width: 162
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b459264828df052f0800000000000000
+      internalID: -986009581385509557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_Houses_Cables
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 910
+        width: 736
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 0, z: 34, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cfa2d7b078c5640800000000000000
+      internalID: 5070075763926694954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_Houses_Boardwalk
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 569
+        width: 145
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 0, z: 24, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1135d454cc933d10800000000000000
+      internalID: 2104197817962934559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_Houses_14
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 17
+        width: 199
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 35, y: 22, z: 33, w: 19}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483061bcb97c2dfb0800000000000000
+      internalID: -4624414395415002236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_BrokenWall
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 58
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef323d7e09316570800000000000000
+      internalID: 8458104309571272673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BrokenWall2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 231
+        width: 159
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d659797df34e28710800000000000000
+      internalID: 1694167372695836013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pandemic_BG_HousesSolid01
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 312
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada5bc0b380a09670800000000000000
+      internalID: 8543504980589107930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

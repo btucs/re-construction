@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: bffd60fc7d1aa2c4b92365e25143c5f1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - Lukas-Start-0
+  - Lukas-Start-1
+  - Lukas-Start-2
+  - Lukas-Start-3
+  - Lukas-HelpInfo-4
+  - Lukas-HelpInfo-5
+  - Lukas-PandemieInfo-6
+  - Lukas-PandemieInfo-7
+  - Lukas-PandemieInfo-8
+  - Lukas-PandemieInfo-9
+  - Lukas-Exit-10
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: bffd60fc7d1aa2c4b92365e25143c5f1,
+    type: 3}
+  localizations: []

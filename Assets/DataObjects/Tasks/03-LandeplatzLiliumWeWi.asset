@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 03-LandeplatzLiliumWeWi
+  m_EditorClassIdentifier: 
+  uid: 3d93d38d-0b6a-4ed4-9c7e-f2dc681a9f58
+  taskName: Landeerlaubnis erteilen
+  teaserDescription: "Ein Lithiumflieger Lilium landet neben dem Krankenhaus, um
+    Medikamente zu liefern. Noch ist unklar, ob, nach Jahren des Sparens, der Landeplatz
+    die Kr\xE4fte \xFCberhaupt ausgleichen kann. Eine Skizze, \xFCber die wirkenden
+    Kr\xE4fte, w\xFCrde das Problem schnell l\xF6sen."
+  teaserSolvedCorrect: "Der Landeplatz wurde offiziell zum Anflugsort des Lilium-Jets
+    gek\xFCrt. Dringend ben\xF6tigte Medikamente werden schnell zugestellt."
+  teaserSolvedWrong: "Da weiter Unsicherheit dar\xFCber besteht, ob der Landeplatz
+    den Kr\xE4ften entsprechend entgegensteht, muss vorerst auf die Lieferung via
+    Luft verzichtet werden."
+  fullDescription: "Zum Gl\xFCck haben wir einen Lilium-Jet zur Verf\xFCgung gestellt
+    bekommen. Jetzt gilt es nur noch herauszufinden, ob der provisorische Landeplatz
+    ein geeigneter Landeort ist."
+  teachAndPlayDescription: "Die Trainingsanlage simuliert die Landung eines Lithiumfliegers.
+    Nun m\xFCssen die wirkenden Kr\xE4fte bestimmt werden, damit sichergestellt ist,
+    dass der Landeplatz f\xFCr das Gewicht des Fliegers geeignet ist."
+  topic: {fileID: 11400000, guid: 90a1fd32fa050fe44a37cdd0102de122, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: -8335816273170750596, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (0 0 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ort des Aufsetzens des Hubschraubers.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (0 1 0)
+    - name: alpha
+      icon: {fileID: -1119284785887144586, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "270 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Richtung, in die die Gewichtskraft des Hubschraubers wirkt.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "270 \xB0"
+    - name: F_G
+      icon: {fileID: 3763315028340004695, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: F<sub>G</sub>
+      type: 0
+      textValue: 500 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Gewichtskraft des Hubschraubers.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 500 N
+    dummyInputs: []
+    output:
+      name: F_2
+      icon: {fileID: 4171363237670002431, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: F<sub>2</sub>
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: da8a196e6f08170408d6ebd4ff84c9b2, type: 2}
+    dialogs:
+    - "Ich bin so thrilled! Ein Lilium-Jet! Die Entwicklung l\xE4uft schon 15 Jahre
+      und endlich ist er da. Der Superflieger landet neben dem ~i:P_1|Spital~, in
+      einem Winkel von ~i:alpha|270 \xB0~."
+    - "Besondere Eile ist geboten, denn die Medikamente w\xFCrden auf dem Landweg
+      nicht mehr rechtzeitig ankommen\u2026"
+    - "Mit einer Skizze kann schnell best\xE4tigt werden, das die ~i:F_G|wirkende
+      Kraft~ des ultraleichten Lilium-Jets f\xFCr den ~o:F_2|Boden~ kein Problem
+      darstellt. Dann k\xF6nnen die Lierferungen nur so rollen."
+  hashtags:
+  - "kr\xE4fte"
+  connectedObject: {fileID: 11400000, guid: 69f5396eaa1154f4fb1ca97b3b8f6fae, type: 2}

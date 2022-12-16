@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02AllgDreieck
+  m_EditorClassIdentifier: 
+  uid: ba06507e-05e9-4ef9-93b6-aabf9fcbd3b0
+  taskName: Hauswand stabilisieren
+  teaserDescription: "Jetzt auch noch die H\xE4user\u2026 Durch die Fresssch\xE4den
+    ist das Haus einsturzgef\xE4hrdet. Kannst du bei der Seilkonstruktion helfen,
+    damit das Haus nicht zusammenst\xFCrzt?"
+  teaserSolvedCorrect: Das Seil ist gespannt und das Haus vorerst wieder bewohnbar.
+  teaserSolvedWrong: "Hier ist etwas schief gelaufen. Die Bewohner/innen des Hauses
+    m\xFCssen immer noch in Notunterk\xFCnften hausen."
+  fullDescription: Berechne die fehlende Seite der Hilfskonstruktion, um das Haus
+    vor dem Einsturz zu bewahren.
+  teachAndPlayDescription: "Die VR-Brille zeigt ein Haus, dass durch Insektensch\xE4den
+    einsturzgef\xE4hrdet ist. Berechne, wie lang eine Seilkonstruktion zur Stabilisierung
+    sein m\xFCsste."
+  topic: {fileID: 11400000, guid: f8dd5f782932950478a192b42804d04d, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: L_1
+      icon: {fileID: -4991240094301451485, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+        type: 3}
+      textMeshProName: L<sub>1</sub>
+      type: 0
+      textValue: 10 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Entfernung der Seilbefestigung zur Knickstelle.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 10 m
+    - name: L_2
+      icon: {fileID: 4836742737289932935, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+        type: 3}
+      textMeshProName: L<sub>2</sub>
+      type: 0
+      textValue: 5 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "H\xF6he des Hauses."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 5 m
+    - name: alpha
+      icon: {fileID: -8900925128456137088, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "105 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Neigung des Hauses, bezogen auf den Boden.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "105 \xB0"
+    dummyInputs:
+    - name: m
+      icon: {fileID: 2359617193843903315, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 3500 kg
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Masse des Hauses.
+      definition: "Die Masse beschreibt die Tr\xE4gheit eines K\xF6rpers gegen Beschleunigungskr\xE4fte."
+      textMeshProValue: 3500 kg
+    output:
+      name: L_3
+      icon: {fileID: 824172911842530760, guid: a05d8e7cadfa9ff43a35ae44072ab63f, type: 3}
+      textMeshProName: L<sub>3</sub>
+      unit: 4
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 1bd5a7685d537ea418fa58ee5c0ae31b, type: 2}
+    dialogs:
+    - 'Die kleinen Monster bringen die Gesellschaft wirklich an die Grenzen. Jetzt
+      auch noch das heimatliche Domizil. '
+    - "\xDCber eine Seilkonstruktion, zwischen Haus und Befestigungspunkt, kann der
+      Schaden vielleicht behoben werden. Daf\xFCr brauchen wir aber die ~o:L_3|L\xE4nge~
+      zwischen Dach und Seilbefestigung."
+  - npc: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+    dialogs:
+    - "Die H\xE4user k\xF6nnten aber auch mal einen neuen Anstrich gebrauchen...!
+      Die H\xF6he des Hauses ist ~i:L_2|5m~ und die Entfernung der Seilbefestigung
+      zum Haus ~i:L_1|10m~. Dann mach dich mal an eine Zeichnung."
+    - Ach ja, den ~i:alpha|Winkel~ des Bodens zum Haus und die ~i:m|Masse~ des Hauses
+      haben wir auch noch. Los geht's oder wartest du noch auf bessere Zeiten?
+  hashtags:
+  - 'allgemeinesdreieck '
+  - 'cosinussatz '
+  - pythagoras
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: fda4afa388eded24daa7d2c4a888ce83, type: 2}

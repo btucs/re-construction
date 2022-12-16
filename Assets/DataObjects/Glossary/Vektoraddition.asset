@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Vektoraddition
+  m_EditorClassIdentifier: 
+  headline: Vektoraddition
+  easy:
+    content: "Du kannst [Vektoren](glossary:Vektor) zusammen-fassen.\r\n\r\nDas hei\xDFt
+      auch Vektor-Addition.\r\n\r\nWie gehst du bei der Vektor-Addition vor?\r\n\r\n-
+      Du addierst die Vektoren der x-Richtung.\r\n- Dann addierst du die Vektoren
+      der y-Richtung.\r\n\r\nKannst du Vektoren auch bildlich zusammen-fassen?\r\n\r\n-
+      Du kannst Vektoren \xFCber ein [Kraft-Eck](glossary:Krafteck) zusammen-fassen.\r\n\r 
+      - Das Kraft-Eck b\xFCndelt alle [Kr\xE4fte](glossary:Kraft).\r\n  - Das Kraft-Eck
+      verbindet alle Kr\xE4fte grafisch."
+    image: {fileID: 21300000, guid: efb5a665884aedc439ee8b0a03e7bd2d, type: 3}
+    tmpContent: "Du kannst <color=#131313><u><link=\"glossary:Vektor\">Vektoren</link></u></color>
+      zusammen-fassen.\n\nDas hei\xDFt auch Vektor-Addition.\n\nWie gehst du bei
+      der Vektor-Addition vor?\n\n\u2022 Du addierst die Vektoren der x-Richtung.\n\u2022
+      Dann addierst du die Vektoren der y-Richtung.\n\nKannst du Vektoren auch bildlich
+      zusammen-fassen?\n\n\u2022 Du kannst Vektoren \xFCber ein <color=#131313><u><link=\"glossary:Krafteck\">Kraft-Eck</link></u></color>
+      zusammen-fassen.\n  \n  \u2022 Das Kraft-Eck b\xFCndelt alle <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>.\n 
+      \u2022 Das Kraft-Eck verbindet alle Kr\xE4fte grafisch."
+  medium:
+    content: "Die Vektoraddition ist \xE4quivalent zur mathematischen Addition. Hier
+      werden die Vektor[komponenten](glossary:Kraftkomponenten) in x- und y-Richtung
+      zusammengefasst. Neben der analytischen Methode k\xF6nnen [Vektoren](glossary:Vektor)
+      auch grafisch addiert werden. Dabei wird die Vektoraddition mit dem Erstellen
+      eines [Kraftecks](glossary:Krafteck) gleichgesetzt.  "
+    image: {fileID: 21300000, guid: 7e1e8c43ce9246240895fe798f89e953, type: 3}
+    tmpContent: "Die Vektoraddition ist \xE4quivalent zur mathematischen Addition.
+      Hier werden die Vektor<color=#131313><u><link=\"glossary:Kraftkomponenten\">komponenten</link></u></color>
+      in x- und y-Richtung zusammengefasst. Neben der analytischen Methode k\xF6nnen
+      <color=#131313><u><link=\"glossary:Vektor\">Vektoren</link></u></color> auch
+      grafisch addiert werden. Dabei wird die Vektoraddition mit dem Erstellen eines
+      <color=#131313><u><link=\"glossary:Krafteck\">Kraftecks</link></u></color>
+      gleichgesetzt."
+  scientific:
+    content: 'Die Vektoraddition ist die mathematische Addition der Vektor[komponenten](glossary:Kraftkomponenten)
+      in x- und y-Richtung. Das funktioniert nur, wenn die [Vektoren](glossary:Vektor)
+      von der gleichen Art sind, d. h. Vektoren im Raum oder in der Ebene. Grafisch
+      wird die Vektoraddition mit dem Erstellen eines [Kraftecks](glossary:Krafteck)
+      gleichgesetzt.  '
+    image: {fileID: 21300000, guid: fb81895521b27eb40833eb29e35201e1, type: 3}
+    tmpContent: Die Vektoraddition ist die mathematische Addition der Vektor<color=#131313><u><link="glossary:Kraftkomponenten">komponenten</link></u></color>
+      in x- und y-Richtung. Das funktioniert nur, wenn die <color=#131313><u><link="glossary:Vektor">Vektoren</link></u></color>
+      von der gleichen Art sind, d. h. Vektoren im Raum oder in der Ebene. Grafisch
+      wird die Vektoraddition mit dem Erstellen eines <color=#131313><u><link="glossary:Krafteck">Kraftecks</link></u></color>
+      gleichgesetzt.
+  tmpHeadline: 

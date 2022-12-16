@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: "09-MLEHandout_Linienfl\xFCchtigkeit"
+  m_EditorClassIdentifier: 
+  mleName: "Linienfl\xFCchtigkeit"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize}\n\\item Das Linienfl\xFCchtigkeitsaxiom ist ein
+      Grundlehrsatz in der Technischen Mechanik und kann mit dem Gleichgewichtsaxiom
+      begr\xFCndet werden. \r\n\\item Kr\xE4fte, die\n\\begin{itemize} \r\n\\item
+      den gleichen Betrag,\r\n\\item die gleiche Wirkungslinie und \r\n\\item die
+      gleiche Richtung haben\r,\n\\end{itemize}\n\\item \xFCben auf den starren K\xF6rper
+      die gleiche Wirkung aus.\r\n\\item Kr\xE4fte k\xF6nnen auf ihrer Wirkungslinie
+      verschoben werden, ohne dass sich die Wirkung auf den starren K\xF6rper ver\xE4ndert.
+      \r\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: "Was ist das Linienfl\xFCchtigkeitsaxiom?"
+    description: "Das Linienfl\xFCxchtigkeitsaxiom ist ein Grundlehrsatz der Starrk\xF6rperstatik.
+      Es beschreibt die Verschiebbarkeit einer Kraft auf der Wirkungslinie.\r\n\n\\textit{Anmerkung}:
+      \nAxiome bed\xFCrfen keiner Beweise und gelten als wahr, da sie durch Experimente
+      allgemein beschrieben worden sind. \n"
+    picture: {fileID: 21300000, guid: 1fb6a5ea817d5d44197b9d0df9c6d698, type: 3}
+  - title: "Was bedeutet Linienfl\xFCchtigkeit f\xFCr Kr\xE4fte?"
+    description: "Zwei Kr\xE4fte, die\n\\begin{itemize} \r\n\\item auf einer Wirkungslinie
+      liegen, \r\n\\item den gleichen Betrag und \r\n\\item die gleiche Richtung
+      haben, \r\n\\end{itemize}\nhaben auf den starren K\xF6rper die gleiche Wirkung.
+      Das bedeutet, dass eine Kraft, die auf einen starren K\xF6rper wirkt, entlang
+      ihrer Wirkungslinie verschoben werden kann, ohne dass sich die Wirkung auf
+      den starren K\xF6rper \xE4ndert.\r\n"
+    picture: {fileID: 0}
+  - title: "Wie ist der Zusammenhang zwischen Linienfl\xFCchtigkeitsaxiom und Gleichgewichtsaxiom?
+      1"
+    description: "\\begin{itemize}\nDas Linienfl\xFCchtigkeitsaxiom kann mit dem
+      Gleichgewichtsaxiom begr\xFCndet werden. \r\n\rDas Beispiel des Einkaufswagenschiebens
+      verdeutlicht, wo die Schiebekraft des Wagens angreift. \r\n\\begin{itemize}\n\\item
+      Die Person schiebt den Wagen mit der Kraft $\\vector{F}_1$.\r\n\\item Dazu
+      wird die Schiebekraft des Wagens, deren Wirkungslinie und Angriffspunkt am
+      K\xF6rper betrachtet. \r\n\\item Die Wirkungslinie ist horizontal.\r\n\\end
+      {itemize}\r\n\r\nIn einer anderen Situation zieht die Person den Einkaufswagen
+      mit der gleichen Kraft und auf der gleichen Wirkungslinie.\r\nDie Bewegung
+      des Einkaufswagens ist in beiden F\xE4llen identisch. \r"
+    picture: {fileID: 21300000, guid: e17e21238adfa3e4b8acfe7ad1824ee9, type: 3}
+  - title: "Wie ist der Zusammenhang zwischen Linienfl\xFCchtigkeitsaxiom und Gleichgewichtsaxiom?
+      2"
+    description: "Betrachten wir den Einkaufswagen in der oberen Situation, in der
+      der Wagen mit der Kraft $\\vector{F}_1$ (gr\xFCn) am Griff geschoben wird.
+      \r\n\nDer Angriffspunkt der unteren Situation liegt auf der Wirkungslinie.
+      \nHier wird eine Gleichgewichtsgruppe (blau) hinzugef\xFCgt. Das sind zwei
+      Kr\xE4fte mit dem gleichen Betrag wie $\\vector{F}_1$, die in entgegengesetzte
+      Richtungen wirken und somit die Wirkung auf das Gesamtsystem nicht ver\xE4ndern.
+      \r\n\r\n\rEs wird nun eine neue Gleichgewichtsgruppe (blau) aus der urspr\xFCnglichen
+      Kraft $\\vector{F}_1$ am Griff und der nach links gerichteten Kraft der eingef\xFCgten
+      Gleichgewichtsgruppe zusammengestellt.\r\nWenn diese Gleichgewichtsgruppe ausgeblendet
+      wird, verbleibt die Kraft am zweiten Angriffspunkt (gr\xFCn), also die Kraft
+      mit der der Wagen in der zweiten Situation gezogen wird. \r\n\r\nDies beweist,
+      dass die Wirkung auf den Wagen dieselbe ist, wenn der Wagen geschoben oder
+      gezogen wird. Die Kraft $\\vector{F}_1$ kann also entlang ihrer Wirkungslinie
+      verschoben werden - ohne dass sich die Wirkung \xE4ndert.\r"
+    picture: {fileID: 21300000, guid: 91a8003ca5148be4a8c7eb2b50e562ca, type: 3}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize}\n\\item Einf\xFChrungsvideo zum Linienfl\xFCchtigkeitsaxiom
+      von StudyHelp: https://www.youtube.com/watch?v=nHNmkB2oUfw\r\n\\item Axiome
+      der Starrk\xF6rperstatik:\r\nhttps://www.youtube.com/watch?v=UoD5Uibp50g\r\n\\end{itemize}"
+    picture: {fileID: 0}

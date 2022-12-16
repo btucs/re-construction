@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Freiheitsgrad
+  m_EditorClassIdentifier: 
+  headline: Freiheitsgrad
+  easy:
+    content: "Ein K\xF6rper kann sich im Raum bewegen.\r\n\r\nDiese Bewegungs-M\xF6glichkeiten
+      hei\xDFen Freiheits-Grade.\r\n\r\nWie kann die Bewegung dargestellt werden?\r\n\r\n-
+      Anhand der x- und y-Achse in einem [Koordinaten-System](glossary:Koordinatensystem)
+      \r\n\r  - Ein Koordinaten-System ist ein Netz aus gleich-gro\xDFen Abst\xE4nden.
+      \r\n\r\nWie kann sich ein K\xF6rper bewegen?\r\n\r\n- Nach oben und unten:\r\n\r 
+      - dann bewegt sich der K\xF6rper auf der y-Achse.\r\n- Nach rechts und links:\r\n\r 
+      - dann bewegt sich der K\xF6rper auf der x-Achse.\r\n- Diese Bewegungen hei\xDFen
+      auch translatorisch.\r\n- Der K\xF6rper kann sich auch drehen:\r\n  - Die Drehung
+      hei\xDFt dann rotatorisch."
+    image: {fileID: 21300000, guid: 6e56fba2434d0054a94aef56eaf1ab87, type: 3}
+    tmpContent: "Ein K\xF6rper kann sich im Raum bewegen.\n\nDiese Bewegungs-M\xF6glichkeiten
+      hei\xDFen Freiheits-Grade.\n\nWie kann die Bewegung dargestellt werden?\n\n\u2022
+      Anhand der x- und y-Achse in einem <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordinaten-System</link></u></color>\n 
+      \n  \u2022 Ein Koordinaten-System ist ein Netz aus gleich-gro\xDFen Abst\xE4nden.\n\nWie
+      kann sich ein K\xF6rper bewegen?\n\n\u2022 Nach oben und unten:\n  \n  \u2022
+      dann bewegt sich der K\xF6rper auf der y-Achse.\n\n\u2022 Nach rechts und links:\n 
+      \n  \u2022 dann bewegt sich der K\xF6rper auf der x-Achse.\n\n\u2022 Diese
+      Bewegungen hei\xDFen auch translatorisch.\n\n\u2022 Der K\xF6rper kann sich
+      auch drehen:\n  \n  \u2022 Die Drehung hei\xDFt dann rotatorisch."
+  medium:
+    content: "Die Bewegungsm\xF6glichkeiten eines K\xF6rpers werden Freiheitsgrade
+      genannt. Sie k\xF6nnen in einem ebenen [Koordinatensystem](glossary:Koordinatensystem)
+      anhand der x- und y-Achse dargestellt werden. Ein K\xF6rper kann sich nach
+      rechts und links (x-Achse) sowie oben und unten (y-Achse) bewegen. Diese Bewegungen
+      werden auch translatorisch genannt. Ein K\xF6rper kann sich auch in der x-y-Ebene
+      drehen (rotatorische Bewegung). "
+    image: {fileID: 21300000, guid: e38430bf16f6ff043a2001c427e37a4e, type: 3}
+    tmpContent: "Die Bewegungsm\xF6glichkeiten eines K\xF6rpers werden Freiheitsgrade
+      genannt. Sie k\xF6nnen in einem ebenen <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordinatensystem</link></u></color>
+      anhand der x- und y-Achse dargestellt werden. Ein K\xF6rper kann sich nach
+      rechts und links (x-Achse) sowie oben und unten (y-Achse) bewegen. Diese Bewegungen
+      werden auch translatorisch genannt. Ein K\xF6rper kann sich auch in der x-y-Ebene
+      drehen (rotatorische Bewegung)."
+  scientific:
+    content: "Freie Bewegungsm\xF6glichkeiten eines K\xF6rpers in der Ebene bzw.
+      im Raum werden als Freiheitsgrade bezeichnet. Ein K\xF6rper besitzt in der
+      Ebene drei Freiheitsgrade. Dies sind zwei translatorische Bewegungen in x-
+      und y-Richtung und eine rotatorische Bewegung in der x-y-Ebene.  "
+    image: {fileID: 21300000, guid: 46ca8f97fe48fc9439164f486d488c7c, type: 3}
+    tmpContent: "Freie Bewegungsm\xF6glichkeiten eines K\xF6rpers in der Ebene bzw.
+      im Raum werden als Freiheitsgrade bezeichnet. Ein K\xF6rper besitzt in der
+      Ebene drei Freiheitsgrade. Dies sind zwei translatorische Bewegungen in x-
+      und y-Richtung und eine rotatorische Bewegung in der x-y-Ebene."
+  tmpHeadline: 

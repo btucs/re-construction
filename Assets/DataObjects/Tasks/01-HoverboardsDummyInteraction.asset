@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-HoverboardsDummyInteraction
+  m_EditorClassIdentifier: 
+  uid: aa362d26-eeea-49e4-a0ad-c8388e88d3f0
+  taskName: Krafteinwirkungen darstellen
+  teaserDescription: "Neue Verkehrsmittel ben\xF6tigen neue Mobilit\xE4tskonzepte.
+    Welcher Schaden wohl im Worst Case die Fahrenden treffen w\xFCrde?"
+  teaserSolvedCorrect: "Der Test, zur gegenseitigen Krafteinwirkung, konnte abgeschlossen
+    werden. Die Mitglieder des Netzwerks fahren die Ger\xE4te flei\xDFig Probe.\r\n"
+  teaserSolvedWrong: "An dem Algorithmus muss weiter gefeilt werden. Es kam anders
+    als du es beschrieben hast. \r\n"
+  fullDescription: "Die Hoverboards fahren als Test aufeinander zu - zeichne die
+    wechselwirkenden Kr\xE4fte nach und trage zur Unfallforschung der Technologie
+    bei."
+  teachAndPlayDescription: "Die Anlage simuliert eine m\xF6gliche Gefahrensituation
+    von Hoverboards, die als Fortbewegungsmittel genutzt werden. Bestimmte die wirkenden
+    Kr\xE4fte, wenn zwei Hoverboards aufeinandertreffen. "
+  topic: {fileID: 11400000, guid: 90a1fd32fa050fe44a37cdd0102de122, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 7
+  coordinateSystemData:
+    origin: {x: -400, y: 0}
+    dimensions:
+      posX: 12
+      posY: 12
+      negX: 12
+      negY: 12
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 25
+  steps:
+  - inputs:
+    - name: Betrag_F_1
+      icon: {fileID: -5651625075348647211, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: Betrag<sub>F</sub><sub>1</sub>
+      type: 0
+      textValue: 62,5 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Kraftbetrag des linken Hoverboards beim Aufprall.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 62,5 N
+    - name: alpha
+      icon: {fileID: 6961674588341409929, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "180 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Fahrtrichtung des linken Hoverboards.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "180 \xB0"
+    - name: P_1
+      icon: {fileID: -5828717008049718257, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-3.5 3 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ort des Zusammenpralls der Hoverboards.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als kleiner Kreis oder Kreuz
+        dargestellt."
+      textMeshProValue: (-11 3 0)
+    dummyInputs:
+    - name: h
+      icon: {fileID: 0}
+      textMeshProName: h
+      type: 0
+      textValue: 1.75 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Gr\xF6\xDFe der Dummys"
+      definition: "Die Gr\xF6\xDFe beschreibt die Erstreckung eines K\xF6rpers in
+        eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1.75 m
+    output:
+      name: F_1
+      icon: {fileID: 4067417562419568803, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: F<sub>1</sub>
+      unit: 2
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  - inputs: []
+    dummyInputs: []
+    output:
+      name: F_2
+      icon: {fileID: -1854343755482305620, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: F<sub>2</sub>
+      unit: 7
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 20e24fa6780fbe844aa80a40fbc629d6, type: 2}
+    dialogs:
+    - "Heute stehen Crash-Tests mit den Hoverboards auf der Agenda: Wir wollen wissen,
+      was passiert, wenn die Dummys mit einer Gr\xF6\xDFe von ~i:h|1,75 m~, mit gleicher
+      Kraft aufeinandertreffen. "
+    - "Der linke Dummy Bud d\xFCst mit einer Kraft von ~i:Betrag_F_1|62,5 N~ auf
+      Dummy Terence zu. \nSo ein Vollzusammensto\xDF ist nicht so dope, aber hier
+      m\xFCssen wir, f\xFCr das Quality-Management, alles testen. "
+    - "Kannst du davon, im ersten Schritt, Buds ~o:F_1|Kraftpfeil~ einzeichnen?\nBud
+      und Terence treffen sich au\xDFerdem im Punkto ~i:P_1|(-11;3)~ in einem Koordinatensystem
+      mit 1LE = 100N. "
+    - "Der Winkel von Bud ist dabei durch ~i:alpha~ definiert. Im n\xE4chsten Schritt
+      m\xFCsstest du noch den ~o:F_2|Kraftpfeil~ von Terence einzeichen und swooosh
+      - that's it!"
+    - "Der Crash wird wohl ein oder zwei offene N\xE4hte bedeuten,... aber daf\xFCr
+      m\xFCssen wir keine Tiere oder Azubis verwenden."
+  hashtags:
+  - 'kraftvektor '
+  - 'Hoverboard '
+  - crashtest
+  connectedObject: {fileID: 11400000, guid: 255fc7bcef083f740823fff4405a5b04, type: 2}

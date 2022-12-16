@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: "26-Kr\xE4ftepaar"
+  m_EditorClassIdentifier: 
+  mleName: "Kr\xE4ftepaar"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\n    \\item Das Moment beschreibt die Drehwirkung
+      einer Kraft, eines Kr\xE4ftepaares oder sonstigen Kr\xE4ftesystemen auf einen
+      K\xF6rper.\n    \\item Das Moment $M$ einer Kraft F wirkt um einen Bezugspunkt
+      A.\n    \\item Das Moment $M$ ergibt sich aus dem Produkt der Kraft $F$ und
+      dem Hebelarm $a$: \n$$M =F{\\cdot}a$$ \n\\item Das resultierende Moment MR
+      ergibt sich aus der Summe aller Einzelmomente.\n\\end{enumerate}"
+    picture: {fileID: 0}
+  - title: Was ist ein Moment?
+    description: "Ein Moment ist eine physikalische Gr\xF6\xDFe und beschreibt die
+      Drehwirkung einer Kraft, eines Kr\xE4ftepaares oder sonstigen Kr\xE4ftesystems
+      auf einen K\xF6rper. Ein Drehmoment versetzt einen K\xF6rper in Rotation, also
+      in Drehung.\r\nDas Moment wird in einer Zeichnung durch einen gekr\xFCmmten
+      Pfeil dargestellt, sodass die Drehwirkung deutlich wird.\r\n"
+    picture: {fileID: 0}
+  - title: "Wie wird das Moment eines Kr\xE4ftepaares berechnet?"
+    description: "Ein Kr\xE4ftepaar besteht aus \\textbf{zwei Kr\xE4ften}  mit dem
+      \\textbf{gleichen Betrag und parallelen Wirkungslinien}, die in \\textbf{entgegengesetzte
+      Richtungen}  wirken. Da die Kr\xE4fte in die entgegengesetzte Richtung wirken
+      und gleich gro\xDF sind, kann ein Kr\xE4ftepaar nicht zu einer Resultierenden
+      zusammengefasst werden:\n$$F_R = F_1 \u2013 F_2 = 0$$\nEs kommt zu \\textbf{keiner
+      Verschiebung}  (Translation) des K\xF6rpers, sondern zu einer \\textbf{Rotation},
+      also einer \\textbf{Drehbewegung}. Die Wirkung eines Kr\xE4ftepaares ist somit
+      ein \\textbf{Moment}.\\\\\n\nDas Moment eines Kr\xE4ftepaares ist vom \\textbf{Bezugspunkt
+      unabh\xE4ngig}  und kann in der Wirkebene beliebig verschoben werden. Ein Kr\xE4ftepaar
+      kann also an jeden beliebigen Ort verschoben werden ohne, dass sich die Wirkung
+      oder sein Drehmoment \xE4ndert.\\\\\nDie Formel zur Berechnung des Moments
+      eines Kr\xE4ftepaares lautet: \n$$M=F{\\cdot}a$$\nDabei ist $F$ der Betrag
+      der Kraft und der Hebelarm $a$ ist der Abstand der beiden parallelen Kr\xE4fte.
+      Der Drehsinn bestimmt sich \xFCber die Richtungen der Kr\xE4fte.\\\\\n\n\\underline{Beispiel:}
+      Fahrrad fahren, Schraubenzieher im Schlitz, Lenkrad, Handrad"
+    picture: {fileID: 0}
+  - title: Wie wird das Vorzeichen des Moments bestimmt?
+    description: "Das Vorzeichen des Moments kann \xFCber die \\textbf{rechte Hand-Regel} 
+      bestimmt werden:\r\n\\begin{itemize}\r\n    \\item der Daumen der rechten Hand
+      zeigt in die positive Drehachsenrichtung \r\n    \\item die gekr\xFCmmten Finger
+      zeigen in die positive Drehrichtung\r\n\\end{itemize} \\\\\r\n\r\n\r\n\\underline{Beispiel:
+      Kaffeem\xFChle}\r\n\\begin{itemize}\r\n    \\item Um die Bohnen zu mahlen wird
+      der Griff oben gegen den Uhrzeigersinn gedreht.\r\n    \\item Die Wirkung der
+      Kraftaus\xFCbung ist eine Drehbewegung (ein Moment). \r\n    \\item Die Drehachse
+      bei der Kaffeem\xFChle liegt mittig und zeigt senkrecht nach oben.\r\n    \\item
+      Wenn der Daumen der rechten Hand nach oben zeigt, dann zeigen die gekr\xFCmmten
+      Finger in die Richtung, in die sich der Griff dreht.\r\n    \\item Das Moment,
+      welches durch die Kraft F verursacht wird, hat somit ein positives Vorzeichen.\r\n\\end{itemize}\r\n"
+    picture: {fileID: 0}
+  - title: Was ist wenn mehrere Momente wirken?
+    description: 'Wenn mehrere Momente wirken, berechnet sich das resultierende Moment
+      aus der \textbf{Summe aller Einzelmomente}:
+
+
+
+      $$M_{res}=\sum^n_{i=1}M_i$$
+
+
+
+'
+    picture: {fileID: 0}

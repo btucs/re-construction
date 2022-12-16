@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: "Kr\xE4fteparallelogramm"
+  m_EditorClassIdentifier: 
+  headline: "Kr\xE4fteparallelogramm"
+  easy:
+    content: "Was machst du mit einem Kr\xE4fte-Parallelo-Gramm?\r\n\r\n- Du kannst
+      2 [Kr\xE4fte](glossary:Kraft) zusammen-fassen.\r\n\r\nWie gehst du beim Kr\xE4fte-Parallelo-Gramm
+      vor?\r\n\r\n- Du verbindest die 2 Kr\xE4fte in einem Punkt.\r\n\r\n- Dann erg\xE4nzt
+      du das Parallelo-Gramm.\r\n\r\n- Daf\xFCr zeichnest du 2 weitere Kr\xE4fte
+      ein.\r\n\r\n- Dann erg\xE4nzt du die 2 schr\xE4gen Linien im Parallelo~~-~~Gramm.\r\n\r\n-
+      Eine schr\xE4ge Linie ist die Verbindung zwischen 2 **nicht** benachbarten
+      Eck-Punkten.\r\n\r\n- Die l\xE4ngste schr\xE4ge Linie ist die [Ersatz-Kraft](glossary:Ersatzkraft).\r\n\r\n-
+      Die Ersatz-Kraft hei\xDFt auch [resultierende Kraft](glossary:Resultierende).\r\n-
+      Die resultierende Kraft fasst die 2 Kr\xE4fte zusammen.\r\n  - Die resultierende
+      Kraft ist genauso gro\xDF wie die 2 Kr\xE4fte.\r\n  - Die Wirkung der resultierenden
+      Kraft und der 2 Kr\xE4fte ist gleich."
+    image: {fileID: 21300000, guid: ec0e6029f704b9d4e95fa3f8e7a85e33, type: 3}
+    tmpContent: "Was machst du mit einem Kr\xE4fte-Parallelo-Gramm?\n\n\u2022 Du
+      kannst 2 <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      zusammen-fassen.\n\nWie gehst du beim Kr\xE4fte-Parallelo-Gramm vor?\n\n\u2022
+      Du verbindest die 2 Kr\xE4fte in einem Punkt.\n\n\u2022 Dann erg\xE4nzt du
+      das Parallelo-Gramm.\n\n\u2022 Daf\xFCr zeichnest du 2 weitere Kr\xE4fte ein.\n\n\u2022
+      Dann erg\xE4nzt du die 2 schr\xE4gen Linien im Parallelo~~-~~Gramm.\n\n\u2022
+      Eine schr\xE4ge Linie ist die Verbindung zwischen 2 <b>nicht</b> benachbarten
+      Eck-Punkten.\n\n\u2022 Die l\xE4ngste schr\xE4ge Linie ist die <color=#131313><u><link=\"glossary:Ersatzkraft\">Ersatz-Kraft</link></u></color>.\n\n\u2022
+      Die Ersatz-Kraft hei\xDFt auch <color=#131313><u><link=\"glossary:Resultierende\">resultierende
+      Kraft</link></u></color>.\n\n\u2022 Die resultierende Kraft fasst die 2 Kr\xE4fte
+      zusammen.\n  \n  \u2022 Die resultierende Kraft ist genauso gro\xDF wie die
+      2 Kr\xE4fte.\n  \u2022 Die Wirkung der resultierenden Kraft und der 2 Kr\xE4fte
+      ist gleich."
+  medium:
+    content: "Zwei [Kr\xE4fte](glossary:Kraft) k\xF6nnen \xFCber ein Kr\xE4fteparallelogramm
+      zusammengefasst werden. Die zwei Kr\xE4fte ber\xFChren sich in einem Ausgangspunkt
+      und werden dann mittels der Parallelverschiebung zu einem Parallelogramm erg\xE4nzt.
+      Im Parallelogramm werden die Ecken nun durch Diagonalen miteinander verbunden.
+      Die L\xE4ngere von beiden ist die [Ersatzkraft](glossary:Ersatzkraft) oder
+      [resultierende Kraft](glossary:Resultierende). Die Resultierende fasst die
+      zwei bestehenden Kr\xE4fte zusammen. Dieses Vorgehen gilt als \xE4quivalent
+      zur [Vektoraddition](glossary:Vektoraddition). "
+    image: {fileID: 21300000, guid: 2abc3bbe56b623e4b85c0817b2dce9d9, type: 3}
+    tmpContent: "Zwei <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      k\xF6nnen \xFCber ein Kr\xE4fteparallelogramm zusammengefasst werden. Die zwei
+      Kr\xE4fte ber\xFChren sich in einem Ausgangspunkt und werden dann mittels der
+      Parallelverschiebung zu einem Parallelogramm erg\xE4nzt. Im Parallelogramm
+      werden die Ecken nun durch Diagonalen miteinander verbunden. Die L\xE4ngere
+      von beiden ist die <color=#131313><u><link=\"glossary:Ersatzkraft\">Ersatzkraft</link></u></color>
+      oder <color=#131313><u><link=\"glossary:Resultierende\">resultierende Kraft</link></u></color>.
+      Die Resultierende fasst die zwei bestehenden Kr\xE4fte zusammen. Dieses Vorgehen
+      gilt als \xE4quivalent zur <color=#131313><u><link=\"glossary:Vektoraddition\">Vektoraddition</link></u></color>."
+  scientific:
+    content: "Zwei [Kr\xE4fte](glossary:Kraft), die an einem Punkt angreifen, k\xF6nnen
+      zu einer [resultierenden Kraft](glossary:Resultierende) / [Ersatzkraft](glossary:Ersatzkraft)
+      zusammengesetzt werden, welche die gleiche Wirkung auf den K\xF6rper hat. Die
+      zwei Kr\xE4fte spannen dabei - durch Parallelverschiebung einer Kraft in den
+      Endpunkt der anderen Kraft - ein Parallelogramm auf. Dieses Kr\xE4fteparallelogramm
+      ist ein \xC4quivalent zur mathematischen [Vektoraddition](glossary:Vektoraddition).
+      Die l\xE4ngere Diagonale im Parallelogramm ist das \xC4quivalent der [Resultierenden](glossary:Resultierende)
+      der zwei Kr\xE4fte."
+    image: {fileID: 21300000, guid: 5aaa75c4cc0258542a57060ba5980a48, type: 3}
+    tmpContent: "Zwei <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>,
+      die an einem Punkt angreifen, k\xF6nnen zu einer <color=#131313><u><link=\"glossary:Resultierende\">resultierenden
+      Kraft</link></u></color> / <color=#131313><u><link=\"glossary:Ersatzkraft\">Ersatzkraft</link></u></color>
+      zusammengesetzt werden, welche die gleiche Wirkung auf den K\xF6rper hat. Die
+      zwei Kr\xE4fte spannen dabei - durch Parallelverschiebung einer Kraft in den
+      Endpunkt der anderen Kraft - ein Parallelogramm auf. Dieses Kr\xE4fteparallelogramm
+      ist ein \xC4quivalent zur mathematischen <color=#131313><u><link=\"glossary:Vektoraddition\">Vektoraddition</link></u></color>.
+      Die l\xE4ngere Diagonale im Parallelogramm ist das \xC4quivalent der <color=#131313><u><link=\"glossary:Resultierende\">Resultierenden</link></u></color>
+      der zwei Kr\xE4fte."
+  tmpHeadline: 

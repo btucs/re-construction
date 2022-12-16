@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-Rutsche-Kraftzerlegen
+  m_EditorClassIdentifier: 
+  uid: 31ce6401-a702-4d4a-8267-bec6a2fbd9d0
+  taskName: Rutschentest-analytisch
+  teaserDescription: "Die Rutsche ist gefestigt, der n\xE4chste Prototyp geplant.
+    Jetzt wollen wir aber Mal schauen, welche Fahrt die beiden Nager beim Rutschen
+    aufnehmen. "
+  teaserSolvedCorrect: 
+  teaserSolvedWrong: 
+  fullDescription: 
+  topic: {fileID: 11400000, guid: ed19b0c41f46d4d4ebc0fb07a9603677, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: F_G
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 5 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 
+    - name: alpha
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: "30 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 
+    dummyInputs: []
+    output:
+      name: F_T
+      icon: {fileID: 0}
+      textMeshProName: 
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 0}
+    dialogs:
+    - "Holla die Waldfee. Da fehlt noch de ~o:F_T|zerlegte Kraft in Richtung Rutschenende,~ 
+      bei 'nem Winkel von ~i:alpha|30 \xB0~."
+    - "Ick kenn dich doch. Mach jetze los. Kraft zerlegen in eene ~o:F_T|parallele
+      Kraft~ und eene ~o:F_N|senkrechte Kraft, ~ bei nem Winkel von ~i:alpha|30 \xB0~."
+  - npc: {fileID: 0}
+    dialogs:
+    - Die Schweine rutschen so gerne, wie ein Mops im Stroh sitzt. Und das mit Karamba
+      - einer Gewichtskraft von ~i:F_G|5 N~ uffweisend.
+    - "Wir sind den anderen immer einen Schritt voraus. Jetzt fehlen nur noch die
+      zerlegten Kr\xE4fte, wenn die beiden mit einer Gewichtsfraft von ~i:F_G|5 N~
+      N hier aufkreuzen."
+  hashtags: []

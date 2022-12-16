@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: a95ca048c1044b547aba0df50ad26c46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6374400925369508675
+    second: BG_LightGradient
+  - first:
+      213: -2823849807736978089
+    second: BG_Wall_Window
+  - first:
+      213: 5589221899840297466
+    second: BG_Wall_Solid
+  - first:
+      213: -3224805013773650296
+    second: BG_Wall_Fading
+  - first:
+      213: -2151274668685670351
+    second: BG_WorldMap
+  - first:
+      213: 4510077910537358366
+    second: BG_BoardOfBoxes
+  - first:
+      213: -6811861765885192033
+    second: BG_Lamp_Active
+  - first:
+      213: -5226461641455317352
+    second: BG_Lamp_Inactive
+  - first:
+      213: 1118886459149397829
+    second: BG_WorldMap_Hologramm
+  - first:
+      213: -1911020535323277194
+    second: BG_Light_Mask2
+  - first:
+      213: -6374400925369508675
+    second: BG_Light_Outer
+  - first:
+      213: -2823849807736978089
+    second: BG_Light_Inner
+  - first:
+      213: 5369227537249474835
+    second: BG_Distand_building1
+  - first:
+      213: 3849414535107474975
+    second: BG_Distand_building2
+  - first:
+      213: 374504407480443652
+    second: BG_Distand_building3
+  - first:
+      213: -8805120365405293432
+    second: BG_Distand_building4
+  - first:
+      213: -7813457518544247212
+    second: BG_Distand_building5
+  - first:
+      213: 657511033010413465
+    second: BG_Distand_Sky
+  - first:
+      213: -1624844894008499889
+    second: BG_Distand_Moon
+  - first:
+      213: 5372514573060677218
+    second: BG_Desk
+  - first:
+      213: -5991180472466673264
+    second: BG_Plant_Small01
+  - first:
+      213: -2626217058666285566
+    second: BG_HamsterCage
+  - first:
+      213: 7639301231107028251
+    second: BG_Object_Bicycle
+  - first:
+      213: 1794667378216371629
+    second: BG_buro_ApoKugelWall
+  - first:
+      213: -9038823189082503414
+    second: BG_buro_ApoKugelControlUnit
+  - first:
+      213: 9041053432606822156
+    second: BG_buro_ApoKugelDoor
+  - first:
+      213: 3818682441509497653
+    second: BG_buro_ApoKugelPlattform
+  - first:
+      213: -4088691551125306795
+    second: BG_buro_ApoKugelBattery
+  - first:
+      213: -5602868580285310531
+    second: BG_buro_ApoDisplay1
+  - first:
+      213: 5212304897018416894
+    second: BG_buro_ApoKugelFloorLight
+  - first:
+      213: -7616566856494298827
+    second: BG_buro_ApoLightOutter
+  - first:
+      213: 123559512711997569
+    second: BG_buro_ApoLightInner
+  - first:
+      213: 7246305398204057484
+    second: BG_buro_ApoDisplay2
+  - first:
+      213: 8700514042771120719
+    second: BG_buro_ApoBall
+  - first:
+      213: 3881237176304420650
+    second: BG_buro_ApoLightArm
+  - first:
+      213: -2321628425063209041
+    second: BG_buro_ApoRoomDeko1
+  - first:
+      213: -255599628980558603
+    second: BG_buro_ApoRoomDekoPipe
+  - first:
+      213: 6093632969490634683
+    second: BG_buro_ApoRoomDeko2
+  - first:
+      213: 7591595135913456774
+    second: envBG_rainParticle
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BG_Wall_Window
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1275
+        width: 267
+        height: 742
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227967eb58cd92f45b6b8e7e60e223db
+      internalID: -2823849807736978089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Wall_Solid
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1275
+        width: 267
+        height: 742
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8536d5fdf3b9243a7a2d915b3ff277
+      internalID: 5589221899840297466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Wall_Fading
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1275
+        width: 269
+        height: 741
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360cca790340bba42b58e9043f621819
+      internalID: -3224805013773650296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_WorldMap
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1555
+        width: 445
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78737543af787dc42be40f58e80c6248
+      internalID: -2151274668685670351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_BoardOfBoxes
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1376
+        width: 312
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb12ff929fb854a4fbff6b0df41019b9
+      internalID: 4510077910537358366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_LightGradient
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2044
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1bcc05a86604549a004a6d96c9c4a5
+      internalID: -6374400925369508675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Lamp_Active
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1070
+        width: 198
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba12b1f6ee8e054093b74ae1babaa25
+      internalID: -6811861765885192033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Lamp_Inactive
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1070
+        width: 198
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232ee0317bd69bc4d9039288125453a3
+      internalID: -5226461641455317352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_WorldMap_Hologramm
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1797
+        width: 104
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bed6d9473e06e4facc414dc00aa617
+      internalID: 1118886459149397829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Light_Outer
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1531
+        width: 361
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebd64e0f608d1c4cbaa482197978adb
+      internalID: -6374400925369508675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Light_Inner
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1531
+        width: 185
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cd636fad81d0d41893dcaa99de07b1
+      internalID: -2823849807736978089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Distand_building1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 649
+        width: 96
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defbf417d61ca0f43b1aa0cb207f96da
+      internalID: 5369227537249474835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Distand_building2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 649
+        width: 76
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6b86b9cd4d3424e88009ea2906c147
+      internalID: 3849414535107474975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Distand_building3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 651
+        width: 85
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8975eb1969296d408d9ebe1c6184bd0
+      internalID: 374504407480443652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Distand_building4
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 650
+        width: 86
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b5359c9ddf5d440b5c41b12a4ebbe0
+      internalID: -8805120365405293432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Distand_building5
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 651
+        width: 132
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f749166cfafec42b3b8b53c2104f62
+      internalID: -7813457518544247212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Distand_Sky
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 653
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f1a572f8ccff742aa068a4d2356c9b
+      internalID: 657511033010413465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Distand_Moon
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 495
+        width: 437
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef3fa8bcedbe40488e5446d993d6413
+      internalID: -1624844894008499889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Desk
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1089
+        width: 417
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 141, y: 0, z: 98, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3506344947726b4f9589a57df5112e4
+      internalID: 5372514573060677218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Plant_Small01
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1800
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eae02f7e3af0440bb36540191f6776
+      internalID: -5991180472466673264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_HamsterCage
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1917
+        width: 183
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621848064a29fe247b3fa37f1445efbd
+      internalID: -2626217058666285566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Object_Bicycle
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1151
+        width: 299
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a8a4f5d8d91aa4998b954af3b9cd46
+      internalID: 7639301231107028251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoKugelWall
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 41
+        width: 256
+        height: 740
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd103eddc430b3c43bacb852cce48675
+      internalID: 1794667378216371629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoKugelControlUnit
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 615
+        width: 375
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc188096ffc42a640abaf38e73bab349
+      internalID: -9038823189082503414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoKugelDoor
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 42
+        width: 72
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01aec6062427b643b956373ebc02d30
+      internalID: 9041053432606822156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoKugelPlattform
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 367
+        width: 440
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03edbb330c1ff504485dc7921d6e3c37
+      internalID: 3818682441509497653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoKugelBattery
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 28
+        width: 202
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24f57111f4794f42b7fc6d829d25bef
+      internalID: -4088691551125306795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoDisplay1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 202
+        width: 195
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf0ac1fd341fec4faa9304e7cee04a5
+      internalID: -5602868580285310531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoKugelFloorLight
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 814
+        width: 41
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec50a6c891117344f85e970b0dea6682
+      internalID: 5212304897018416894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoLightOutter
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1168
+        width: 434
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2941a543c92b96940b2ada9f98c69475
+      internalID: -7616566856494298827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoLightInner
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1129
+        width: 238
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5d9807e52b56f468b210bce8a3c589
+      internalID: 123559512711997569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoDisplay2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 35
+        width: 169
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1e5942111c91448840a7623380065b
+      internalID: 7246305398204057484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoBall
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 362
+        width: 139
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c8e22484f81414ba0f7da2a22dc4bd
+      internalID: 8700514042771120719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoLightArm
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 42
+        width: 211
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903af6eb12673fd4aaa79b2a23d9314e
+      internalID: 3881237176304420650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoRoomDeko1
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 39
+        width: 242
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2fdfaccef5cdb42a5b56f77f32db67
+      internalID: -2321628425063209041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoRoomDekoPipe
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 38
+        width: 293
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6affe300336f2414cbfa26942f4e5e6c
+      internalID: -255599628980558603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_buro_ApoRoomDeko2
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 236
+        width: 354
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1203407b480f4c24ba46fd285e11bde6
+      internalID: 6093632969490634683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: envBG_rainParticle
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1098
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a445bfefd72db4cbcd238253e4bac8
+      internalID: 7591595135913456774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

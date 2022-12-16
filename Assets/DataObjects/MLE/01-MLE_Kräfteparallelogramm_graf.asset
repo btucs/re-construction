@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: "01-MLE_Kr\xE4fteparallelogramm_graf"
+  m_EditorClassIdentifier: 
+  uid: 2de4330c-19c8-409e-9ba3-49f92e4342b1
+  mleName: "Kr\xE4fteparallelogramm grafisch l\xF6sen"
+  mleHandout: {fileID: 11400000, guid: 0256b39d07e652c4d91631ca3ab6b0a0, type: 2}
+  mleIntroText: "Was Parallelogramme mit Kr\xE4ften zu tun haben? Das wird hier malerisch
+    dargestellt."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:f71aeaee16c321d521867a91ad38c080_1645191238.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was ist ein Kr\xE4fteparallelogramm?"
+      choices:
+      - name: "Die Wirkung von zwei Kr\xE4ften F1 und F2, die an einen gemeinsamen
+          Punkt angreifen, ist gleich einer Ersatzkraft FR, die sich als Diagonale
+          eines mit den Seiten F1 und F2 gebildeten Parallelogramms ergibt."
+        isAnswer: 1
+        feedbackMessage: "Toll! Das Kr\xE4fteparallelogramm ist dabei nicht auf den
+          starren K\xF6rper begrenzt, wie das Gleichgewichtsaxiom und das Linienfl\xFCchtigkeitsaxiom."
+      - name: "Die Wirkung von drei Kr\xE4ften F1, F2 und F3, die an einen gemeinsamen
+          Punkt angreifen, ist gleich einer Ersatzkraft FR, die sich als Diagonale
+          eines mit den Seiten F1, F2 und F3 gebildeten Parallelogramms ergibt."
+        isAnswer: 0
+        feedbackMessage: "Nee nee. Das Kr\xE4fteparallelogramm l\xE4sst sich nur
+          mit zwei Kr\xE4ften aufstellen. Das wiederholte Anwenden mit der ersten
+          Ersatzkraft und der dritten Kraft ist aber m\xF6glich."
+      - name: "Die Wirkung von zwei Kr\xE4ften F1 und F2, die an einen gemeinsamen
+          Punkt angreifen, ist kleiner einer Ersatzkraft FR, die sich als Diagonale
+          eines mit den Seiten F1 und F2 gebildeten Parallelogramms ergibt."
+        isAnswer: 0
+        feedbackMessage: "Nein. Bei dem Kr\xE4fteparallelogramm, werden zwei Kr\xE4fte
+          zusammengefasst / addiert. Dabei entsteht keine zus\xE4tzliche Kraft."
+      - name: "Die Wirkung von zwei Kr\xE4ften F1 und F2, die an einen gemeinsamen
+          Punkt angreifen, ist gr\xF6\xDFer einer Ersatzkraft FR, die sich als Diagonale
+          eines mit den Seiten F1 und F2 gebildeten Parallelogramms ergibt."
+        isAnswer: 0
+        feedbackMessage: "Nee. Bei dem Kr\xE4fteparallelogramm, werden zwei Kr\xE4fte
+          zusammengefasst / addiert. Dabei geht keine Kraft verloren."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:d3b00032d7f36bc41df58126ceb3ea63_1645191258.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie wird die Ersatzkraft von zwei Kr\xE4ften mittels Kr\xE4fteparallelogramm
+        grafisch ermittelt?"
+      choices:
+      - name: "1. Kr\xE4fte in einem Schnittpunkt b\xFCndeln 2. Zwei Kraftpfeile
+          parallel verschieben 3. Schnittpunkt der verschobenen Kraftpfeile bestimmen
+          4. Ersatzkraftpfeil zeichnen und ausmessen"
+        isAnswer: 1
+        feedbackMessage: "Topp. Beachte, dass bei der grafischen L\xF6sung immer
+          der Ma\xDFstab angegeben werden muss."
+      - name: "1. Kr\xE4fte in einem Schnittpunkt b\xFCndeln 2. Ersatzkraftpfeil
+          zeichnen und ausmessen 3. Zwei Kraftpfeile parallel verschieben 4. Schnittpunkt
+          der verschobenen Kraftpfeile bestimmen"
+        isAnswer: 0
+        feedbackMessage: Oh, du bist jemand von der schnellen Sorte. Vor dem Ersatzpfeil
+          bedarf es noch einer weiteren Handlung.
+      - name: "1. Schnittpunkt der verschobenen Kraftpfeile bestimmen 2. Zwei Kraftpfeile
+          parallel verschieben 3. Ersatzkraftpfeil zeichnen und ausmessen 4. Kr\xE4fte
+          in einem Schnittpunkt b\xFCndeln"
+        isAnswer: 0
+        feedbackMessage: "Uiuiui, was f\xFCr ein Durcheinander. \xDCberlege, was
+          zuerst mit den Kr\xE4ften passieren muss und welcher der letzte Schritt
+          ist."
+      - name: "1. Ersatzkraftpfeil zeichnen und ausmessen 2. Schnittpunkt der verschobenen
+          Kraftpfeile bestimmen 3. Zwei Kraftpfeile parallel verschieben 4. Kr\xE4fte
+          in einem Schnittpunkt b\xFCndeln"
+        isAnswer: 0
+        feedbackMessage: "Hmm, du ziehst das Pferd gern von hinten auf. \xDCberdenke
+          die Reihenfolge."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:88dae0f58697ed0d602643dc6a155286_1645191305.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was kann mit dem Kr\xE4fteparallelogramm ermittelt werden? Mit dem
+        Kr\xE4fteparallelogramm ..."
+      choices:
+      - name: "\u2026 kann eine Ersatzkraft aus zwei gegebenen Kr\xE4ften F1 und
+          F2 ermittelt werden. Die Wirkung der Ersatzkraft ist gleich der J8Wirkung
+          der Summe der Einzelkr\xE4fte."
+        isAnswer: 1
+        feedbackMessage: "Super. Sollten einmal drei Kr\xE4fte an einem Punkt angreifen,
+          kann das Kr\xE4fteparallelogramm mehrfach f\xFCr jeweils zwei Kr\xE4fte
+          angewandt werden."
+      - name: "... wird jeweils eine gleich gro\xDFe entgegengesetzte Kraft eingetragen."
+        isAnswer: 0
+        feedbackMessage: "Nein, das beschreibt das Wechselwirkungsgesetz bei zwei
+          K\xF6rpern."
+      - name: "\u2026 k\xF6nnen die Kr\xE4fte auf der Wirkungslinie verschoben werden."
+        isAnswer: 0
+        feedbackMessage: "Nein, nicht richtig. Diese Beschreibung geh\xF6rt zum Axiom
+          der Linienfl\xFCchtigkeit."
+      - name: "... kann die L\xE4nge der Kr\xE4fte im Koordinatensystem ermittelt
+          werden."
+        isAnswer: 0
+        feedbackMessage: "Upsi, das verwechselst du mit dem Ma\xDFstab. Dieser wird
+          immer bei der grafischen L\xF6sung angegeben."
+  requiredProgress: []

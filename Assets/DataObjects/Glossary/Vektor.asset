@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Vektor
+  m_EditorClassIdentifier: 
+  headline: Vektor
+  easy:
+    content: "Welche Besonderheiten hat ein Vektor?\r\n\r\n- Der Vektor geht in eine
+      [Richtung](glossary:Richtung).\r\n\r\n- Der Vektor hat einen Anfangs-Punkt.\r\n\r\n-
+      Der Vektor hat einen End-Punkt.\r\n\r\n- Der Vektor hat eine L\xE4nge.\r\n\r 
+      - Die L\xE4nge hei\xDFt auch [Betrag](glossary:Betrag).\r\n\r\nWie stellst
+      du den Vektor dar?\r\n\r\n- Du stellst den Vektor als Pfeil dar.\r\n\r\n- Die
+      Pfeilspitze gibt den [Richtungs-Sinn](glossary:Richtungssinn) an.\r\n\r\n-
+      Die L\xE4nge ist gleich der Gr\xF6\xDFe.\r\n\r\n- Der Vektor liegt auf einer
+      Linie.\r\n\r\n - Die Linie hei\xDFt auch [Wirkungs-Linie](glossary:Wirkungslinie).\r\n 
+      - Die Linie zeigt die Richtung an."
+    image: {fileID: 21300000, guid: c00138059f7df184ba185243e32a0671, type: 3}
+    tmpContent: "Welche Besonderheiten hat ein Vektor?\n\n\u2022 Der Vektor geht
+      in eine <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>.\n\n\u2022
+      Der Vektor hat einen Anfangs-Punkt.\n\n\u2022 Der Vektor hat einen End-Punkt.\n\n\u2022
+      Der Vektor hat eine L\xE4nge.\n  \n  \u2022 Die L\xE4nge hei\xDFt auch <color=#131313><u><link=\"glossary:Betrag\">Betrag</link></u></color>.\n\nWie
+      stellst du den Vektor dar?\n\n\u2022 Du stellst den Vektor als Pfeil dar.\n\n\u2022
+      Die Pfeilspitze gibt den <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungs-Sinn</link></u></color>
+      an.\n\n\u2022 Die L\xE4nge ist gleich der Gr\xF6\xDFe.\n\n\u2022 Der Vektor
+      liegt auf einer Linie.\n\n\u2022 Die Linie hei\xDFt auch <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungs-Linie</link></u></color>.\n\n\u2022
+      Die Linie zeigt die Richtung an."
+  medium:
+    content: "Ein Vektor ist eine gerichtete Gr\xF6\xDFe, d. h. er hat eine [Richtung](glossary:Richtung)
+      und wird als Pfeil dargestellt. Er ist \xFCber den Start- und Endpunkt definiert
+      und diese Verbindung kennzeichnet die Gr\xF6\xDFe des Vektors. Alternativ kann
+      die Gr\xF6\xDFe auch L\xE4nge oder [Betrag](glossary:Betrag) genannt werden.
+      Der Vektor liegt auf einer imagin\xE4ren Linie, der [Wirkungslinie](glossary:Wirkungslinie),
+      welche die Richtung angibt. Die Pfeilspitze definiert den [Richtungssinn](glossary:Richtungssinn)."
+    image: {fileID: 21300000, guid: c7b4699c5afdf9b4aa087f5bff18c134, type: 3}
+    tmpContent: "Ein Vektor ist eine gerichtete Gr\xF6\xDFe, d. h. er hat eine <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>
+      und wird als Pfeil dargestellt. Er ist \xFCber den Start- und Endpunkt definiert
+      und diese Verbindung kennzeichnet die Gr\xF6\xDFe des Vektors. Alternativ kann
+      die Gr\xF6\xDFe auch L\xE4nge oder <color=#131313><u><link=\"glossary:Betrag\">Betrag</link></u></color>
+      genannt werden. Der Vektor liegt auf einer imagin\xE4ren Linie, der <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>,
+      welche die Richtung angibt. Die Pfeilspitze definiert den <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungssinn</link></u></color>."
+  scientific:
+    content: "Ein Vektor ist eine gerichtete Gr\xF6\xDFe, die durch ihren [Betrag](glossary:Betrag)
+      (ihre L\xE4nge) und ihre [Richtung](glossary:Richtung) ([Wirkungslinie](glossary:Wirkungslinie),
+      Orientierung) eindeutig festgelegt ist.  "
+    image: {fileID: 21300000, guid: e2a1f45fbdc20c0408e156f3e2378792, type: 3}
+    tmpContent: "Ein Vektor ist eine gerichtete Gr\xF6\xDFe, die durch ihren <color=#131313><u><link=\"glossary:Betrag\">Betrag</link></u></color>
+      (ihre L\xE4nge) und ihre <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>
+      (<color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>,
+      Orientierung) eindeutig festgelegt ist."
+  tmpHeadline: 

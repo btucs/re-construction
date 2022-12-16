@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-Asteroidabschleppung
+  m_EditorClassIdentifier: 
+  uid: b8496399-6fc7-4e61-80f8-f8905ef17b61
+  taskName: Asteroidabschleppenanalytisch
+  teaserDescription: "Raumschiffe zum Abbau von Asteroidenstoffen zu nutzen, ist
+    l\xE4ngst \xFCberf\xE4llig. Um auf ein Raumschiff umzustellen, brauchen wir allerdings
+    noch ein paar wichtige Informationen."
+  teaserSolvedCorrect: 
+  teaserSolvedWrong: 
+  fullDescription: 
+  topic: {fileID: 0}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: F_1
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 40000 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Zugkraftbetrag von Raumtransporter 1, welcher in Seilrichtung
+        wirkt.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 
+    - name: F_2
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 30000 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Zugkraftbetrag von Raumtransporter 2, welcher in Seilrichtung
+        wirkt.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 
+    - name: alpha
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: "30 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung des Schleppseils von Raumtransporter 1.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: 
+    - name: beta
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 40
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung des Schleppseils von Raumtransporter 2.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: 
+    dummyInputs: []
+    output:
+      name: F_(1X)
+      icon: {fileID: 0}
+      textMeshProName: 
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 0}
+    dialogs:
+    - "Mit dieser Technologie k\xF6mmer nu endlich unsere Einzugsbegiete erweitern.
+      So nen paar Berechnungen tun auf jeden Fall ni weh.  "
+    - "Ick geb dir f\xFCnf Minuten! P\xE4mela zieht mit ~i:F_1|40000 N~ und der Svenni
+      mit ~i:F_2|30000 N~. "
+    - "Uff jeht's. Alles da, was ben\xF6tigt wird. ~i:F_1~ ist gleich ~i:F_1|40000
+      N~ und ~i:F_2 N~ gleich ~i:F_2|30000 N~. "
+  - npc: {fileID: 0}
+    dialogs:
+    - "Jetz awwer lous! Des Iwwerleben der Menschheit is zu sischern. \r"
+    - "Zu de Kr\xE4fte F1 unn F2 geh\xF6rt der jeweilische Winkel ~i:alpha|Alfa~
+      gleich ~i:alpha|30 \xB0~ unn ~i:beta|Beta~ gleich ~i:beta|40 \xB0~. "
+    - "Mid de Kr\xE4fte unn de Winkeln ~i:alpha|Alfa~ gleich ~i:alpha|30 \xB0~ unn
+      ~i:beta|Beta~ gleich ~i:beta|40 \xB0~ l\xE4sst sisch die ~o:R_R|Ersatzkraft~
+      der beide Zugkr\xE4fte bestimmen. Vergess nedd de Winkel ~o:Omega|Omega~ zu
+      bereschnen! "
+  hashtags: []

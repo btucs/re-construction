@@ -1,0 +1,833 @@
+fileFormatVersion: 2
+guid: 1944eec186ddca6488b83d7219bc02f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 19380092168087460
+    second: Grafitti_0
+  - first:
+      213: 6032511848625205417
+    second: Grafitti_1
+  - first:
+      213: -1898761534388611876
+    second: Grafitti_2
+  - first:
+      213: -1901535734056482423
+    second: Grafitti_3
+  - first:
+      213: -4814458955148323927
+    second: Grafitti_4
+  - first:
+      213: -7439704979974905182
+    second: Grafitti_5
+  - first:
+      213: 1346944328655757937
+    second: Grafitti_6
+  - first:
+      213: 8759640460654197037
+    second: Grafitti_7
+  - first:
+      213: -8269920438272838399
+    second: Grafitti_8
+  - first:
+      213: 1352332604112381408
+    second: Grafitti_9
+  - first:
+      213: 3661678062726754881
+    second: Grafitti_10
+  - first:
+      213: -617810388230898941
+    second: Grafitti_11
+  - first:
+      213: -242992243786262067
+    second: Grafitti_12
+  - first:
+      213: 3981222812216871631
+    second: Grafitti_13
+  - first:
+      213: 5981986288417415799
+    second: Grafitti_14
+  - first:
+      213: -1636958411678320301
+    second: Grafitti_15
+  - first:
+      213: 2453090043467215826
+    second: Grafitti_16
+  - first:
+      213: 7551506678593437898
+    second: Grafitti_17
+  - first:
+      213: -4813576273084434899
+    second: Grafitti_18
+  - first:
+      213: -2424991137141300757
+    second: Grafitti_19
+  - first:
+      213: 3932664508489106311
+    second: Grafitti_20
+  - first:
+      213: 8549667346092243894
+    second: Grafitti_21
+  - first:
+      213: -8600057003410947311
+    second: Grafitti_22
+  - first:
+      213: -8011507819721526399
+    second: Grafitti_23
+  - first:
+      213: 3830596219699014430
+    second: Grafitti_24
+  - first:
+      213: -8787592684874758966
+    second: Grafitti_25
+  - first:
+      213: 7999394071828374591
+    second: Grafitti_26
+  - first:
+      213: -4354575456065621991
+    second: Grafitti_27
+  - first:
+      213: -1434785955507894191
+    second: Grafitti_28
+  - first:
+      213: -2699218483772336948
+    second: Grafitti_29
+  - first:
+      213: 6713456104765369863
+    second: Grafitti_30
+  - first:
+      213: 1303482576647222289
+    second: Grafitti_31
+  - first:
+      213: 6878315514071246952
+    second: Grafitti_32
+  - first:
+      213: -1644079522678402401
+    second: Grafitti_33
+  - first:
+      213: 3897909224151375371
+    second: Grafitti_34
+  - first:
+      213: 5821611569553771484
+    second: Grafitti_35
+  - first:
+      213: -2277632378362653858
+    second: Grafitti_36
+  - first:
+      213: -3697132038214335379
+    second: Grafitti_37
+  - first:
+      213: -5669575326101418603
+    second: Grafitti_38
+  - first:
+      213: -4916561973436899456
+    second: Grafitti_39
+  - first:
+      213: -8385897194092588809
+    second: Grafitti_40
+  - first:
+      213: 7059669239415744633
+    second: Grafitti_41
+  - first:
+      213: -4949874836431599958
+    second: Grafitti_42
+  - first:
+      213: -4174544559278103917
+    second: Grafitti_43
+  - first:
+      213: 6244328209317103600
+    second: Grafitti_44
+  - first:
+      213: 7860870114039751190
+    second: Grafitti_45
+  - first:
+      213: 1163610578058373744
+    second: Grafitti_1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grafitti_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1771
+        width: 803
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7a465571ad44000800000000000000
+      internalID: 19380092168087460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_2
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1822
+        width: 274
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4579dc17e36a5e0800000000000000
+      internalID: -1898761534388611876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_3
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1935
+        width: 209
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9890adb13536c95e0800000000000000
+      internalID: -1901535734056482423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_4
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1903
+        width: 138
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a39fa0a61b9f2db0800000000000000
+      internalID: -4814458955148323927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_13
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1821
+        width: 160
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca4ed5ed05204730800000000000000
+      internalID: 3981222812216871631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_16
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1744
+        width: 133
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d339e2c5602b0220800000000000000
+      internalID: 2453090043467215826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_17
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1757
+        width: 85
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac04d8880575cc860800000000000000
+      internalID: 7551506678593437898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_19
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1383
+        width: 550
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1e83fa863b85ed0800000000000000
+      internalID: -2424991137141300757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_20
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1376
+        width: 229
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838749c881a39630800000000000000
+      internalID: 3932664508489106311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_21
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1551
+        width: 304
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbb597372586a670800000000000000
+      internalID: 8549667346092243894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_22
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1632
+        width: 135
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113849f68b576a880800000000000000
+      internalID: -8600057003410947311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_23
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1672
+        width: 137
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183fb32b51861d090800000000000000
+      internalID: -8011507819721526399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_28
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1077
+        width: 406
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1588b3976cd961ce0800000000000000
+      internalID: -1434785955507894191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_29
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1246
+        width: 416
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4d49f07137a8ad0800000000000000
+      internalID: -2699218483772336948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_30
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1207
+        width: 240
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ea7b302ccfa2d50800000000000000
+      internalID: 6713456104765369863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 685
+        width: 528
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114f7ff4f76e61210800000000000000
+      internalID: 1303482576647222289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_32
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 817
+        width: 250
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8686645648fa47f50800000000000000
+      internalID: 6878315514071246952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_33
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 907
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f929244826e0f29e0800000000000000
+      internalID: -1644079522678402401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_36
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 751
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5314c65b693460e0800000000000000
+      internalID: -2277632378362653858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 431
+        width: 470
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64c48edff521bcc0800000000000000
+      internalID: -3697132038214335379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_38
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 481
+        width: 181
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dc764974f9151b0800000000000000
+      internalID: -5669575326101418603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_39
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 571
+        width: 176
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f99192fecd4cbb0800000000000000
+      internalID: -4916561973436899456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_40
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 461
+        width: 176
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f09a2faeee4f9b80800000000000000
+      internalID: -8385897194092588809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_41
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 553
+        width: 114
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a02ff4cbf8f160800000000000000
+      internalID: 7059669239415744633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_42
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 31
+        width: 226
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa689d3df038e4bb0800000000000000
+      internalID: -4949874836431599958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_43
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 303
+        width: 215
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392603d47d90116c0800000000000000
+      internalID: -4174544559278103917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_44
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 144
+        width: 293
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f70c492c6f48a650800000000000000
+      internalID: 6244328209317103600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grafitti_45
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 57
+        width: 225
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612e2d458bb671d60800000000000000
+      internalID: 7860870114039751190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

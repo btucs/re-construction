@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-Stierkampf-BruniSiggi
+  m_EditorClassIdentifier: 
+  uid: 61a15bee-ea12-4a1d-823e-d82231aa2a08
+  taskName: Stierkampf-Wechselwirkung
+  teaserDescription: "Unruhige Szenen im B\xFCro erschrecken die zwei Haustiere manchmal
+    ganz sch\xF6n. Kannst du mal messen, wie schlimm es tats\xE4chlich w\xE4re, wenn
+    die Zwei gegeneinander sto\xDFen sollten?"
+  teaserSolvedCorrect: 
+  teaserSolvedWrong: 
+  fullDescription: 
+  topic: {fileID: 11400000, guid: 90a1fd32fa050fe44a37cdd0102de122, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: P
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 1
+      textValue: (1 2 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 
+    dummyInputs: []
+    output:
+      name: F_1
+      icon: {fileID: 0}
+      textMeshProName: 
+      unit: 3
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 0}
+    dialogs:
+    - "Wenn ich mir was vornehme, l\xE4uft das auch, okay? Aber nur einer von uns
+      macht jetzt den Sketch. You can do it!"
+    - "Schon Konfuzius sagte: \"Man w\xE4chst an seinen Aufgaben\". K\xE4figumbauaction!\r\nPoor
+      Pigs sollen nicht mehr so zusammencrashen."
+    - "Ach, so ein kleiner Run macht die strong. Wir brauchen hier mal eine Fashion-Show
+      f\xFCr Guinea pigs im Safety-first - Look. "
+  - npc: {fileID: 0}
+    dialogs:
+    - "Siggi und Bruni treffe sich im ~i:P|Punktle P~. Nach meinen Messungen m\xFCssten
+      sie jeweils mit gleicher Kraft ~o:F_1~ und ~o:F_2~ aufeinandertreffe. "
+    - "Ich bin ganz sicher, ~i:P|Punktle P~, da werde sie zusammensto\xDFe. Das wird
+      wohl starke Kopfschmerze gebe, aber zum Gl\xFCck keine bleibenden Sch\xE4den."
+  hashtags: []

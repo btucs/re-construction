@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02Einsatz Planen
+  m_EditorClassIdentifier: 
+  uid: b6503bcc-e85a-40eb-b891-7768eae5be2c
+  taskName: Einsatzkoordinaten setzen
+  teaserDescription: Die Insekten fressen sich scheinbar in Richtung Stadt. Kannst
+    du bei der Vorhersage der Richtung helfen?
+  teaserSolvedCorrect: "Die Vorhersage wurde richtig getroffen und Ma\xDFnahmen,
+    zur Erhaltung der Stadt, ergriffen.\r\n"
+  teaserSolvedWrong: 'Die Luft brennt vor Anspannung. Eine Aussage, zur richtigen
+    Richtung, steht immer noch aus.
+
+'
+  fullDescription: Beschreibe, durch Vektoren, die Bewegung des Insektenschwarms.
+  teachAndPlayDescription: Das VR-System simuliert den Ernstfall einer Insektenplage.
+    Sage mit Hilfe der Daten auf dem Insektenmonitor die zu erwartende Ausbreitung
+    vorher.
+  topic: {fileID: 11400000, guid: 0cc99d97a68171f48b736083425db2ab, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 13, y: -3}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: -8127697415850259238, guid: 7848c3d85030f7249abb0372b8decdf9,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-2.5 -1 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ort des aktuellen Standorts der Insekten.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-2.5 -1 0)
+    - name: P_2
+      icon: {fileID: -8625807478309713623, guid: 7848c3d85030f7249abb0372b8decdf9,
+        type: 3}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (-2 0.5 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ort des Zugstandorts der Insekten.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-2 0.5 0)
+    dummyInputs: []
+    output:
+      name: V_1
+      icon: {fileID: 1721058669380224913, guid: 7848c3d85030f7249abb0372b8decdf9,
+        type: 3}
+      textMeshProName: V<sub>1</sub>
+      unit: 5
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: aaf810f3b5ed4924b812b400009ed97b, type: 2}
+    dialogs:
+    - "Wir k\xF6nnen dieser unkontrollierten Ausbreitung des Schwarms Einhalt gebieten. "
+    - "Alles, was wir daf\xFCr brauchen, ist ein popliger Vektor: die ~o:V_1|Ausbreitung~
+      zu Newton-Stadt als Vektor..."
+  - npc: {fileID: 11400000, guid: d60d2682d473dd94fa76bf04e84b0832, type: 2}
+    dialogs:
+    - "Meine Familie hat kein Essen, die Hitze macht uns zu schaffen und auch das
+      noch!? \r\n"
+    - 'In der naheliegenden ~i:P_1|Zittauer Steppe~ befindet sich wohl der Ursprung
+      dieser Mistviecher.
+
+'
+    - 'Der Schwarm von der ~i:P_1|Zittauer Steppe~ zieht Richtung ~i:P_2|Newton-Stadt~.
+      Jetzt aber ran an die Wurst!
+
+'
+  hashtags:
+  - 'ausgangspunkt '
+  - koordinatensystem
+  connectedObject: {fileID: 11400000, guid: 01e0dfe48d98a994482a794b9da40400, type: 2}

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Krafteck
+  m_EditorClassIdentifier: 
+  headline: Krafteck
+  easy:
+    content: "Das Kraft-Eck verbindet alle [Kr\xE4fte](glossary:Kraft) grafisch miteinander.\r\n\r\n-
+      Die Kr\xE4fte werden aneinander-gereiht.\r\n- Dadurch entsteht ein Kraft-Eck.\r\n-
+      Das Kraft-Eck kann offen oder geschlossen sein.\r\n\r\nGibt es eine Alternative
+      zum Kraft-Eck?\r\n\r\nDu kannst auch die [Vektor-Addition](glossary:Vektoraddition)
+      verwenden.\r\n\r\nWo kannst du das Kraft-Eck verwenden?\r\n\r\n- Du kannst
+      die [Resultierende](glossary:Resultierende) im [zentralen ebenen Kraft-System](glossary:Zentrales_ebenes_Kraftsystem)
+      bestimmen.\r\n\r  - Die Resultierende hei\xDFt auch resultierende Kraft.\r\n-
+      Die Resultierende ist die Summe aller Kr\xE4fte.\r\n  - Das zentrale ebene
+      Kraft-System b\xFCndelt alle Kr\xE4fte in einem Punkt.\r\n\r\nWie bestimmst
+      du die resultierende Kraft?\r\n\r\n- Du verbindest den End-Punkt mit dem Start-Punkt. "
+    image: {fileID: 21300000, guid: 7ad9e1fc66e1abf4abd1327cac3fc476, type: 3}
+    tmpContent: "Das Kraft-Eck verbindet alle <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      grafisch miteinander.\n\n\u2022 Die Kr\xE4fte werden aneinander-gereiht.\n\u2022
+      Dadurch entsteht ein Kraft-Eck.\n\u2022 Das Kraft-Eck kann offen oder geschlossen
+      sein.\n\nGibt es eine Alternative zum Kraft-Eck?\n\nDu kannst auch die <color=#131313><u><link=\"glossary:Vektoraddition\">Vektor-Addition</link></u></color>
+      verwenden.\n\nWo kannst du das Kraft-Eck verwenden?\n\n\u2022 Du kannst die
+      <color=#131313><u><link=\"glossary:Resultierende\">Resultierende</link></u></color>
+      im <color=#131313><u><link=\"glossary:Zentrales_ebenes_Kraftsystem\">zentralen
+      ebenen Kraft-System</link></u></color> bestimmen.\n  \n  \u2022 Die Resultierende
+      hei\xDFt auch resultierende Kraft.\n\n\u2022 Die Resultierende ist die Summe
+      aller Kr\xE4fte.\n  \n  \u2022 Das zentrale ebene Kraft-System b\xFCndelt alle
+      Kr\xE4fte in einem Punkt.\n\nWie bestimmst du die resultierende Kraft?\n\n\u2022
+      Du verbindest den End-Punkt mit dem Start-Punkt."
+  medium:
+    content: "Das Krafteck ist die Summe aller betrachteten [Kr\xE4fte](glossary:Kraft).
+      Demnach entspricht es der [Vektoraddition](glossary:Vektoraddition). Au\xDFerdem
+      kann mit dem Krafteck die [resultierende Kraft](glossary:Resultierende) in
+      einem [zentralen ebenen Kraftsystem](glossary:Zentrales_ebenes_Kraftsystem)
+      bestimmt werden. Das zentrale ebene Kraftsystem b\xFCndelt alle Kr\xE4fte in
+      einem zentralen Punkt. Um ein Krafteck zu erstellen, werden die vorhandenen
+      Kr\xE4fte aneinandergereiht, sodass Pfeilspitze und Pfeilenden verbunden sind.
+      Die offene L\xFCcke zwischen dem Start- und Endpunkt der aneinander gereihten
+      Kr\xE4fte kann mit der resultierenden Kraft erg\xE4nzt werden. Dazu wird der
+      Startpunkt des ersten Pfeils mit dem Endpunkt des letzten Pfeils verbunden.\r\n\r\nDas
+      Krafteckt bildet die Alternative zur analytischen Bestimmung der Resultierenden. "
+    image: {fileID: 21300000, guid: b1ee5d756556eea44a24f2014f9df490, type: 3}
+    tmpContent: "Das Krafteck ist die Summe aller betrachteten <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>.
+      Demnach entspricht es der <color=#131313><u><link=\"glossary:Vektoraddition\">Vektoraddition</link></u></color>.
+      Au\xDFerdem kann mit dem Krafteck die <color=#131313><u><link=\"glossary:Resultierende\">resultierende
+      Kraft</link></u></color> in einem <color=#131313><u><link=\"glossary:Zentrales_ebenes_Kraftsystem\">zentralen
+      ebenen Kraftsystem</link></u></color> bestimmt werden. Das zentrale ebene Kraftsystem
+      b\xFCndelt alle Kr\xE4fte in einem zentralen Punkt. Um ein Krafteck zu erstellen,
+      werden die vorhandenen Kr\xE4fte aneinandergereiht, sodass Pfeilspitze und
+      Pfeilenden verbunden sind. Die offene L\xFCcke zwischen dem Start- und Endpunkt
+      der aneinander gereihten Kr\xE4fte kann mit der resultierenden Kraft erg\xE4nzt
+      werden. Dazu wird der Startpunkt des ersten Pfeils mit dem Endpunkt des letzten
+      Pfeils verbunden.\n\nDas Krafteckt bildet die Alternative zur analytischen
+      Bestimmung der Resultierenden."
+  scientific:
+    content: "Das Krafteck ist das grafische \xC4quivalent zum analytischen Bestimmen
+      der [resultierenden Kraft](glossary:Resultierende) beim [zentralen ebenen Kraftsystem](glossary:Zentrales_ebenes_Kraftsystem).
+      Das Krafteck kann auch mit einer [Vektoraddition](glossary:Vektoraddition)
+      gleichgesetzt werden. Beim Krafteck werden die Kr\xE4fte so verschoben, dass
+      eine geschlossene Kraftlinie entsteht. Die entstehende L\xFCcke zwischen Startpunkt
+      des ersten Pfeils und Endpunkt des letzten Pfeils ergibt die Resultierende.  "
+    image: {fileID: 21300000, guid: 348e83b8627edd947bb23219b8a09d9d, type: 3}
+    tmpContent: "Das Krafteck ist das grafische \xC4quivalent zum analytischen Bestimmen
+      der <color=#131313><u><link=\"glossary:Resultierende\">resultierenden Kraft</link></u></color>
+      beim <color=#131313><u><link=\"glossary:Zentrales_ebenes_Kraftsystem\">zentralen
+      ebenen Kraftsystem</link></u></color>. Das Krafteck kann auch mit einer <color=#131313><u><link=\"glossary:Vektoraddition\">Vektoraddition</link></u></color>
+      gleichgesetzt werden. Beim Krafteck werden die Kr\xE4fte so verschoben, dass
+      eine geschlossene Kraftlinie entsteht. Die entstehende L\xFCcke zwischen Startpunkt
+      des ersten Pfeils und Endpunkt des letzten Pfeils ergibt die Resultierende."
+  tmpHeadline: 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: AdvertisementScreens
+  m_EditorClassIdentifier: 
+  uid: cf60f9fe-69d4-413b-a095-78598cc8d7e8
+  objectName: "Werbefl\xE4chen"
+  objectDescription: "Die Beh\xF6rden nutzen die Werbeanzeigen, um Updates zur aktuellen
+    Lage der Pandemie anzuzeigen."
+  objectPrefab: {fileID: 6788988886537482228, guid: 6b28d84ca7f26f74a9ab6e70458045f7,
+    type: 3}
+  objectThumbnail: {fileID: 8553716606160556365, guid: febced7bf13811243b2dcc1ead4f684f,
+    type: 3}
+  cameraOffset: {x: 0.5, y: 1, z: 0}
+  markerOffset: {x: -0.35, y: 0}
+  cameraZoom: 1.1
+  taskInfos:
+  - task: {fileID: 11400000, guid: 03f6981af1f61be43895aee83738f6b1, type: 2}
+    taskButtonPosition: {x: 1, y: 0.75}
+    isRepeatable: 1
+    hiddenVariables: []

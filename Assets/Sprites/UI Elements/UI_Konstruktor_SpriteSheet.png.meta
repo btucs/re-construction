@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: 5757836ad70dc364c8b463067dccb62b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5046755729957060075
+    second: UI_Konstruktor_BigRound
+  - first:
+      213: 6350587815114264037
+    second: UI_Konstruktor_RoundButton
+  - first:
+      213: 1963984289418434946
+    second: UI_Konstruktor_LabelShadow
+  - first:
+      213: -819876243660249809
+    second: UI_Konstruktor_DialogBubble
+  - first:
+      213: -4381110307826602965
+    second: UI_Konstruktor_leftArea
+  - first:
+      213: -4936703345982065004
+    second: UI_Konstruktor_BigArea
+  - first:
+      213: -3156204801853297882
+    second: UI_Konstruktor_rightArea
+  - first:
+      213: -613992147032625202
+    second: UI_Konstruktor_DocIcon
+  - first:
+      213: 1972168355494689479
+    second: UI_Konstruktor_CloseIcon
+  - first:
+      213: 1332915417295821849
+    second: UI_Konstruktor_ArrowIcon
+  - first:
+      213: 9215139621912585386
+    second: UI_Konstruktor_CalcIcon
+  - first:
+      213: 2033401088189600658
+    second: UI_Konstruktor_DrawIcon
+  - first:
+      213: 7618437585430817816
+    second: UI_Konstruktor_Questionmark
+  - first:
+      213: 882941325215998518
+    second: UI_Konstruktor_DashedCircle
+  - first:
+      213: 4917223062773697621
+    second: UI_Konstruktor_FormulaVar
+  - first:
+      213: 9061747301495324805
+    second: UI_Konstruktor_FormulaFilled
+  - first:
+      213: 8765260353272418030
+    second: UI_Konstruktor_SinVarGraphic
+  - first:
+      213: -194908824334383826
+    second: UI_Konstruktor_FormulaContainer
+  - first:
+      213: -4914046649656047607
+    second: UI_Konstruktor_EqualSign
+  - first:
+      213: -2137223739708842163
+    second: UI_Konstruktor_Addition
+  - first:
+      213: -7428263931194295724
+    second: UI_Konstruktor_Subtraction
+  - first:
+      213: 6729686127193570696
+    second: UI_Konstruktor_InputPanelMask
+  - first:
+      213: -8226598231476846460
+    second: UI_Konstruktor_SinFormularVar
+  - first:
+      213: -4585196084049804598
+    second: UI_Konstruktor_SinPreVarGraphic
+  - first:
+      213: 1449467078071948774
+    second: UI_Konstruktor_DrawVectorIcon
+  - first:
+      213: -7425608948264773197
+    second: UI_Konstruktor_AdjustAngleIcon
+  - first:
+      213: -4135124670726046634
+    second: UI_Konstruktor_ShiftObjectIcon
+  - first:
+      213: -3719183758190185595
+    second: UI_Konstruktor_StartProcessing
+  - first:
+      213: -5502415825249495782
+    second: UI_Konstruktor_ExecuteIcon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 225
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Konstruktor_BigRound
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 519
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedf148f89da90640800000000000000
+      internalID: 5046755729957060075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_RoundButton
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 544
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed4fc298f1d12850800000000000000
+      internalID: 6350587815114264037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_LabelShadow
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 697
+        width: 320
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 124, y: 0, z: 122, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289db3b3e49714b10800000000000000
+      internalID: 1963984289418434946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_DialogBubble
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 742
+        width: 128
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2569d876e63f94f0800000000000000
+      internalID: -819876243660249809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_leftArea
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 0, z: 119, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c613c136b2333c0800000000000000
+      internalID: -4381110307826602965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_BigArea
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 846
+        width: 312
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 79, y: 0, z: 79, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496b14d667e4d7bb0800000000000000
+      internalID: -4936703345982065004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_rightArea
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 846
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 113, y: 0, z: 13, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62be62b7478e234d0800000000000000
+      internalID: -3156204801853297882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_DocIcon
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 615
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfad353569aa77f0800000000000000
+      internalID: -613992147032625202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_CloseIcon
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 615
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caf68a9bac8e5b10800000000000000
+      internalID: 1972168355494689479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_ArrowIcon
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 615
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c1f8b82877f7210800000000000000
+      internalID: 1332915417295821849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_CalcIcon
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 539
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa42ab789a0c2ef70800000000000000
+      internalID: 9215139621912585386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_DrawIcon
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 539
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2931f6b2487183c10800000000000000
+      internalID: 2033401088189600658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_Questionmark
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 540
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ca617ae902ab960800000000000000
+      internalID: 7618437585430817816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_DashedCircle
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 541
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632230f0576d04c00800000000000000
+      internalID: 882941325215998518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_FormulaVar
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 377
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c0cf1b25c7d3440800000000000000
+      internalID: 4917223062773697621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_FormulaFilled
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 377
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580cbf5d82bc1cd70800000000000000
+      internalID: 9061747301495324805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_SinVarGraphic
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 377
+        width: 254
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee0e98d9d574a970800000000000000
+      internalID: 8765260353272418030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_FormulaContainer
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 194
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 46, y: 46, z: 45, w: 49}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25c5f9f47b8b4df0800000000000000
+      internalID: -194908824334383826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_EqualSign
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9088d8d9b9ccdcbb0800000000000000
+      internalID: -4914046649656047607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_Addition
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 675
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f5f1d055e0752e0800000000000000
+      internalID: -2137223739708842163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_Subtraction
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 675
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a315baf4189e890800000000000000
+      internalID: -7428263931194295724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_InputPanelMask
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 696
+        width: 354
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 81, y: 0, z: 81, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d3f3590e5a46d50800000000000000
+      internalID: 6729686127193570696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_SinFormularVar
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 377
+        width: 256
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48047feae7045dd80800000000000000
+      internalID: -8226598231476846460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_SinPreVarGraphic
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 218
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac203b8747c1e50c0800000000000000
+      internalID: -4585196084049804598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_DrawVectorIcon
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 270
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e51a1eb0aa8d1410800000000000000
+      internalID: 1449467078071948774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_AdjustAngleIcon
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 10
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b957bd0100f2f890800000000000000
+      internalID: -7425608948264773197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_ShiftObjectIcon
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c7b6355061d96c0800000000000000
+      internalID: -4135124670726046634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_StartProcessing
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 275
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583fba6b31ec26cc0800000000000000
+      internalID: -3719183758190185595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Konstruktor_ExecuteIcon
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 288
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a151481c5fd73a3b0800000000000000
+      internalID: -5502415825249495782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

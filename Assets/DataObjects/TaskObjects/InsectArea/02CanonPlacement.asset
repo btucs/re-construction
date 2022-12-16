@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 02CanonPlacement
+  m_EditorClassIdentifier: 
+  uid: a9659e5c-32b8-4f4b-9a94-f177732b5c5c
+  objectName: Insektenabwehr
+  objectDescription: 'Das selbstgebaute Katapult verwendet Flugnetze, um die Insekten
+    einzufangen.
+
+'
+  objectPrefab: {fileID: 1797035990983364322, guid: 875a4e12438397745b26b4f4a0c6b68d,
+    type: 3}
+  objectThumbnail: {fileID: 8724199996524416865, guid: 31acdd68183e274428c251dac6a5cac5,
+    type: 3}
+  cameraOffset: {x: 0, y: -1, z: 0}
+  markerOffset: {x: 0, y: -1.5}
+  cameraZoom: 1.1
+  taskInfos:
+  - task: {fileID: 11400000, guid: 7142f07bc3dd010438b2c9e0e12fef52, type: 2}
+    taskButtonPosition: {x: 1.25, y: 1.25}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: m
+        icon: {fileID: 7338915466576782459, guid: e820d8ec00669ee43851de9efc0db505,
+          type: 3}
+        textMeshProName: m
+        type: 0
+        textValue: 120 kg
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Masse der Kanone.
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit
+          eines K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+        textMeshProValue: 120 kg
+      localAnalyzePosition: {x: -0.07, y: -1.37, z: 0}
+    - itemData:
+        name: g
+        icon: {fileID: 2359617193843903315, guid: e820d8ec00669ee43851de9efc0db505,
+          type: 3}
+        textMeshProName: g
+        type: 0
+        textValue: 9.81 m/s^2
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Beschleunigung des K\xF6rpers durch Erdgravitation."
+        definition: "Beschleunigung, die ein K\xF6rper, durch Gravitation, auf der
+          Erde erf\xE4hrt."
+        textMeshProValue: 9.81 m/s<sup>2</sup>
+      localAnalyzePosition: {x: 5.29, y: 0.86, z: 0}

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Betrag
+  m_EditorClassIdentifier: 
+  headline: Betrag
+  easy:
+    content: "Der Betrag ist die Gr\xF6\xDFe von [Vektoren](glossary:Vektor).\r\n\r\nBetrag
+      hei\xDFt also auch Gr\xF6\xDFe.\r\n\r\nDamit kannst du den Vektor mathematisch
+      beschreiben.\r\n\r\nWie bezeichnest du den Betrag?\r\n\r\nWie kannst du den
+      Betrag angeben?\r\n\r\n- Du zeichnest einen Strich vor und einen Strich nach
+      dem Vektor.\r\n  - Die Striche hei\xDFen Betrags-Striche.\r\n  - Die Striche
+      zeichnest du vor und nach dem Wert.\r\n- Ein Beispiel f\xFCr einen Betrag ist
+      |10|.\r\n- Der Betrag ist immer positiv.\r\n\r\nWie bestimmst du den Betrag?\r\n\r\n-
+      Du nutzt den [Satz des Pythagoras](glossary:Satz_des_Pythagoras).\r\n\r\n-
+      F\xFCr den Satz des Pythagoras ben\xF6tigst du:\r\n\r\n- - Ein recht-winkliges
+      Dreieck hat einen Winkel von 90\xB0.\r\n\r\n- - 2 bekannte Seiten-L\xE4ngen."
+    image: {fileID: 21300000, guid: f90908d57c8744a4e838611760ea26ec, type: 3}
+    tmpContent: "Der Betrag ist die Gr\xF6\xDFe von <color=#131313><u><link=\"glossary:Vektor\">Vektoren</link></u></color>.\n\nBetrag
+      hei\xDFt also auch Gr\xF6\xDFe.\n\nDamit kannst du den Vektor mathematisch
+      beschreiben.\n\nWie bezeichnest du den Betrag?\n\nWie kannst du den Betrag
+      angeben?\n\n\u2022 Du zeichnest einen Strich vor und einen Strich nach dem
+      Vektor.\n  \u2022 Die Striche hei\xDFen Betrags-Striche.\n  \u2022 Die Striche
+      zeichnest du vor und nach dem Wert.\n\u2022 Ein Beispiel f\xFCr einen Betrag
+      ist |10|.\n\u2022 Der Betrag ist immer positiv.\n\nWie bestimmst du den Betrag?\n\n\u2022
+      Du nutzt den <color=#131313><u><link=\"glossary:Satz_des_Pythagoras\">Satz
+      des Pythagoras</link></u></color>.\n\n\u2022 F\xFCr den Satz des Pythagoras
+      ben\xF6tigst du:\n\n\u2022 \n  \u2022 Ein recht-winkliges Dreieck hat einen
+      Winkel von 90\xB0.\n\n\u2022 \n  \u2022 2 bekannte Seiten-L\xE4ngen."
+  medium:
+    content: "In der Mathematik beschreibt der Betrag die Gr\xF6\xDFe oder L\xE4nge
+      eines [Vektors](glossary:Vektor). Der Betrag kann als zwei senkrechte Striche
+      vor und nach dem Wert dargestellt werden.\r\n\r\nDie zwei Striche werden auch
+      Betragsstriche genannt. Die Betragsstriche werden vor und nach dem Vektor gesetzt,
+      wie z. B. |Vektor|. Dabei ist der Betrag immer positiv, egal ob der Wert positiv
+      oder negativ ist. Er kennzeichnet eine Entfernung von einem bestimmten Punkt.\r\n\r\nUm
+      den Betrag eines Vektors zu bestimmen, kann der [Satz des Pythagoras](glossary:Satz_des_Pythagoras)
+      angewandt werden. Dazu wird der fehlende Betrag \xFCber die einzelnen Seitenl\xE4ngen
+      des rechtwinkligen Dreiecks bestimmt.  "
+    image: {fileID: 21300000, guid: d61fb2f6a7c145146bf0e4e4be3a1643, type: 3}
+    tmpContent: "In der Mathematik beschreibt der Betrag die Gr\xF6\xDFe oder L\xE4nge
+      eines <color=#131313><u><link=\"glossary:Vektor\">Vektors</link></u></color>.
+      Der Betrag kann als zwei senkrechte Striche vor und nach dem Wert dargestellt
+      werden.\n\nDie zwei Striche werden auch Betragsstriche genannt. Die Betragsstriche
+      werden vor und nach dem Vektor gesetzt, wie z. B. |Vektor|. Dabei ist der Betrag
+      immer positiv, egal ob der Wert positiv oder negativ ist. Er kennzeichnet eine
+      Entfernung von einem bestimmten Punkt.\n\nUm den Betrag eines Vektors zu bestimmen,
+      kann der <color=#131313><u><link=\"glossary:Satz_des_Pythagoras\">Satz des
+      Pythagoras</link></u></color> angewandt werden. Dazu wird der fehlende Betrag
+      \xFCber die einzelnen Seitenl\xE4ngen des rechtwinkligen Dreiecks bestimmt."
+  scientific:
+    content: "Der Betrag eines [Vektors](glossary:Vektor) beschreibt im mathematischen
+      Sinn die Gr\xF6\xDFe des Vektors bzw. seine L\xE4nge. Beim Betrag eines Vektors
+      wird der Vektor in Betragsstriche gesetzt. Er kann mit dem [Satz des Pythagoras](glossary:Satz_des_Pythagoras)
+      aus den einzelnen [Vektorkomponenten](glossary:Kraftkomponenten) bestimmt werden."
+    image: {fileID: 21300000, guid: ad854d89450bfdd4aa706983ddfe5d71, type: 3}
+    tmpContent: "Der Betrag eines <color=#131313><u><link=\"glossary:Vektor\">Vektors</link></u></color>
+      beschreibt im mathematischen Sinn die Gr\xF6\xDFe des Vektors bzw. seine L\xE4nge.
+      Beim Betrag eines Vektors wird der Vektor in Betragsstriche gesetzt. Er kann
+      mit dem <color=#131313><u><link=\"glossary:Satz_des_Pythagoras\">Satz des Pythagoras</link></u></color>
+      aus den einzelnen <color=#131313><u><link=\"glossary:Kraftkomponenten\">Vektorkomponenten</link></u></color>
+      bestimmt werden."
+  tmpHeadline: 

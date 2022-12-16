@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 03LithiumjetWewiFailureFB
+  m_EditorClassIdentifier: 
+  uid: d8cb8374-71e6-4fb0-b2f7-c3c73bd51679
+  author: {fileID: 11400000, guid: da8a196e6f08170408d6ebd4ff84c9b2, type: 2}
+  messageText: "Letzte Informationen zur Best\xE4tigung des Landeplatzes stehen noch
+    aus. Lange Bearbeitungszeit bringt Rettungskr\xE4fte in unm\xF6gliche Lage. #echtjetzt
+    #wechselwirkung #handlungsunf\xE4hig"
+  relatedTask: {fileID: 11400000, guid: e59f66d4ba145344386d053996ec3456, type: 2}
+  taskCondition: 1

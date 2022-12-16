@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: KonstruktorOnboardingTask
+  m_EditorClassIdentifier: 
+  uid: 86966170-2e3d-4e0c-ba04-f78b946af889
+  taskName: Kraftarten identifizieren
+  teaserDescription: "Als Erstes solltest du dir einen \xDCberblick dar\xFCber verschaffen,
+    welche Kr\xE4fte es eigentlich gibt. Sprich mit den Personen im B\xFCro, um mehr
+    \xFCber die unterschiedlichen Kraftarten zu erfahren."
+  teaserSolvedCorrect: "Die Mitglieder der Organisation haben dir eine kleine Einf\xFChrung
+    zu den verschiedenen Kraftarten gegeben. M\xF6chtest du sie noch einmal fragen?"
+  teaserSolvedWrong: 
+  fullDescription: Sprich mit allen Personen und identifiziere wichtige Kraftarten.
+  topic: {fileID: 0}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: F_G
+      icon: {fileID: 0}
+      textMeshProName: F<sub>G</sub>
+      type: 0
+      textValue: 1 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 1 N
+    - name: F_R
+      icon: {fileID: 0}
+      textMeshProName: F<sub>R</sub>
+      type: 0
+      textValue: 2 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 2 N
+    - name: F_M
+      icon: {fileID: 0}
+      textMeshProName: F<sub>M</sub>
+      type: 0
+      textValue: 3 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 3 N
+    dummyInputs: []
+    output:
+      name: F
+      icon: {fileID: 0}
+      textMeshProName: F
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 40cc7a949c3d9384ea2d4c7bfd1267eb, type: 2}
+    dialogs:
+    - "Gr\xFC\xDFe! Wie ich sehe, sollst du Informationen \xFCber verschiedene Arten
+      von Kr\xE4ften sammeln..."
+    - "Spontan f\xE4llt mir die ~i:F_G|Gewichtskraft~ ein. Notiere dir diese gegebene
+      Info, indem du sie in die Ablage unten links ziehst."
+    - "Leider kenne ich sonst keine weiteren Kraftarten\u2026 frag am besten mal
+      eine andere Person. Moment..."
+    - "...HEY MARLEN! KOMMST DU MAL BITTE 'R\xDCBER?"
+  - npc: {fileID: 11400000, guid: d2a41bd7bd533f9409f1cd906a3f1413, type: 2}
+    dialogs:
+    - "Du interessierst dich f\xFCr Kraftarten? Mh... mal \xFCberlegen..."
+    - "Ohne die ~i:F_M|Muskelkraft~ w\xE4ren wir ein F\xE4hnchen im Wind. Unsere
+      Muskeln wirken der Schwerkraft entgegen und halten uns im Gleichgewicht."
+    - "Auch die ~i:F_R|Reibungskraft~ spielt immer wieder eine gro\xDFe Rolle. Bestimmte
+      Materialien flutschen ohne Widerstand, w\xE4hrend\r andere unm\xF6glich zu
+      bewegen sind."
+    - '... jetzt bin ich mit meinem Latein am Ende...
+
+'
+  hashtags: []

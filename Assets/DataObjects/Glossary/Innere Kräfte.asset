@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: "Innere Kr\xE4fte"
+  m_EditorClassIdentifier: 
+  headline: "Innere Kr\xE4fte"
+  easy:
+    content: "Wirken [Kr\xE4fte](glossary:Kraft) in einem K\xF6rper?\r\n\r\n- Dann
+      hei\xDFen die Kr\xE4fte innere Kr\xE4fte.\r\n\r\nWie machst du innere Kr\xE4fte
+      sichtbar?\r\n\r\n- Durch die Methode [Frei-Schneiden](glossary:Freischneiden).\r\n-
+      Deshalb hei\xDFen innere Kr\xE4fte auch [Schnitt-Kr\xE4fte](glossary:Schnittgr\xF6\xDFe)."
+    image: {fileID: 21300000, guid: 4a1089a3e65a4334e90a471e33e6c682, type: 3}
+    tmpContent: "Wirken <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      in einem K\xF6rper?\n\n\u2022 Dann hei\xDFen die Kr\xE4fte innere Kr\xE4fte.\n\nWie
+      machst du innere Kr\xE4fte sichtbar?\n\n\u2022 Durch die Methode <color=#131313><u><link=\"glossary:Freischneiden\">Frei-Schneiden</link></u></color>.\n\u2022
+      Deshalb hei\xDFen innere Kr\xE4fte auch <color=#131313><u><link=\"glossary:Schnittgr\xF6\xDFe\">Schnitt-Kr\xE4fte</link></u></color>."
+  medium:
+    content: "Nach dem [Wechselwirkungsgesetz](glossary:Wechselwirkungsaxiom) treten
+      [Kr\xE4fte](glossary:Kraft) immer paarweise auf. Wirkt  eine Kraft auf einen
+      K\xF6rper, wirkt diesem eine \xE4quivalente Kraft entgegen.  Diese im K\xF6rper
+      wirkende Kraft wird innere Kraft genannt. Synonym k\xF6nnen  innere Kr\xE4fte
+      auch [Schnittkr\xE4fte](glossary:Schnittgr\xF6\xDFe) genannt werden. Das liegt
+      daran, dass sie durch die Methode des [Freischnitts](glossary:Freischneiden)
+      sichtbar gemacht werden.    "
+    image: {fileID: 21300000, guid: 387a9eeb2576baf47bd8f4cbcc06d78a, type: 3}
+    tmpContent: "Nach dem <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechselwirkungsgesetz</link></u></color>
+      treten <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      immer paarweise auf. Wirkt  eine Kraft auf einen K\xF6rper, wirkt diesem eine
+      \xE4quivalente Kraft entgegen.  Diese im K\xF6rper wirkende Kraft wird innere
+      Kraft genannt. Synonym k\xF6nnen  innere Kr\xE4fte auch <color=#131313><u><link=\"glossary:Schnittgr\xF6\xDFe\">Schnittkr\xE4fte</link></u></color>
+      genannt werden. Das liegt daran, dass sie durch die Methode des <color=#131313><u><link=\"glossary:Freischneiden\">Freischnitts</link></u></color>
+      sichtbar gemacht werden."
+  scientific:
+    content: "Innen im freigeschnittenen Objekt wirkende [Kr\xE4fte](glossary:Kraft)
+      hei\xDFen innere Kr\xE4fte und werden auch [Schnittkr\xE4fte](glossary:Schnittgr\xF6\xDFe)
+      genannt. Da f\xFCr sie das [Gleichgewichtsaxiom](glossary:Gleichgewichtsaxiom)
+      gilt, haben sie keine Wirkung nach au\xDFen. Schnittkr\xE4fte werden eingeteilt
+      in z. B. [Normalkraft](glossary:Normalkraft), [Querkraft](glossary:Querkraft)
+      und [Biegemomente](glossary:Biegemoment).  "
+    image: {fileID: 21300000, guid: 4aa65c9a788519049b181158114ab90f, type: 3}
+    tmpContent: "Innen im freigeschnittenen Objekt wirkende <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      hei\xDFen innere Kr\xE4fte und werden auch <color=#131313><u><link=\"glossary:Schnittgr\xF6\xDFe\">Schnittkr\xE4fte</link></u></color>
+      genannt. Da f\xFCr sie das <color=#131313><u><link=\"glossary:Gleichgewichtsaxiom\">Gleichgewichtsaxiom</link></u></color>
+      gilt, haben sie keine Wirkung nach au\xDFen. Schnittkr\xE4fte werden eingeteilt
+      in z. B. <color=#131313><u><link=\"glossary:Normalkraft\">Normalkraft</link></u></color>,
+      <color=#131313><u><link=\"glossary:Querkraft\">Querkraft</link></u></color>
+      und <color=#131313><u><link=\"glossary:Biegemoment\">Biegemomente</link></u></color>."
+  tmpHeadline: 

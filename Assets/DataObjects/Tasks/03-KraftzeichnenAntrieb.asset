@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 03-KraftzeichnenAntrieb
+  m_EditorClassIdentifier: 
+  uid: 15237400-e86a-4f88-9830-ae1e62c8c38e
+  taskName: Message setzen
+  teaserDescription: "Die Aktivist/Innen des Netzwerks haben Farbbomben vorbereitet,
+    die die Hygienema\xDFnahmen popul\xE4rer machen sollen. In welche Richtung muss
+    geworfen werden, damit die Wand getroffen und das Bild f\xFCr alle gut sichtbar
+    ist?"
+  teaserSolvedCorrect: "Das Wandbild hat die Reichweite der Ma\xDFnahmen verhundertfacht.
+    Mehr Leute blieben zuhause."
+  teaserSolvedWrong: "Leider hat die Richtung nicht ganz gestimmt. Herausgekommen
+    ist ein zeitgen\xF6ssischer Farbklumpen."
+  fullDescription: Fertige eine Zeichnung zur Wurfkraft an, um den anderen Aktivist/Innen
+    ein optimales Wurfergebnis zu sichern.
+  teachAndPlayDescription: 'Das VR-System zeigt Demonstranten, die mit Farbbomben
+    werfen. Zeichne die Wurfkraft ein. '
+  topic: {fileID: 11400000, guid: f518bd6517e68054c9898a7d36789002, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 2
+  coordinateSystemData:
+    origin: {x: 15, y: 15}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 50
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: 4057064671617809344, guid: 203f7311dd2ad3549be823738a21ba24,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-6 1 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ort des Abwurfs der Farbkugel.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. Hier Angriffspunkt der Kraft."
+      textMeshProValue: (-6 1 0)
+    - name: alpha
+      icon: {fileID: 1274681401015419743, guid: 203f7311dd2ad3549be823738a21ba24,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "30 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Wurfrichtung der Farbkugel.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "30 \xB0"
+    - name: F_1
+      icon: {fileID: 1820492224546190446, guid: 203f7311dd2ad3549be823738a21ba24,
+        type: 3}
+      textMeshProName: F<sub>1</sub>
+      type: 0
+      textValue: 200 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Kraftbetrag, mit der die Farbkugel beschleunigt wird.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 200 N
+    dummyInputs:
+    - name: P_2
+      icon: {fileID: 0}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (4 3 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Koordinaten an der Wand.
+      definition: Koordinaten, wo die Farbbombe auftrifft.
+      textMeshProValue: (4 3 0)
+    output:
+      name: F
+      icon: {fileID: 0}
+      textMeshProName: F
+      unit: 2
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 2c966b344fbb51142a01900c8ce06fa9, type: 2}
+    dialogs:
+    - "Mon Dieu - das Krankenhaus ist voll! \xDCberall Kranke und Leid und die Leute
+      machen weiter, so als w\xE4re nichts...\n"
+    - "Wir brauchen jetzt medienwirksame Ma\xDFnahmen - ein Graffitti zum Beispiel.
+      Wie gro\xDF ist wohl der ~o:F|Kraftpfeil~, wenn ich die ~i:P_2|Wand~ dort treffen
+      wollte?"
+    - "Eine Zeichnung w\xFCrde mir sehr helfen! Ich werfe normalerweise mit einer
+      ~i:F_1|Kraft~ von 200N, in einem Winkel ~i:alpha|Alpha~ von 30\xB0 und zwar
+      von der ~i:P_1|Stelle~ hier."
+  hashtags:
+  - vektoriell
+  - "kr\xE4fte"
+  - koordinatensystem
+  connectedObject: {fileID: 11400000, guid: ed2ae19f1f945fc458e081444ff1e10d, type: 2}

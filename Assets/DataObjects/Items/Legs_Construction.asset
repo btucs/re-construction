@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca8b6fd127f4ca439e72d6e7381864e, type: 3}
+  m_Name: Legs_Construction
+  m_EditorClassIdentifier: 
+  uid: ef191e73-dc27-42d3-bbc1-890c6dfe717b
+  itemName: Baustellenhose
+  price: 100
+  image: {fileID: 21300000, guid: 047f6f2a2a102304a84f8973c010954f, type: 3}
+  canBeBought: 0
+  requirement:
+    requiredTasks: []
+    finishedTopic: {fileID: 0}
+    finishedEvent: {fileID: 0}
+    activeQuest: {fileID: 0}
+    finishedQuest: {fileID: 0}
+    taskAmount: 0
+  category: 1
+  label: Construction
+  availableOnGameStart: 1

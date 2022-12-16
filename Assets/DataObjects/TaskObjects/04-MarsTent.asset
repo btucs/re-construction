@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 04-MarsTent
+  m_EditorClassIdentifier: 
+  uid: 3ab173df-c3c0-40a3-bee9-11204857cb02
+  objectName: Marszelt Prototyp
+  objectDescription: "Hier entsteht unsere Zukunft. Existierende Raumstationen bringen
+    reiche Erkenntnisse, auf was wir bei der Konstruktion der Marsstation achten
+    m\xFCssen."
+  objectPrefab: {fileID: 2370746156706337908, guid: eea2d68ed6d5d7140adaa2456ce7bb97,
+    type: 3}
+  objectThumbnail: {fileID: -3527459314053646700, guid: 610ef80fffa252b49a21ab4916728182,
+    type: 3}
+  cameraOffset: {x: -0.75, y: 1, z: 0}
+  markerOffset: {x: -2, y: 1}
+  cameraZoom: 1.25
+  taskInfos:
+  - task: {fileID: 11400000, guid: 09e9b4bd1cdd9bc4480c7a81d876bc4c, type: 2}
+    taskButtonPosition: {x: 2, y: 1}
+    isRepeatable: 0
+    hiddenVariables:
+    - itemData:
+        name: L_1
+        icon: {fileID: -736781546899463422, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+          type: 3}
+        textMeshProName: L<sub>1</sub>
+        type: 0
+        textValue: 1.5 m
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: 1,5 m
+      localAnalyzePosition: {x: 1.199, y: 0.091, z: 0}
+    - itemData:
+        name: L_2
+        icon: {fileID: 2557849331642893097, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+          type: 3}
+        textMeshProName: L<sub>2</sub>
+        type: 0
+        textValue: 2.5 m
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: 2,5 m
+      localAnalyzePosition: {x: -0.732, y: 1.435, z: 0}
+    - itemData:
+        name: a
+        icon: {fileID: -6079726295474218731, guid: 3f74b93cd69a6ca47812c4d9678e0250,
+          type: 3}
+        textMeshProName: a
+        type: 0
+        textValue: 130
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: 130
+      localAnalyzePosition: {x: -0.168, y: 0.241, z: 0}

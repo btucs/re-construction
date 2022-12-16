@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca8b6fd127f4ca439e72d6e7381864e, type: 3}
+  m_Name: Nose_3
+  m_EditorClassIdentifier: 
+  uid: 621c5e86-9196-4077-910c-e2a35907f99d
+  itemName: Item
+  price: 100
+  image: {fileID: -5440707877960716171, guid: 29291f2da730c824e8342cc1801b3e74, type: 3}
+  canBeBought: 0
+  requirement:
+    requiredTasks: []
+    finishedTopic: {fileID: 0}
+    finishedEvent: {fileID: 0}
+    activeQuest: {fileID: 0}
+    finishedQuest: {fileID: 0}
+    taskAmount: 0
+  category: 5
+  label: Nose3
+  availableOnGameStart: 1

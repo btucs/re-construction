@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-Elektromotor-Fahrrad
+  m_EditorClassIdentifier: 
+  uid: 36a27000-2579-45bb-ac57-55ae950f69e6
+  taskName: Elektromotor einsetzen
+  teaserDescription: "Jetzt m\xFCssen wir gucken, ob der Elektromotor mit seinem
+    Gewicht auch zum Fahrrad passt. Machst du mit? Nutze die gegebenen Werte, um
+    die gesuchte Kraft zu identifizieren."
+  teaserSolvedCorrect: "Durch die richtige Berechnung der Gewichtskraft konnte die
+    Entwicklung des Elektromotors nun abgeschlossen werden. \r"
+  teaserSolvedWrong: "Augrund von Problemen bei der Berechnung der Gewichtskraft
+    geht die Berechnung nun in die n\xE4chste Runde. Kannst du beim Abschluss der
+    Aufgabe nachhelfen?"
+  fullDescription: "\xDCberpr\xFCfe, mit welchem Gewicht der Motor auf den Fahrradrahmen
+    wirkt."
+  teachAndPlayDescription: "Die Simulation zeigt ein Fahrrad mit Elektromotor. Um
+    zu ermitteln, ob der Fahrradrahmen f\xFCr den Motor geeignet ist, muss zuerst
+    die Gewichtskraft des Motors bestimmt werden."
+  topic: {fileID: 11400000, guid: b8b22655c37ea13449c984ae3e831544, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: m_1
+      icon: {fileID: 5430447610857909420, guid: c3730dbf4f9882545b337afab4cb3ced,
+        type: 3}
+      textMeshProName: m<sub>1</sub>
+      type: 0
+      textValue: 1.8 kg
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Tr\xE4gheit des Elektromotors gegen Beschleunigung."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rper gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 1,8 kg
+    - name: g
+      icon: {fileID: -2260630754330411556, guid: c3730dbf4f9882545b337afab4cb3ced,
+        type: 3}
+      textMeshProName: g
+      type: 0
+      textValue: 9.81 m/s^2
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Beschleunigung des K\xF6rpers durch Erdgravitation."
+      definition: "Beschleunigung, die ein K\xF6rper, durch Gravitation, auf der
+        Erde erf\xE4hrt."
+      textMeshProValue: 9,81 m/s<sup>2</sup>
+    dummyInputs:
+    - name: a
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 25 km/h^2
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Geschwindigkeit Elektrofahrrad
+      definition: "Die Geschwindigkeit ist eine vektorielle Gr\xF6\xDFe, die die
+        zeitlichen Ver\xE4nderung der Geschwindigkeit beschreibt."
+      textMeshProValue: 
+    output:
+      name: F_G
+      icon: {fileID: -6520050281306449739, guid: c3730dbf4f9882545b337afab4cb3ced,
+        type: 3}
+      textMeshProName: F<sub>G</sub>
+      unit: 1
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 20e24fa6780fbe844aa80a40fbc629d6, type: 2}
+    dialogs:
+    - "Der Elektromotor ist ultra lit, blo\xDF ~i:m_1|1.8~ Kilogramm schwer. Die
+      Frage bleibt trotzdem, ob er f\xFCr die Stange des Velos die richtige ~o:F_G|Gewichtskraft~
+      hat. "
+    - "Kannst du mal auscheckern, wie gro\xDF die Gewichtskraft des Supermotors ist?
+      *Thanks* Die Beschleunigung zur Erde kennst, du Brain, ja schon: ~i:g|9,81
+      m/s\xB2~.\r"
+    - "Wenn das Ger\xE4t passt, melde ich mich f\xFCr weitere Tests freiwillig. Wenn
+      der Motor steht, k\xF6nnen wir mit ~i:a|25 km/h\xB2~ durch die Zentrale fegen.\r
+      #cruising-story2041\r\n"
+  hashtags:
+  - kraft
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: 91ac2f73af0e4c846a2b56bc8d268e09, type: 2}

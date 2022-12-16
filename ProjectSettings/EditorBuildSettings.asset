@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/KonstruktorLevel1/_Start.unity
+    guid: 4b907d20b7141e440b0a5e3888efdd6c
+  - enabled: 1
+    path: Assets/Cutscenes/Scenes/Game Opening.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/WelcomeScreen.unity
+    guid: 28e962b6967c36649a0489ebaf17311b
+  - enabled: 0
+    path: Assets/Scenes/OnboardingAlpha.unity
+    guid: 89c7860ec69ea7b44b9149f8c3cf7cf7
+  - enabled: 1
+    path: Assets/Scenes/OnboardingSetName.unity
+    guid: a607b8bd95af7c449a938d12b7030965
+  - enabled: 1
+    path: Assets/Scenes/CharacterCreation.unity
+    guid: 4bbeff5defd3d23489c36b99e56bf3d9
+  - enabled: 1
+    path: Assets/Scenes/MentorSelection.unity
+    guid: 09f18b7100b02f94690c74fb3c9e9ce4
+  - enabled: 1
+    path: Assets/Scenes/OfficeScenes/OfficeStartScene.unity
+    guid: bcefee652fd77b14a8d6b22b34ff8043
+  - enabled: 1
+    path: Assets/Scenes/KonstruktorLevel1/KonstruktorTaskIntroduction/KonstruktorOnboardingPart1.unity
+    guid: b3d8b5f2660af9d4eb0ff1c7f9afe3d0
+  - enabled: 1
+    path: Assets/Scenes/KonstruktorLevel1/KonstruktorTaskIntroduction/KonstruktorOnboardingPart1Feedback.unity
+    guid: 6bfc0388219b1df42876164ca9c69049
+  - enabled: 1
+    path: Assets/Scenes/MLE/MLEIntro.unity
+    guid: c0daac2e9149a3b4a8e111e84ad1481f
+  - enabled: 1
+    path: Assets/Scenes/MLE/MLE.unity
+    guid: 63523bdf5b183d94ba6f364a5d32bc7c
+  - enabled: 1
+    path: Assets/Scenes/KonstruktorLevel1/KonstruktorMultistep.unity
+    guid: 8d089c8a33b6d604bac03e99b30737d7
+  - enabled: 1
+    path: Assets/Scenes/KonstruktorLevel1/KonstruktorObjectChangeFeedback.unity
+    guid: 477aa47615dc15049a5f6d5a82170c02
+  - enabled: 1
+    path: Assets/Scenes/OfficeScenes/OfficeTestChamber.unity
+    guid: 1d9a55794797e504fb6afc5b07730d5d
+  - enabled: 1
+    path: Assets/Scenes/OfficeScenes/OfficeConstructionChamber.unity
+    guid: 8aaf07d095aad33438551d98206f6cd2
+  - enabled: 1
+    path: Assets/Scenes/InsectAreaScenes/InsectArea.unity
+    guid: c18ab952be23c624cad0782f84422ba7
+  - enabled: 1
+    path: Assets/Scenes/PandemicAreaScenes/PandemicArea.unity
+    guid: 1e2f30816adcaa0409cea7588ff9a158
+  - enabled: 1
+    path: Assets/Scenes/InsectAreaScenes/Insect_MountainArea.unity
+    guid: d24cb6489126789498246012d335b18f
+  - enabled: 1
+    path: Assets/Scenes/InsectAreaScenes/Insect_ForestArea.unity
+    guid: 4fb2d5e55bba2ea4491f29f849b7a1bd
+  - enabled: 1
+    path: Assets/Scenes/PandemicAreaScenes/PandemicEmergencyEntry.unity
+    guid: 3452546ba7d89314199c7f20e236125f
+  - enabled: 1
+    path: Assets/Scenes/PandemicAreaScenes/PandemicInnerHospitalArea.unity
+    guid: 90a6aee24dbf0114490b7069942b3273
+  - enabled: 1
+    path: Assets/Scenes/GameEndCutsceneSuccess.unity
+    guid: e35baf4801d09704499f8f45804b6e87
+  - enabled: 1
+    path: Assets/Scenes/GameEndCutsceneFailure.unity
+    guid: 76d720896f928a34eb588c107edd837e
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Overview.unity
+    guid: 479ad60062fe0404487390288b35df9a
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/GameHistory.unity
+    guid: 93f847cf4248a442c8cd9e92c47f3995
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Leaderboard.unity
+    guid: 555616e6331ac449a98fd63768cb59e8
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/NewGame.unity
+    guid: 939f80c6452294cb4b9129b888848d5e
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/RequestStatus.unity
+    guid: 85889e6f4557f4f09a5ab6b2d7a18381
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/StartGame.unity
+    guid: dcba395691f3d4695a1264fde4495d31
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/ChooseCategory.unity
+    guid: 76424f5363f614109a0a008e1e8da78b
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Question.unity
+    guid: 77d10916daa9f4c6290fde33a5c69a50
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/ResultOverview.unity
+    guid: 6bb10f6ea87c94d6c922d509571f3909
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/GameFinished.unity
+    guid: 12f8d52acf1b444bdae94986322917a7
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/AcceptRequest.unity
+    guid: 0d72444bc10eb45ca90c8fc2020732c9
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/StartMultiplayer.unity
+    guid: 0fbea02ecabfe4ea9b4da39220a8e713
+  - enabled: 1
+    path: Assets/Cutscenes/Scenes/Ending - Negative.unity
+    guid: c4ea92ff1c7418d4a81288211d9c4c2e
+  - enabled: 1
+    path: Assets/Cutscenes/Scenes/Ending - Positive.unity
+    guid: 402693df87488de4fbee62576fcd819d
+  - enabled: 1
+    path: Assets/Cutscenes/Scenes/Insect.unity
+    guid: 8e253cb98a46b1a4788e992e0dd4665a
+  - enabled: 1
+    path: Assets/Cutscenes/Scenes/Pandemic.unity
+    guid: 38b8be8558a4c2f4588086edefef5d8b
+  - enabled: 1
+    path: Assets/Scenes/TeachAndPlayScene.unity
+    guid: fa74307320a0acd49b04b8fe8d4cd997
+  m_configObjects: {}

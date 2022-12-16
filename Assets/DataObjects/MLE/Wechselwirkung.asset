@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: Wechselwirkung
+  m_EditorClassIdentifier: 
+  uid: bf1eee20-da64-4427-859f-9d53f35eb2ab
+  mleName: Wechselwirkung
+  mleHandout: {fileID: 11400000, guid: a649efa03d23a054e826e9c050ded666, type: 2}
+  mleIntroText: "Aktion gleich Reaktion gilt \xFCberall. Warum? Na wegen der Wechselwirkung
+    \u2026"
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:83ec5124ad7ff62ca80173a837533cbf_1638277053.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wenn ein K\xF6rper auf einen zweiten K\xF6rper eine Kraft aus\xFCbt,
+        wie regiert der zweite K\xF6rper auf den Ersten?    "
+      choices:
+      - name: "Er reagiert mit einer gleich gro\xDFen, aber entgegengesetzt gerichteten
+          Kraft auf derselben Wirkungslinie. "
+        isAnswer: 1
+        feedbackMessage: "Super! Das ist genau das, was das Wechselwirkungsgesetz
+          aussagt (Action = Reaktion).\r"
+      - name: 'Er reagiert mit einer kleineren, aber entgegengesetzt gerichteten
+          Kraft auf derselben Wirkungslinie. '
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht richtig. \xDCberlege, ob die Kraft
+          wirklich kleiner sein kann?"
+      - name: "Er reagiert mit einer gleich gro\xDFen, gleichgerichteten Kraft auf
+          derselben Wirkungslinie. "
+        isAnswer: 0
+        feedbackMessage: "Nope, da ist leider nicht ganz richtig. In welche Richtung
+          reagiert der zweite K\xF6rper wirklich?\r"
+      - name: "Er reagiert mit einer gleich gro\xDFen, aber entgegengesetzt gerichteten
+          Kraft auf einer anderen Wirkungslinie. "
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht korrekt. Hier hat sich der Fehlerteufel
+          eingeschlichen. Macht eine andere Wirkungslinie denn Sinn?\r"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:7a30195ffd514625197db656b69fa5c8_1638277269.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Wir wird das Wechselwirkungsgesetz noch genannt? '
+      choices:
+      - name: 'Actio = Reactio. '
+        isAnswer: 1
+        feedbackMessage: "Richtig! Das geht auf das Axiom von Sir Isaac Newton zur\xFCck.\r"
+      - name: Kraft bleibt Kraft .
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht korrekt. Das wird so nicht genannt.
+          Das ist aus der Fantasie der Autor/innen entsprungen.\r"
+      - name: 'Verschiebungsgesetz. '
+        isAnswer: 0
+        feedbackMessage: 'Nein, das ist leider nicht richtig. Ein anderes Grundgesetz
+          der Statik wird aber so genannt.
+
+'
+      - name: Drehgesetz.
+        isAnswer: 0
+        feedbackMessage: "N\xF6, das ist nicht richtig. Mit Drehbewegungen hat das
+          Wechselwirkungsgesetz nichts zu tun. Was k\xF6nnte als Synonym f\xFCr eine
+          Wechselwirkung stehen?\r"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:ffdabee6c5a11c5e6b77cde8c9351ad3_1638277335.smil/playlist.m3u8
+    navTitle: Video
+    questions: []
+  requiredProgress: []

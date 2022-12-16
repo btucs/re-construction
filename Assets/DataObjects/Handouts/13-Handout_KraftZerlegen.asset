@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 13-Handout_KraftZerlegen
+  m_EditorClassIdentifier: 
+  mleName: "Kr\xE4fte zerlegen (analytisch)"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize}\n\\item Beim Kr\xE4ftezerlegen wird eine Kraft
+      in ihre Komponenten aufgeteilt.\n\\item Diese Komponenten sind von den Wirkungslinien
+      abh\xE4ngig.\n\\item Das analytische Kraftzerlegen findet vorrangig im Koordinatensystem
+      mittels Komponenten in X- und Y-Richtung statt. \n\\item Dabei spannen die
+      Kraftkomponenten und die Kraft ein rechtwinkliges Dreieck auf. \n\\item Die
+      Komponenten werden dann mit den Winkelfunktionen Sinus und Cosinus bestimmt
+      (auf die x-Achse bezogen):\n\\end{itemize}\n$$F_y=F{\\cdot}\\sin \\alpha$$
+      \n$$F_x=F{\\cdot}\\cos \\alpha$$"
+    picture: {fileID: 0}
+  - title: Wozu dient die Kraftzerlegung?
+    description: "Mit dem Kraftzerlegen teile ich \\textbf{eine Kraft in zwei Komponenten} 
+      auf. Diese Kraftkomponenten greifen am gleichen Angriffspunkt an wie die Ausgangskraft.
+      Die \\textbf{Kraftwirkung der Ausgangskraft}  ist \\textbf{\xE4quivalent} 
+      zu der \\textbf{Wirkung der beiden Kraftkomponenten}  zusammen. Die Richtung
+      der Kraftkomponenten ist abh\xE4ngig von den Wirkungslinien, die f\xFCr die
+      Kraftzerlegung vorgegeben sind.\\\\"
+    picture: {fileID: 0}
+  - title: "Welche Hilfsmittel ben\xF6tige ich zum analytischen Kraftzerlegen?"
+    description: "Ich ben\xF6tige \\textbf{zwei Richtungen}, in welche die Kraftkomponenten
+      zeigen sollen. \nIn den meisten F\xE4llen werden die Kr\xE4fte mittels \\textbf{Koordinatensystem} 
+      zerlegt:\n    \\begin{itemize}\n        \\item im Raum zeigen die Kraftkomponenten
+      in die x-, y- und z-Richtung des Koordinatensystems, d.h. sie sind parallel
+      zu den Koordinatenachsen\n        \\item in der Ebene werden nur die x- und
+      y-Richtung betrachtet\n    \\end{itemize}\nDer Vorteil des Einsatzes eines
+      Koordinatensystems ist, dass die \\textbf{Wirkungslinien senkrecht zueinander} 
+      stehen und somit die Kraftkomponenten\n    \\begin{itemize}\n        \\item
+      ein rechtwinkliges Dreieck aufspannen und\n        \\item mithilfe der Winkelfunktionen
+      Sinus und Cosinus bestimmt werden k\xF6nnen.\n    \\end{itemize}"
+    picture: {fileID: 0}
+  - title: "Wie zerlege ich Kr\xE4fte analytisch?"
+    description: "Die zu zerlegende Kraft wird mit ihrem Winkel zun\xE4chst in ein
+      Koordinatensystem gezeichnet. Der Kraftbetrag muss dabei nicht ma\xDFst\xE4blich
+      gezeichnet werden, da die Zeichnung nur der Veranschaulichung dient.\\\\\n\nDie
+      Kraft, die im Koordinatensystem liegt, wird in ihre x- und y-Komponente aufgeteilt.
+      Die Komponenten zeigen also in die x- bzw. y-Richtung und sind parallel zu
+      den Koordinatenachsen.\\\\\n\nDie Kraftkomponenten und die Ausgangskraft sind
+      auch als \\textbf{Kraftdreieck}  darstellbar. Dieses ist ein \\textbf{rechtwinkliges
+      Dreieck}. Mit den \\textbf{Winkelfunktonen}  lassen sich nur die Komponenten
+      aus der Ausgangskraft und dem Winkel die Kr\xE4fte bestimmen.\nDer Cosinus
+      und der Sinus eines Winkels sind mit folgenden Formeln definiert:\n$$\\cos
+      \\alpha =\\frac{Ankathete}{Hypotenuse}=\\frac{\\overrightarrow{F_x}}{\\overrightarrow{F}}=\\frac{F_x}{F}$$\n$$\\sin
+      \\alpha =\\frac{Gegenkathete}{Hypotenuse}=\\frac{\\overrightarrow{F_y}}{\\overrightarrow{F}}=\\frac{F_y}{F}$$\n\nDurch
+      Umstellen ergeben sich folgende Formeln f\xFCr die \\textbf{x- und y-Komponente}:\n$$F_x=F{\\cdot}\\cos
+      \\alpha$$ \n$$F_y=F{\\cdot}\\sin \\alpha$$"
+    picture: {fileID: 0}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize\nVideo zum Kraft zerlegen von \u201CLyrelda\u201D\r\nhttps://www.youtube.com/watch?v=qL-nMRS1uEs&t=267s\r\n\\item
+      Video zum Kraft zerlegen mit einen sehr guten Beispiel von \u201CWinter_Physik_und_Mathe\u201D\r\nhttps://www.youtube.com/watch?v=UHtfbCRSAoE\r\n\\end{itemize}"
+    picture: {fileID: 0}

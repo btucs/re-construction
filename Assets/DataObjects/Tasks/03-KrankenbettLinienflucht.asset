@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 03-KrankenbettLinienflucht
+  m_EditorClassIdentifier: 
+  uid: 5d43bd76-8e78-45c4-8f1d-446e4380b359
+  taskName: Mitarbeitende entlasten
+  teaserDescription: "Die Pflegekr\xE4fte m\xFCssen derzeit enorme k\xF6rperliche
+    Anstrengungen auf sich nehmen. Evtl. k\xF6nnte eine Erleichterung eintreten,
+    wenn die Krankenbetten entweder eher geschoben oder gezogen werden. Unterst\xFCtze
+    das Vorhaben mit einer Skizze."
+  teaserSolvedCorrect: "Die Erkenntnis sorgte f\xFCr einen erleichterten Umgang mit
+    den Betten. Schieben oder ziehen? Es macht keinen Unterschied."
+  teaserSolvedWrong: "Problematischer L\xF6sungsversuch f\xFChrt zu Verwirrung und
+    Unsicherheit bei den Pflegekr\xE4ften. Wie bewegt man das Bett am schonensten?"
+  fullDescription: Schieben oder ziehen? Eine Skizze soll die Krafteinwirkung beider
+    Bewegungen darstellen und die Arbeit des Personals erleichtern.
+  teachAndPlayDescription: "Die VR-Brille zeigt den Transport von Krankenbetten,
+    in einem Pandemieszenario. Das Personal ist \xFCberanstrengt, daher soll \xFCberpr\xFCft
+    werden, ob sich der Aufwand verringert, wenn man zieht anstatt zu ziehen. "
+  topic: {fileID: 11400000, guid: 5264d36122743ef48ad795d533d34fa8, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 350, y: 0}
+    dimensions:
+      posX: 13
+      posY: 13
+      negX: 13
+      negY: 13
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 10
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: -4153732868979753255, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-6 1 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Position zum Schieben.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-2.5 1 0)
+    - name: P_2
+      icon: {fileID: 7084715443386386054, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (2 1 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Positiion zum Ziehen.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (5.5 1 0)
+    - name: alpha
+      icon: {fileID: 0}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "0 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Schiebrichtung der Trage.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "0 \xB0"
+    - name: Betrag_F_1
+      icon: {fileID: 7828686734983767554, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: Betrag<sub>F</sub><sub>1</sub>
+      type: 0
+      textValue: 50 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Schiebkraftbetrag an der Trage.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 50 N
+    dummyInputs: []
+    output:
+      name: F_2
+      icon: {fileID: -6793454289220418734, guid: 79f9576d7ca26924bb90a6762e9f97c3,
+        type: 3}
+      textMeshProName: F<sub>2</sub>
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: da8a196e6f08170408d6ebd4ff84c9b2, type: 2}
+    dialogs:
+    - "Um zu checken, wo der Kraftaufwand am h\xF6chsten ist, sollte die Kraft f\xFCr
+      jeden Ber\xFChrungspunkt gepr\xFCft werden. Bei dem Bett kann man am ~i:P_1|Kopf-~
+      oder ~i:P_2|Fu\xDFende~ schieben oder ziehen."
+    - "Zeige am besten in einer Skizze, wie sich das mit den Kr\xE4ften verh\xE4lt.
+      Die Trage wird mit ~i:Betrag_F_1|50 N~ nach ~i:alpha|rechts~ geschoben."
+    - "\u2026 wir m\xFCssen die Energie des Ortes und der Belegschaft st\xE4rken.
+      Dabei ist die Kontrolle ein erster Versuch. Zeige, wie der ~i:Betrag_F_1|Schubkraftbetrag~
+      und die wirkende ~o:F_2|Zugkraft~ in Verbindung miteinander stehen."
+  hashtags:
+  - "kr\xE4fte"
+  connectedObject: {fileID: 11400000, guid: 02e10c2ed6590be44987875aa9440cb5, type: 2}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 06-Catapult
+  m_EditorClassIdentifier: 
+  uid: 7e351713-838e-4b07-b9f3-55870bf01af2
+  objectName: Magnetkatapult
+  objectDescription: "Eine komplexe Testkonstruktion - Sieht wie ein Magnetkatapult
+    aus. \nSie bieten eine energie- und ressourcenarme Beschleunigung."
+  objectPrefab: {fileID: 481500083839276262, guid: ce289d2f20f2d7c4da787f0fed1dca39,
+    type: 3}
+  objectThumbnail: {fileID: 4579208676233728810, guid: b1ccd3e3e37821f4fb6d4ea8add5e32d,
+    type: 3}
+  cameraOffset: {x: -1, y: 1.25, z: 0}
+  markerOffset: {x: -3, y: 0}
+  cameraZoom: 1.1
+  taskInfos:
+  - task: {fileID: 11400000, guid: b21e095977a5afa4ca4401bdf34094a7, type: 2}
+    taskButtonPosition: {x: 1.5, y: 1}
+    isRepeatable: 0
+    hiddenVariables:
+    - itemData:
+        name: m
+        icon: {fileID: -1937094040664327363, guid: c8856296191bae842bf5300f1182897c,
+          type: 3}
+        textMeshProName: m
+        type: 0
+        textValue: 80 kg
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: 80 kg
+      localAnalyzePosition: {x: -4.29, y: 0.96, z: 0}
+    - itemData:
+        name: a
+        icon: {fileID: -7301059001499794581, guid: c8856296191bae842bf5300f1182897c,
+          type: 3}
+        textMeshProName: a
+        type: 0
+        textValue: 5 m/s^2
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: 5 m/s<sup>2</sup>
+      localAnalyzePosition: {x: -2.92, y: -0.12, z: 0}

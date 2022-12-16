@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: "01-MLE_Kr\xE4fteZerlegengraf"
+  m_EditorClassIdentifier: 
+  uid: 703bd7dd-a055-4225-9aa5-673420da238c
+  mleName: "Kr\xE4fte zerlegen (grafisch)"
+  mleHandout: {fileID: 11400000, guid: 73160e3d71fa89d4ca2877ff114609ef, type: 2}
+  mleIntroText: "Kr\xE4fte k\xF6nnen auch skizzenhaft in ihre Bestandteile zerlegt
+    werden. Wie du das berechnest? Dazu hier mehr."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:a5fdc6af26376866cce14a26f688e410_1645538605.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Was ist die Kraftzerlegung? '
+      choices:
+      - name: 'Bei der Kraftzerlegung kann eine Kraft in zwei Komponenten aufgeteilt
+          werden. Die zwei Komponenten werden durch vorgegebene Wirkungslinien bestimmt.  '
+        isAnswer: 1
+        feedbackMessage: "Toll. Die zwei bestimmten Komponenten und deren gemeinsame
+          Wirkung ist \xFCbrigens der Ausgangskraft \xE4quivalent.\r\n"
+      - name: "Kraftzerlegen ist das Einteilen der Kraft in f\xFCnf gleich gro\xDFe
+          Abschnitte.  "
+        isAnswer: 0
+        feedbackMessage: "N\xF6\xF6\xF6. Die Antwort ist zwar auch ein Aufteilen,
+          aber das ist nicht die Antwort auf die Frage. Die zerlegten Kr\xE4fte werden
+          auf jeden Fall f\xFCr die Gleichgewichtsbedingung ben\xF6tigt.\r\n"
+      - name: "Beim Kraftzerlegen entsteht eine gleich gro\xDFe entgegengesetzt gerichtete
+          Kraft auf der gleichen Wirkungslinie. "
+        isAnswer: 0
+        feedbackMessage: 'Deine Antwort ist falsch und beschreibt grob das Wechselwirkungsaxiom.
+
+'
+      - name: 'Das Kraftzerlegen beschreibt das Entfernen einer Kraft aus einem System. '
+        isAnswer: 0
+        feedbackMessage: "Nein, das ist nicht korrekt. Eine Kraft kann nicht einfach
+          so entfernt werden. Dazu m\xFCsste die verursachende Kraft zun\xE4chst
+          entfernt werden. Das ist aber eine andere Aufgabe.\r\n"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:9316ab2d9d9a049bb817e66e161ce506_1645538852.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was gilt es zu beachten, wenn die Kraft grafisch zerlegt wird und
+        die Gr\xF6\xDFe ermittelt werden soll? "
+      choices:
+      - name: "F\xFCr die grafische L\xF6sung ist immer ein Ma\xDFstab anzugeben,
+          damit die aus der L\xE4nge des Kraftpfeils die Kraftgr\xF6\xDFe bestimmt
+          werden kann. "
+        isAnswer: 1
+        feedbackMessage: "Super. Die L\xE4nge des Kraftpfeils wird ausgemessen und
+          anschlie\xDFend anhand des Ma\xDFstabs die Kraft errechnet.\r\n"
+      - name: 'Der Kraftpfeil muss immer in die positive Richtung zeigen. '
+        isAnswer: 0
+        feedbackMessage: "Nein. Der Kraftpfeil kann auch in negative Achsenrichtung
+          zeigen, dann \xE4ndert sich das Vorzeichen.\r\n"
+      - name: "Die grafische L\xF6sung ist genauer als die analytische L\xF6sung.
+          Die grafische L\xF6sung ist genauer als die analytische L\xF6sung. "
+        isAnswer: 0
+        feedbackMessage: "Das Gegenteil ist der Fall, da es beim Messen stets zu
+          Ablesefehlern kommt und die L\xE4nge des Pfeils nur abgesch\xE4tzt wird.\r\n"
+      - name: 'Das Koordinatensystem muss immer gleich eingezeichnet werden. '
+        isAnswer: 0
+        feedbackMessage: "Nein, es steht jedem frei, wie er das Koordinatensystem
+          einzeichnet. Dabei variieren die Kr\xE4fte in x- und y-Richtung.\r"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:f53c04fcf96e5e21252f84dd341c12d0_1645538786.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Warum eignen sich zwei senkrechtstehende Wirkungslinien zur Kraftzerlegung? '
+      choices:
+      - name: 'Es erleichtert die Berechnung der Gleichgewichtsbedingungen durch
+          den Einsatz der Formeln des rechtwinkligen Dreiecks (Sinus, Cosinus, Tangens,
+          Pythagoras). '
+        isAnswer: 1
+        feedbackMessage: "Super. Besonders geeignet ist ein kartesisches Koordinatensystem
+          (x- und y-Achse, ggf. mit z-Achse f\xFCr r\xE4umliche Problemstellungen).\r"
+      - name: 'Es erleichtert die Berechnungen der Gleichgewichtsbedingungen, weil
+          dadurch die Berechnungen wegfallen. '
+        isAnswer: 0
+        feedbackMessage: 'Nein. Die Berechnungen werden leichter durch den Einsatz
+          der Winkelbeziehungen.
+
+'
+      - name: 'Die zwei senkrechtstehenden Wirkungslinien eignen sich nicht. '
+        isAnswer: 0
+        feedbackMessage: 'Doch, es vereinfacht den Cosinussatz deutlich.
+
+'
+      - name: 'Es erleichtert die Berechnung der Gleichgewichtsbedingungen, da die
+          Achsen das Ergebnis direkt angeben. '
+        isAnswer: 0
+        feedbackMessage: "Leider nein. Es erleichtert die Berechnungen in der Tat.
+          Das Ablesen bedarf den Zwischenschritt des Lotf\xE4llens auf die x- und
+          y-Achse des Koordinatensystems.\r\n"
+  requiredProgress: []

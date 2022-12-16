@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 03-KraftberechnenFeuerwehr
+  m_EditorClassIdentifier: 
+  uid: ef4f962f-920a-4c3a-89dd-0ca292655f40
+  taskName: Antrieb testen
+  teaserDescription: "Die alten Karren m\xFCssen jetzt nochmal alles geben. Im Stresstest
+    m\xFCssen wir herausfinden, wie stark der Motor ist und ob er den Anspr\xFCchen
+    gerecht wird.\r"
+  teaserSolvedCorrect: "Optimale Auslastung! Jeder Wagen wird entsprechend seiner
+    F\xE4higkeiten genutzt.\r\n"
+  teaserSolvedWrong: "Hier haben sich scheinbar Fehler eingeschlichen. Bei der ad\xE4quaten
+    Beladung der alten Karren l\xE4uft noch nicht alles rund.\r\n"
+  fullDescription: 'Finde heraus, welche Kraft der Wagen leisten kann.
+
+'
+  teachAndPlayDescription: "Das VR-System zeigt ein Feuerwehrauto, das r\xFCckw\xE4rts
+    einen Berg hochfahren will. Was muss der Motor leisten, um das Gewicht des Wagens
+    entsprechend zu beschleunigen?"
+  topic: {fileID: 11400000, guid: 6be83b90b36d60e4c9232e18dd5b6f4b, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: m
+      icon: {fileID: -2793396069042482936, guid: b6748bbc979be6f4680c7cd411376a40,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 15000 kg
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Masse des Feuerwehrwagens.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 15000 kg
+    - name: a
+      icon: {fileID: 8780851331778946353, guid: b6748bbc979be6f4680c7cd411376a40,
+        type: 3}
+      textMeshProName: a
+      type: 0
+      textValue: 2 m/s^2
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Beschleunigung des Feuerwehrwagens.
+      definition: "Ist eine vektorielle Gr\xF6\xDFe, die die zeitliche Ver\xE4nderung
+        der Geschwindigkeit beschreibt."
+      textMeshProValue: 2 m/s<sup>2</sup>
+    dummyInputs: []
+    output:
+      name: F
+      icon: {fileID: -3625635506817689865, guid: b6748bbc979be6f4680c7cd411376a40,
+        type: 3}
+      textMeshProName: F
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 2c966b344fbb51142a01900c8ce06fa9, type: 2}
+    dialogs:
+    - "Ich bin gespannt, wie ein Flitzebogen, was das W\xE4gelchen noch mitmacht.
+      Der Wagen ist ~i:m|15.000kg~ schwer.\r\n"
+    - "Was kann der ~o:F|Motor~ kr\xE4ftem\xE4\xDFig noch leisten? Neben der ~i:m|Masse~
+      ist uns auch noch die ~i:a|Beschleunigung~ mit 2 m/s\xB2 bekannt.\r\n"
+    - 'Das sind die kleinen Freuden des apokalyptischen Alltags. Nach der Berechnung
+      gibt es eine Testfahrt!
+
+'
+  hashtags:
+  - "kr\xE4fte"
+  - beschleunigung
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: b6c1f8c8b164b104da39f88b09988b56, type: 2}

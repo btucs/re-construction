@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: "02-MLE_Kr\xE4ftepaar"
+  m_EditorClassIdentifier: 
+  uid: c534ac82-2034-4aad-adee-b77acf1f3ebb
+  mleName: "Kr\xE4ftepaar"
+  mleHandout: {fileID: 11400000, guid: dbebceecccc99164f9431022fae89959, type: 2}
+  mleIntroText: "Zwei Kr\xE4fte und keine Resultierende. Daf\xFCr eine Drehung. Wie
+    kann das sein? Hier findest du die Antwort."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:586f67d8f144b41965a343bcd60c62a4_1645190900.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was ist ein Kr\xE4ftepaar?"
+      choices:
+      - name: "Zwei Kr\xE4fte, welche auf parallelen Wirkunbgslinien liegen, entgegengesetzt
+          gerichtet sind und den gleichen Betrag haben."
+        isAnswer: 1
+        feedbackMessage: "So ist es. \nHier kann auch keine Resultierende aufgestellt
+          werden. Daf\xFCr f\xFChren sie zur Drehung des K\xF6rpers, an dem sie angreifen."
+      - name: "Zwei Kr\xE4fte, welche auf parallelen Wirkungslinien liegen, gleich
+          gerichtet sind und den gleichen Betrag haben."
+        isAnswer: 0
+        feedbackMessage: "Das stimmt leider nicht.\nSo wird kein Kr\xE4ftepaar beschrieben.
+          Hier steckt der Fehler im Detail. Wie sollten sie wirklich gerichtet sein?"
+      - name: "Zwei Kr\xE4fte, welche auf senkrechten Wirkungslinien liegen, entgegengesetzt
+          gerichtet sind und den gleichen Betrag haben."
+        isAnswer: 0
+        feedbackMessage: "Nein, das stimmt leider nicht. \nBei einem Kr\xE4ftepaar
+          sind die Wirkungslinien nicht senkrecht zueinander, sondern wie?"
+      - name: "Zwei Kr\xE4fte, welche auf senkrechten Wirkungslinien liegen, gleich
+          gerichtet sind und den gleichen Betrag haben."
+        isAnswer: 0
+        feedbackMessage: "No. Das ist nicht richtig. Bis auf den Betrag sind die
+          beschriebenen Eigenschaften einem Kr\xE4ftepaar nicht zuordenbar."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:ff4bc3ffabd5cf4a6324f51554e7a08d_1645191019.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Mit welcher Formel kann das Moment (Kr\xE4ftepaar) berechnet werden?"
+      choices:
+      - name: "M = F * a (a = Abstand der Kr\xE4fte)."
+        isAnswer: 1
+        feedbackMessage: "Exakt. Kraft mal Abstand zur anderen Kraft ist die Formel
+          f\xFCr das Moment."
+      - name: "M = F / a (a = Abstand der Kr\xE4fte)."
+        isAnswer: 0
+        feedbackMessage: Nein, das ist leider nicht richtig. Hier ist die Rechenoperation
+          falsch. Mache am besten zur Probe die Einheitenbetrachtung.
+      - name: "M = F + a (a = Abstand der Kr\xE4fte)."
+        isAnswer: 0
+        feedbackMessage: Nada, das stimmt leider nicht. Hier ist die Rechenoperation
+          falsch. Mache am besten zur Probe die Einheiten-betrachtung.
+      - name: "M = \u221A(F\xB2 + a\xB2) (a = Abstand der Kr\xE4fte)."
+        isAnswer: 0
+        feedbackMessage: "Oh no, das stimmt leider nicht. Die Formel sieht dem Satz
+          des Pythagoras sehr \xE4hnlich, wird aber nicht f\xFCr die Berechnung des
+          Moments verwendet. Mache am besten zur Probe die Einheiten-betrachtung."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:50f0d6b2a59f00d74cdbc68d72f95369_1645191145.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Welche Besonderheit hat das Moment des Kr\xE4ftepaars, in Bezug
+        auf dessen Ort des Wirkens?"
+      choices:
+      - name: "Das Moment des Kr\xE4ftepaars ist an allen Stellen des K\xF6rpers
+          (in der Ebene) gleich und kann somit in der Ebene beliebig verschoben werden."
+        isAnswer: 1
+        feedbackMessage: "Superb, das stimmt! Ersetzt man \ngrafisch die zwei Kr\xE4fte
+          durch das Moment ist es beliebig platzierbar."
+      - name: "Das Moment des Kr\xE4ftepaars ist an allen Stellen des K\xF6rpers
+          (in der Ebene) gleich und darf somit nicht in der Ebene beliebig verschoben
+          werden."
+        isAnswer: 0
+        feedbackMessage: Das ist leider nicht korrekt. Hier ist noch ein kleiner
+          Fehler drin. Darf man es wirklich nicht verschieben?
+      - name: "Das Moment des Kr\xE4ftepaars ist an allen Stellen des K\xF6rpers
+          (in der Ebene) gleich und ist maximal 1000 Nm gro\xDF."
+        isAnswer: 0
+        feedbackMessage: "Schade, das stimmt leider nicht. \xDCberlege noch einmal,
+          ob absolute Werte sinvoll sind."
+      - name: Es gibt keine Besonderheit.
+        isAnswer: 0
+        feedbackMessage: Das ist leider nicht korrekt! Es gibt eine Besonderheit.
+          Betrachte hierzu noch einmal die anderen Antworten.
+  requiredProgress: []

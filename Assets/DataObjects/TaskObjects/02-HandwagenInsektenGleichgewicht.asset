@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 02-HandwagenInsektenGleichgewicht
+  m_EditorClassIdentifier: 
+  uid: 6be92dd8-6d30-41c4-a7fa-9da7f216ee6d
+  objectName: "Nachschubw\xE4gelchen"
+  objectDescription: "Der Wagen beinhaltet Fangnetze, Pheromonfallen und Energiebooster
+    f\xFCr die Helfenden."
+  objectPrefab: {fileID: 7677652054118881251, guid: aa88223534ae2604aac4d9c0ba812c2b,
+    type: 3}
+  objectThumbnail: {fileID: 1852902974608866827, guid: 3e77713283e007f4c83919fc085e1a34,
+    type: 3}
+  cameraOffset: {x: 0.4, y: 1.5, z: 0}
+  markerOffset: {x: 0, y: 0.5}
+  cameraZoom: 1.25
+  taskInfos:
+  - task: {fileID: 11400000, guid: 4a1b7ef0344cf0c408730684b17c32fa, type: 2}
+    taskButtonPosition: {x: -0.7, y: 1.25}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: P_1
+        icon: {fileID: -8841563487002947818, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+          type: 3}
+        textMeshProName: P<sub>1</sub>
+        type: 1
+        textValue: (-5 2 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Punkt, von der die Kraft des linken Spa\xDFvogels ausgeht. "
+        definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+          von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+          dargestellt. "
+        textMeshProValue: (-5 2 0)
+      localAnalyzePosition: {x: -0.68, y: 1.3, z: 0}
+    - itemData:
+        name: alpha
+        icon: {fileID: 5200539816831931210, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+          type: 3}
+        textMeshProName: "\u03B1"
+        type: 0
+        textValue: "0 \xB0"
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Ausrichtung der Zugrichtung vom linken Spa\xDFvogel."
+        definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+        textMeshProValue: "0 \xB0"
+      localAnalyzePosition: {x: -1.14, y: 0.64, z: 0}
+    - itemData:
+        name: Betrag_F_1
+        icon: {fileID: -736677809926102549, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+          type: 3}
+        textMeshProName: Betrag<sub>F</sub><sub>1</sub>
+        type: 0
+        textValue: 60 N
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Kraftbetrag, mit dem der linke Spa\xDFvogel zieht."
+        definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+        textMeshProValue: 60 N
+      localAnalyzePosition: {x: -1.73, y: 1.82, z: 0}
+    - itemData:
+        name: P_2
+        icon: {fileID: 0}
+        textMeshProName: P<sub>2</sub>
+        type: 1
+        textValue: (0 2 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Punkt, an dem der rechte Spa\xDFvogel schiebt. "
+        definition: 
+        textMeshProValue: (0 2 0)
+      localAnalyzePosition: {x: 1.07, y: 1.54, z: 0}

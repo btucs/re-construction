@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 03-Hubschrauber_WeWi
+  m_EditorClassIdentifier: 
+  uid: f17a206e-ec99-4a20-876d-08e8c3da9af7
+  objectName: Landeplatz Lithium-Jet Lilium
+  objectDescription: "Der Landeplatz erm\xF6glicht es, in Lichtgewschwindigkeit angeforderte
+    Medikamente zu erhalten. Besonders hohe Erwartungen stecken dabei in dem Lilium-Jet."
+  objectPrefab: {fileID: 6944527786634946371, guid: 2a10804ea10f3214aa8c9a0fbb5254b0,
+    type: 3}
+  objectThumbnail: {fileID: 6797054924908286498, guid: 67c39c2f16f5d964994bfdbd1cc89c43,
+    type: 3}
+  cameraOffset: {x: 0, y: 2, z: 0}
+  markerOffset: {x: 0, y: 1.5}
+  cameraZoom: 0.9
+  taskInfos:
+  - task: {fileID: 11400000, guid: e59f66d4ba145344386d053996ec3456, type: 2}
+    taskButtonPosition: {x: -1, y: -0.25}
+    isRepeatable: 1
+    hiddenVariables: []

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 02 WagenGleichgewichtSuccessFB
+  m_EditorClassIdentifier: 
+  uid: 9cf63fc4-a7b9-4003-b098-3801ba46af9c
+  author: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+  messageText: "Und Gespr\xE4che k\xF6nnen doch helfen. Trauerspiel um Nachschubtransport
+    beendet. Es lebe das Gleichgewicht! #yes #nachschubkommt #balance"
+  relatedTask: {fileID: 11400000, guid: 4a1b7ef0344cf0c408730684b17c32fa, type: 2}
+  taskCondition: 0

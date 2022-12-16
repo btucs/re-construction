@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 21-Handout_Gleichgewichtsbedingungen
+  m_EditorClassIdentifier: 
+  mleName: Gleichgewichtsbedingungen
+  entries:
+  - title: Was muss ich wissen?
+    description: "\r\n\\begin{itemize}\r\n    \\item Wenn die Summe der an einem
+      K\xF6rper angreifenden Kr\xE4fte und Momente gleich Null ist, befindet sich
+      der K\xF6rper im Gleichgewicht.\r\n    \\item F\xFCr jeden Freiheitsgrad muss
+      eine Gleichgewichtsbedingung aufgestellt werden.\r\n\\end{itemize}\r\n"
+    picture: {fileID: 0}
+  - title: Was sind Gleichgewichtsbedingungen?
+    description: "Ein K\xF6rper befindet sich im \\textbf{Gleichgewicht}, wenn sich
+      die \\textbf{Wirkungen}  aller an dem K\xF6rper angreifenden Kr\xE4fte und
+      Momente \\textbf{aufheben}.\\\\\r\nMit anderen Worten: \\textbf{Die resultierende
+      Kraft und das resultierende Moment m\xFCssen gleich null sein}. Es finden keine
+      Verschiebungen und/oder Rotationen statt. \\\\\r\n\r\nMithilfe der \\textbf{Gleichgewichtsbedingungen} 
+      kann \xFCberpr\xFCft werden, ob sich ein K\xF6rper oder System im Gleichgewicht
+      befindet. Das ist f\xFCr alle Bauteile, Bauteilgruppe und Bauwerke wichtig,
+      die sich im Normalfall nicht bewegen sollen. \\\\\r\nAu\xDFerdem k\xF6nnen
+      \xFCber die Gleichgewichtsbedingungen \\textbf{unbekannte Gr\xF6\xDFen bestimmt} 
+      werden. Wenn beispielsweise die an einem K\xF6rper angreifenden Kr\xE4fte bekannt
+      sind, k\xF6nnen so die Lagerkr\xE4fte berechnet werden und gepr\xFCft werden,
+      ob die gew\xE4hlten Lager den Belastungen standhalten k\xF6nnen.\\\\\r\n\r\nIn
+      der \\textbf{Ebene}  hat ein K\xF6rper \\textbf{drei Freiheitsgrade}. Das hei\xDFt
+      es gibt drei unabh\xE4ngige Bewegungsrichtungen. Hier sind das die Verschiebung
+      entlang der y-Achse, die Verschiebung entlang der x-Achse und die Drehung um
+      die z-Achse. Im \\textbf{Raum}  hat ein K\xF6rper \\textbf{sechs Freiheitsgrade}:
+      drei Verschiebungen und drei Rotationen.\\\\\r\n\r\nF\xFCr \\textbf{jeden Freiheitsgrad},
+      also jede m\xF6gliche Bewegungsrichtung, wird \\textbf{eine Gleichgewichtsbedingung} 
+      ben\xF6tigt. In der Ebene sind also drei Gleichgewichtsbedingungen notwendig:\r\n\\begin{enumerate}\r\n   
+      \\item Die resultierende Kraft in die x-Richtung muss Null sein:\r\n    $$
+      F_{R,x}=F_{1,x}+F_{2,x}+...+F_{n,x}=0$$\r\n    \\item Die resultierende Kraft
+      in die y-Richtung muss Null sein:\r\n    $$ F_{R,y}=F_{1,y}+F_{2,y}+...+F_{n,y}=0$$\r\n   
+      \\item Das resultierende Moment um einen beliebigen Punkt muss Null sein:\r\n   
+      $$M_R=M_1+M_2+...+M_n=0$$\r\n\\end{enumerate}\t\r\n"
+    picture: {fileID: 0}
+  - title: Wie werden Gleichgewichtsbedingungen aufgestellt?
+    description: "\\begin{itemize}\r\n    \\\\\r\n    \\item ein Koordinatensystem
+      und die Orientierung werden festgelegt\r\n    \\item nachdem ein Ersatzmodell
+      erstellt ist, wird das System oder der K\xF6rper freigeschnitten\r\n    \\item
+      alle bekannten und unbekannten Kr\xE4fte und Momente werden eingetragen\r\n   
+      \\\\\r\n    \\\\\r\n    \\item die Resultierende Kraft ist dann Null, wenn
+      ihre Komponenten verschwinden \\rightarrow die Summen der x- und y-Komponenten
+      der wirkenden Kr\xE4fte m\xFCssen gleich Null sein\r\n    \\item zuerst m\xFCssen
+      also die Kr\xE4fte in ihre x- und y-Komponenten zerlegt werden\r\n    \\item
+      die Gleichgewichtsbedingungen in x- und y-Richtung lauten:\r\n    $$ F_{R,x}=F_{1,x}+F_{2,x}+F_{3,x}=0$$\r\n   
+      und $$ F_{R,y}=F_{1,y}+F_{2,y}+F_{3,y}=0$$\r\n    \\item f\xFCr das Momentengleichgewicht
+      wird ein beliebiger Bezugspunkt gew\xE4hlt (in Abb. Punkt A)\r\n    \\item
+      ist die Summe aller Momente gleich Null, so verschwindet das resultierende
+      Moment und somit die Drehwirkung auf den K\xF6rper:\r\n    $$M_1+M_2+M_3=F_1{\\cdot}a_1+F_2{\\cdot}a_2+F_3{\\cdot}a_3=0$$\r\n   
+      \\\\\r\n    \\item die Gleichungen werden gel\xF6st \r\n    \\begin{itemize}\r\n       
+      \\item ist jede Gleichung erf\xFCllt, dann befindet sich der K\xF6rper im Gleichgewicht\r\n       
+      \\item wird eine unbekannte Gr\xF6\xDFe gesucht, werden die Gleichungen nach
+      der Gr\xF6\xDFe aufgel\xF6st\\\\\r\n        \\textit{Hinweis: Sollte das Ergebnis
+      f\xFCr die gesuchte ein negatives Vorzeichen haben, wirkt die Kraft oder das
+      Moment in die entgegengesetzte Richtung als im Ersatzbild angenommen.}\r\n   
+      \\end{itemize}\r\n\\end{itemize}\r\n"
+    picture: {fileID: 0}
+  - title: 'Beispiel:'
+    description: "Beispiel:\r\n\r\nDie senkrecht wirkende Kraft $F_1 = 130 N$ soll
+      von zwei Kr\xE4ften $F_2$ und $F_3$, die in den Winkel $\\alpha_2 = 60^\\circ$
+      und $\\alpha_3 = 30^\\circ$ zur Waagerechten wirken, im Gleichgewicht gehalten
+      werden. Welchen Betrag haben die Kr\xE4fte $F_2$ und $F_3$?\\\\\r\n\r\nL\xF6sung:\r\n\\begin{enumerate}\r\n   
+      \\item Gleichgewichtsbedingungen aufstellen:\r\n    \\begin{itemize}\r\n       
+      \\item Kr\xE4ftegleichgewicht in x-Richtung\r\n        $$-F_{2,x}+F_{3,x}=0$$\r\n       
+      $$-F_2{\\cdot}cos(\\alpha_2)+F_3{\\cdot}cos(\\alpha_3)=0 \\ \\ (1)$$\r\n       
+      \\item Kr\xE4ftegleichgewicht in y-Richtung\r\n        $$F_1-F_{2,y}+F_{3,y}=0$$\r\n       
+      $$F_1-F_2{\\cdot}sin(\\alpha_2)+F_3{\\cdot}sin(\\alpha_3)=0 \\ \\ (2)$$\r\n       
+      \\item Momentengleichgewicht: da sich alle Wirkungslinien in einem Punkt schneiden,
+      wirken keine Momente\r\n    \\end{itemize}\r\n    \\item Gleichungssystem mit
+      den Gleichungen (1) und (2) nach den Unbekannten Gr\xF6\xDFen $F_2$ und $F_3$
+      l\xF6sen:\r\n    \\begin{itemize}\r\n        \\item Gleichung (1) nach $F_2$
+      umstellen:\r\n        $$-F_2{\\cdot}cos(\\alpha_2)+F_3{\\cdot}cos(\\alpha_3)=0$$\r\n       
+      $$F_2{\\cdot}cos(\\alpha_2)=F_3{\\cdot}cos(\\alpha_3)$$\r\n        $$F_2=\\frac{F_3{\\cdot}cos(\\alpha_3)}{cos(\\alpha_2)}$$\r\n       
+      \\item $F_2$ in Formel (2) einsetzen und nach $F_3$ aufl\xF6sen:\r\n       
+      $$F_1-F_2{\\cdot}sin(\\alpha_2)+F_3{\\cdot}sin(\\alpha_3)=0$$\r\n        $$F_1-\\frac{F_3{\\cdot}cos(\\alpha_3)}{cos(\\alpha_2)}{\\cdot}sin(\\alpha_2)+F_3{\\cdot}sin(\\alpha_3)=0$$\r\n       
+      $$F_1-F_3{\\cdot}\\left(\\frac{cos(\\alpha_3)}{cos(\\alpha_2)}{\\cdot}sin(\\alpha_2+sin(\\alpha_3)\\right)=0$$\r\n       
+      $$F_3{\\cdot}\\left(\\frac{cos(\\alpha_3)}{cos(\\alpha_2)}{\\cdot}sin(\\alpha_2+sin(\\alpha_3)\\right)=F_1$$\r\n       
+      $$F_3=\\frac{F_1}{\\left(\\frac{cos(\\alpha_3)}{cos(\\alpha_2)}{\\cdot}sin(\\alpha_2)+sin(\\alpha_3)\\right)}$$\r\n       
+      $$F_3=\\frac{130N}{\\left(\\frac{cos(30^\\circ)}{cos(60^\\circ)}{\\cdot}sin(60^\\circ)+sin(30^\\circ)\\right)}=65,0N$$\r\n       
+      \\item $F_3$ in Formel f\xFCr $F_2$ einsetzen:\r\n        $$F_2=\\frac{F_3{\\cdot}cos(\\alpha_3)}{cos(\\alpha_2)}$$\r\n       
+      $$F_2=\\frac{65N{\\cdot}cos(30^\\circ)}{cos(60^\\circ)}=112,6N$$\r\n    \\end{itemize}\r\n   
+      \r\n\\end{enumerate}\r\n"
+    picture: {fileID: 0}

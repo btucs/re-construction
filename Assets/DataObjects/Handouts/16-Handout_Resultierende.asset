@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 16-Handout_Resultierende
+  m_EditorClassIdentifier: 
+  mleName: "Resultierende analytisch l\xF6sen"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\r\n\\item Wirken mehrere Kr\xE4fte an einem
+      K\xF6rper am gleichen Angriffspunkt, so ist die Wirkung der Summe der Einzelkr\xE4fte
+      gleich der Wirkung der Resultierenden.\r\n\\item Um die Resultierende analytisch
+      zu ermitteln, werden\r\n\\begin{itemize}\r\n\\item die angreifenden Kr\xE4fte
+      in die einzelnen Einzelkraftkomponenten zerlegt,\r\n\\item die Einzelkraftkomponenten
+      in x- und y-Richtung zu den Resultierendenkomponenten zusammengefasst und\r\n\\item
+      mit diesen Resultierendenkomponenten und dem Satz des Pythagoras die resultierende
+      Kraft berechnet .\r\n\\end{itemize}\r\n\\end{enumerate}\r\n"
+    picture: {fileID: 0}
+  - title: Was ist die Resultierende / resultierende Kraft?
+    description: "Die \\textbf{resultierende Kraft}  bei einem zentralen ebenen Kraftsystem
+      ist eine Kraft, die die \\textbf{gleiche Wirkung}  aufweist, wie die \\textbf{Summe} 
+      der an einem K\xF6rper an einem Angriffspunkt \\textbf{angreifenden Kr\xE4fte}.
+      \\\\\n\nBei \\textbf{starren K\xF6rpern}, bei denen die Kr\xE4fte nicht an
+      einem Punkt angreifen, muss zun\xE4chst gepr\xFCft werden, ob sich die Wirkungslinien
+      in der Ebene in einem Punkt schneiden. Ist das der Fall, kann das \\textbf{Linienfl\xFCchtigkeitsaxiom} 
+      genutzt werden, um die \\textbf{Kr\xE4fte in den Schnittpunkt der Wirkungslinien} 
+      zu verschieben. Somit haben sie einen \\textbf{gemeinsamen Angriffpunkt}. \\\\\n\nIn
+      Abbildung 1 und 2 wirken vier Kr\xE4fte (die Muskelkr\xE4fte der Personen)
+      auf den K\xF6rper (das Geschenk).\nDie Resultierende gibt an, in welche Richtung
+      das Geschenk sich dann tats\xE4chlich bewegt.\\\\"
+    picture: {fileID: 0}
+  - title: "Wie ermittele ich die analytische L\xF6sung f\xFCr die Resultierende?"
+    description: "In Abbildung 3 greifen \\textbf{drei Kr\xE4fte}  an einem K\xF6rper
+      an einen \\textbf{gemeinsamen Angriffspunkt}  an. Das Koordinatensystem hilft
+      die Komponenten zu ermitteln.\\\\\n\nMithilfe von \\textbf{Sinus und Cosinus} 
+      werden die drei Kr\xE4fte in ihre \\textbf{x- und y-Komponenten}  zerlegt:\n\\begin{center}\n$
+      F_{i,x}=F_i {\\cdot}  \\cos \\alpha \\rightarrow$ bezogen auf die x-Achse\\\\\n\n$
+      F_{i,y}=F_i {\\cdot} \\sin \\alpha \\rightarrow$ bezogen auf die x-Achse\\\\\n\\end{center}\n\nDie
+      \\textbf{Einzelkraftkomponenten}  in x- und y-Richtung werden jeweils zu den
+      \\textbf{Resultierenden-Komponenten}  $F_{x}$ und $F_{y}$ \\textbf{addiert}.\nDabei
+      muss das \\textbf{Vorzeichen}  ber\xFCcksichtigt werden:\n\\begin{itemize}\n\\item
+      Kraftkomponenten, die in positive Richtung zeigen, haben ein positives Vorzeichen\n\\item
+      Kraftkomponenten, die in die negative Richtung zeigen, haben ein negatives
+      Vorzeichen.\n\\end{itemize}\nFolgende Formeln werden genutzt:\n$$F_x=F_{1,x}+F_{2,x}+...+F_{n,x}=\\sum_1^nF_{n,x}$$\n$$F_y=F_{1,y}+F_{2,y}+...+F_{n,y}=\\sum_1^nF_{n,y}$$\n\nMit
+      dem \\textbf{Satz des Pythagoras}  wird aus den Resultierenden-Komponenten
+      die \\textbf{Resultierende}  berechnet:\n$$ F_R=\\sqrt{F_x^2+F_y^2} $$\nDer
+      \\textbf{Arcustangens}  dient zur Bestimmung des \\textbf{Winkels}  der Resultierenden
+      zur x-Achse:\n$$ \\alpha=\\arctan\\frac{F_y}{F_x} $$"
+    picture: {fileID: 0}
+  - title: Beispiel
+    description: "geg: \\\\\n$F_1=20 N$; $\\alpha=25^\\circ $\\\\\r\n$F_2=50N $;         
+      $\\beta=115^\\circ$\\\\\r\n$F_3=30N $; $ \\gamma=265^\\circ$\\\\\r\n\\\\\r\nges:
+      \\\\\n& $F_{R}$ in N \\\\\r\n & \\\\\r\nL\xF6s: & 1. Kraftkomponenten der Einzelkr\xE4fte:\\\\\r\n&
+      \\\\\r\n & $$F_{i,x}=F_i{\\cdot}\\cos \\alpha $$\\\\\r\n & $$F_{i,y}=F_i{\\cdot}\\sin
+      \\alpha$$ \\\\\r\n & \\\\\r\n & $$F_{1,x}=F_1{\\cdot}\\cos \\alpha =20 N {\\cdot}\\cos
+      (25^\\circ ) =18,1 N$$\\\\\r\n & $$F_{1,y}=F_1{\\cdot}\\sin \\alpha =20 N {\\cdot}
+      \\sin (25^\\circ ) =8,5 N$$\\\\\r\n& \\\\\r\n & $$F_{2,x}=F_2{\\cdot}\\cos
+      \\beta =50 N {\\cdot}\\cos (115^\\circ ) =-21,1 N$$\\\\\r\n& $$F_{2,y}=F_2{\\cdot}\\sin
+      \\beta =50 N {\\cdot} \\sin (115^\\circ ) =45,3 N$$\\\\\r\n & \\\\ \r\n & $$F_{3,x}=F_3{\\cdot}\\cos
+      \\gamma =30 N {\\cdot}\\cos (265^\\circ ) =-2,6 N$$\\\\\r\n& $$F_{3,y}=F_3{\\cdot}\\sin
+      \\gamma =30 N {\\cdot} \\sin (265^\\circ ) =-29,9 N$$\\\\\r\n& \\\\\r\n& 2.
+      Kraftkomponenten der Resultierenden berechnen: \\\\\r\n & \\\\\r\n& $$F_{R,x}=F_{1,x}+
+      F_{2,x}+ F_{3,x}$$\\\\\r\n & $$F_{R,x}= 18,1 N -21,1 N -2,6N=-5,6N$$\\\\\r\n&
+      \\\\\r\n& $$F_{R,y}=F_{1,y}+ F_{2,y}+ F_{3,y}$$\\\\\r\n & $$F_{R,y}= 8,5 N
+      +45,3 N -29,9N=-5,6N$$\\\\\r\n& \\\\\r\n & 3. Betrag der Resultierenden: \\\\\r\n
+      & \\\\\r\n& $$ F_R=\\sqrt{F_{R,x}^2+F_{R,y}^2} $$ \\\\\r\n & $$ F_R=\\sqrt{
+      (-5,9N)^2+(23,9N)^2} $$ \\\\\r\n & \\\\\r\n & 4. Winkel der Wirkungslinie der
+      Resultierenden zur x-Achse:\\\\\r\n& \\\\\r\n & $$ \\alpha=\\arctan\\frac{F_y}{F_x}
+      $$\\\\\r\n & $$ \\alpha=\\arctan\\frac{\\left|  23,9N \\right| }{\\left| -5,9\\right|
+      }= 76^\\circ $$\\\\\r\n"
+    picture: {fileID: 0}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize}\n\\item Video zum Zentralen Kraftsystem und resultierende
+      Kraft von \u201Cdie tm-Seite\u201D\r\n\\link{https://www.youtube.com/watch?v=jBnSdDbybwM
+      }\n\\item Video zum zentralen Kraftsystem von \u201Clernflix\u201D\r\n\\link{https://www.youtube.com/watch?v=O2eRg_Drc6c\r}\n\\end{itemize}"
+    picture: {fileID: 0}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: "07-MLEHandout_StarrerK\xF6rper"
+  m_EditorClassIdentifier: 
+  mleName: "Starrer K\xF6rper"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize}\n\\item Starre K\xF6rper sind Objekte, die sich
+      unter Krafteinwirkungen NICHT verformen.\n\\item Starre K\xF6rper sind Idealisierungen
+      und in der Realit\xE4t NICHT zu finden, da sich alle K\xF6rper unter Krafteinwirkungen
+      verformen.\n\\item Manche dieser Verformungen k\xF6nnen wir aber kaum wahrnehmen\n\\end{itemize}\r\n"
+    picture: {fileID: 0}
+  - title: "Warum verformen sich starre K\xF6rper unter Druckeinwirkung nicht?"
+    description: "\\begin{itemize}\n\\item Der starre K\xF6rper ist ein idealisierter
+      Zustand, der Voraussetzung ist f\xFCr Berechnungen in der Statik bzw. der Starrk\xF6rperstatik.
+      \r\n\\item Ob ein K\xF6rper als starrer K\xF6rper betrachtet werden kann, h\xE4ngt
+      vom Material und der Gr\xF6\xDFe der Krafteinwirkung ab.\r\n\\item Einige reale
+      Objekte lassen sich n\xE4herungsweise als starre K\xF6rper betrachten \u2013
+      ihre Verformungen unter Krafteinwirkung sind kaum wahrnehmbar z. B. \r\n\\begin{itemize}\n\\item
+      Stahltr\xE4ger\r\n\\item Steine\n\\end{itemize} \r\n\\item Grund f\xFCr die
+      geringe Verformung ist der atomare Aufbau \\rightarrow Atome sind eng und ohne
+      Fehlstellen angeordnet, was ein Verformen erschwert. \r\n\\item K\xF6rper,
+      welche eher nicht geeignet sind, um als starrer K\xF6rper dargestellt zu werden,
+      sind z. B.\r\n\\begin{itemize}\n\\item ein Schwamm\r\n\\item ein Anti-Stress-Ball.\r\n\\end{itemize}\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: a3110122717f7c94480e04b610029d4f, type: 3}
+  - title: "F\xFCr welche Axiome ist der starre K\xF6rper Voraussetzungen und warum?"
+    description: "\\begin{itemize}\n\\item Gleichgewichtsaxiom\n\\item Linienfl\xFCchtigkeitsaxiom\n\r\\end{itemize}\nW\xFCrden
+      sich die K\xF6rper verformen, kann zum einen \n\\begin{itemize}\n\\item das
+      Gleichgewicht und zum anderen \n\\item die gleiche Wirkung auf den K\xF6rper
+      durch Verschieben der Kraft auf der Wirkungslinie nicht gew\xE4hrleistet werden.\r\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: ' Wo finde ich weitere Materialien?'
+    description: "\\begin{itemize}\n\\item \nhttps://physik.cosmos-indirekt.de/Physik-Schule/Starrer_K%C3%B6rper\r\n[ausf\xFChrliche
+      Beschreibung von starren K\xF6rpern ihrer Typologie und Merkmale]\r\n\r\n\\item
+      https://www.youtube.com/watch?v=TTrup4zYUcw\r\n[Video mit Rechenbeispiel mit
+      starren K\xF6rpern]\r\n\r\n\\item \thttps://www.didaktik.physik.uni-muenchen.de/materialien/grundlagen/mechanik/6_starrekoerper.pdf\r\n[ausf\xFChrliche
+      Beschreibung von starren K\xF6rpern und wie Kr\xE4fte am starren K\xF6rper
+      wirken]\r\n\r\\end{itemize}"
+    picture: {fileID: 0}

@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: d9159aa752f4aac4cae1d0bc9002a2d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2295999976589941346
+    second: Stadthalle - Cottbus_0
+  - first:
+      213: -6325202443958505551
+    second: Stadthalle - Cottbus_1
+  - first:
+      213: 1726168393528879243
+    second: Stadthalle - Cottbus_2
+  - first:
+      213: -1483032705978536456
+    second: Stadthalle - Cottbus_3
+  - first:
+      213: -8778994050518065426
+    second: Stadthalle - Cottbus_4
+  - first:
+      213: -7824140487492703180
+    second: Stadthalle - Cottbus_5
+  - first:
+      213: -7426468948890129274
+    second: Stadthalle - Cottbus_6
+  - first:
+      213: 955547754758481197
+    second: Stadthalle - Cottbus_7
+  - first:
+      213: -616419181188521292
+    second: Stadthalle - Cottbus_8
+  - first:
+      213: -166894212598136134
+    second: Stadthalle - Cottbus_9
+  - first:
+      213: -7405258629862654773
+    second: Stadthalle - Cottbus_10
+  - first:
+      213: -3138582794255217600
+    second: Stadthalle - Cottbus_11
+  - first:
+      213: -7512592264952915285
+    second: Stadthalle - Cottbus_12
+  - first:
+      213: -1303085277568659706
+    second: Stadthalle - Cottbus_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 143
+        width: 3044
+        height: 1290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ad2f060d70ddf10800000000000000
+      internalID: 2295999976589941346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_1
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1762
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfab6bb3ed5838a0800000000000000
+      internalID: -6325202443958505551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_2
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1916
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88abce120594f710800000000000000
+      internalID: 1726168393528879243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_3
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1760
+        width: 105
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdecd18c953b6be0800000000000000
+      internalID: -1483032705978536456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_4
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1916
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee5a959c6fba2680800000000000000
+      internalID: -8778994050518065426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_5
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1767
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cee324ea11b6390800000000000000
+      internalID: -7824140487492703180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_6
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1770
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c6fed86d1efe890800000000000000
+      internalID: -7426468948890129274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_7
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1779
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d252d48ce99c24d00800000000000000
+      internalID: 955547754758481197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_8
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1776
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b26588450a0277f0800000000000000
+      internalID: -616419181188521292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_9
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1929
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2050f09921fadf0800000000000000
+      internalID: -166894212598136134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_10
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1784
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccf329c28c3b3990800000000000000
+      internalID: -7405258629862654773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_11
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1938
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cc34ad3938174d0800000000000000
+      internalID: -3138582794255217600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_12
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1790
+        width: 60
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa52217329edb790800000000000000
+      internalID: -7512592264952915285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadthalle - Cottbus_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1548
+        width: 727
+        height: 596
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f8a7618d28aede0800000000000000
+      internalID: -1303085277568659706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 23-Handout_Moment
+  m_EditorClassIdentifier: 
+  mleName: Moment einer Kraft
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\n    \\item Das Moment beschreibt die Drehwirkung
+      einer Kraft, eines Kr\xE4ftepaares oder sonstigen Kr\xE4ftesystemen auf einen
+      K\xF6rper.\n    \\item Das Moment $M$ einer Kraft F wirkt um einen Bezugspunkt
+      A.\n    \\item Das Moment $M$ ergibt sich aus dem Produkt der Kraft $F$ und
+      dem Hebelarm $a$: \n$$M =F{\\cdot}a$$ \n\\item Das resultierende Moment M_R
+      ergibt sich aus der Summe aller Einzelmomente.\n\\end{enumerate}"
+    picture: {fileID: 0}
+  - title: Was ist ein Moment?
+    description: "Ein Moment ist eine physikalische Gr\xF6\xDFe und beschreibt die
+      Drehwirkung einer Kraft, eines Kr\xE4ftepaares oder sonstigen Kr\xE4ftesystems
+      auf einen K\xF6rper. Ein Drehmoment versetzt einen K\xF6rper in Rotation, also
+      in Drehung.\r\nDas Moment wird in einer Zeichnung durch einen gekr\xFCmmten
+      Pfeil dargestellt, sodass die Drehwirkung deutlich wird.\r\n"
+    picture: {fileID: 0}
+  - title: Wie wird das Moment einer Kraft berechnet?
+    description: "Eine Kraft mit einem Abstand a zu einem Bezugspunkt bewirkt eine
+      \\textbf{Drehbewegung}, also ein \\textbf{Moment}. Dabei bestimmt die Richtung
+      der Kraft die \\textbf{Drehrichtung}. Das Moment einer Kraft wirkt um einen
+      \\textbf{Bezugspunkt}, welcher frei w\xE4hlbar ist. Um zu kennzeichnen, um
+      welchen Bezugspunkt das Moment wirkt, kann die Bezeichnung des Bezugspunktes
+      in den hochgestellten Index geschrieben werden, z.B. Das Moment um den Bezugspunkt
+      A wird $M^A$ genannt.\\\\\n\nDas Moment einer Kraft berechnet sich aus dem
+      Produkt der \\textbf{wirkenden Kraft $F$}  und des \\textbf{Hebelarms $a$}.
+      Der Hebelarm $a$ ist der senkrechte Abstand, also der k\xFCrzeste Abstand,
+      zwischen der Wirkungslinie der Kraft und dem Bezugspunkt. \nDie Formel zur
+      Berechnung lautet: \n $$M=F{\\cdot}a$$\n\\underline{Beispiele:} Person auf
+      einer Wippe, Wasserm\xFChle, Kaffeem\xFChle, Schraubenzieher/Inbusschl\xFCssel,
+      Flaschen\xF6ffner, T\xFCrklinke, Reifenwechsel"
+    picture: {fileID: 0}
+  - title: Wie wird das Vorzeichen des Moments bestimmt?
+    description: "Das Vorzeichen des Moments kann \xFCber die \\textbf{rechte Hand-Regel} 
+      bestimmt werden:\n\\begin{itemize}\n    \\item der Daumen der rechten Hand
+      zeigt in die positive Drehachsenrichtung \n    \\item die gekr\xFCmmten Finger
+      zeigen in die positive Drehrichtung\n\\end{itemize} \\\\\n\n\n\\underline{Beispiel:
+      Kaffeem\xFChle}\n\\begin{itemize}\n    \\item Um die Bohnen zu mahlen wird
+      der Griff oben gegen den Uhrzeigersinn gedreht.\n    \\item Die Wirkung der
+      Kraftaus\xFCbung ist eine Drehbewegung (ein Moment). \n    \\item Die Drehachse
+      bei der Kaffeem\xFChle liegt mittig und zeigt senkrecht nach oben.\n    \\item
+      Wenn der Daumen der rechten Hand nach oben zeigt, dann zeigen die gekr\xFCmmten
+      Finger in die Richtung, in die sich der Griff dreht.\n    \\item Das Moment,
+      welches durch die Kraft F verursacht wird, hat somit ein positives Vorzeichen.\n\\end{itemize} "
+    picture: {fileID: 0}
+  - title: Was ist wenn mehrere Momente wirken?
+    description: 'Wenn mehrere Momente wirken, berechnet sich das resultierende Moment
+      aus der \textbf{Summe aller Einzelmomente}:
+
+
+
+      $$M_{res}=\sum^n_{i=1}M_i$$
+
+'
+    picture: {fileID: 0}
+  - title: 'Beispielrechnung: '
+    description: "Beim Reifenwechsel m\xFCssen die Schrauben gelockert werden. Wie
+      gro\xDF ist die ben\xF6tigte Kraft, wenn die Schraube mit 110 Nm angezogen
+      wurde und der Drehmomentschl\xFCssel eine L\xE4nge von 30 cm hat?\\\\\r\n\r\n\\begin{tabulator}\ngeg:
+      & $M=110 Nm$ \\\\\r\n & $a=30cm=0,3m$ \\\\\r\n & \\\\\r\nges: & $F$ in N \\\\\r\n
+      & \\\\\r\nL\xF6s: & $M=F{\\cdot}a$\\\\\r\n & $F=\\frac{M}{a}$\\\\\r\n & $F=\\frac{110Nm}{0,3m}=366,7N$\r\n\\end{tabulator}\r\n"
+    picture: {fileID: 0}

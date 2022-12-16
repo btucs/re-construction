@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1063f0c700470f4ab0c3f71f8a20ec9, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  uid: 8162e791-11bc-43bb-ac26-e30428b5d104
+  title: "Gegenst\xE4nde"
+  progressText: "Kleidungsst\xFCcke erworben"
+  description: "Kaufe neue Kleidungsst\xFCcke im Shop, um Punkte f\xFCr diese Errungenschaften
+    zu erhalten."
+  icon: {fileID: 5985133977673414769, guid: 3bd5c213d0a84194385e1ce811a6567d, type: 3}
+  category: 2
+  levels:
+  - threshold: 7
+    levelName: "Gelegenheitsk\xE4ufer"
+  - threshold: 12
+    levelName: Stufe 2
+  - threshold: 15
+    levelName: Stufe 3
+  - threshold: 25
+    levelName: Stufe 4
+  tint: {r: 1, g: 0.7798295, b: 0.75, a: 1}

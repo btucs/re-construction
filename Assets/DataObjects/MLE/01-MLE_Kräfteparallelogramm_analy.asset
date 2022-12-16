@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: "01-MLE_Kr\xE4fteparallelogramm_analy"
+  m_EditorClassIdentifier: 
+  uid: 7c3292a5-1836-4d5d-950e-e12b42479b22
+  mleName: "Kr\xE4fteparallelogramm analytisch l\xF6sen"
+  mleHandout: {fileID: 11400000, guid: 369df3e6180a5244bbe45260241440d2, type: 2}
+  mleIntroText: "Was Parallelogramme mit Kr\xE4ften zu tun haben? Das wird hier rechnerisch
+    dargestellt."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:4c7d2bac0331a8d1f932f8ab02e5fbe0_1645191084.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wann ist das Kr\xE4fteparallelogramm anzuwenden? Es findet Anwendung,
+        wenn \u2026"
+      choices:
+      - name: "... zwei Kr\xE4fte F1 und F2 an einem gemeinsamen Angriffsunkt wirken
+          und die \xE4quivalente Ersatzkraft bestimmt werden soll."
+        isAnswer: 1
+        feedbackMessage: "Die Ersatzkraft ist auch eine resultierende Kraft. Beim
+          Sonderfall von Kr\xE4ften auf einer Wirkungslinie k\xF6nnen die Kr\xE4fte
+          einfach addiert bzw. subtrahiert werden."
+      - name: ... aus einer Kraft zwei Kraftkomponenten bestimmt werden sollen.
+        isAnswer: 0
+        feedbackMessage: "Nein, leider nicht. Das ist nicht die Aufgabe des Kr\xE4fteparallelogramms.
+          Das Ziel ist das Reduzieren von Kr\xE4ften."
+      - name: "... zwei Kr\xE4fte F1 und F2 an zwei unterschiedlichen Angriffspunkten
+          auf parallelen Wirkungslinien liegen."
+        isAnswer: 0
+        feedbackMessage: "Nope. W\xFCrden die Kr\xE4fte noch entgegengesetzt gerichtet
+          sein, w\xFCrde sich der K\xF6rper sogar drehen."
+      - name: "... zwei Kr\xE4fte an einem Angriffspunkt auf gleicher Wirkungslinie
+          liegen, den gleichen Betrag haben und einander entgegengesetzt gerichtet
+          sind."
+        isAnswer: 0
+        feedbackMessage: Nee nee, diese Definition beschreibt das Gleichgewichtsaxiom.
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:9aa66034f6d7511577e9fca0677c810b_1645191105.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie lautet die Formel f\xFCr die Ersatzkraft aus Ersatzkraftkomponenten?"
+      choices:
+      - name: "FR = \u221A(RX\xB2 + RY\xB2)"
+        isAnswer: 1
+        feedbackMessage: Genau.Die zwei Komponenten und die Ersatzkraft spannen ein
+          rechtwinkliges Dreieck auf, sodass der Satz des Pythagoras angewandt werden
+          kann.
+      - name: "FR = \u221A(RX\xB2 * RY\xB2)"
+        isAnswer: 0
+        feedbackMessage: Na, das ist noch nicht ganz richtig. Der Satz des Pythagoras
+          ist die richtige Wahl, aber in der Formel ist ein Fehler drin.
+      - name: "\u03A9= arctan(RY / RX)"
+        isAnswer: 0
+        feedbackMessage: Leider nicht. Diese Formel hat auch etwas mit der Ersatzraft
+          zu tun, aber hier wird nicht die Ersatzkraft bestimmt, sondern der Winkel
+          der Ersatzkraft.
+      - name: "FR = \u221A(RX\xB2 - RY\xB2)"
+        isAnswer: 0
+        feedbackMessage: Nein, da war ein kleines Fehlerteufelchen am Werk. Mit dem
+          Satz des Pythagoras liegst du richtig, aber die Formel stimmt noch nicht
+          ganz.
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:9d30db0d3cc2d47e7cc79ef727323fc4_1645191165.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Welcher Zusammenhang besteht zwischen dem Satz des Pythagoras und
+        der Ersatzkraft?
+      choices:
+      - name: Mit dem Satz des Pythagoras und den Ersatzkraftkomponenten kann die
+          Ersatzkraft bestimmt werden.
+        isAnswer: 1
+        feedbackMessage: Genau! Die Ersatzkraftkomponenten und die Ersatzkraft spannen
+          ein rechtwinkliges Dreieck auf!
+      - name: Es gibt keinen.
+        isAnswer: 0
+        feedbackMessage: Na aber. Die Ersatzkraftkomponenten und die Ersatzkraft
+          spannen doch ein rechtwinkliges Dreieck auf.
+      - name: Mit dem Satz des Pythagoras kann der Winkel der Ersatzkraft bestimmt
+          werden.
+        isAnswer: 0
+        feedbackMessage: "Nein, das ist falsch. Der Winkel kann mit \u03A9 = arctan(RY
+          / RX) berechnet werden. Beim Satz des Pythagoras wird ein rechtwinkliges
+          Dreieck ben\xF6tigt. Was sind die \"Seiten\" bei der Ersatzkraft?"
+      - name: "Mit dem Satz des Pythagoras k\xF6nnen die Einzelkr\xE4fte in ihre
+          Einzelkraftkomponenten zerlegt werden, die f\xFCr die Bestimmung der Ersatzkraft
+          ben\xF6tigt werden."
+        isAnswer: 0
+        feedbackMessage: "Hmm, das ist eher untypisch. Die Einzelkraftkomponenten
+          werden \xFCber den Sinus oder Cosinus bestimmt. Hier werden aber die Einzelkraftkomponenten
+          f\xFCr die Ersatzkraftkomponenten ben\xF6tigt."
+  requiredProgress: []

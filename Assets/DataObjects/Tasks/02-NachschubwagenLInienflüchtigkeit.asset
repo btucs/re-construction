@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: "02-NachschubwagenLInienfl\xFCchtigkeit"
+  m_EditorClassIdentifier: 
+  uid: 21ed1873-5c0e-470a-afb4-50f572a6e4f7
+  taskName: Transportalternativen begutachten
+  teaserDescription: "Schieben oder ziehen? Die Zeit ist in einer Krise immer knapp.
+    Kannst du uns unterst\xFCtzen, herauszufinden, welche Art besser funktioniert?
+    Damit wir richtig durchstarten k\xF6nnen?"
+  teaserSolvedCorrect: "Perfekt gel\xF6st - die beiden Helfer haben sich, via \"Schnick
+    Schnack Schnuck\", auf Ziehen geeinigt."
+  teaserSolvedWrong: "Deine Skizze wurde angefochten, da diese nicht mit der gef\xFChlten
+    Kraft \xFCbereinstimmt. Kannst du erneut eine Zeichnung machen, damit der Transport
+    endlich startet?"
+  fullDescription: "Stelle in einer Skizze die Kraftwirkung f\xFCr Schieben und Ziehen
+    dar."
+  teachAndPlayDescription: Das VR-System zeigt einen Nachschubwagen der transportiert
+    werden soll. Empfiehlt es sich, ihn zu schieben oder zu ziehen? Zeige, dass es
+    vollkommen egal ist.
+  topic: {fileID: 11400000, guid: 5264d36122743ef48ad795d533d34fa8, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: -8358376290293990467, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-2 2 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 'Punkt, an dem der Wagen geschoben wird. '
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-2 2 0)
+    - name: P_2
+      icon: {fileID: -486457220413099989, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (0.5 2 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Punkt, an dem der Wagen gezogen wird.
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (0.5 2 0)
+    - name: Betrag_F_1
+      icon: {fileID: 7839046321211688288, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: Betrag<sub>F</sub><sub>1</sub>
+      type: 0
+      textValue: 200
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Kraftbetrag, der auf den geschobenen Wagen links wirkt.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 
+    - name: alpha
+      icon: {fileID: 0}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "0 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Schiebewinkel.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "0 \xB0"
+    dummyInputs: []
+    output:
+      name: F_2
+      icon: {fileID: -1951599773514015282, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: F<sub>2</sub>
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+    dialogs:
+    - "Das ist eine knifflige Frage. Besser ziehen oder schieben? Die Kr\xE4fte wirken
+      auf jeden Fall in ~i:P_1|P1~ oder ~i:P_2|P2~."
+    - "Wir wollen besonders schnell im Winkel ~i:alpha|Alpha~ zum Einsatzort, um
+      den Schaden zu begrenzen. Deswegen hei\xDFt es, keine Zeit zu verlieren."
+  - npc: {fileID: 11400000, guid: 1bd5a7685d537ea418fa58ee5c0ae31b, type: 2}
+    dialogs:
+    - Push oder pull? Hier wird es aber auch nie langweilig. Zeichne die linke ~i:Betrag_F_1|schiebende
+      Kraft~ und stelle sie dann in Bezug zur ~o:F_2|Ziehenden~.
+  hashtags:
+  - kraft
+  connectedObject: {fileID: 11400000, guid: 2d026fe163f88374a96b9021035f9f79, type: 2}

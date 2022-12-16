@@ -1,0 +1,30 @@
+title: Start
+tags: 
+colorID: 0
+position: 222,32
+---
+Newton Tag {$playername}! Willkommen in unserer Zentrale.
+Heute beginnt deine Grundausbildung, die dich auf alle Widrigkeiten und kommende Missionen vorbereitet. 
+Ich bin dafür deine Ansprechperson.
+Wir haben dir auf unserer Social Media Plattform ein Profil erstellt. Schau es dir einmal an.
+<<event_continue>>
+===
+title: Questlog
+tags: 
+colorID: 8
+position: 264,349
+---
+Da draußen ist die Hölle los. Unser Team ist 24/7 im Einsatz. Sobald du das Wesentliche drauf hast, schicke ich dich in den Außendienst.
+Wir stellen dir eine Übersicht deiner aktuellen Missionen zur Verfügung. Guck mal rein, bevor wir weitermachen.
+<<event_continue>>
+===
+title: End
+tags: 
+colorID: 8
+position: 284,450
+---
+Ich muss jetzt los. Schau doch mal, ob du etwas erledigen und so erste Erfahrungen sammeln kannst.
+Wenn du Hilfe oder jemanden zum Austauschen brauchst, sag einfach Bescheid. Ich bin immer ansprechbar.
+Du findest mich als Hologramm immer oben rechts - Bis dann!
+<<event_continue>>
+===

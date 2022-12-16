@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 01-SwingDummy
+  m_EditorClassIdentifier: 
+  uid: 95034c8b-c9a4-461a-8cb9-cf6435d41ac6
+  objectName: Therapieschaukel
+  objectDescription: "Ob Spiel, Spa\xDF oder Training basaler K\xF6rperfunktionen,
+    so eine Schaukel sollte jede und jeder daheim haben. Sie ist gerade zur Wiedererlangung
+    bestimmter F\xE4higkeiten, nach z. B. Unf\xE4llen, interessant."
+  objectPrefab: {fileID: 197212947314206028, guid: 979bb3b4e61165d4698b33ac7d2b42ad,
+    type: 3}
+  objectThumbnail: {fileID: 21300000, guid: f0361afc890cf6144a0857bc7ca64cf5, type: 3}
+  cameraOffset: {x: 0, y: 0, z: 0}
+  markerOffset: {x: 0, y: -0.75}
+  cameraZoom: 1
+  taskInfos:
+  - task: {fileID: 11400000, guid: 7ac9341a7cf502f469c8060833ee5c72, type: 2}
+    taskButtonPosition: {x: 0, y: 1.5}
+    isRepeatable: 0
+    hiddenVariables:
+    - itemData:
+        name: L_1
+        icon: {fileID: 3825516110488602536, guid: fa7e64065b0593c44bb8a5ad829123b1,
+          type: 3}
+        textMeshProName: L<sub>1</sub>
+        type: 0
+        textValue: 1 m
+        startPointText: 
+        replacementModelType: 1
+        shortDescription: "L\xE4nge des Seiles rechts."
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+          eines K\xF6rpers in einer Richtung bzw Abstand zwischen zwei Objekten."
+        textMeshProValue: 1
+      localAnalyzePosition: {x: 0, y: 0, z: 0}
+    - itemData:
+        name: L_2
+        icon: {fileID: 8056862562731791995, guid: fa7e64065b0593c44bb8a5ad829123b1,
+          type: 3}
+        textMeshProName: L<sub>2</sub>
+        type: 0
+        textValue: 1 m
+        startPointText: 
+        replacementModelType: 1
+        shortDescription: "L\xE4nge des Seiles links."
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+          eines K\xF6rpers in einer Richtung bzw Abstand zwischen zwei Objekten."
+        textMeshProValue: 2
+      localAnalyzePosition: {x: 2, y: 0, z: 0}
+    - itemData:
+        name: M
+        icon: {fileID: -7449996239595432829, guid: fa7e64065b0593c44bb8a5ad829123b1,
+          type: 3}
+        textMeshProName: M
+        type: 0
+        textValue: 80 kg
+        startPointText: 
+        replacementModelType: 0
+        shortDescription: Masse des Testdummies.
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit
+          eines K\xF6rper gegen Beschleunigungskr\xE4fte beschreibt."
+        textMeshProValue: 3
+      localAnalyzePosition: {x: 4, y: 0, z: 0}
+    - itemData:
+        name: L_3
+        icon: {fileID: -6008964520614680638, guid: fa7e64065b0593c44bb8a5ad829123b1,
+          type: 3}
+        textMeshProName: L<sub>3</sub>
+        type: 0
+        textValue: 0.3 m
+        startPointText: 
+        replacementModelType: 2
+        shortDescription: "L\xE4nge des Sitzbrettes der Schaukel."
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+          eines K\xF6rpers in einer Richtung bzw Abstand zwischen zwei Objekten."
+        textMeshProValue: 4
+      localAnalyzePosition: {x: 6, y: 0, z: 0}

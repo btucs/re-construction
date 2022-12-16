@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_Gewichtskraft
+  m_EditorClassIdentifier: 
+  uid: 64c5c765-9e06-4a6d-ba3d-49c845cd92fa
+  mleName: Gewichtskraft
+  mleHandout: {fileID: 11400000, guid: e7f0bd51f37044d46af12051c425f2ad, type: 2}
+  mleIntroText: Sind Masse und Gewicht eigentlich das Gleiche? Hier findest du die
+    Antwort.
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:6838d90df23a3fc0f0196e5c207e9db5_1638274994.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wie berechne ich die Gewichtskraft?
+      choices:
+      - name: Gewichtskraft = Masse * Erdbeschleunigung
+        isAnswer: 1
+        feedbackMessage: "Das ist richtig. Du hast die richtige Formel ausgew\xE4hlt.
+          Die Formel lautet Fg = m*g"
+      - name: Gewichtskraft = Masse * Umfang
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Durch den Umfang eines K\xF6rpers
+          kannst du NICHT seine Gewichtskraft berechnen."
+      - name: Gewichtskraft = Zeit * Umfang
+        isAnswer: 0
+        feedbackMessage: "Da hast du dich geirrt. Sowohl durch die Komponente Zeit
+          als auch durch den Umfang eines K\xF6rpers kannst du keine Gewichtskraft
+          berechnen."
+      - name: Gewichtskraft = Masse * Zeit
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. F\xFCr die Berechnung der Gewichtskraft
+          eines K\xF6rpers brauchst du keine Zeitangaben."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:51a09526060ca070d9f434337d1ce342_1638277481.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Was ist der Unterschied zwischen Gewicht(skraft) und Masse?
+      choices:
+      - name: "Die Masse eines K\xF6rpers ist \xFCberall gleich, das Gewicht nicht."
+        isAnswer: 1
+        feedbackMessage: "Du liegst richtig. Das Gewicht beschreibt eigentlich die
+          Gewichtskraft, die wirkt, wenn wir auf einer Waage stehen und ist abh\xE4ngig
+          von der Erdbeschleunigung. Auf dem Mond haben wir ein anderes \u201EGewicht\u201C,
+          da die Beschleunigung anders ist."
+      - name: "Es gibt keinen Unterschied zwischen Masse und Gewicht. Die Begriffe
+          k\xF6nnen synonym verwendet werden."
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Die Masse eines K\xF6rpers und Das
+          Gewicht eines K\xF6rpers sind\nunterschiedliche Konzepte."
+      - name: "Das Gewicht eines K\xF6rpers ist stets h\xF6her als seine Masse."
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Die Masse eines K\xF6rpers und das
+          Gewicht eines K\xF6rpers sind unterschiedliche Konzepte."
+      - name: "Das Gewicht eines K\xF6rpers ist stets geringer als seine Masse."
+        isAnswer: 0
+        feedbackMessage: "Leider nicht korrekt. Je nachdem, wo sich der K\xF6rper
+          befindet, kann das Gewicht auch gr\xF6\xDFer als seine Masse sein."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:92640f288667caa49743fc3b18ea1d49_1638277535.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Welche der folgenden Aussagen zur Fallbeschleunigung ist richtig?
+      choices:
+      - name: "Die Fallbeschleunigung ist an einem Ort f\xFCr alle K\xF6rper gleich
+          gro\xDF."
+        isAnswer: 1
+        feedbackMessage: "Genau. Die Fallbeschleunigung ist abh\xE4ngig vom Abstand
+          zum Erdmittelpunkt und ist somit an unterschiedlichen Punkten auf der Erde
+          unterschiedlich gro\xDF. An einem konkreten Ort ist die Fallbeschleunigung
+          aber f\xFCr alle K\xF6rper gleich gro\xDF."
+      - name: "Die Fallbeschleunigung ist an jedem Ort der Erde gleich gro\xDF."
+        isAnswer: 0
+        feedbackMessage: Naja, nicht so ganz! Da die Erde keine perfekte Kugelgestalt
+          hat, ist die Fallbeschleunigung an unterschiedlichen Orten der Erde auch
+          unterschiedlich.
+      - name: "Die Fallbeschleunigung ist von der Gr\xF6\xDFe des K\xF6rpers abh\xE4ngig."
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Die Fallbeschleunigung ist nicht
+          von der Beschaffenheit des K\xF6rpers abh\xE4ngig. Dass K\xF6rper, unterschiedlicher
+          Beschaffenheit, unterschiedlich schnell fallen, ist auf den Luftwiderstand
+          zur\xFCckzuf\xFChren."
+      - name: Es gibt auch Planeten, auf denen Fallbeschleunigung negativ ist.
+        isAnswer: 0
+        feedbackMessage: "Neeee! Leider nicht wirklich. Dies w\xFCrde bedeuten, dass
+          sich zwei Massen absto\xDFen und nicht anziehen."
+  requiredProgress:
+  - {fileID: 0}

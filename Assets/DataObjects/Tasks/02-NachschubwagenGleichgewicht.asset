@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02-NachschubwagenGleichgewicht
+  m_EditorClassIdentifier: 
+  uid: 18db5368-28fd-4307-b534-715d6700a18e
+  taskName: Stillstand aufheben
+  teaserDescription: "Der Eine schiebt links - der Andere rechts. Es geht nicht vorw\xE4rts
+    und nicht zur\xFCck. Handelt es sich hier um Slapstick?! Greife mit einer Skizze
+    ein und l\xF6se das Missgeschick, damit die hei\xDF ersehnte Ware endlich ankommt."
+  teaserSolvedCorrect: "Na endlich! Kommunikationsproblem gel\xF6st, der Nachschubwagen
+    konnte an die ben\xF6tigte Stelle geliefert werden."
+  teaserSolvedWrong: "Die bisherige Skizze hat nicht mit den Empfindungen \xFCbereingestimmt.
+    Der Nachschubwagen steckt noch immer fest, die Tragikkom\xF6die geht weiter. "
+  fullDescription: "Warum geht es nicht vorw\xE4rts? Hilf mit einer Zeichnung, das
+    Missverst\xE4ndnis aufzukl\xE4ren."
+  teachAndPlayDescription: Das VR-System zeigt zwei Personen, die gemeinsam einen
+    Nachschubwagen transportieren wollen. Sie Ziehen in entgegengesetzte Richtungen
+    und der Wagen steht still. Zeige ihnen, dass der Wagen im Gleichgewicht ist.
+  topic: {fileID: 11400000, guid: a9178f4711b157145a6a8987e6cc2891, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 20
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: -8841563487002947818, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-5 2 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Punkt, von der die Kraft des linken Spa\xDFvogels ausgeht. "
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-5 2 0)
+    - name: alpha
+      icon: {fileID: 5200539816831931210, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "0 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ausrichtung der Zugrichtung vom linken Spa\xDFvogel."
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "0 \xB0"
+    - name: Betrag_F_1
+      icon: {fileID: -736677809926102549, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: Betrag<sub>F</sub><sub>1</sub>
+      type: 0
+      textValue: 60 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Kraftbetrag, mit dem der linke Spa\xDFvogel zieht."
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 60 N
+    dummyInputs: []
+    output:
+      name: F_1
+      icon: {fileID: -736677809926102549, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: F<sub>1</sub>
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  - inputs:
+    - name: P_2
+      icon: {fileID: -619596832456905956, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+        type: 3}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (0 2 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Punkt, an dem der rechte Spa\xDFvogel schiebt. "
+      definition: 
+      textMeshProValue: (0 2 0)
+    dummyInputs: []
+    output:
+      name: F_2
+      icon: {fileID: 0}
+      textMeshProName: F<sub>2</sub>
+      unit: 6
+      textMeshProUnit: 
+      expectedStartingPointText: (3 2 0)
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+    dialogs:
+    - "Schaut euch die mal an! Ein wissenschaftlich hoch interessantes Ph\xE4nomen.
+      Oder einfach nur seltsam? Kannst du das vorherrschende Gleichgewicht darstellen?"
+    - "Brille links schiebt mit ~i:Betrag_F_1|100 N~ und einem Winkel ~i:alpha|0
+      \xB0~. Zopf hat nat\xFCrlich die entgegengesetzten Werte."
+    - "\u2026 Naja, so viel Verwirrung kann bei dem ganzen Chaos hier schon mal passieren.
+      Schnell her mit den jeweiligen Kraftpfeilen von ~o:F_1|Brille~ und ~o:F_2|Zopf~
+      und der Transport kann weitergehen."
+  - npc: {fileID: 11400000, guid: 1bd5a7685d537ea418fa58ee5c0ae31b, type: 2}
+    dialogs:
+    - "Das macht mich really, really angry, dass es nicht vorw\xE4rts geht... Das
+      kann doch nicht deren Ernst sein! Wir haben hier doch keine Zeit f\xFCr Komik! "
+    - "Naja, jedenfalls ist der vorherrschende Ausgangspunkt von Brille ~i:P_1|P1~
+      und der Angriffspunkt von Zopf ~i:P_2|P2~. Ich hoffe, die meinen das als Spa\xDF,
+      um uns aufzumuntern\u2026"
+  hashtags:
+  - "kr\xE4fte"
+  connectedObject: {fileID: 11400000, guid: 5892a7b6e8e0eb6408d2b81d69738b22, type: 2}

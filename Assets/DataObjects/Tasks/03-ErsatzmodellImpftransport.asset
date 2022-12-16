@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 03-ErsatzmodellImpftransport
+  m_EditorClassIdentifier: 
+  uid: bb8064f4-1c26-4225-8e48-e0dcd5602cf3
+  taskName: 'Impftransport sichern '
+  teaserDescription: "Der Transport von Impfstoffen wird dringend erwartet und bedarf
+    einer besonderen Sicherung. Dabei ist es noch unsicher, ob die \xD6sen der Belastung
+    standhalten. Eine Zeichnung k\xF6nnte die Unsicherheiten schnell l\xF6sen.\r"
+  teaserSolvedCorrect: "Die Zeichnung hat die anf\xE4ngliche Konfusion beruhigt.
+    Jetzt fehlt nur die Betrachtung der wirkenden Kr\xE4fte und der Transport kann
+    losgehen.\r\n"
+  teaserSolvedWrong: "Die Impfkampagne verz\xF6gert sich. Es bestehen noch Ungereimtheiten
+    bei der Sicherung des Impfguts.\n"
+  fullDescription: "Der Transport wichtiger Medikamenten in alten Feuerwehrw\xE4gen
+    muss gesichert werden. Dabei ist es noch unsicher, ob die \xD6sen der Belastung
+    standhalten. \r\n"
+  teachAndPlayDescription: "Die Trainingsanlage zeigt den Transport von medizinischen
+    Hilfsg\xFCtern in einem Pandemieszenario. Erstelle eine Zeichnung, um sicherzustellen,
+    dass alle Bauteile den Anforderungen entsprechen."
+  topic: {fileID: 11400000, guid: 990a9b3680e5f38479322b420ba65074, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 3
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: L_1
+      icon: {fileID: -6373758836650176861, guid: b6748bbc979be6f4680c7cd411376a40,
+        type: 3}
+      textMeshProName: L<sub>1</sub>
+      type: 0
+      textValue: 0.7 m
+      startPointText: 
+      replacementModelType: 1
+      shortDescription: "L\xE4nge der Kette 1 des Hebezeugs."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1 m
+    - name: L_2
+      icon: {fileID: 8736862650937199311, guid: b6748bbc979be6f4680c7cd411376a40,
+        type: 3}
+      textMeshProName: L<sub>2</sub>
+      type: 0
+      textValue: 0.7 m
+      startPointText: 
+      replacementModelType: 1
+      shortDescription: "L\xE4nge der Kette 2 des Hebezeugs."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1 m
+    - name: m
+      icon: {fileID: -7615409040711000743, guid: b6748bbc979be6f4680c7cd411376a40,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 50 kg
+      startPointText: 
+      replacementModelType: 0
+      shortDescription: Masse der Medizinkiste.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 500 kg
+    - name: L_3
+      icon: {fileID: 0}
+      textMeshProName: L<sub>3</sub>
+      type: 0
+      textValue: 0.6 m
+      startPointText: 
+      replacementModelType: 1
+      shortDescription: "L\xE4nge der Krankette."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 1.5 m
+    dummyInputs:
+    - name: v
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 50 km/h^2
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Geschwindigkeit des Transports.
+      definition: "Die Geschwindigkeit ist eine vektorielle Gr\xF6\xDFe, die beschreibt,
+        wie viel Strecke, in einer bestimmten Zeit, zur\xFCckgelegt werden kann."
+      textMeshProValue: 
+    output:
+      name: E
+      icon: {fileID: -3116505895780933312, guid: b6748bbc979be6f4680c7cd411376a40,
+        type: 3}
+      textMeshProName: E
+      unit: 20
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 2c966b344fbb51142a01900c8ce06fa9, type: 2}
+    dialogs:
+    - "Wir er\xF6ffnen das Feld am besten mit der ~o:E|Zeichnung~ aller notwendigen
+      technischen Elemente und der ~i:v|Transportgeschwindigkeit~.\r\n"
+    - "Ich habe hier schon etwas f\xFCr dich vorbereitet: Die Elemente ~i:L_1|Tragekette
+      links~, ~i:L_2|Tragekette rechts~, ~i:m|Medizinkiste~ und ~i:L_3|Krankette~
+      liegen bereits vor.\r\n"
+    - 'Geht nicht - gibt''s nicht. Also dann, mit Karamba, an das ~o:E|Modell~.
+
+'
+  hashtags:
+  - 'seile '
+  - 'balken '
+  - "st\xE4be"
+  connectedObject: {fileID: 11400000, guid: 5dfacabd9601d7146b5c6b2c29fde325, type: 2}

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Cosinus
+  m_EditorClassIdentifier: 
+  headline: Cosinus
+  easy:
+    content: "Ein Dreieck besteht aus Seiten und Winkeln.\r\n\r\nDie Seiten und Winkel
+      sind voneinander abh\xE4ngig.\r\n\r\nDie Seiten und Winkel haben eine bestimmte
+      Abh\xE4ngigkeit.\r\n\r\nDer Cosinus beschreibt die Abh\xE4ngigkeiten der Seiten
+      und Winkel.\r\n\r\nDer Cosinus gilt nur f\xFCr das recht-winklige Dreieck.\r\n\r\nWelche
+      Seiten musst du betrachten?\r\n\r\n- Du musst die l\xE4ngste Seite betrachten.\r\n-
+      Die l\xE4ngste Seite hei\xDFt [Hypotenuse](glossary:Hypotenuse).\r\n\r\n- Du
+      musst auch die benachbarte Seite betrachten.\r\n  - Das ist die Seite neben
+      dem betrachteten Winkel.\r\n  - Die benachbarte Seite hei\xDFt [Kathete](glossary:Kathete).\r\n\r\nWelchen
+      Winkel musst du betrachten?\r\n\r\n- Du musst den eingeschlossenen Winkel betrachten.\r\n\r\n-
+      Der Winkel liegt zwischen der l\xE4ngsten Seite und der benachbarten Seite.\r\n\r\nWie
+      stellst du die Abh\xE4ngigkeiten der Seiten und Winkel dar?\r\n\r\n- Die Abh\xE4ngigkeiten
+      stellst du \xFCber den [Einheits-Kreis](glossary:Einheitskreis) dar.\r\n  -
+      Der Einheits-Kreis verbildlicht mathematische Funktionen.\r\n  - Der Einheits-Kreis
+      verbildlicht Funktionen am Dreieck.\r\n\r\nWie verwendest du den Einheits-Kreis?\r\n\r\n-
+      Du nimmst eine Ecke des Drei-Ecks.\r\n\r\n- Dann ziehst du um die l\xE4ngste
+      Seite einen Kreis.\r\n\r\n- Dann zeichnest du den [rechten Winkel](glossary:Rechter_Winkel)."
+    image: {fileID: 21300000, guid: f1d677dac24433845bc6f4a796397982, type: 3}
+    tmpContent: "Ein Dreieck besteht aus Seiten und Winkeln.\n\nDie Seiten und Winkel
+      sind voneinander abh\xE4ngig.\n\nDie Seiten und Winkel haben eine bestimmte
+      Abh\xE4ngigkeit.\n\nDer Cosinus beschreibt die Abh\xE4ngigkeiten der Seiten
+      und Winkel.\n\nDer Cosinus gilt nur f\xFCr das recht-winklige Dreieck.\n\nWelche
+      Seiten musst du betrachten?\n\n\u2022 Du musst die l\xE4ngste Seite betrachten.\n\n\u2022
+      Die l\xE4ngste Seite hei\xDFt <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>.\n\n\u2022
+      Du musst auch die benachbarte Seite betrachten.\n  \n  \u2022 Das ist die Seite
+      neben dem betrachteten Winkel.\n  \u2022 Die benachbarte Seite hei\xDFt <color=#131313><u><link=\"glossary:Kathete\">Kathete</link></u></color>.\n\nWelchen
+      Winkel musst du betrachten?\n\n\u2022 Du musst den eingeschlossenen Winkel
+      betrachten.\n\n\u2022 Der Winkel liegt zwischen der l\xE4ngsten Seite und der
+      benachbarten Seite.\n\nWie stellst du die Abh\xE4ngigkeiten der Seiten und
+      Winkel dar?\n\n\u2022 Die Abh\xE4ngigkeiten stellst du \xFCber den <color=#131313><u><link=\"glossary:Einheitskreis\">Einheits-Kreis</link></u></color>
+      dar.\n  \u2022 Der Einheits-Kreis verbildlicht mathematische Funktionen.\n 
+      \u2022 Der Einheits-Kreis verbildlicht Funktionen am Dreieck.\n\nWie verwendest
+      du den Einheits-Kreis?\n\n\u2022 Du nimmst eine Ecke des Drei-Ecks.\n\n\u2022
+      Dann ziehst du um die l\xE4ngste Seite einen Kreis.\n\n\u2022 Dann zeichnest
+      du den <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten Winkel</link></u></color>."
+  medium:
+    content: "Seiten und Winkel eines Dreiecks stehen immer im Verh\xE4ltnis zueinander.
+      Der Cosinus beschreibt das Verh\xE4ltnis zwischen [Hypotenuse](glossary:Hypotenuse),
+      [Kathete](glossary:Kathete) und einem eingeschlossenen Winkel im rechtwinkligen
+      Dreieck. Die Hypotenuse ist die l\xE4ngste Seite im rechtwinkligen Dreieck
+      und liegt gegen\xFCber des rechten Winkels. Die Katheten sind die an die Hypotenuse
+      angrenzenden Seiten.  "
+    image: {fileID: 21300000, guid: d4b8a2c01dc14794a9c23ba3d8e80de3, type: 3}
+    tmpContent: "Seiten und Winkel eines Dreiecks stehen immer im Verh\xE4ltnis zueinander.
+      Der Cosinus beschreibt das Verh\xE4ltnis zwischen <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>,
+      <color=#131313><u><link=\"glossary:Kathete\">Kathete</link></u></color> und
+      einem eingeschlossenen Winkel im rechtwinkligen Dreieck. Die Hypotenuse ist
+      die l\xE4ngste Seite im rechtwinkligen Dreieck und liegt gegen\xFCber des rechten
+      Winkels. Die Katheten sind die an die Hypotenuse angrenzenden Seiten."
+  scientific:
+    content: "Der Cosinus eines Winkels gibt das Verh\xE4ltnis der [Ankathete](glossary:Kathete)
+      zur [Hypotenuse](glossary:Hypotenuse) in  einem rechtwinkligen Dreieck wieder.
+      Die Verh\xE4ltnisse k\xF6nnen am [Einheitskreis](glossary:Einheitskreis) dargestellt
+      werden."
+    image: {fileID: 21300000, guid: a768e1bbaebfc7e408491f12f2190047, type: 3}
+    tmpContent: "Der Cosinus eines Winkels gibt das Verh\xE4ltnis der <color=#131313><u><link=\"glossary:Kathete\">Ankathete</link></u></color>
+      zur <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>
+      in  einem rechtwinkligen Dreieck wieder. Die Verh\xE4ltnisse k\xF6nnen am <color=#131313><u><link=\"glossary:Einheitskreis\">Einheitskreis</link></u></color>
+      dargestellt werden."
+  tmpHeadline: 

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02-SpeederKraftBerechnen
+  m_EditorClassIdentifier: 
+  uid: f07ea7eb-92e4-4530-99e7-bc0226d7abfd
+  taskName: Motorleistung bestimmen
+  teaserDescription: "Das Speedboot unterst\xFCtzt uns beim Transport von Hilfsg\xFCtern.
+    Die Berechnung der Kraft w\xFCrde helfen, das Ladevolumen zu spezifizieren.\r"
+  teaserSolvedCorrect: "Die Berechnung wurde bereits zur vollen Zufriedenheit durchgef\xFChrt.\r\n"
+  teaserSolvedWrong: "Bei der Berechnung der Kraft kam es zu Problemen. \r\n"
+  fullDescription: 'Finde heraus, mit welcher Kraft das Speedboot beschleunigt.
+
+'
+  teachAndPlayDescription: "Die Anlage simuliert den Transport von Hilfsg\xFCtern
+    mithilfe von Luftkissenfahrzeugen. Zur korrekten Sicherung der Waren muss berechnet
+    werden, mit welcher Kraft das Fahrzeugt beschleunigt."
+  topic: {fileID: 11400000, guid: 6be83b90b36d60e4c9232e18dd5b6f4b, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: m
+      icon: {fileID: -7172293193443976754, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 90 kg
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Masse des Speedboots.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 90 kg
+    - name: a
+      icon: {fileID: 5215909434076882201, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: a
+      type: 0
+      textValue: 4 m/s^2
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Beschleunigung des Speedboots.
+      definition: "Die Beschleunigung ist eine vektorielle Gr\xF6\xDFe, die die zeitliche
+        Ver\xE4nderung der Geschwindigkeit beschreibt."
+      textMeshProValue: 4 m/s<sup>2</sup>
+    dummyInputs:
+    - name: Alpha
+      icon: {fileID: 0}
+      textMeshProName: Alpha
+      type: 0
+      textValue: "5 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Anstiegswinkel der Ebene.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "5 \xB0"
+    output:
+      name: F
+      icon: {fileID: -831851898974402200, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: F
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: aaf810f3b5ed4924b812b400009ed97b, type: 2}
+    dialogs:
+    - "Ja, die Stimmung ist trotz des Wetters eisig, aber wir werden die Nerven bewahren.
+      Heute besch\xE4ftigen wir uns mit der Vorplanung von n\xE4chsten Aktionen.\r\n"
+    - "Das Luftkissen-Speedboot soll noch mehr dringend ben\xF6tigte G\xFCter transportieren.
+      Daf\xFCr muss allerdings die ~o:F|Kraft~ stark genug sein. \r\n"
+    - "Wir brauchen daf\xFCr die ~o:F|Kraft~, mit der das Speedboot beschleunigt.
+      Wenn wir das wissen, k\xF6nnen wir sicherer planen."
+  - npc: {fileID: 11400000, guid: d60d2682d473dd94fa76bf04e84b0832, type: 2}
+    dialogs:
+    - "Los jetzt, das ist wichtig! Die Leute warten auf Notzelte und Nahrung. Wir
+      haben die ~i:m|Masse~, den ~i:Alpha|Anstiegswinkel~ und die ~i:a|Beschleinigung~
+      zur Verf\xFCgung. \r"
+    - "Das Luftkissen-Speedgef\xE4hrt nimmt uns einiges an Arbeit ab. Nicht auszudenken,
+      was passiert, wenn der Transport von Notg\xFCtern zum Erliegen kommt!\n"
+  hashtags:
+  - 'kraft '
+  - beschleunigung
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: 4cb4b12abc4c7a14491a94bc5d2ea96d, type: 2}

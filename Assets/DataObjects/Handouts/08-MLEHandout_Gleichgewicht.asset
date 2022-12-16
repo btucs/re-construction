@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 08-MLEHandout_Gleichgewicht
+  m_EditorClassIdentifier: 
+  mleName: Gleichgewicht
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize}\n\\item Das Gleichgewichtsaxiom ist ein Grundlehrsatz
+      in der Technischen Mechanik und ist Grundlage f\xFCr andere Gesetzm\xE4\xDFigkeiten.
+      \r\n\\item Zwei Kr\xE4fte sind im Gleichgewicht, wenn sie \r\n\\begin{itemize}\n\\item
+      gleich gro\xDF (gleicher Betrag)\r\n\\item entgegengesetzt gerichtet (unterschiedliche
+      Vorzeichen) sind und \r\n\\item auf einer Wirkungslinie liegen.\r\n\\end{itemize}\n\\item
+      Wenn 2 Kr\xE4fte ein Gleichgewicht bilden, dann befindet sich der starre K\xF6rper
+      in Ruhelage oder er bewegt sich mit gleicher Geschwindigkeit weiter (er wird
+      nicht beschleunigt).\r\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: Was ist das Gleichgewichtsaxiom?
+    description: "Das Gleichgewichtsaxiom ist ein Grundlehrsatz in der Technischen
+      Mechanik.\nEs beschreibt die Anordnung der Kraftpfeile an einem starren K\xF6rper,
+      damit sich dieser in Ruhelage befindet oder mit gleicher Geschwindigkeit weiterbewegt."
+    picture: {fileID: 21300000, guid: 73c49d9787e8e7d4db8d699838a6a957, type: 3}
+  - title: "Wann sind zwei Kr\xE4fte im Gleichgewicht?"
+    description: "Zwei Kr\xE4fte sind dann im Gleichgewicht, wenn \r\n\\begin{itemize}\n\\item
+      die Kr\xE4fte den gleichen Betrag haben (gleich gro\xDF sind), \r\n\\item entgegengesetzt
+      gerichtet sind (Vorzeichen beachten) und \r\n\\item auf einer Wirkungslinie
+      liegen. \r\n\\end{itemize}\nDie Wirkungen der zwei Kr\xE4fte auf den starren
+      K\xF6rper heben sich damit auf. Der starre K\xF6rper verbleibt in Ruhelage
+      oder bewegt sich mit konstanter Geschwindigkeit weiter.\r\n"
+    picture: {fileID: 0}
+  - title: Wie kann das Gleichgewichtsaxiom mathematisch beschrieben werden?
+    description: "Mathematisch kann das Gleichgewichtsaxiom mit folgendem Beispiel
+      beschrieben werden:\r\n\nAn der Kiste dr\xFCcken zwei Personen mit jeweils
+      einer Kraft $\\vector{F}_1$ und $\\vector{F}_2$. Person 1 dr\xFCckt mit 200
+      N nach rechts und Person 2 mit 200 N nach links.\r\n\nDie positive Ausrichtung
+      wird beispielsweise durch Kraft $\\vector{F}_1$ bestimmt. Das bedeutet, dass
+      \r\n\\begin{itemize}\n\\item die Kr\xE4fte, die in die gleiche Richtung wie
+      $\\vector{F}_1$ zeigen positiv sind\r und\n\\item die Kr\xE4fte, die in entgegengesetzter
+      Richtung zu $\\vector{F}_1$ stehen negativ sind.\n\r\nDamit ein Gleichgewicht
+      herrscht, muss die Summe der zwei Kr\xE4fte gleich null sein. Das bedeutet
+      analytisch folgende Formel:\r\n\n\\textit{Hinweis: \u23DFpositive Richtung
+      = \u2192}\n $$ \\vector{F}_1 - \\vector{F}_2= 0\r$$\n\r\nWirken die Kr\xE4fte
+      auf einer Wirkungslinie darf mit den Betr\xE4gen weiter gerechenet werden.
+      Das bedeutet, wir d\xFCrfen die Kraftbetr\xE4ge einfach in die Formel einsetzen:\r\n$$|\\vector{F}_1
+      |-|\\vector{F}_2 |=0 $$\r\n$$ F_1-F_2=0\r $$\n\n\\textit{Gegeben}: |\\vector{F}_1|
+      = 200 N, |\\vector{F}_2| = 200 N\r \n\n\\textit{Gesucht}: Gleichgewicht?\n\r\n\\textit{L\xF6sung}:\r\n$$
+      F_1-F_2 = 0\r $$\n$$200 N-200 N = 0$$\r\n$$0 = 0$$ \r\n\nDa beide Seiten der
+      Gleichung den gleichen Betrag haben, l\xE4sst sich das Gleichgewicht best\xE4tigen.
+      Der K\xF6rper erf\xE4hrt damit KEINE \xFCbersch\xFCssige Kraft und verharrt
+      somit in Ruhe.\r\n"
+    picture: {fileID: 0}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize}\n\\item Einf\xFChrungsvideo zum Gleichgewichtsaxiom
+      von StudyHelp: https://www.youtube.com/watch?v=nHNmkB2oUfw\r\n\r\n\\item Axiome
+      der Starrk\xF6rperstatik:\r\nhttps://www.youtube.com/watch?v=UoD5Uibp50g\r\n\r\\end{itemize}"
+    picture: {fileID: 0}

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 10-MLEHandout_Freischnitt
+  m_EditorClassIdentifier: 
+  mleName: Freischnitt
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize} \r\n\\item Kr\xE4fte, die zwischen zwei K\xF6rpern
+      wirken, werden mit dem Freischnitt sichtbar gemacht. \r\n\n\\item Durch einen
+      gedanklichen Schnitt an den Ber\xFChrungsstellen werden die auftretenden Kr\xE4fte
+      mittels Wechselwirkungsprinzip an die sogenannten Schnittufer angetragen. \r\n\n\\item
+      Das Freik\xF6rperbild ist das Ergebnis des Freischnittes und zeigt die Bauteile
+      bzw. Elemente mit allen einwirkenden Kr\xE4ften.\r\n\r\n\\item Synonyme f\xFCr
+      Freischnitt sind das Freimachen und das Schnittprinzip.\r\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: Was ist der Freischnitt bzw. das Schnittprinzip?
+    description: "Um alle, an einen K\xF6rper angreifenden, Kr\xE4fte und Drehmomente
+      zu finden und grafisch darzustellen, wird in der Technischen Mechanik der Freischnitt
+      angewandt. Ziel ist die Reduktion von komplexen Problemen auf Teilprobleme."
+    picture: {fileID: 0}
+  - title: Wie erstelle ich einen Freischnitt?
+    description: "Um einen K\xF6rper oder Bauteil freizuschneiden, werden folgende
+      drei Schritte durchgef\xFChrt:\r\n\\begin{enumerate}\n\\item Im Ersatzmodell
+      wird das zu betrachtende Bauteil/Element von allen anderen Bauteilen/Elementen
+      gel\xF6st, sprich freigeschnitten.\r\n\r\n\\item An den freigeschnittenen Bauteilen
+      / Elementen werden die \u201Cweggeschnittenen\u201D Bauteile / Elemente durch
+      Kr\xE4fte ersetzt und angetragen. Diese treten immer paarweise auf.\r\n\r\n\\item
+      Am weggeschnittenen Bauteil / Element wird eine nach dem Wechselwirkungsprinzip
+      entsprechende Gegenkraft angetragen.\r\n\\end{enumerate}"
+    picture: {fileID: 0}
+  - title: "Was ist ein Freik\xF6rperbild?"
+    description: "Ein Freik\xF6rperbild ist das Ergebnis eines Freischnitts und stellt
+      alle relevanten Kr\xE4fte am betrachteten Bauteil dar. Auf Basis des Freik\xF6rperbildes
+      k\xF6nnen Berechnungen bzw. Gleichgewichtsbedingungen am entsprechenden Element
+      vorgenommen werden."
+    picture: {fileID: 21300000, guid: 4a1089a3e65a4334e90a471e33e6c682, type: 3}
+  - title: Wie sieht ein Freischnitt eines Systems beispielhaft aus?
+    description: "Stell dir vor, du bist f\xFCr den Abtransport wichtiger Medikamente
+      des Technischen Hilfswerks (THW) f\xFCr den Katastrophenschutz verantwortlich.\r\nIn
+      der Box befindet sich der Impfstoff, der gerade auf Laster verteilt wird und
+      in die entsprechenden Krankenh\xE4user transportiert werden soll.\r\nUm das
+      \xFCberlebenswichtige Gut zu sichern, ist es deine Aufgabe zu \xFCberpr\xFCfen,
+      ob denn die \xD6se (in unserem Fall der Karabiner) der Belastung standh\xE4lt.\r\n\n\\textit{L\xF6sung}:\n\r\\begin{enumerate}\n\\item
+      Zur L\xF6sung des Problems muss ein Ersatzmodell von dem Gefahrentransport
+      erstellt werden.\r\nDazu werden die Elemente der Realit\xE4t durch Tragwerkselemente
+      ersetzt. \r\n\\begin{itemize}\uF0A7\n\\item In unserem Fall werden die Gurte
+      zur Befestigung durch Seile ersetzt. \r\n\uF0A7\\item Die \xD6se wird, als
+      zu betrachtender K\xF6rper, als masseloser Punkt und \r\n\uF0A7\\item die Kiste
+      mit den Medikamenten als Rechteck dargestellt. Dieses wird als Punktmasse beschrieben.\r\n\r\\end{itemize}\n\\textit{Hinweis}:
+      Punktmasse bedeutet, die Masse wird im Schwerpunkt des K\xF6rpers konzentriert.
+      Das macht die Berechnung einfacher. Balken, St\xE4be und Seile sind hingegen
+      als masselos anzunehmen.\r\n\r\n\\item Anschlie\xDFend wird der Freischnitt
+      am Ersatzmodell vorgenommen. Alle angreifenden Kr\xE4fte werden identifiziert
+      und eingezeichnet.\r\nBeispielsweise greifen an der \xD6se drei Kr\xE4fte an.
+      \r\n\\begin{itemize}\n\\item die Kraft \\vecor{F_{S1}} und \r\n\\item \\vecor{F_{S2}},
+      die das Gewicht der Kiste auf die \xD6se \xFCbertr\xE4gt\r\n\\item die Kraft
+      \\vecor{F_{S3}}, die die Kraft des dritten Seils zur Befestigung am Kran darstellt.
+      \r\n\\end{itemize}\nAnalog wird dabei mit den anderen Kr\xE4ften vorgegangen.
+      \n\n\\textit{Hinweis}: Massereiche Objekte bekommen im Schwerpunkt die Gewichtskraft
+      (\\vecor{F_{G}}) eingetragen (Punktmasse)\r.\n\r\n\\item Es folgt die Berechnung.
+      \r\nIm Fall der \xD6se handelt es sich um ein zentrales ebenes Kraftsystem.
+      Wenn die L\xF6sung nicht so genau sein muss oder es sich um eine Probe handelt,
+      kann mit dem Krafteck bzw. Kr\xE4ftepolynom die Resultierende grafisch bestimmt
+      werden. \r\nBei exakter Bestimmung wird die analytische Berechnung mittels
+      Kraftkomponenten und Gleichgewichtsbedingungen erstellt.\r\n\\end{enumerate}"
+    picture: {fileID: 21300000, guid: a02b47965d241504a9954e5fb72b3a48, type: 3}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize} \r\n\\item Einstiegsvideo, dass anschaulich die
+      Thematik vermittelt: \\link{https://www.youtube.com/watch?v=H89sG2EWEIY} \r\n\\item
+      Video, dass kurz und pr\xE4gnant das Thema Freischnitt und die wichtigsten
+      Begriffe in Zusammenhang bringt: \\link{https://www.youtube.com/watch?v=myhobxJHS_k}\r\n\\item
+      Skript und Aufgabensammlung zum Thema .\r\n\\link{http://docplayer.org/110535517-Kraft-und-bewegung-a-zeichnen-sie-einen-freischnitt-fuer-den-block.html}\r\n\\item
+      Kapitel des Onlinebr\xFCckenkurses Physik, der das Freik\xF6rperbild in unterschiedlichen
+      Kontexten behandelt \r\n\\link{https://lx3.mint-kolleg.kit.edu/onlinekursphysik/html/1.3.1/xcontent9.html
+      }\n\\end{itemize} \r"
+    picture: {fileID: 0}

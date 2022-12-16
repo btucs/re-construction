@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Koordinatensystem
+  m_EditorClassIdentifier: 
+  headline: Koordinatensystem
+  easy:
+    content: "Was ist ein Koordinaten-System?\r\n\r\n- Ein Koordinaten-System ist
+      ein Hilfs-Mittel in der Mathematik.\r\n- Ein Koordinaten-System stellt Stand-Orte
+      dar.\r\n- Ein Koordinaten-System ist ein Netz aus gleich-gro\xDFen Abst\xE4nden.
+      \r\n\r\n Ein Koordinaten-System besteht aus 2 oder 3 Achsen:\r\n\r\n- x-Achse\r\n-
+      Die x-Achse liegt horizontal.\r\n  - Die x-Achse hei\xDFt auch Abszissen-Achse.\r\n\r\n-
+      y-Achse\r\n  - Die y-Achse liegt vertikal.\r\n  - Die y-Achse hei\xDFt auch
+      Ordinaten-Achse.\r\n\r\nWof\xFCr brauchst du Koordinaten-Systeme?\r\n\r\n-
+      Koordinaten-Systeme vereinfachen die Abbildungen von Geo-Metrien.\r\n\r\nGeo-Metrien
+      k\xF6nnen Punkte, Linien, oder Fl\xE4chen sein. "
+    image: {fileID: 21300000, guid: 4a1a38f581f76be42941fa290955bcef, type: 3}
+    tmpContent: "Was ist ein Koordinaten-System?\n\n\u2022 Ein Koordinaten-System
+      ist ein Hilfs-Mittel in der Mathematik.\n\u2022 Ein Koordinaten-System stellt
+      Stand-Orte dar.\n\u2022 Ein Koordinaten-System ist ein Netz aus gleich-gro\xDFen
+      Abst\xE4nden.\n\nEin Koordinaten-System besteht aus 2 oder 3 Achsen:\n\n\u2022
+      x-Achse\n\n\u2022 Die x-Achse liegt horizontal.\n  \n  \u2022 Die x-Achse hei\xDFt
+      auch Abszissen-Achse.\n\n\u2022 y-Achse\n  \n  \u2022 Die y-Achse liegt vertikal.\n 
+      \u2022 Die y-Achse hei\xDFt auch Ordinaten-Achse.\n\nWof\xFCr brauchst du Koordinaten-Systeme?\n\n\u2022
+      Koordinaten-Systeme vereinfachen die Abbildungen von Geo-Metrien.\n\nGeo-Metrien
+      k\xF6nnen Punkte, Linien, oder Fl\xE4chen sein."
+  medium:
+    content: "Ein Koordinatensystem ist ein Hilfsmittel in der Mathematik. Es stellt
+      Positionen im Raum oder in der Ebene von geometrischen Formen, mittels Zahlenwerten,
+      dar. Geometrische Formen sind z. B. Punkte, Linien oder Fl\xE4chen. \r\n\r\nMeistens
+      wird das kartesische Koordinatensystem verwendet. Es besteht aus einer x- und
+      y-Achse, welche ein Gitternetz aus gleichen Abst\xE4nden bilden. Die x-Achse
+      liegt horizontal und wird auch Abszissenachse genannt. Die y-Achse liegt vertikal
+      in der Ebene und wird auch Ordinatenachse genannt.  "
+    image: {fileID: 21300000, guid: 1c2961a6f1f6ef344a30ab0e067a5865, type: 3}
+    tmpContent: "Ein Koordinatensystem ist ein Hilfsmittel in der Mathematik. Es
+      stellt Positionen im Raum oder in der Ebene von geometrischen Formen, mittels
+      Zahlenwerten, dar. Geometrische Formen sind z. B. Punkte, Linien oder Fl\xE4chen.\n\nMeistens
+      wird das kartesische Koordinatensystem verwendet. Es besteht aus einer x- und
+      y-Achse, welche ein Gitternetz aus gleichen Abst\xE4nden bilden. Die x-Achse
+      liegt horizontal und wird auch Abszissenachse genannt. Die y-Achse liegt vertikal
+      in der Ebene und wird auch Ordinatenachse genannt."
+  scientific:
+    content: "Koordinatensysteme sind Hilfsmittel in der Mathematik, um die Positionen
+      von Punkten, Linien, Fl\xE4chen sowie Objekten im Raum oder in der der Ebene
+      mittels Zahlenwerten angeben zu k\xF6nnen. Dabei stehen die drei bzw. zwei
+      Achsen immer senkrecht zu einander und die Einteilung erfolgt in gleichgro\xDFen
+      Schritten. Mehrheitlich wird das kartesische Koordinatensystem verwendet. Die
+      Achsen im ebenen Koordinatensystem werden mit x und y bezeichnet. Die x-Achse
+      wird als Abszissenachse und die y-Achse als Ordinatenachse bezeichnet.    "
+    image: {fileID: 21300000, guid: ec7a233a43ca62f4184165047fe31bd9, type: 3}
+    tmpContent: "Koordinatensysteme sind Hilfsmittel in der Mathematik, um die Positionen
+      von Punkten, Linien, Fl\xE4chen sowie Objekten im Raum oder in der der Ebene
+      mittels Zahlenwerten angeben zu k\xF6nnen. Dabei stehen die drei bzw. zwei
+      Achsen immer senkrecht zu einander und die Einteilung erfolgt in gleichgro\xDFen
+      Schritten. Mehrheitlich wird das kartesische Koordinatensystem verwendet. Die
+      Achsen im ebenen Koordinatensystem werden mit x und y bezeichnet. Die x-Achse
+      wird als Abszissenachse und die y-Achse als Ordinatenachse bezeichnet."
+  tmpHeadline: 

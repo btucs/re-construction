@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-SchaukelLinienfluechtigkeit
+  m_EditorClassIdentifier: 
+  uid: e2ea8cdd-c113-4a7d-8a4e-de68f92fc170
+  taskName: "Befestigung w\xE4hlen"
+  teaserDescription: "Wir kommen hier mit der Konstruktion nicht weiter. Bei der
+    alten Aufh\xE4ngung bleiben oder die Neue installieren? Hier fehlt eine Gegen\xFCberstellung
+    der Belastungen, der h\xE4ngenden oder stehenden Schaukel."
+  teaserSolvedCorrect: "H\xE4ngend oder st\xFCtzend? Das Ergebnis konnte zwar keine
+    Entscheidung herbeif\xFChren, hat aber so manche Ungereimtheit gekl\xE4rt und
+    das Vorhaben Therapieschaukel 2.0 wurde vorerst abgeschlossen. "
+  teaserSolvedWrong: "H\xE4ngend oder st\xFCtzend? Die Entscheidung steht noch aus.
+    Mische erneut mit, damit die Schaukel endlich genutzt werden kann. Die Anzahl
+    der Vorbestellungen steigt t\xE4glich. Es eilt!\r\n"
+  fullDescription: "Um sich f\xFCr eine Befestigungsart der Schaukel zu entschieden,
+    soll die jeweilige Krafteinwirkung visuell dargestellt werden."
+  topic: {fileID: 11400000, guid: 5264d36122743ef48ad795d533d34fa8, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 2
+  coordinateSystemData:
+    origin: {x: 0, y: 300}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: 4985119231169831777, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-3.5 1 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ort, an dem die obere Schaukel auf der Erh\xF6hung steht."
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-2 6.5 0)
+    - name: P_2
+      icon: {fileID: 4985119231169831777, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (-3.5 0 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ort, an dem die untere Schaukel an der Erh\xF6hung h\xE4ngt."
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: (-2 6 0)
+    - name: FG
+      icon: {fileID: 2427283321075584052, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: FG
+      type: 0
+      textValue: 500 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Kraftbetrag der Belastung an der Erh\xF6hung der oberen
+        Schaukel ."
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 500 N
+    - name: alpha
+      icon: {fileID: 5802401103267626804, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "270 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung der Druckrichtung der oberen Schaukel.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "270 \xB0"
+    dummyInputs: []
+    output:
+      name: F_1
+      icon: {fileID: -1471753663347432008, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: F<sub>1</sub>
+      unit: 2
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  - inputs: []
+    dummyInputs: []
+    output:
+      name: F_2
+      icon: {fileID: 2427283321075584052, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: F<sub>2</sub>
+      unit: 8
+      textMeshProUnit: 
+      expectedStartingPointText: (-2 6 0)
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 20e24fa6780fbe844aa80a40fbc629d6, type: 2}
+    dialogs:
+    - "~o:F_1|H\xE4ngend~ oder ~o:F_2|stehend~ oder doch was ganz anderes?! Das ist
+      hier die crazy Frage! Zeige anhand der Linienfl\xFCchtigkeit, dass es Jacke
+      wie Hose ist."
+    - "Let's check, wie gro\xDF mag die Kraftwirkung der jeweiligen Aufh\xE4ngung,
+      mit der ~i:FG|Gewichtskraft~, sein? Die Schaukel k\xF6nnte an Punkt ~i:P_2|P2~
+      h\xE4ngen und auf ~i:P_1|P1~ stehen. Kannst du ein bisschen scribblen?"
+    - "Ach ja und dann hat die Stehversion noch more and less den Winkel ~i:alpha|alpha~.
+      Wir brauchen zuerst die ~o:F_2|\"stehende\"~ und dann die ~o:F_1|\"h\xE4ngende\"~
+      Kraft. "
+    - "Ich will in die Welt! Jaja\u2026 diese F&E ist schon wichtig, aber ich will
+      dahin, wo es brennt!"
+  hashtags:
+  - 'Kraftvektor '
+  - Kraefte
+  - hinundher
+  connectedObject: {fileID: 11400000, guid: ef15675e043b63640af4220035af40a2, type: 2}

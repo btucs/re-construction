@@ -1,0 +1,148 @@
+title: TaP.Start
+tags: 
+colorID: 2
+position: 492,-102
+---
+<<if visited("TaP.Start") is false>>
+    Hallo {$playername}! {$mentorname} hat mir schon gesagt, dass du unterwegs bist. 
+    Ich bin Jörg und ich bin für die Ausbildung der Rekruten zuständig. 
+    Wir testen hier ein neues Programm, das die Neuankömmlinge noch besser auf unsere Außeneinsätze vorbereiten soll.
+    <<AutoContinue>>
+    Damit wird ein Außeneinsatz in einer virtuellen Realität nachgestellt, sodass wir das Verhalten in einer echten Problemsituation trainieren können!
+<<else>>
+    <<AutoContinue>>
+    Willkommen zurück. Was kann ich für dich tun?
+<<endif>>
+<<if not visited("TaP.Joerg")>>
+    [[Erzähl mir etwas über dich!|TaP.Joerg]]
+<<endif>>
+<<if $isQuestActive_aed4e554 is true && $questIndex_aed4e554 is 1>>
+    [[Könnt ihr meine Hilfe gebrauchen?|TaP.QuestIntro]]
+<<endif>>
+<<if $isQuestActive_aed4e554 is true && $questIndex_aed4e554 is 3>>
+    [[Ich hab das VR-System getestet...|TaP.QuestPartTwo]]
+<<endif>>
+<<if $isQuestActive_aed4e554 is true && $questIndex_aed4e554 is 5>>
+    [[Ich hab das VR-System nochmal getestet...|TaP.QuestEnd]]
+<<endif>>
+<<if $isQuestActive_aed4e554 is true && $questIndex_aed4e554 is 7>>
+    [[Ich hab wieder ein paar Testaufgaben gelöst|TaP.HackerStart]]
+<<endif>>
+<<if $isQuestActive_aed4e554 is true && $questIndex_aed4e554 is 9>>
+    [[Was ist aus dem Hacker geworden?|TaP.HackerEnd]]
+<<endif>>
+<<if $isQuestActive_aed4e554 is false && $isQuestCompleted_aed4e554 is false>>
+    [[Kann ich das VR-System für euch testen?|TaP.AddQuest]]
+<<endif>>
+[[Ich muss los. Bis später!|TaP.Exit]]
+===
+title: TaP.Exit
+tags: 
+colorID: 6
+position: 486,733
+---
+Mach's gut!
+===
+title: TaP.Joerg
+tags: 
+colorID: 3
+position: -246,380
+---
+Ich war schon Mitglied der Vorgängerorganisation, die sich vor vielen Jahren in Cottbus etabliert hat.
+Eigentlich bin ich seit ein paar Jahren im Ruhestand, aber angesicht der aktuellen Situation habe ich mich entschieden wieder mit anzupacken.
+<<AutoContinue>>
+Einfach rumsitzen habe ich auf Dauer nicht ausgehalten.
+[[Ich verstehe.|TaP.Exit]]
+===
+title: TaP.QuestIntro
+tags: 
+colorID: 4
+position: 98,397
+---
+Hilfe ist immer gerne gesehen!
+Das System zur Ausbildung neuer Mitglieder ist noch in der Prototypen-Phase und muss überprüft werden, bevor wir es wirklich einsetzen können.
+<<AutoContinue>>
+Würdest du dich bereit erklären einen Testlauf für uns mitzumachen?
+-> Klar, das mache ich!
+    <<AutoContinue>>
+    Super! Geh einfach zu der VR-Brille und ich lade ein Testszenario!
+<<ContinueQuest aed4e554>>
+[[Bis später.|TaP.Exit]]
+===
+title: TaP.QuestPartTwo
+tags: 
+colorID: 4
+position: 98,397
+---
+Super! Vielen Dank dafür!
+Leider scheinen ein paar Sachen nicht so funktioniert zu haben, wie erwartet.
+Eigentlich sollten die Daten zu deiner Performance während des Training überwacht und gespeichert werden, doch scheinbar gab es einen Systemfehler.
+Wir arbeiten bereits an einer Lösung, aber es wäre gut, wenn du noch einmal Versuchskaninchen spielen würdest.
+<<AutoContinue>>
+Könntest du noch einmal ein paar Übungsaufgaben über das VR-System bearbeiten?
+-> Klaro, kein Problem!
+    <<AutoContinue>>
+    Super! Schnall dir einfach die Brille wieder um den Kopf. Zur Abwechslung werde ich dieses mal ein paar andere Aufgaben einspielen!
+<<ContinueQuest aed4e554>>
+[[Bis später.|TaP.Exit]]
+===
+title: TaP.QuestEnd
+tags: 
+colorID: 4
+position: 98,397
+---
+Dieses mal hat alles wunderbar funktioniert! Vielleicht ist die virtuelle Realität ja doch der Schlüssel für eine praxisnahe Ausbildung.
+Es sieht so aus als wäre die neue Trainingseinheit bereit zum Einsatz! 
+Vielen Dank nochmal für deine Hilfe!
+<<ContinueQuest aed4e554>>
+[[Gerne doch! Man sieht sich.|TaP.Exit]]
+===
+title: TaP.HackerStart
+tags: 
+colorID: 4
+position: 98,397
+---
+{$playername}! Mensch, bin ich erleichtert, dass es dir gut geht. 
+Hast du während des Testens etwas eigenartiges in der VR-Software bemerkt?
+-> Nein... Wieso fragst du?
+    Während du in der Simulation warst, hat es einen Cyberangriff auf die Software gegeben. 
+    Der Angreifer hat versucht, die simuluierte Umgebung zu verändern und auf deine Vitalwerte zuzugreifen.
+    Scheinbar gibt es Probleme in unseren Security-systemen aber wegen eines Sicherheitsprotokolls ist kein großer Schaden entstanden.
+    Trotzdem müssen wir jetzt natürlich Maßnahmen ergreifen...
+    Ich hab da einen gewagten Plan, um den Angreifern auf die Schliche zu kommen und brauche dafür nochmal deine Hilfe.
+    Begib dich nochmal in das VR-Programm und erledige ein paar Aufgaben. 
+    Vielleicht probiert der Hacker es ja nochmal, dann können unsere IT-Spezialisten ihn orten.
+    Es muss allerdings wie ein normaler Trainingseinsatz aussehen.
+    Vielen Dank nochmal für deine Hilfe!
+    Wie siehts aus? Bist du bereit uns nochmal zu helfen?
+    -> Aber klar, doch!
+<<ContinueQuest aed4e554>>
+[[Gerne doch! Man sieht sich.|TaP.Exit]]
+=== 
+title: TaP.HackerEnd
+tags: 
+colorID: 4
+position: 98,397
+---
+Gute Neuigkeiten: Wir konnten den Hacker identifizieren und haben ihn der Polizei übergeben.
+Was er genau mit seinem Angriff bezwecken wollte, konnten wir jedoch nicht herausfinden...
+Auf jeden Fall braucht unsere Cyber-Security mal ein Update!
+===
+title: TaP.AddQuest
+tags: 
+colorID: 3
+position: -246,380
+---
+Hilfe ist immer gerne gesehen!
+<<AddQuest aed4e554>>
+Das System zur Ausbildung neuer Mitglieder ist noch in der Prototypen-Phase und muss überprüft werden, bevor wir es wirklich einsetzen können.
+<<ContinueQuest aed4e554>>
+Wenn ich jemanden hätte, der oder die für mich einen Testlauf mitmacht, wäre das super.
+<<AutoContinue>>
+Die anderen sind alle beschäftigt. Würdest du dich bereit erklären mir zu helfen?
+-> Klar, das mache ich!
+    <<AutoContinue>>
+    Super! Geh einfach zu der VR-Brille und ich lade ein Testszenario.
+<<ContinueQuest aed4e554>>
+[[Bis später.|TaP.Exit]]
+===

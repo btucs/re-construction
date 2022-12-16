@@ -1,0 +1,158 @@
+title: Ischa.Start
+tags: 
+colorID: 0
+position: 452,-810
+---
+<<if visited("Ischa.Start") is false>>
+
+Newton Tag! Schön, dass du endlich da bist.
+<<AutoContinue>>
+Ich versuche fokussiert zu bleiben, aber die Viecher machen mich wahnsinnig.
+
+[[Wie bist du zur Organisation gekommen, Ischa?|Hintergrund]]
+[[Ich bin bereit, zu helfen. Wo soll ich anfangen?|Hilfe]]
+[[Alles gut. Ich schaue mich erstmal um.|Exit]]
+Das gefällt mir. Nicht lang schnacken - machen!
+
+
+<<else>>
+
+Newton Tag {$playername}! Schön, dich wiederzusehen.
+Wenn das alles vorbei ist, gehen wir mal eine Cola trinken.
+<<AutoContinue>>
+Auf jeden Fall cool, dass du durchhältst! 
+[[Wie hältst du das aus mit den ganzen Insekten?|Szene]]
+[[Ich bin bereit, zu helfen. Wo soll ich anfangen?|Hilfe]]
+[[Wollte nur kurz hallo sagen, tschüssi.|Exit]]
+
+<<endif>>
+===
+title: Hilfe
+tags: 
+colorID: 0
+position: -13,-147
+---
+<<if visited("Ischa.Hilfe") is false>>
+Schau dich einfach um. Am Kommandozelt wird häufig Unterstützung bei der Koordination benötigt.
+Falls du sonst etwas ratlos bist, wird dir im Menüpunkt Quests geholfen. 
+<<AutoContinue>>
+Frag bei Bedarf nochmal beim Mentor oder deiner Mentorin nach!
+[[Verstanden. Danke! |Exit]]
+[[Wieso arbeiten wir überhaupt an den Objekten?|Objekte]]
+[[Boah, diese ganzen Insekten...|Szene]]
+
+
+<<else>>
+Langeweile kommt hier auf jeden Fall nicht auf. 
+Unerledigte Missionen sind durch ein kleines gelbes Ausrufezeichen gekennzeichnet.
+<<AutoContinue>>
+Wenn du mehr Fragen hast, wende dich am besten an den Mentor oder die Mentorin oder schau in den Menüpunkt Quests.
+
+[[Gutti, danke für die Tipps|Exit]]
+[[Die ganzen Objekte hier... was bedeuten sie?|Objekte]]
+[[Wieso bist du eigentlich hier, Ischa?|Hintergrund]]
+
+<<endif>>
+===
+title: Exit
+tags: 
+colorID: 0
+position: 363,566
+---
+Mach's gut!
+===
+title: Hintergrund
+tags: 
+colorID: 0
+position: -668,-452
+---
+<<if visited("Ischa.Hintergrund") is false>>
+Warum ich hier bin? 
+Das ist mein Lebensplan, anpacken und das Beste aus den jeweiligen Situationen machen.
+Was ich nervig finde, ist dieses ideologische Gequassel,... 
+...das macht doch alles nur komplizierter.
+
+<<AutoContinue>>
+Warum bist du da?
+-> Ich wollte selbst aktiv werden.
+    Da sind wir wohl aus einem Holz geschnitzt!
+
+-> Ich wurde gezwungen.
+    Waaas?! Von wem?
+    -> Meiner Lehrerin.
+        Das verstehe ich, die Lehrpersonen wollen ja nur das Beste.
+        Hier lernst du alles, was du brauchst! 
+    -> Meiner Familie.
+        Das tut mir leid.
+        Ich hoffe, du hast trotzdem eine gute Zeit!
+        ... und ich bin froh, dass du da bist!
+    -> Dem fliegenden Spaghettimonster.
+        Ach was, jetzt flunkerst du aber.
+        Das würde das fliegende Spaghettimonster nie tun!
+
+-> Puh, ich weiß es nicht...
+    Verstehe.
+    Du weißt gar nicht, wie viele hier so landen...
+    ...einfach, weil es keine Alternative gibt.
+    Nichts tun, ist keine Option!
+
+            [[Alles klar, was soll ich hier eigentlich machen?|Hilfe]]
+            [[Was hat es mit diesen ganzen Geräten auf sich, Ischa?|Objekte]]
+            [[Ok, ich mach' mich dann mal an's Werk.|Exit]]
+            Das ist die richtige Einstellung!
+
+<<else>>
+
+...Na das weißt du doch schon {$playername}, ich bin eine richtige Macherin!
+<<AutoContinue>>
+Und jetzt Schluss mit dem Gerede und Anpacken!
+[[Oh man und wie hältst du es mit den Insekten aus?|Szene]]
+[[Was hat es mit diesen ganzen Geräten auf sich, Ischa?|Objekte]]
+[[Ok, ich mach' mich dann mal an's Werk.|Exit]]
+
+
+
+<<endif>>
+===
+title: Szene
+tags: 
+colorID: 0
+position: 931,-116
+---
+<<if visited("Ischa.Szene") is false>>
+... es hilft nichts. Pobacken zusammenkneifen und los.
+Ich weiß ja, dass wir eine wichtige Arbeit machen.
+Aber dieses Brummen, bbbbbbrsssss, brrrssss...
+Das verfolgt mich bis in den Schlaf.
+<<AutoContinue>>
+Ok, Schluss mit Pause und zurück an die Arbeit!
+[[Aye aye, Kapitänin, bis später.|Exit]]
+[[Kannst du mir noch was zu den Objekten sagen?|Objekte]]
+[[Wieso bist du eigentlich bei der Organisation?|Hintergrund]]
+
+<<else>>
+Naja, sagen wir mal so, lieben tue ich die Insekten immer noch nicht...
+... aber hast du schon mal eins gegessen?
+-> Ja, schon mehrere!
+    Ich habe sie letztens auch probiert. 
+    Überraschend lecker, würde ich sagen!
+
+-> Ne, möchte ich auch nicht.
+    Ich war am Anfang auch skeptisch.
+    Aber ich sag' dir, es ist einen Versuch wert!
+
+        [[Alles klar, bis später.|Exit]]
+        [[und sag mal, was hat es mit den Objekten auf sich?|Objekte]]
+        [[Warum bist du hier?|Hintergrund]]
+
+
+
+<<endif>>
+===
+title: Objekte
+tags: 
+colorID: 0
+position: 1335,-424
+---
+Die Maschinen und Aufbauten hier helfen uns gegen die Insekten.
+===

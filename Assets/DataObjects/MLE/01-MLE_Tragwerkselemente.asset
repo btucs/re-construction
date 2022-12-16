@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_Tragwerkselemente
+  m_EditorClassIdentifier: 
+  uid: bb8f148b-597c-4da8-a70b-a9033262b9fc
+  mleName: Tragwerkselemente
+  mleHandout: {fileID: 11400000, guid: 808eec12df330874097a5ab8fc44ea3e, type: 2}
+  mleIntroText: "Seile, St\xE4be, Balken - die Grundelemente eines guten Tragwerks."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:80e24b567bcc7ea2b6e71fcb353160cf_1645538979.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wie kann ein Seil belastet werden?
+      choices:
+      - name: "Nur \xFCber Zugkr\xE4fte."
+        isAnswer: 1
+        feedbackMessage: "Korrekt! Das Seil nimmt nur Zugkr\xE4fte auf. Zugkr\xE4fte
+          sind eine Art von Normalkr\xE4ften."
+      - name: "Nur durch Druckkr\xE4fte."
+        isAnswer: 0
+        feedbackMessage: "Leider nein, denn es ist genau das Gegenteil. Wird das
+          Seil zusammen gedr\xFCckt, \xE4ndert es ja seine Form zu einem Kn\xE4uel."
+      - name: "Durch Zug- und Druckkr\xE4fte."
+        isAnswer: 0
+        feedbackMessage: Noch nicht ganz! Da ist eine Belastung zu viel. Der Stab
+          nimmt beide Kraftarten auf.
+      - name: Auf Biegebelastungen.
+        isAnswer: 0
+        feedbackMessage: Das ist leider nicht korrekt, denn Seile werden nicht auf
+          Biegung belastet. Nur der Balken kann die Biegebelastung aufnehmen.
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:d0e6e33073ddf9f89b5dbe0a39202db2_1645538995.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Was ist der Unterschied zwischen einem Seil und einem Stab?
+      choices:
+      - name: "Das Seil kann nur Zugkr\xE4fte in L\xE4ngsrichtung aufnehmen, ein
+          Stab zus\xE4tzlich Druckkr\xE4fte."
+        isAnswer: 1
+        feedbackMessage: "Genauso ist es. Deswegen gibt es auch die Einteilung in
+          Druck- und Zugst\xE4be."
+      - name: "Seile sind immer l\xE4nger als St\xE4be."
+        isAnswer: 0
+        feedbackMessage: Nee, leider falsch. Die geometrischen Abmessungen spielen
+          bei der Unterscheidung eine untergeordnete Rolle.
+      - name: "Es gibt keinen, denn Seile und St\xE4be nehmen nur Zugkr\xE4fte auf."
+        isAnswer: 0
+        feedbackMessage: "Schade, da hast du einen Fehler gemacht. Beide nehmen Zugkr\xE4fte
+          auf, aber der Stab noch etwas anderes."
+      - name: "Es gibt keinen, denn Seile und St\xE4be nehmen nur Druckkr\xE4fte
+          auf."
+        isAnswer: 0
+        feedbackMessage: "Hmm, nein. Seile nehmen keine Druckkr\xE4fte auf, St\xE4be
+          aber schon. St\xE4be und Seile nehmen aber noch eine andere Art der Kraft
+          auf."
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:9902ee0d3621bb176c3299b7e6c8f187_1645539025.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: Wie kann ein Balken belastet werden?
+      choices:
+      - name: "Mit Normalkr\xE4ften, Querkr\xE4ften und Biegemomenten"
+        isAnswer: 1
+        feedbackMessage: "Topp. Der Balken nimmt all diese Kr\xE4fte auf. Momente
+          spielen aber bei uns aber erst sp\xE4ter eine Rolle."
+      - name: "Nur mit Querkr\xE4ften"
+        isAnswer: 0
+        feedbackMessage: Leider nein, da fehlt noch etwas. Der Balken kann mehr Belastungen
+          aufnehmen.
+      - name: "Nur mit Querkr\xE4ften mit Momenten"
+        isAnswer: 0
+        feedbackMessage: Noch nicht ganz, da fehlt noch etwas. Der Balken kann mehr
+          Belastungen aufnehmen.
+      - name: "Nur mit Normalkr\xE4ften und Momenten"
+        isAnswer: 0
+        feedbackMessage: Fast, da fehlt noch etwas. Der Balken kann mehr Belastungen
+          aufnehmen.
+  requiredProgress: []

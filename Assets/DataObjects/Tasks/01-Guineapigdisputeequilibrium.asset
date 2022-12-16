@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-Guineapigdisputeequilibrium
+  m_EditorClassIdentifier: 
+  uid: 4abedd64-a184-49bd-a8f8-5ce4036e128a
+  taskName: Gleichgewicht beschreiben
+  teaserDescription: "Gleich geht es los. Karotten sind Brunis und Siggis Lieblingsessen.
+    Da geht es jedes Mal ganz sch\xF6n ab. Wer wird wohl heute gewinnen?"
+  teaserSolvedCorrect: Alles ist gekommen, wie du es vorhergesagt hast. Die Schweine
+    und das Team sind zufrieden.
+  teaserSolvedWrong: "Es ist anders gekommen, als du vorhergesagt hast. Bald werden
+    die beiden erneut gef\xFCttert und du k\xF6nntest dich erneut probieren.\r"
+  fullDescription: Die zwei Meerschweinchen ziehen gleich stark an den Karotten.
+    Zeige mit Kraftpfeilen, dass hier ein Gleichgewicht besteht.
+  teachAndPlayDescription: "Das VR-System simuliert einen speziellen K\xE4fig f\xFCr
+    Riesenhamster. Die Hamster werden mit einer M\xF6hre gef\xFCttert und nur wenn
+    sich ihre Kr\xE4fte im Gleichgewicht befinden, bekommen beide genug zu essen."
+  topic: {fileID: 11400000, guid: a9178f4711b157145a6a8987e6cc2891, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 2
+  coordinateSystemData:
+    origin: {x: -250, y: 0}
+    dimensions:
+      posX: 20
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 2
+    scale: 1
+  steps:
+  - inputs:
+    - name: F_1
+      icon: {fileID: -6346116566512312601, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: F<sub>1</sub>
+      type: 1
+      textValue: (3 0 0)
+      startPointText: (5 0 0)
+      replacementModelType: -1
+      shortDescription: "Kraft, mit dem Bruni an der M\xF6hre zieht."
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: (3 0 0)
+    dummyInputs:
+    - name: m
+      icon: {fileID: 0}
+      textMeshProName: m
+      type: 0
+      textValue: 85 g
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Masse der Karotte
+      definition: "Die Masse beschreibt die Tr\xE4gheit eines K\xF6rpers gegen Beschleunigungskr\xE4fte."
+      textMeshProValue: 85 g
+    output:
+      name: F_2
+      icon: {fileID: 1686221348939534877, guid: bf7cc0f376635b94c99ab5f135ed639b,
+        type: 3}
+      textMeshProName: F<sub>2</sub>
+      unit: 6
+      textMeshProUnit: 
+      expectedStartingPointText: (3.5 0 0)
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 20e24fa6780fbe844aa80a40fbc629d6, type: 2}
+    dialogs:
+    - "Starten wir mal ganz smooth. Hier geht's zwar nicht um die Weltrettung, sondern
+      nur um die Raubtierf\xFCtterung mit einer ~i:m|85 Gramm~ schweren Karotte,
+      aber die beiden Nager lehren uns viel \xFCber die Welt da drau\xDFen. \r"
+    - "Bei der F\xFCtterung gibt es regelm\xE4\xDFig Food Fights. Kannst du eine
+      Zeichnung machen, aus der hervorgeht, dass  ~o:F_2|Siggis Kraft~ im Gleichgewicht
+      ist mit Brunis? \n\n\n"
+    - Bruni zieht mit der gleichen Kraft von ~i:F_1|5 N~ in der geraden Ebene. Dann
+      mal los. You can do it!
+  hashtags:
+  - 'meerschweinchen '
+  - 'futterneid '
+  - kraftvektor
+  connectedObject: {fileID: 11400000, guid: be6dc9c0111596f4b8fc7e5418313d7b, type: 2}

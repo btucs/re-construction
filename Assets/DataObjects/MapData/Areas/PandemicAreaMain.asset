@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96233c073d1720a45bb1431469c1f30e, type: 3}
+  m_Name: PandemicAreaMain
+  m_EditorClassIdentifier: 
+  uid: 09c1f564-85a1-449a-9e8c-fe62731d7e22
+  areaName: Newton-Stadt
+  sceneName: PandemicArea
+  areaDescription: "Newton-Stadt ist eine sonst verschlafene Kleinstadt.  Mit dem
+    Ausbruch der Pandemie entwickelte sich vor allem die Innenstadt zu einem Hotspot
+    der Virusbek\xE4mpfung. Es wird Hilfe ben\xF6tigt, um die Versorgung zu gew\xE4hrleisten
+    und die Krankheit einzud\xE4mmen!\r"
+  areaPreviewIMG: {fileID: 21300000, guid: 0e52613d2afbb664fa10dac7029071f0, type: 3}
+  areaIconIMG: {fileID: 5472218031393722235, guid: 68c716fd175aef64e91cacf8ae8e85a7,
+    type: 3}
+  introSceneName: Pandemic
+  mapPositionOrOffset: {x: 30, y: 27}

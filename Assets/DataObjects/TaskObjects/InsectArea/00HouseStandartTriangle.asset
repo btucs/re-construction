@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 00HouseStandartTriangle
+  m_EditorClassIdentifier: 
+  uid: dc314dbe-213c-4f37-93d7-9c9f8ea3d58d
+  objectName: Wohnhaus
+  objectDescription: "Ein Haus von vielen, welches Fundamentsch\xE4den aufgrund der
+    Insekten aufweist."
+  objectPrefab: {fileID: 2614946159132468767, guid: 843e5365d74003e4c9d15bcb2aaf6fa0,
+    type: 3}
+  objectThumbnail: {fileID: -2790981947036210713, guid: 8608984463806a34698da1be6de61a8c,
+    type: 3}
+  cameraOffset: {x: 0, y: 2.5, z: 0}
+  markerOffset: {x: 1, y: 1}
+  cameraZoom: 0.85
+  taskInfos:
+  - task: {fileID: 11400000, guid: e31eca7f623ab9d4f809cea04d919eae, type: 2}
+    taskButtonPosition: {x: 2, y: -1}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: L_1
+        icon: {fileID: -4991240094301451485, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+          type: 3}
+        textMeshProName: L<sub>1</sub>
+        type: 0
+        textValue: 10 m
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Entfernung der Seilbefestigung zur Knickstelle.
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+          eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+        textMeshProValue: 10 m
+      localAnalyzePosition: {x: 0, y: 0, z: 0}
+    - itemData:
+        name: L_2
+        icon: {fileID: 4836742737289932935, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+          type: 3}
+        textMeshProName: L<sub>2</sub>
+        type: 0
+        textValue: 5 m
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "H\xF6he des Hauses."
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+          eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+        textMeshProValue: 5 m
+      localAnalyzePosition: {x: 2, y: 0, z: 0}
+    - itemData:
+        name: alpha
+        icon: {fileID: -8900925128456137088, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+          type: 3}
+        textMeshProName: "\u03B1"
+        type: 0
+        textValue: "105 \xB0"
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Neigung des Hauses, bezogen auf den Boden.
+        definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+        textMeshProValue: "105 \xB0"
+      localAnalyzePosition: {x: 4, y: 0, z: 0}

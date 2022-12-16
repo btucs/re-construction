@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Cosinussatz
+  m_EditorClassIdentifier: 
+  headline: Cosinussatz
+  easy:
+    content: "Der Cosinus-Satz ist eine mathematische Formel.\r\n\r\nDer Cosinus-Satz
+      berechnet fehlende Werte.\r\n\r\nDer Cosinus-Satz baut auf dem [Cosinus](glossary:Cosinus)
+      auf.\r\n\r\n- Der Cosinus beschreibt die Abh\xE4ngigkeiten der Seiten und Winkel\r.\n\r\n-
+      Du nutzt den Cosinus nur im recht-winkligen Dreieck.\r\n\r\nWas kann der Cosinus-Satz
+      berechnen?\r\n\r\n- Eine fehlende Seite\r\n\r\nWas braucht der Cosinus-Satz
+      daf\xFCr?\r\n\r\n- Die 2 anderen Seiten\r\n\r\n- Den gegen\xFCber-liegenden
+      Winkel\r\n\r\nWas kann der Cosinus-Satz noch berechnen?\r\n\r\n- Einen fehlenden
+      Winkel\r\n\r\nWas braucht der Cosinus-Satz daf\xFCr?\r\n\r\n- Die Werte von
+      allen 3 Seiten\r\n\r\nAchtung: Den Cosinus-Satz (NICHT der Cosinus) kannst
+      du auch im allgemeinen Drei-Eck verwenden.\r\n\r\n- Das allgemeine Drei-Eck
+      hat **keine** besonderen Winkel."
+    image: {fileID: 21300000, guid: 0cd771658e7626c46908b72adb94d125, type: 3}
+    tmpContent: "Der Cosinus-Satz ist eine mathematische Formel.\n\nDer Cosinus-Satz
+      berechnet fehlende Werte.\n\nDer Cosinus-Satz baut auf dem <color=#131313><u><link=\"glossary:Cosinus\">Cosinus</link></u></color>
+      auf.\n\n\u2022 Der Cosinus beschreibt die Abh\xE4ngigkeiten der Seiten und
+      Winkel .\n\n\u2022 Du nutzt den Cosinus nur im recht-winkligen Dreieck.\n\nWas
+      kann der Cosinus-Satz berechnen?\n\n\u2022 Eine fehlende Seite\n\nWas braucht
+      der Cosinus-Satz daf\xFCr?\n\n\u2022 Die 2 anderen Seiten\n\n\u2022 Den gegen\xFCber-liegenden
+      Winkel\n\nWas kann der Cosinus-Satz noch berechnen?\n\n\u2022 Einen fehlenden
+      Winkel\n\nWas braucht der Cosinus-Satz daf\xFCr?\n\n\u2022 Die Werte von allen
+      3 Seiten\n\nAchtung: Den Cosinus-Satz (NICHT der Cosinus) kannst du auch im
+      allgemeinen Drei-Eck verwenden.\n\n\u2022 Das allgemeine Drei-Eck hat <b>keine</b>
+      besonderen Winkel."
+  medium:
+    content: "In der Mathematik ist der Cosinussatz eine Formel, mit der fehlende
+      Gr\xF6\xDFen im allgemeinen Dreieck berechnet werden k\xF6nnen. Der Satz baut
+      auf dem [Cosinus](glossary:Cosinus) auf und bestimmt das Verh\xE4ltnis zwischen
+      zwei Seiten und dem eingeschlossenen Winkel. Zur Berechnung einer Seite m\xFCssen
+      die Werte der zwei anderen Seiten und des gegen\xFCberliegenden Winkels gegeben
+      sein. Zur Berechnung eines fehlenden Winkels m\xFCssen die L\xE4ngen aller
+      Seiten bekannt sein.\r\n\r\nAchtung: Der Cosinussatz findet im allgemeinen
+      Dreieck Verwendung. Der Cosinus (!) eines Winkels kann immer nur an rechtwinkligen
+      Dreiecken bestimmt werden."
+    image: {fileID: 21300000, guid: 447566c6b14702d4faa323a91b285c5a, type: 3}
+    tmpContent: "In der Mathematik ist der Cosinussatz eine Formel, mit der fehlende
+      Gr\xF6\xDFen im allgemeinen Dreieck berechnet werden k\xF6nnen. Der Satz baut
+      auf dem <color=#131313><u><link=\"glossary:Cosinus\">Cosinus</link></u></color>
+      auf und bestimmt das Verh\xE4ltnis zwischen zwei Seiten und dem eingeschlossenen
+      Winkel. Zur Berechnung einer Seite m\xFCssen die Werte der zwei anderen Seiten
+      und des gegen\xFCberliegenden Winkels gegeben sein. Zur Berechnung eines fehlenden
+      Winkels m\xFCssen die L\xE4ngen aller Seiten bekannt sein.\n\nAchtung: Der
+      Cosinussatz findet im allgemeinen Dreieck Verwendung. Der Cosinus (!) eines
+      Winkels kann immer nur an rechtwinkligen Dreiecken bestimmt werden."
+  scientific:
+    content: "Der Cosinussatz ist eine mathematische Formel, mit der die L\xE4nge
+      einer Seite eines allgemeinen Dreiecks bestimmt werden kann, wenn die L\xE4nge
+      der anderen zwei Seiten und der eingeschlossene Winkel bekannt sind. Er hei\xDFt
+      Cosinussatz, da er den [Cosinus](glossary:Cosinus) enth\xE4lt.  \r\n\r\n"
+    image: {fileID: 21300000, guid: 601258b52412edd4b9ad68ea22970e68, type: 3}
+    tmpContent: "Der Cosinussatz ist eine mathematische Formel, mit der die L\xE4nge
+      einer Seite eines allgemeinen Dreiecks bestimmt werden kann, wenn die L\xE4nge
+      der anderen zwei Seiten und der eingeschlossene Winkel bekannt sind. Er hei\xDFt
+      Cosinussatz, da er den <color=#131313><u><link=\"glossary:Cosinus\">Cosinus</link></u></color>
+      enth\xE4lt."
+  tmpHeadline: 

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: "14b-Handout_Kr\xE4fteparallelogramm_grafisch"
+  m_EditorClassIdentifier: 
+  mleName: "Resultierende analytisch l\xF6sen"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\r\n\\item Wirken \\textbf{zwei Kr\xE4fte}  an
+      einem K\xF6rper am \\textbf{gleichen Angriffspunkt}, so ist die Wirkung der
+      Summe der Einzelkr\xE4fte \\textbf{gleich}  der Wirkung der Ersatzkraft.\\\\\n\n\\item
+      \\textbf{Grafische L\xF6sung:}  Wird von den zwei Kr\xE4ften ein \\textbf{Kraftvektor
+      so verschoben}, dass dessen \\textbf{Angriffspunkt im Endpunkt}  des anderen
+      Kraftvektors platziert ist, so ergibt sich der \\textbf{Ersatzkraftvektor} 
+      aus dem Startpunkt des nicht verschobenen Kraftvektors und dem Endpunkt des
+      verschobenen Kraftvektors.\n\\end{enumerate}\r"
+    picture: {fileID: 0}
+  - title: "Wozu dient das Axiom des Kr\xE4fteparallelogramms?"
+    description: "Mit dem Kr\xE4fteparallelogramm lassen sich \\textbf{zwei Kr\xE4fte},
+      welche \\textbf{an einem Angriffspunkt}  angreifen, \\textbf{zu einer Ersatzkraft} 
+      zusammenfassen. \\\\\n\nBei starren K\xF6rpern, bei denen zwei Kr\xE4fte \\textbf{nicht
+      an einem Punkt}  angreifen, kann das \\textbf{Linienfl\xFCchtigkeitsaxiom genutzt} 
+      werden, um die zwei \\textbf{Kr\xE4fte in den Schnittpunkt}  der Wirkungslinien
+      \\textbf{zu verschieben}. Somit haben sie einen gemeinsamen Angriffpunkt und
+      das Kr\xE4fteparallelogramm kann erstellt werden. \\\\\n\nBeispielsweise kann
+      so die Gesamtschleppkraft des Frachtschiffes bestimmt werden, die durch die
+      zwei Schlepper aufgebracht wird."
+    picture: {fileID: 0}
+  - title: "Wie ermittele ich die grafische L\xF6sung f\xFCr das Kr\xE4fteparallelogramm?"
+    description: "Wie in Abbildung 2 dargestellt, haben die \\textbf{zwei Kr\xE4fte} 
+      am K\xF6rper einen \\textbf{gemeinsamen Angriffspunkt}. \\\\\n\n\\begin{enumerate}\n\\item
+      Kr\xE4fte zun\xE4chst \\textbf{ma\xDFst\xE4blich zeichnen} \\\\\n\n\\item \\textbf{Kraftvektor} 
+      (hier F_2) \\textbf{verschieben}, sodass sein Angriffspunkt mit dem Endpunkt
+      des anderen Vektors (hier F_1) \xFCbereinstimmt (t\xFCrkisfarbenen Kraftpfeil
+      parallel nach oben verschieben)\\\\\n\n\\item \\textbf{Ersten Kraftpfeil} 
+      (F_1, orangefarbener Pfeil) ebenfalls parallel \\textbf{verschieben}  (so spannen
+      \\textbf{vier Kraftvektoren ein Kr\xE4fteparallelogramm}  auf, siehe Abbildung
+      4) \\\\\n\n\\item \r\\textbf{Vom Angriffspunkt aus}: Vektor in Richtung des
+      \\textbf{gegen\xFCberliegenden Punktes}  zeichnen (hei\xDFt: Ersatzkraftvektor
+      wird vom Angriffspunkt eines nicht verschobenen Vektors zum Endpunkt des verschobenen
+      anderen Vektors gezeichnet) \\\\\n\n\\item \\textbf{Kraftpfeill\xE4nge messen} 
+      und \\textbf{mit Ma\xDFstab}  wieder in die Kraft \\textbf{zur\xFCckrechnen}\r
+      \n\\end{enumerate} \\\\\n"
+    picture: {fileID: 0}
+  - title: " Wo finde ich weiterf\xFChrende Materialien? "
+    description: "\\begin{itemize}\n\\item Video zum Kr\xE4fteparallelogramm von
+      \u201CLehrer Schmidt\u201D\r\nhttps://www.youtube.com/watch?v=-huc7Gz-Q0Y \\\\\n\r\n\\item
+      Video zum Kr\xE4fteparallelogramm von \u201CSimpleClub\u201D\r\nhttps://www.youtube.com/watch?v=QRtDbqEKdM0&t=91s\n\\end{itemize}
+      \r\n"
+    picture: {fileID: 0}

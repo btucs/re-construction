@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 03-Weltkarte
+  m_EditorClassIdentifier: 
+  uid: df0d8167-fde5-45b5-827f-8d7a49dcc76b
+  objectName: Mufu-Board
+  objectDescription: "Made in 2023 - das Multifunktions-Board (kurz MuFu) \xFCbertr\xE4gt
+    Realdaten von brenzligen Situationen in der Welt direkt in unser Hauptquartier."
+  objectPrefab: {fileID: 347619639029367485, guid: 905d19a7efce6784ebc8f46a2a8bb504,
+    type: 3}
+  objectThumbnail: {fileID: 6204920696774375176, guid: e7b3e31333c783a488dad88014b57308,
+    type: 3}
+  cameraOffset: {x: 0, y: 0.5, z: 0}
+  markerOffset: {x: 1, y: 0}
+  cameraZoom: 1.15
+  taskInfos:
+  - task: {fileID: 11400000, guid: 66fdec37c92d9f14995f93bc0d8dd2f7, type: 2}
+    taskButtonPosition: {x: -2, y: 1}
+    isRepeatable: 0
+    hiddenVariables:
+    - itemData:
+        name: P_1
+        icon: {fileID: 8813537042457144090, guid: 7d9d21a55786d6e478af2adad1444ea0,
+          type: 3}
+        textMeshProName: P<sub>1</sub>
+        type: 1
+        textValue: (5 0 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: (5 0 0)
+      localAnalyzePosition: {x: -2.75, y: 0.02, z: 0}
+    - itemData:
+        name: P_2
+        icon: {fileID: -625256060904785561, guid: 7d9d21a55786d6e478af2adad1444ea0,
+          type: 3}
+        textMeshProName: P<sub>2</sub>
+        type: 1
+        textValue: (3 7 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: (3 7 0)
+      localAnalyzePosition: {x: 0.69, y: 2.21, z: 0}
+    - itemData:
+        name: P_3
+        icon: {fileID: -5529407802456848229, guid: 7d9d21a55786d6e478af2adad1444ea0,
+          type: 3}
+        textMeshProName: P<sub>3</sub>
+        type: 1
+        textValue: (2 2 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: (2 2 0)
+      localAnalyzePosition: {x: 2.6, y: -0.06, z: 0}
+    - itemData:
+        name: P_4
+        icon: {fileID: -8396258833528872479, guid: 7d9d21a55786d6e478af2adad1444ea0,
+          type: 3}
+        textMeshProName: P<sub>4</sub>
+        type: 1
+        textValue: (7 5 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 
+        definition: 
+        textMeshProValue: (7 5 0)
+      localAnalyzePosition: {x: 2, y: 2, z: 0}

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02GewichtskraftKanone
+  m_EditorClassIdentifier: 
+  uid: 03a721ee-3ff8-450e-8304-ad68ec229204
+  taskName: Gewichtskraft bestimmen
+  teaserDescription: "Leider k\xF6nnen wir das Katapult nicht \xFCberall abstellen.
+    Kannst du uns bei den Berechnungen helfen, um herauszufinden, welche Bodenart
+    wir als Untergrund brauchen?"
+  teaserSolvedCorrect: 'Durch deine Berechnungen steht das Katapult nun sicher, fest
+    und einsatzbereit vor Ort.
+
+'
+  teaserSolvedWrong: "Bei den Berechnungen gab es Diskrepanzen. Das Katapult sieht
+    nicht so aus, als w\xFCrde es einsatzbereit stehen.\r\n"
+  fullDescription: "Berechne, ob der bestehende Boden f\xFCr das Gewicht des Katapults
+    stabil genug ist."
+  teachAndPlayDescription: "Die Software simuliert den Aufbau von Kanonen zur Verteidigung
+    gegen eine m\xF6gliche Insektenplage. Bestimme, wie schwer die Kanone ist und
+    wo sie platziert werden kann."
+  topic: {fileID: 11400000, guid: b8b22655c37ea13449c984ae3e831544, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: m
+      icon: {fileID: 7338915466576782459, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: m
+      type: 0
+      textValue: 120 kg
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Masse der Kanone.
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit eines
+        K\xF6rpers gegen Beschleunigungskr\xE4fte beschreibt."
+      textMeshProValue: 120 kg
+    - name: g
+      icon: {fileID: 2359617193843903315, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: g
+      type: 0
+      textValue: 9.81 m/s^2
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Beschleunigung des K\xF6rpers durch Erdgravitation."
+      definition: "Beschleunigung, die ein K\xF6rper, durch Gravitation, auf der
+        Erde erf\xE4hrt."
+      textMeshProValue: 9.81 m/s<sup>2</sup>
+    dummyInputs:
+    - name: h
+      icon: {fileID: 4464738677885441785, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: 
+      type: 0
+      textValue: 2.7 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "H\xF6he der Kanone."
+      definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+        eines K\xF6rpers in eine Richtung bzw. den Abstand zwischen zwei Objekten."
+      textMeshProValue: 
+    output:
+      name: F_1
+      icon: {fileID: -2771234328674165637, guid: e820d8ec00669ee43851de9efc0db505,
+        type: 3}
+      textMeshProName: F<sub>1</sub>
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 1bd5a7685d537ea418fa58ee5c0ae31b, type: 2}
+    dialogs:
+    - "Bevor es losgeht m\xFCssen noch letzte Dinge gepr\xFCft werden. Wir haben
+      schon die ~i:m|Masse~ und die ~i:g|Erdbeschleunigung~."
+  - npc: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+    dialogs:
+    - "F**k, hier muss auch an 1000 Dinge gedacht werden. Die ~i:h|H\xF6he~ der Kanone
+      haben wir nat\xFCrlich auch. Jetzt fehlt nur noch die ~o:F_1|Kraft~ der Kanone
+      zum Boden."
+    - "Allez vite, aber gem\xE4chlich. Edel geht die Welt unter.\r\n"
+  hashtags:
+  - 'kraft '
+  - beschleunigung
+  - analytisch
+  connectedObject: {fileID: 11400000, guid: a04c61f53d1452847a2f2f90680c4e0f, type: 2}

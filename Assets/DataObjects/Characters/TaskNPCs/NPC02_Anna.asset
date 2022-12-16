@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90bfcac71701ae458dd7d4615ef306e, type: 3}
+  m_Name: NPC02_Anna
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: spriteRenderDictionary
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 17
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Decoration
+    - Name: $v
+      Entry: 1
+      Data: None
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Eyes
+    - Name: $v
+      Entry: 1
+      Data: EyesFemale2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Foot_Back
+    - Name: $v
+      Entry: 1
+      Data: FootBack_slippers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Foot_Front#
+    - Name: $v
+      Entry: 1
+      Data: FootFront_slippers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hair_Back
+    - Name: $v
+      Entry: 1
+      Data: HairBack_Kopftuch
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hair_Front#
+    - Name: $v
+      Entry: 1
+      Data: HairFront_Kopftuch
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerBody_LowerLegBack
+    - Name: $v
+      Entry: 1
+      Data: LowerLegBack_Cloth1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerBody_LowerLegFront
+    - Name: $v
+      Entry: 1
+      Data: LowerLegFront_Cloth1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerBody_UpperLegBack
+    - Name: $v
+      Entry: 1
+      Data: UpperLegBack_Cloth1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerBody_UpperLegFront#
+    - Name: $v
+      Entry: 1
+      Data: UpperLegFront_Cloth1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mouth
+    - Name: $v
+      Entry: 1
+      Data: Mouth2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Nose
+    - Name: $v
+      Entry: 1
+      Data: Nose1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_LowerBackArm
+    - Name: $v
+      Entry: 1
+      Data: LowerArmBack_ShirtFemale1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_LowerFrontArm
+    - Name: $v
+      Entry: 1
+      Data: LowerArmFront_ShirtFemale1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_Torso#
+    - Name: $v
+      Entry: 1
+      Data: Torso_ShirtFemale1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_UpperBackArm
+    - Name: $v
+      Entry: 1
+      Data: UpperArmBack_ShirtFemale1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_UpperFrontArm
+    - Name: $v
+      Entry: 1
+      Data: UpperArmFront_ShirtFemale1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  uid: 559512d1-2972-4d27-9933-3cdc6cd1f7d8
+  characterName: Anna
+  thumbnail: {fileID: 21300000, guid: d2513fa82c1fb8b4d8ffea6f5caec786, type: 3}
+  type: 1
+  hairColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+  bodyColor: {r: 0.5471698, g: 0.40035006, b: 0.28648984, a: 1}

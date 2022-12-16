@@ -1,0 +1,42 @@
+title: Juan.Start
+tags: 
+colorID: 0
+position: 16,-53
+---
+<<if visited("Juan.Start") is false>>
+    Hallo, ich bin Juan! 
+    <<AutoContinue>>
+    Was verschlägt dich in die Berge?
+    -> Die frische Luft!
+    	Das mit der frischen Luft hat sich mittlerweile erledigt.
+    	Die Abgase aus Newton-Stadt ziehen auch hier nicht spurlos vorbei. 
+    -> Die Suche nach Abenteuern!
+    	Tatendrang! Das gefällt mir.
+<<else>>
+    Hey!
+<<endif>>
+<<AutoContinue>>
+Hast du noch eine Frage?
+[[Wie ist die Lage hier oben?|Juan.Report]]
+[[Nein, ich muss schnell weiter.|Juan.Exit]]
+===
+title: Juan.Report
+tags: 
+colorID: 0
+position: -316,250
+---
+Zu Beginn sind wir hier noch verschont geblieben, aber immer mehr Insekten krabbeln jetzt die Berge hinauf.
+<<AutoContinue>>
+Ein Großteil des Baumbestandes ist den Viechern schon zum Opfern gefallen.
+Durch die erhöhte Lage haben wir außerdem Probleme, neue Ausrüstung anzuliefern...
+<<AutoContinue>>
+Kannst du uns vielleicht helfen?
+[[Klar, ich mache mich gleich an die Arbeit|Juan.Exit]]
+===
+title: Juan.Exit
+tags: 
+colorID: 0
+position: 86,462
+---
+Dann mach es mal gut!
+===

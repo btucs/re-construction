@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 03-MLEHandout_RechterWinkel
+  m_EditorClassIdentifier: 
+  mleName: Rechtwinkliges Dreieck
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{enumerate}\n\\item Ein Innenwinkel des rechtwinkligen Dreiecks
+      ist 90 Grad gro\xDF.\r\n\\item Die Seite, die dem 90 Grad-Winkel gegen\xFCber
+      liegt, nennen wir Hypotenuse und die Seiten am rechten Winkel Katheten.\r\n\\item
+      Beim rechtwinkligen Dreieck ist der Satz des Pythagoras anwendbar:     \r\n$$
+      a^2 + b^2 = c^2 $$\r\n\\item Der Sinus eines Winkels  beschreibt das Verh\xE4ltnis
+      aus Gegenkathete zu Hypotenuse \r\n\\item Der Cosinus eines Winkels  beschreibt
+      das Verh\xE4ltnis aus Ankathete zu Hypotenuse\r\n\r\\item Der Tangens eines
+      Winkels  beschreibt das Verh\xE4ltnis aus Gegenkathete zu Ankathete\r\n\\end{enumerate}"
+    picture: {fileID: 0}
+  - title: Was ist ein rechtwinkliges Dreieck?
+    description: "\\begin{itemize}\n\\item Ein rechtwinkliges Dreieck ist eine geometrische
+      Form mit drei Seiten bei der ein Winkel 90\xB0 aufweist. \r\n\\item Der 90\xB0-Winkel
+      wird auch als rechter Winkel bezeichnet, da die zwei Seiten, die den Winkel
+      einschlie\xDFen, senkrecht zu einander stehen. \r\n\\item Der rechte Winkel
+      wird mit Kreisbogen und Punkt dargestellt.\r\n\\item Die Seite gegen\xFCber
+      dem rechten Winkel wird als Hypotenuse bezeichnet (l\xE4ngste Seite im rechtwinkligen
+      Dreieck). \n\\item Die Seiten am rechten Winkel bezeichnet mal als Katheten.
+      \n\\item Je nach zu betrachteten Winkel, werden die Katheten als Ankathete
+      oder Gegenkathete bezeichnet. Ankathete hei\xDFt sie, wenn die Seite am Winkel
+      der betrachtet werden soll liegt. Die Gegenkathete die Seite, die dem betrachteten
+      Winkel gegen\xFCberliegt.\n\\end {itemize}"
+    picture: {fileID: 21300000, guid: 043e62994e1c2704b811f13fafc78dd7, type: 3}
+  - title: Was ist der Satz des Pythagoras?
+    description: "Der Satz des Pythagoras besagt, dass das Quadrat der Hypotenuse
+      gleich der Summe der Kathetenquadrate ist.\r\n\r\nWenn zwei Seiten bekannt
+      sind, kann mit dem Satz des Pythagoras und eventuellem Umstellen die dritte
+      Seite bestimmt werden (gilt nur im rechtwinkligen Dreieck)\r.\n"
+    picture: {fileID: 21300000, guid: 609ad6af24a7b5e44978a837948093a1, type: 3}
+  - title: Beispielrechnung
+    description: "Beispiel: Wie lang ist die Hypotenuse c, wenn die Seiten mit a
+      = 12 cm und b = 15 cm gegeben sind?\n\n\\textit{Gegeben}: a = 12 cm, b = 15
+      cm\n\\textit{Gesucht}: c in cm\n\n\\textit{L\xF6sung}:\n$$ a^2 + b^2 = c^2
+      $$ / Wurzeln ziehen und Seiten tauschen\n$$ c = \\sqrt{a^2 + b^2} $$ / einsetzen
+      und ausrechnen\n$$ c = \\sqrt{(12 cm)^2 + (15 cm)^2 $$\n$$ \\underline{ c =
+      19,2 cm } $$\n"
+    picture: {fileID: 21300000, guid: 3b76bffdb0fffec47a2a37ffdbc3138e, type: 3}
+  - title: Was sind Sinus, Cosinus und Tangens?
+    description: "Die trigonometrischen Funktionen oder auch Winkelfunktionen Sinus,
+      Cosinus und Tangens setzen einen Winkel und zwei Seiten ins Verh\xE4ltnis.
+      Voraussetzung daf\xFCr ist ein rechtwinkliges Dreieck.\n\\begin{itemize}\n\\item
+      Der Sinus eines Winkels (\u03B1) wird aus dem Verh\xE4ltnis von Gegenkathete
+      zu Hypotenuse gebildet\r.\n\r\\item Der Cosinus (\u03B1) eines Winkels wird
+      aus dem Verh\xE4ltnis von Ankathete zu Hypotenuse gebildet. \r\n\r\\item Der
+      Tangens eines Winkels (\u03B1) wird aus dem Verh\xE4ltnis von Ankathete zu
+      Gegenkathete gebildet.\r\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 84c718e6e746d2d4f8dde4f405b58702, type: 3}
+  - title: 'Beispielaufgabe '
+    description: "Welcher Winkel \u03B2 wird von den oben genannten Seite a und c
+      aufgespannt?\n\n\\textit{Gegeben}: a = 12 cm, c = 19,2 cm\n\n\\textit{Gesucht}:
+      \u03B2 in \xB0\n\n\\textit{L\xF6sung}:\n$$ cos(\u03B2) = \\frac{Ankathete}{Hypotenuse}
+      = \\frac{a}{c} $$ / nach \u03B2 umstellen\n$$ \u03B2 = arccos \\frac{a}{c}
+      $$ / einsetzen und ausrechnen\n$$ \u03B2 = arccos \\frac{12 cm}{19,2 cm} $$\n$$
+      \\underline{ \u03B2 = 51,3^{\\circ}} $$\n"
+    picture: {fileID: 21300000, guid: 674887a32b8e69143bf70a364474d541, type: 3}

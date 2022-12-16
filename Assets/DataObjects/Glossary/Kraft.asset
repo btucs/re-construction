@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Kraft
+  m_EditorClassIdentifier: 
+  headline: Kraft
+  easy:
+    content: "Was sagt die Kraft?\r\n\r\nWie stark K\xF6rper aufeinander wirken.\r\n\r\nWelches
+      Formel-Zeichen hat die Kraft?\r\n\r\n- Das Formel-Zeichen ist F.\r\n- Als Alternative
+      gilt auch F mit einem kleinen Pfeil dar\xFCber.\r\n\r\nWelche Einheit hat die
+      Kraft?\r\n\r\n- Die Einheit der Kraft ist Newton.\r\n- Newton kannst du mit
+      N abk\xFCrzen.\r\n\r\nWie stellst du die Kraft dar?\r\n\r\n- \xDCber einen
+      Pfeil.\r\n- Der Pfeil geht in eine [Richtung](glossary:Richtung).\r\n- Deshalb
+      ist die Kraft auch eine gerichtete Gr\xF6\xDFe.\r\n- Gerichtete Gr\xF6\xDFe
+      hei\xDFt auch [vektoriell](glossary:Vektor).\r\n\r\nWelche Besonderheiten hat
+      die Kraft?\r\n\r\n- Die Kraft greift einen Punkt an.\r\n  - Dieser Punkt hei\xDFt
+      [Angriffs-Punkt](glossary:Angriffspunkt).\r\n\r\n- Die Kraft wirkt in eine
+      Richtung.\r\n\r  - Die Richtung kannst du mit einer Linie darstellen.\r\n 
+      - Diese Linie hei\xDFt [Wirkungs-Linie](glossary:Wirkungslinie).\r\n\r\n- Die
+      Kraft hat einen [Richtungs-Sinn](glossary:Richtungssinn).\r\n  - Die Pfeil-Spitze
+      zeigt den Richtungs-Sinn.\r\n\r\n- Die Kraft hat eine bestimmte L\xE4nge.\r\n\r 
+      - Die L\xE4nge dr\xFCckst du \xFCber den [Betrag](glossary:Betrag) aus.\r\n-
+      Die L\xE4nge ist auch die Gr\xF6\xDFe der Kraft.\r\n\r\n- Die Kraft kommt immer
+      als Paar.\r\n\r\nWie kannst du die Kraft berechnen?\r\n\r\nDie Kraft berechnest
+      du mit der Formel Kraft = [Masse](glossary:Masse) * Beschleunigung "
+    image: {fileID: 21300000, guid: c6424a8d03d9be84296d54af22457e11, type: 3}
+    tmpContent: "Was sagt die Kraft?\n\nWie stark K\xF6rper aufeinander wirken.\n\nWelches
+      Formel-Zeichen hat die Kraft?\n\n\u2022 Das Formel-Zeichen ist F.\n\u2022 Als
+      Alternative gilt auch F mit einem kleinen Pfeil dar\xFCber.\n\nWelche Einheit
+      hat die Kraft?\n\n\u2022 Die Einheit der Kraft ist Newton.\n\u2022 Newton kannst
+      du mit N abk\xFCrzen.\n\nWie stellst du die Kraft dar?\n\n\u2022 \xDCber einen
+      Pfeil.\n\u2022 Der Pfeil geht in eine <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>.\n\u2022
+      Deshalb ist die Kraft auch eine gerichtete Gr\xF6\xDFe.\n\u2022 Gerichtete
+      Gr\xF6\xDFe hei\xDFt auch <color=#131313><u><link=\"glossary:Vektor\">vektoriell</link></u></color>.\n\nWelche
+      Besonderheiten hat die Kraft?\n\n\u2022 Die Kraft greift einen Punkt an.\n 
+      \n  \u2022 Dieser Punkt hei\xDFt <color=#131313><u><link=\"glossary:Angriffspunkt\">Angriffs-Punkt</link></u></color>.\n\n\u2022
+      Die Kraft wirkt in eine Richtung.\n  \n  \u2022 Die Richtung kannst du mit
+      einer Linie darstellen.\n  \u2022 Diese Linie hei\xDFt <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungs-Linie</link></u></color>.\n\n\u2022
+      Die Kraft hat einen <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungs-Sinn</link></u></color>.\n 
+      \n  \u2022 Die Pfeil-Spitze zeigt den Richtungs-Sinn.\n\n\u2022 Die Kraft hat
+      eine bestimmte L\xE4nge.\n  \n  \u2022 Die L\xE4nge dr\xFCckst du \xFCber den
+      <color=#131313><u><link=\"glossary:Betrag\">Betrag</link></u></color> aus.\n\n\u2022
+      Die L\xE4nge ist auch die Gr\xF6\xDFe der Kraft.\n\n\u2022 Die Kraft kommt
+      immer als Paar.\n\nWie kannst du die Kraft berechnen?\n\nDie Kraft berechnest
+      du mit der Formel Kraft = <color=#131313><u><link=\"glossary:Masse\">Masse</link></u></color>
+      * Beschleunigung"
+  medium:
+    content: "Die Kraft gibt an, wie stark zwei K\xF6rper aufeinander wirken. Das
+      Formelzeichen der Kraft ist F. Alternativ kann auch F mit einem kleinen Pfeil
+      dar\xFCber verwendet werden. Die Einheit der Kraft ist Newton. Diese wird mit
+      N abgek\xFCrzt. Die Kraft kann mit der Formal Kraft (F) = [Masse](glossary:Masse)
+      (m) * Beschleunigung (a) berechnet werden.\r\n\r\nEine Kraft ist eine gerichtete
+      Gr\xF6\xDFe, d. h. sie hat immer eine [Richtung](glossary:Richtung). Deshalb
+      kann sie auch als Pfeil dargestellt werden. Ein Synonym f\xFCr gerichtet ist
+      [vektoriell](glossary:Vektor). \r\n\r\nEine Kraft hat folgende Eigenschaften:\r\n\r\n-
+      Sie hat einen [Angriffspunkt](glossary:Angriffspunkt).\r\n- Sie wirkt in eine
+      bestimmte Richtung.\r\n- Sie hat einen [Richtungssinn](glossary:Richtungssinn).\r\n-
+      Sie hat einen [Betrag](glossary:Betrag).\r\n- Sie tritt immer paarweise auf.
+      \r\n\r\nDie Richtung wird durch die [Wirkungslinie](glossary:Wirkungslinie)
+      dargestellt und der Richtungssinn \xFCber die Pfeilspitze. Der Betrag wird
+      \xFCber die L\xE4nge des Pfeils definiert."
+    image: {fileID: 21300000, guid: 4f85f6b296b80684db86f7ea3c04f4b2, type: 3}
+    tmpContent: "Die Kraft gibt an, wie stark zwei K\xF6rper aufeinander wirken.
+      Das Formelzeichen der Kraft ist F. Alternativ kann auch F mit einem kleinen
+      Pfeil dar\xFCber verwendet werden. Die Einheit der Kraft ist Newton. Diese
+      wird mit N abgek\xFCrzt. Die Kraft kann mit der Formal Kraft (F) = <color=#131313><u><link=\"glossary:Masse\">Masse</link></u></color>
+      (m) * Beschleunigung (a) berechnet werden.\n\nEine Kraft ist eine gerichtete
+      Gr\xF6\xDFe, d. h. sie hat immer eine <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>.
+      Deshalb kann sie auch als Pfeil dargestellt werden. Ein Synonym f\xFCr gerichtet
+      ist <color=#131313><u><link=\"glossary:Vektor\">vektoriell</link></u></color>.\n\nEine
+      Kraft hat folgende Eigenschaften:\n\n\u2022 Sie hat einen <color=#131313><u><link=\"glossary:Angriffspunkt\">Angriffspunkt</link></u></color>.\n\u2022
+      Sie wirkt in eine bestimmte Richtung.\n\u2022 Sie hat einen <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungssinn</link></u></color>.\n\u2022
+      Sie hat einen <color=#131313><u><link=\"glossary:Betrag\">Betrag</link></u></color>.\n\u2022
+      Sie tritt immer paarweise auf.\n\nDie Richtung wird durch die <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      dargestellt und der Richtungssinn \xFCber die Pfeilspitze. Der Betrag wird
+      \xFCber die L\xE4nge des Pfeils definiert."
+  scientific:
+    content: "Die (mechanische) Kraft gibt an, wie stark die Wirkung zweier K\xF6rper
+      aufeinander ist und tritt immer paarweise auf. Die Kraft wird als [vektorielle](glossary:Vektor) 
+      (gerichtete) Gr\xF6\xDFe, also als Pfeil, dargestellt und durch folgende vier 
+      Eigenschaften definiert:     \r\n\r\n- Ort ([Angriffspunkt](glossary:Angriffspunkt)),  
+      \r\n- [Richtung](glossary:Richtung) ([Wirkungslinie](glossary:Wirkungslinie)),  
+      \r\n- [Richtungssinn](glossary:Richtungssinn) (Orientierung der Pfeilspitze),  
+      \r\n- [Betrag](glossary:Betrag) (Gr\xF6\xDFe/L\xE4nge).    \r\n\r\nDas Formelzeichen
+      ist F (bzw. F mit Pfeil) und die Einheit ist Newton  (N). Die Kraft kann mit
+      F = m * a berechnet werden.  \r\n\r\n "
+    image: {fileID: 21300000, guid: 8bc6b38bf817e7344916194c970d3beb, type: 3}
+    tmpContent: "Die (mechanische) Kraft gibt an, wie stark die Wirkung zweier K\xF6rper
+      aufeinander ist und tritt immer paarweise auf. Die Kraft wird als <color=#131313><u><link=\"glossary:Vektor\">vektorielle</link></u></color> 
+      (gerichtete) Gr\xF6\xDFe, also als Pfeil, dargestellt und durch folgende vier 
+      Eigenschaften definiert:\n\n\u2022 Ort (<color=#131313><u><link=\"glossary:Angriffspunkt\">Angriffspunkt</link></u></color>),\n\u2022
+      <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color> (<color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>),\n\u2022
+      <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungssinn</link></u></color>
+      (Orientierung der Pfeilspitze),\n\u2022 <color=#131313><u><link=\"glossary:Betrag\">Betrag</link></u></color>
+      (Gr\xF6\xDFe/L\xE4nge).\n\nDas Formelzeichen ist F (bzw. F mit Pfeil) und die
+      Einheit ist Newton  (N). Die Kraft kann mit F = m * a berechnet werden."
+  tmpHeadline: 

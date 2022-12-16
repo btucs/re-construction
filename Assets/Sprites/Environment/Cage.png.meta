@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 37a2d18c9e9891842a455eca506a7086
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3520485905649563039
+    second: Cage_BorderLeft
+  - first:
+      213: -5121646535590704358
+    second: Cage_CenterBig
+  - first:
+      213: 7570120714942277014
+    second: Cage_CenterSmall
+  - first:
+      213: 5115341283994545845
+    second: Cage_BorderRight
+  - first:
+      213: 576571466420463603
+    second: Cage_Siggi_Standing
+  - first:
+      213: 3643353603065919696
+    second: Cage_Bruni_Standart
+  - first:
+      213: -563814966397236584
+    second: Cage_Siggi_Eating
+  - first:
+      213: 5267637760976511378
+    second: Cage_Siggi_Fat
+  - first:
+      213: 6545967749119216143
+    second: Cage_Siggi_Sleeping
+  - first:
+      213: 7186467775857628235
+    second: Cage_Siggi_Hurt
+  - first:
+      213: 1722035496334523735
+    second: Cage_Bruni_Sad
+  - first:
+      213: -2428625527813927208
+    second: Cage_Bruni_Hurt
+  - first:
+      213: -6915628154246062050
+    second: Cage_Bruni_Sleeping
+  - first:
+      213: 8157076203854726556
+    second: Cage_Bruni_Helmet
+  - first:
+      213: 4042658472601767089
+    second: Cage_Bruni_Wheelchair
+  - first:
+      213: 8913904015234145295
+    second: Cage_KatapultAbschussRampe
+  - first:
+      213: -3300996887012246721
+    second: Cage_KatapultBoden
+  - first:
+      213: 7507234441631966500
+    second: Cage_KatapultTreppe
+  - first:
+      213: -4441117038290493533
+    second: Cage_Rutsche
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cage_BorderLeft
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 20
+        width: 104
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a6a0fb662793c4ab47d01e71fdb24f
+      internalID: 3520485905649563039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_CenterBig
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 20
+        width: 393
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2140766d9e440f0469b92cdd977eb7d0
+      internalID: -5121646535590704358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_CenterSmall
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 20
+        width: 196
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8d495ede878b845bff4bd71a6f0661
+      internalID: 7570120714942277014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_BorderRight
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 20
+        width: 102
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e412a2371c5cfbb4bae0dc454cd388fc
+      internalID: 5115341283994545845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Siggi_Standing
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 895
+        width: 109
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76901aa71496324696b1a0df93af7ec
+      internalID: 576571466420463603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Bruni_Standart
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 818
+        width: 91
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7785eb922fb764587f4da739b46f67
+      internalID: 3643353603065919696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Siggi_Eating
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 718
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636c1ebf5ccf3624d93422a493724369
+      internalID: -563814966397236584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Siggi_Fat
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 716
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8442b3fdde0e04ab211dbee33e61b8
+      internalID: 5267637760976511378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Siggi_Sleeping
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 555
+        width: 104
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cb1b1b447175b4db37c0c32e6ce4ff
+      internalID: 6545967749119216143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Siggi_Hurt
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 651
+        width: 106
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037d0207658ba494f9862946fe1a0d57
+      internalID: 7186467775857628235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Bruni_Sad
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 717
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8276b4e321ace45a46716270ab0e5a
+      internalID: 1722035496334523735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Bruni_Hurt
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 718
+        width: 92
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4777ce6c03cf8e645813fe6144bd82a1
+      internalID: -2428625527813927208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Bruni_Sleeping
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 554
+        width: 84
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9103d9b06219db4d8cf92add46c6da5
+      internalID: -6915628154246062050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Bruni_Helmet
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 552
+        width: 84
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145bfab327e7e374ba12e5fb3755d9c0
+      internalID: 8157076203854726556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Bruni_Wheelchair
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 532
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a17dd8a49b627245b1aa473e4620efb
+      internalID: 4042658472601767089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_KatapultAbschussRampe
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 445
+        width: 187
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8953afe61338744933892df3a3110a
+      internalID: 8913904015234145295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_KatapultBoden
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 422
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f5b9ec5d378164ea9db27677d2f1a3
+      internalID: -3300996887012246721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_KatapultTreppe
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 423
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80cf0fd690820640aa05bee8d91ea49
+      internalID: 7507234441631966500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cage_Rutsche
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 420
+        width: 238
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cb5a6c6803b4f41b9020f34ec8b4e9
+      internalID: -4441117038290493533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

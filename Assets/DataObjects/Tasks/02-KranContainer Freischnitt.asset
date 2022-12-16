@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 02-KranContainer Freischnitt
+  m_EditorClassIdentifier: 
+  uid: 68230c11-67be-45cb-9e8e-063b3c1f6df6
+  taskName: 'Container aufstellen '
+  teaserDescription: "Jetzt steht schon alles f\xFCr den Transport bereit, aber die
+    \xD6se wirkt ein wenig unzuverl\xE4ssig. Wird sie den Transport \xFCberstehen?\r\n\n"
+  teaserSolvedCorrect: 'Der Container konnte sicher aufgestellt werden.
+
+'
+  teaserSolvedWrong: "Die Aufstellung des Containers steht noch aus. Die Kr\xE4fte
+    wurden noch nicht hinreichend dargestellt.\r\n"
+  fullDescription: "Ein Freischnitt des Containertransports soll die sichere Aufstellung
+    des Containers gew\xE4hrleisten.\r\n"
+  topic: {fileID: 11400000, guid: 990a9b3680e5f38479322b420ba65074, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: 
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 
+    dummyInputs:
+    - name: m
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 12 t
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Masse des Containers.
+      definition: "Die Masse beschreibt die Tr\xE4gheit eines K\xF6rpers gegen Beschleunigungskr\xE4fte."
+      textMeshProValue: 
+    output:
+      name: 
+      icon: {fileID: 0}
+      textMeshProName: 
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: d60d2682d473dd94fa76bf04e84b0832, type: 2}
+    dialogs:
+    - 'Wir haben schon begonnen und die Kraft von x und die Kraft von y vorliegen.
+
+'
+  - npc: {fileID: 11400000, guid: aaf810f3b5ed4924b812b400009ed97b, type: 2}
+    dialogs:
+    - "Ich versteh' das nicht so richtig. Gibt es grad nichts Wichtigeres, als das
+      Haus zu sichern? \r\n"
+    - ".. Jaja, ich versteh schon, es gibt viele Baustellen\u2026\r\n"
+  hashtags:
+  - 'freischneiden '
+  - "kr\xE4fte "

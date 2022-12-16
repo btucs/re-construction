@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Balken
+  m_EditorClassIdentifier: 
+  headline: Balken
+  easy:
+    content: "Ein technisches System besteht aus Elementen.\r\n\r\nEin Element ist
+      der Balken.\r\n\r\nWelche Eigen-Art hat der Balken?\r\n\r\n- Der Balken vertr\xE4gt
+      [Normal-Kr\xE4fte](glossary:Normalkraft).\r\n  - Normal-Kr\xE4fte sind Kr\xE4fte
+      durch\r\n    - [Zug](glossary:Zugkraft) und\r\n    - [Druck](glossary:Druckkraft)\r\n-
+      Der Balken vertr\xE4gt auch [Quer-Kr\xE4fte](glossary:Querkraft).\r\n  - Zum
+      Beispiel kannst du dich auf einen Balken setzen.\r\n- Du kannst den Balken
+      auch biegen. \r\n  - Deshalb vertr\xE4gt der Balken auch [Momente](glossary:Biegemoment).\r\n\r\nWenn
+      der Balken nur Normal-Kr\xE4fte vertr\xE4gt.\r\n\r\nDann kannst du den Balken
+      als [Stab](glossary:St\xE4be) betrachten."
+    image: {fileID: 21300000, guid: 55c008424cee369429bb92136722a545, type: 3}
+    tmpContent: "Ein technisches System besteht aus Elementen.\n\nEin Element ist
+      der Balken.\n\nWelche Eigen-Art hat der Balken?\n\n\u2022 Der Balken vertr\xE4gt
+      <color=#131313><u><link=\"glossary:Normalkraft\">Normal-Kr\xE4fte</link></u></color>.\n 
+      \u2022 Normal-Kr\xE4fte sind Kr\xE4fte durch\n    \u2022 <color=#131313><u><link=\"glossary:Zugkraft\">Zug</link></u></color>
+      und\n    \u2022 <color=#131313><u><link=\"glossary:Druckkraft\">Druck</link></u></color>\n\u2022
+      Der Balken vertr\xE4gt auch <color=#131313><u><link=\"glossary:Querkraft\">Quer-Kr\xE4fte</link></u></color>.\n 
+      \u2022 Zum Beispiel kannst du dich auf einen Balken setzen.\n\u2022 Du kannst
+      den Balken auch biegen.\n  \u2022 Deshalb vertr\xE4gt der Balken auch <color=#131313><u><link=\"glossary:Biegemoment\">Momente</link></u></color>.\n\nWenn
+      der Balken nur Normal-Kr\xE4fte vertr\xE4gt.\n\nDann kannst du den Balken als
+      <color=#131313><u><link=\"glossary:St\xE4be\">Stab</link></u></color> betrachten."
+  medium:
+    content: "Balken sind Elemente in technischen Systemen. Sie werden durch die
+      Eigenschaft beschrieben, sowohl [Normal](glossary:Normalkraft)- und [Querkr\xE4fte](glossary:Querkraft)
+      als auch [Biegemomente](glossary:Biegemoment) aufzunehmen. Zu Normalkr\xE4ften
+      geh\xF6ren [Zug](glossary:Zugkraft)- und [Druckkr\xE4fte](glossary:Druckkraft),
+      die parallel zur Balkenl\xE4nge wirken. \r\n\r\nTreten bei einem Balken nur
+      Normalkr\xE4fte auf, wird er als [Stab](glossary:St\xE4be) gehandhabt. "
+    image: {fileID: 21300000, guid: df376efad77151a44a12595601985598, type: 3}
+    tmpContent: "Balken sind Elemente in technischen Systemen. Sie werden durch die
+      Eigenschaft beschrieben, sowohl <color=#131313><u><link=\"glossary:Normalkraft\">Normal</link></u></color>-
+      und <color=#131313><u><link=\"glossary:Querkraft\">Querkr\xE4fte</link></u></color>
+      als auch <color=#131313><u><link=\"glossary:Biegemoment\">Biegemomente</link></u></color>
+      aufzunehmen. Zu Normalkr\xE4ften geh\xF6ren <color=#131313><u><link=\"glossary:Zugkraft\">Zug</link></u></color>-
+      und <color=#131313><u><link=\"glossary:Druckkraft\">Druckkr\xE4fte</link></u></color>,
+      die parallel zur Balkenl\xE4nge wirken.\n\nTreten bei einem Balken nur Normalkr\xE4fte
+      auf, wird er als <color=#131313><u><link=\"glossary:St\xE4be\">Stab</link></u></color>
+      gehandhabt."
+  scientific:
+    content: "Balken sind Elemente von technischen Systemen, welche [Normal-](glossary:Normalkraft)
+      und [Querkr\xE4fte](glossary:Querkraft) aufnehmen sowie [Biegemomente](glossary:Biegemoment).
+      Treten nur Normalkr\xE4fte auf, wird das Element zu [St\xE4be](glossary:St\xE4be)."
+    image: {fileID: 21300000, guid: 77c8ba242cfcbf8419d9cfd801c81a9b, type: 3}
+    tmpContent: "Balken sind Elemente von technischen Systemen, welche <color=#131313><u><link=\"glossary:Normalkraft\">Normal-</link></u></color>
+      und <color=#131313><u><link=\"glossary:Querkraft\">Querkr\xE4fte</link></u></color>
+      aufnehmen sowie <color=#131313><u><link=\"glossary:Biegemoment\">Biegemomente</link></u></color>.
+      Treten nur Normalkr\xE4fte auf, wird das Element zu <color=#131313><u><link=\"glossary:St\xE4be\">St\xE4be</link></u></color>."
+  tmpHeadline: 

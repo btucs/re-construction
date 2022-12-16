@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Kathete
+  m_EditorClassIdentifier: 
+  headline: Kathete
+  easy:
+    content: "Was ist eine Kathete?\r\n\r\n- Katheten sind Seiten im recht-winkligen
+      Drei-Eck.\r\n- Katheten ber\xFChren den [rechten Winkel](glossary:Rechter_Winkel).\r\n\r\nWoraus
+      besteht ein recht-winkliges Drei-Eck?\r\n\r\n- 3 Seiten\r\n- 3 Winkel\r\n-
+      Einer von 3 Winkeln ist recht-winklig. \r\n- Der rechte Winkel betr\xE4gt 90
+      Grad.\r\n\r\nWelche Arten von Katheten gibt es?\r\n\r\n- An-Kathete: \r\n 
+      - Die An-Kathete ber\xFChrt den betrachteten Winkel.\r\n\n\r- Gegen-Kathete:
+      \r\n\r  - Die Gegen-Kathete liegt gegen\xFCber dem betrachteten Winkel."
+    image: {fileID: 21300000, guid: ad407215d65576a4cb26695e7063434c, type: 3}
+    tmpContent: "Was ist eine Kathete?\n\n\u2022 Katheten sind Seiten im recht-winkligen
+      Drei-Eck.\n\u2022 Katheten ber\xFChren den <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color>.\n\nWoraus besteht ein recht-winkliges Drei-Eck?\n\n\u2022
+      3 Seiten\n\u2022 3 Winkel\n\u2022 Einer von 3 Winkeln ist recht-winklig.\n\u2022
+      Der rechte Winkel betr\xE4gt 90 Grad.\n\nWelche Arten von Katheten gibt es?\n\n\u2022
+      An-Kathete:\n  \n  \u2022 Die An-Kathete ber\xFChrt den betrachteten Winkel.\n\n\u2022
+      Gegen-Kathete:\n  \n  \u2022 Die Gegen-Kathete liegt gegen\xFCber dem betrachteten
+      Winkel."
+  medium:
+    content: "Das rechtwinklige Dreieck besteht aus drei verbundenen Seiten und drei
+      Winkeln. Ein Winkel ist ein [rechter Winkel](glossary:Rechter_Winkel) und immer
+      90\xB0 gro\xDF. Die Seiten, die an den rechten Winkel grenzen, werden Katheten
+      genannt. Des Weiteren k\xF6nnen die Katheten Ankathete und Gegenkathete genannt
+      werden. Die Benennung erfolgt nach dem betrachteten Winkel. Liegt die Kathete
+      dem betrachteten Winkel gegen\xFCber, wird sie Gegenkathete genannt. Grenzt
+      die Kathete an den Winkel, wird sie Ankathete genannt.  "
+    image: {fileID: 21300000, guid: 45a6a2836ecaf2146a546d5f7f449cd2, type: 3}
+    tmpContent: "Das rechtwinklige Dreieck besteht aus drei verbundenen Seiten und
+      drei Winkeln. Ein Winkel ist ein <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechter
+      Winkel</link></u></color> und immer 90\xB0 gro\xDF. Die Seiten, die an den
+      rechten Winkel grenzen, werden Katheten genannt. Des Weiteren k\xF6nnen die
+      Katheten Ankathete und Gegenkathete genannt werden. Die Benennung erfolgt nach
+      dem betrachteten Winkel. Liegt die Kathete dem betrachteten Winkel gegen\xFCber,
+      wird sie Gegenkathete genannt. Grenzt die Kathete an den Winkel, wird sie Ankathete
+      genannt."
+  scientific:
+    content: "Katheten sind die Seiten im rechtwinkligen Dreieck, die am [rechten
+      Winkel](glossary:Rechter_Winkel) angrenzend sind. Dabei ist die Gegenkathete
+      die Seite, die dem betrachteten Winkel gegen\xFCberliegt. Die Ankathete ist
+      dann die Seite, die am betrachteten Winkel anliegt. Je nach betrachtetem Winkel
+      ist eine Seite Gegenkathete oder Ankathete."
+    image: {fileID: 21300000, guid: 24710ad3f2dd27d4fbab01b1c13ca041, type: 3}
+    tmpContent: "Katheten sind die Seiten im rechtwinkligen Dreieck, die am <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color> angrenzend sind. Dabei ist die Gegenkathete die Seite,
+      die dem betrachteten Winkel gegen\xFCberliegt. Die Ankathete ist dann die Seite,
+      die am betrachteten Winkel anliegt. Je nach betrachtetem Winkel ist eine Seite
+      Gegenkathete oder Ankathete."
+  tmpHeadline: 

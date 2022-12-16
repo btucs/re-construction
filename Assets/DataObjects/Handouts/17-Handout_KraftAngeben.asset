@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 17-Handout_KraftAngeben
+  m_EditorClassIdentifier: 
+  mleName: Kraft angeben
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize}\n    \\item Kr\xE4fte sind vektorielle Gr\xF6\xDFen
+      und werden grafisch als Pfeil dargestellt.\n    \\item Werden Kr\xE4fte im
+      Koordinatensystem eingetragen, wird ein Ma\xDFstab ben\xF6tigt.\n    \\item
+      Der Kraftvektor ist durch\n    \\begin{itemize} \n    \\item einen Angriffspunkt,
+      \n    \\item den Winkel (Ausrichtung der Wirkungslinie) und \n    \\item die
+      L\xE4nge des Kraftpfeils (Ma\xDFstab und Betrag) \n    \\end{itemize} \n   
+      gekennzeichnet.\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: Wie sieht ein Kraftvektor aus?
+    description: "\\begin{itemize}\n    \\item Wenn du die Kraft darstellen willst,
+      machst du das \xFCber einen \\textbf{Vektor}  (siehe blauer Pfeil).\n    \\item
+      Der Pfeil liegt auf einer gedachten Linie, der \\textbf{Wirkungslinie}  (siehe
+      orangene Strichlinie). Die Wirkungslinie legt die Lage der Kraft im Raum bzw.
+      in der Ebene fest.\n    \\item Die Pfeilspitze zeigt die Ausrichtung bzw. den
+      \\textbf{Richtungssinn}  der Kraftwirkung auf dieser Linie an. Die Wirkungslinie
+      und der Richtungssinn ergeben zusammen die Richtung der Kraft.\n    \\item
+      In einem \\textbf{Koordinatensystem}  mit entsprechendem \\textbf{Ma\xDFstab} 
+      kann \xFCber die Pfeill\xE4nge auch der \\textbf{Betrag}  angegeben werden.
+      Das ist die Gr\xF6\xDFe, mit der die Kraft wirkt. \n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: "Wie gehe ich vor, wenn ich einen Kraftpfeil in das Koordinatensystem
+      eintragen m\xF6chte?"
+    description: "Du ben\xF6tigst die Ausgangswerte der zu zeichnenden Kraft sowie
+      den Ma\xDFstab des Koordinatensystems. \r\n\\begin{itemize}\r\n    \\item Der
+      Ma\xDFstab legt fest, welcher Betrag f\xFCr eine L\xE4ngeneinheit (LE) im Koordinatensystem
+      steht, z.B. 1 LE = 10 N. Mit diesem Ma\xDFstab kann die exakte L\xE4nge in
+      LE bestimmt werden.\r\n    \\item Der Angriffspunkt des Kraftpfeils legt die
+      Position des Startpunktes fest und der Winkel der Wirkungslinie die Richtung
+      des Kraftpfeils.\r\n    \\item Der Angriffspunkt kann stets in den Koordinatenursprung
+      gelegt werden. Das erm\xF6glicht das einfache Ablesen der Kraftvektorkomponenten.\r\n\\end{itemize}\r\n"
+    picture: {fileID: 0}
+  - title: 'Beispiel:'
+    description: "Ein Geschoss soll aus einer Handschleuder geschossen werden (siehe
+      Abb. 1). Dazu wird der Gummi mit der Hand gespannt und mit dem Winkel von $\\alpha
+      = 36,9^\\circ$ zum Boden nach oben gerichtet. Die Spannkraft $F$ betr\xE4gt
+      hier sch\xE4tzungsweise ca. 75 Newton (siehe Abb. 2). Beim Loslassen wird die
+      Kraft auf die Kugel \xFCbertragen. Der Gummi zieht sich zusammen und bewirkt,
+      dass das Geschoss schlagartig beschleunigt wird.\\\\\r\nIm n\xE4chsten Schritt
+      muss nun der Ma\xDFstab festgelegt werden, der frei gew\xE4hlt werden kann.
+      Wir definieren ihn hier mit 1 LE = 15 N. Mit diesem Ma\xDFstab bestimmen wir
+      die Kraftpfeill\xE4nge.\\\\\r\nMit einer Verh\xE4ltnisgleichung wird die L\xE4nge
+      berechnet:\\\\\r\n\r\n$$\\frac{1\\:LE}{15\\:N}=\\frac{x\\:LE}{75\\:N} \\:\\:\\:\\:\\:|\\:nach\\:x\\:umstellen$$\\\\\r\n$$x\\:LE=\\frac{1\\:LE\\:{\\cdot}\\:75\\:N}{15\\:N}\\:\\:\\:\\:\\:|\\:k\xFCrzen$$\\\\\r\n$$x\\:LE=5\\:LE$$\r\n\r\nDie
+      Kraftpfeill\xE4nge betr\xE4gt 5 LE. Diese kann nun ins Koordinatensystem eingetragen
+      werden und zwar so, dass das Geschoss im Koordinatenursprung platziert wird
+      (siehe Abb. 3).\\\\\r\nDie Kraftkomponenten k\xF6nnen gleich abgelesen werden,
+      da der Startpunkt bei (0; 0) platziert wurde (siehe Abb. 4).\\\\\r\nAllgemein
+      kann der Vektor auch \xFCber die Vektorkomponenten bestimmt werden (siehe Abb.
+      5). Um den Vektor zu bestimmen, wird Endpunkt minus Startpunkt gerechnet (jeweils
+      in x- und y-Richtung). Folgende Gleichung l\xE4sst sich dazu heranziehen:\r\n$$\\vec{F}=\\begin{pmatrix}F_x\\\\F_Y\\end{pmatrix}
+      $$\n\n$$\\vec{F}=\\begin{pmatrix}F_x\\\\F_y\\end{pmatrix} = \\begin{pmatrix}x_2-x_1\\\\y_2-y_1\\end{pmatrix}
+      $$\n\r\nF\xFCr unser Beispiel setzen wir die Werte ein:\r\n$$\\vec{F}=\\begin{pmatrix}F_x\\\\F_y\\end{pmatrix}
+      = \\begin{pmatrix}7-3\\\\5-2\\end{pmatrix} LE = \\begin{pmatrix}4\\\\3\\end{pmatrix}
+      LE $$\n\nDurch zur\xFCckrechnen mit dem Ma\xDFstab k\xF6nnen die Kraftkomponenten
+      in x- und y-Richtung bestimmt werden.\\\\\r\n\r\n\r\n\\begin{tabular}{l|l}\r\n  
+      x-Komponente  &  y-Komponente\\\\\r\n    & \\\\\r\n   $\\frac{1\\:LE}{15\\:N}=\\frac{4\\:LE}{F_x}$
+      & $\\frac{1\\:LE}{15\\:N}=\\frac{3\\:LE}{F_y}$ \\\\\r\n    & \\\\\r\n   $F_x=\\frac{15\\:N\\:{\\cdot}\\:4\\:LE}{1\\:LE}$
+      & $F_y=\\frac{15\\:N\\:{\\cdot}\\:3\\:LE}{1\\:LE}$ \\\\\r\n    & \\\\\r\n  
+      $F_x=60\\:N$ & $F_y=45\\:N$\r\n\\end{tabular} \r\n"
+    picture: {fileID: 0}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize}\n\\item https://www.youtube.com/watch?v=xwsAyQGo9dQ\r\nAls
+      Auffrischung der Grundlagen zum Thema Kraft.\r\n\r\\item https://www.leifiphysik.de/mechanik/kraft-und-kraftarten/grundwissen/beschreibung-von-kraeften\r\nNeben
+      der allgemeinen Beschreibung von Kr\xE4ften findet sich auch eine gute Ausf\xFChrung
+      \xFCber die zeichnerische Darstelllung von Kr\xE4ften.\r\n\\end{itemize}"
+    picture: {fileID: 0}

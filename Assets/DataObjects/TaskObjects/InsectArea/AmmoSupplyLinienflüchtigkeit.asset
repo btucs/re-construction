@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: "AmmoSupplyLinienfl\xFCchtigkeit"
+  m_EditorClassIdentifier: 
+  uid: e77b4fbc-b46e-4725-a93d-15cd170ed826
+  objectName: Nachschubwagen
+  objectDescription: Ein Nachschubwagen mit Kanonenkugeln.
+  objectPrefab: {fileID: 4279624908109508448, guid: 0164bbd30f132d442b4dbacfd04065f9,
+    type: 3}
+  objectThumbnail: {fileID: 1852902974608866827, guid: 3e77713283e007f4c83919fc085e1a34,
+    type: 3}
+  cameraOffset: {x: 0, y: 1.25, z: 0}
+  markerOffset: {x: -0.25, y: 0.5}
+  cameraZoom: 1.25
+  taskInfos:
+  - task: {fileID: 11400000, guid: 23e923a722b34e841a05b53a5bd62729, type: 2}
+    taskButtonPosition: {x: 0.25, y: 1}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: P_1
+        icon: {fileID: -8358376290293990467, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+          type: 3}
+        textMeshProName: P<sub>1</sub>
+        type: 1
+        textValue: (-2 2 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: 'Punkt, an dem der Wagen geschoben wird. '
+        definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+          von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+          dargestellt. "
+        textMeshProValue: (-2 2 0)
+      localAnalyzePosition: {x: -0.83, y: 1.54, z: 0}
+    - itemData:
+        name: P_2
+        icon: {fileID: -486457220413099989, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+          type: 3}
+        textMeshProName: P<sub>2</sub>
+        type: 1
+        textValue: (0.5 2 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Punkt, an dem der Wagen gezogen wird.
+        definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+          von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+          dargestellt. "
+        textMeshProValue: (0.5 2 0)
+      localAnalyzePosition: {x: 0.99, y: 1.39, z: 0}
+    - itemData:
+        name: Betrag_F_1
+        icon: {fileID: 7839046321211688288, guid: 71f9bd2adafe4aa4f8197e5f9160449a,
+          type: 3}
+        textMeshProName: Betrag<sub>F</sub><sub>1</sub>
+        type: 0
+        textValue: 200
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Kraftbetrag, der auf den geschobenen Wagen links wirkt.
+        definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+        textMeshProValue: 
+      localAnalyzePosition: {x: -1.58, y: 1.63, z: 0}
+    - itemData:
+        name: alpha
+        icon: {fileID: 0}
+        textMeshProName: "\u03B1"
+        type: 0
+        textValue: "0 \xB0"
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Schiebewinkel.
+        definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+        textMeshProValue: "0 \xB0"
+      localAnalyzePosition: {x: -1.25, y: 0.56, z: 0}

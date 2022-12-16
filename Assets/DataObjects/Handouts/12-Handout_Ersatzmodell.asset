@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 12-Handout_Ersatzmodell
+  m_EditorClassIdentifier: 
+  mleName: "W\xE4hlen Sie ein MLE aus"
+  entries:
+  - title: Was muss ich wissen?
+    description: "Das Ersatzmodell ist ein vereinfachtes Modell von realen Systemen,
+      das aus einfachen starren K\xF6rpern besteht - also Seilen, St\xE4ben und Balken."
+    picture: {fileID: 0}
+  - title: Warum werden Ersatzmodelle erstellt?
+    description: "\\begin{itemize}\n\\item Durch das Erstellen von Ersatzmodellen
+      k\xF6nnen existierende komplexe technische Systeme in einfache und leicht zu
+      berechnende Systeme umgewandelt werden. \r\n\\item Das Ziel ist es, die realen
+      Bestandteile m\xF6glichst einfach grafisch darzustellen, d.h. es k\xF6nnen
+      beispielsweise bestimmte geometrische Formen vernachl\xE4ssigt und idealisiert
+      abgebildet werden. \r\n\\item Komplexe Zusammenh\xE4nge der Kr\xE4fte werden
+      so vereinfacht dargestellt, was statische Berechnungen an komplexen Bauwerken
+      und Maschinen, wie z.B. an Br\xFCcken oder Kr\xE4nen, erm\xF6glicht.\r\n"
+    picture: {fileID: 0}
+  - title: Wie werden Ersatzmodelle erstellt?
+    description: "\\begin{enumerate}\n\\item Um ein Ersatzmodell zu erstellen wird
+      zuerst analysiert, aus welchen Komponenten das System besteht. \r\n\r\n\\item
+      Anschlie\xDFend werden die einzelnen Teilsysteme oder Bauteile durch Tragwerkselemente
+      oder Massek\xF6rper ersetzt. \r\n\\end{enumerate}\n\\begin{itemize}\r\n\\item
+      Massek\xF6rper werden im Ersatzsystem als Rechteck oder als Punktmasse dargestellt.
+      Bei der Punktmasse ist die Masse im Schwerpunkt konzentriert.  \r\n\\item Zu
+      den Tragwerkselementen geh\xF6ren die Seile, die St\xE4be und die Balken. Die
+      Tragwerkselemente werden als masselose und starre K\xF6rper betrachtet und
+      im Ersatzmodell als d\xFCnnes Rechteck oder Linie dargestellt. \r\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 9a96746a9ded1cc45bddc1e1d1555903, type: 3}
+  - title: "Welches Tragwerkselement nimmt welche Kr\xE4fte auf und wird wie dargestellt?"
+    description: "\\begin{tabulator}\r\nSeil & Zugkr\xE4fte\r\n\\hline\r\nStab &
+      Zug- und Druckkr\xE4fte\r\n\\hline\r\nBalken & Zug-, Druck- und Querkr\xE4fte
+      und Momente \\\\\r\n\r\n\r\n\\end{tabulator}\r\n"
+    picture: {fileID: 21300000, guid: 8109e02f63073b54482eec3e9038b0fc, type: 3}
+  - title: Wie erstelle ich das Ersatzmodell an einem konkreten Beispiel?
+    description: "Nehmen wir an, wir wollen mit einem Kran ein Auto anheben. Das
+      Auto steht auf einer Fl\xE4che, welche mithilfe von Stahlketten vom Kran angehoben
+      wird. \r\n\\begin{itemize}\n\\item Die Fl\xE4che kann in der Ebene als Balken
+      dargestellt werden. \r\n\\item Die Stahlketten werden als Seil dargestellt,
+      da sie nur Zugkr\xE4fte aufnehmen k\xF6nnen, und werden mit einem masselosen
+      Punkt verbunden. \r\n\\item Das Auto ist ein Starrk\xF6rper mit der Masse m
+      und wird als Rechteck abgebildet. \r\n\\end{itemize}\nDurch die Vereinfachung
+      des realen Systems durch das Ersatzsystem k\xF6nnen darauf aufbauend statische
+      Berechnungen durchgef\xFChrt werden.\r\n"
+    picture: {fileID: 21300000, guid: be0725ced1ce4c94ba3d9e743a27b810, type: 3}
+  - title: Wo finde ich weitere Materialien?
+    description: "\\begin{itemize}\n\\item Umfassende \xDCbersicht \xFCber Tragelemente,
+      inklusive kleinen Wissenstests\r\nhttps://www.ingenieurkurse.de/baustatik-1/kurs-baustatik/aufgaben-der-baustatik/tragelemente/eindimensionale-tragelemente.html\r\n\\end{itemize}"
+    picture: {fileID: 0}

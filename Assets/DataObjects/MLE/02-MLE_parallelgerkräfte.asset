@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: "02-MLE_parallelgerkr\xE4fte"
+  m_EditorClassIdentifier: 
+  uid: 0bf0ee18-cf40-4db2-a689-2464a192d20c
+  mleName: "Parallelgerichtete Kr\xE4fte"
+  mleHandout: {fileID: 11400000, guid: c79f590cf8fe90142b78ae76e58cd5dc, type: 2}
+  mleIntroText: "Die Resultierende bei parallelen Kr\xE4ften bestimmen? Mit dem Kr\xE4fteparallelogramm
+    kommt man hier nicht weit. Wie es trotzdem geht, erf\xE4hrst du hier."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:892ff209a04cd7c8173f76b7b908ae1e_1644251832.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie ist die  Formel f\xFCr die Resultierende bei zwei parallel,
+        gleichgerichteten Kr\xE4ften F1 und F2?"
+      choices:
+      - name: R = F1 + F2
+        isAnswer: 1
+        feedbackMessage: "So ist es! Aber Achtung bei der Position der Resultierenden-Kraft,
+          diese ist nicht in der Mitte der zwei Kr\xE4fte F1 und F2."
+      - name: R = F1 * F2
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht richtig. \xDCberpr\xFCfe, ob  die
+          Rechenoperation tats\xE4chlich stimmt."
+      - name: "R =\u221A(F1\xB2 + F2\xB2)"
+        isAnswer: 0
+        feedbackMessage: "Nope, das ist leider nicht korrekt. Die Formel, die hier
+          angegeben ist, ist die Resultierenden-Formel f\xFCr zwei Kr\xE4fte, die
+          senkrecht zueinander stehen. Lies noch einmal die Frage."
+      - name: R = tan(F1/F2)
+        isAnswer: 0
+        feedbackMessage: Das ist leider nicht richtig. Winkelfunktionen tan, cos
+          oder sinus brauchen wir hier nicht.
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:605ed61ed9bfb0af7e7dba4d7d7bbfe5_1644251874.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Wie lauten die Formeln f\xFCr die Abst\xE4nde der Resultierenden
+        zu den Kr\xE4ften F1 und F2?"
+      choices:
+      - name: a1 = (F2 / R) * h a2 = (F1 / R) * h [a1 = Abstand der Kraft F1 zur
+          Resultierenden, a2 = Abstand der Kraft F2 zur Resultierenden, h = Abstand
+          von F1 zu F2]
+        isAnswer: 1
+        feedbackMessage: Diese Antwort ist korrekt, super! Das geht aus dem Hebelgesetz
+          von Archimedes hervor.
+      - name: a1 = (F2 + R) * h a2 = (F1 + R) * h [a1 = Abstand der Kraft F1 zur
+          Resultierenden, a2 = Abstand der Kraft F2 zur Resultierenden, h = Abstand
+          von F1 zu F2]
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht richtig. Mach zur Probe die Einheitenbetrachtung
+          und du wirst feststellen, dass es sich nicht um eine L\xE4nge handelt."
+      - name: a1 = (F2) * h a2 = (F1) * h [a1 = Abstand der Kraft F1 zur Resultierenden,
+          a2 = Abstand der Kraft F2 zur Resultierenden, h = Abstand von F1 zu F2]
+        isAnswer: 0
+        feedbackMessage: "Das ist leider nicht richtig. Mach zur Probe die Einheitenbetrachtung
+          und du wirst feststellen, dass es sich nicht um eine L\xE4nge handelt.
+          Au\xDFerdem fehlt hier eine entscheidende Gr\xF6\xDFe."
+      - name: "Daf\xFCr gibt es keine Formeln. Das wird nur abgesch\xE4tzt."
+        isAnswer: 0
+        feedbackMessage: "Nein, das stimmt leider nicht. Es gibt Formeln. Die haben
+          etwas mit den Kr\xE4ften und ihren Abst\xE4nden zur Resultierenden und
+          der Resultierenden selbst zu tun."
+  requiredProgress: []

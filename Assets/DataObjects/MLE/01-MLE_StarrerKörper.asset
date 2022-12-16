@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: "01-MLE_StarrerK\xF6rper"
+  m_EditorClassIdentifier: 
+  uid: 142c6b98-41d5-4e44-8427-78db04b48f92
+  mleName: "Starrer K\xF6rper"
+  mleHandout: {fileID: 11400000, guid: 059f6c0a8cbd8ab4e8155dbcc8e17397, type: 2}
+  mleIntroText: "Wann gilt ein K\xF6rper als starr? Nein, nicht nur, wenn er zu lange
+    im Tiefk\xFChlfach war."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:cfc169042779dfef0fbb94ad83f48899_1638275932.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "W\xE4hle das Objekt aus, welches komplett starr ist.    "
+      choices:
+      - name: "Starre K\xF6rper in der Theorie."
+        isAnswer: 1
+        feedbackMessage: 'Genau so! Diese bleiben starr, egal welcher Krafteinwirkung
+          sie ausgesetzt sind.
+
+'
+      - name: Bowlingkugel .
+        isAnswer: 0
+        feedbackMessage: "Leider nein. Selbst so ein robust und starr wirkender Gegenstand,
+          wie die Bowlingkugel, zeigt minimale Ver\xE4nderungen bei Krafteinwirkungen.\r\n"
+      - name: 'Flummi '
+        isAnswer: 0
+        feedbackMessage: "Niemals ist der Flummi starr. Den kannst du doch quasi
+          in der Hand kneten. Probier es das n\xE4chste Mal.\r\n"
+      - name: 'Schwamm '
+        isAnswer: 0
+        feedbackMessage: "Welchen Schwamm hast du denn daheim? Zugegeben, ein Bimssteinschwamm
+          ist recht starr, aber alle anderen Schw\xE4mme verformen sich quasi vom
+          Zugucken.\r\n"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:2b69c09ecb1eef64d88fbd5915811b83_1638276000.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: "Was gibt es in der Realit\xE4t NICHT? "
+      choices:
+      - name: "Einen K\xF6rper, der nicht zumindest minimal verformt wird. "
+        isAnswer: 1
+        feedbackMessage: "Ganz genau! Sogar eine Bowlingkugel zeigt bei Benutzung
+          minimale Ver\xE4nderungen in der Oberfl\xE4che - nur k\xF6nnen wir diese
+          nicht sehen.\r\n"
+      - name: "K\xF6rper, die sich verformen. "
+        isAnswer: 0
+        feedbackMessage: "Doch, das ist sogar immer der Fall. Starre K\xF6rper sind
+          eine Idealisierung, um unter vereinfachten Bedingungen die Problemstellung
+          zu betrachten.\r\n"
+      - name: 'Elastisches Material. '
+        isAnswer: 0
+        feedbackMessage: "Nope, leider nicht richtig. Einen elastischen K\xF6rper
+          gibt es nicht, aber elastisches Material, wie z. B. Gummi, gibt es schon.
+          Achte bei der Frage auch darauf, dass sie nach etwas fragt, was es in der
+          Realit\xE4t NICHT gibt.\r\n"
+      - name: 'Materialeigenschaften mit minimalen Verformungen. '
+        isAnswer: 0
+        feedbackMessage: "Leider nicht richtig. Diese Verformungen sind so klein,
+          dass du sie nicht sehen oder f\xFChlen kannst, aber es gibt sie. Beachte
+          bei der Frage, dass sie nach etwas fragt, was es in der Realit\xE4t NICHT
+          gibt.\r\n"
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:772b770c25dae6adc425c0abb6ea9620_1638276059.smil/playlist.m3u8
+    navTitle: Video
+    questions: []
+  requiredProgress: []

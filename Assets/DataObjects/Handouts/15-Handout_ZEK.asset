@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 15-Handout_ZEK
+  m_EditorClassIdentifier: 
+  mleName: Zentrales ebenes Kraftsystem
+  entries:
+  - title: Was muss ich wissen?
+    description: "In einem zentralen ebenen Kraftsystem\r\n\\begin{itemize}\n\\item
+      liegen alle Kr\xE4fte auf einer Ebene.\r\n\\item schneiden sich alle Wirkungslinien
+      in einem Punkt.\r\n\\item kann das Ergebnis der Berechnung nur ein ebenes Verschieben
+      des Objektes sein.\r\n\\end{itemize}"
+    picture: {fileID: 0}
+  - title: Was bedeutet Ebene?
+    description: "Die \\textbf{Ebene}  beschreibt die Ausdehnung von geometrischen
+      Objekten und Vektoren nur in zwei Richtungen bzw. Dimensionen. Diese sind vorrangig
+      die x- und y-Richtung. In der Realit\xE4t sind alle Problemstellungen r\xE4umlich,
+      also dreidimensional. Dennoch lassen sich einige Aufgaben in der ebenen Darstellung
+      gut abbilden. In diesem Fall sprechen wir von ebenen Kraftsystemen, sprich
+      alle Kr\xE4fte liegen in einer Ebene. "
+    picture: {fileID: 21300000, guid: fa22a7cecf7ef734a86fb206eafb8c66, type: 3}
+  - title: Was bedeutet Raum?
+    description: "\\textbf{Raum}  bedeutet in diesem Kontext, dass ein Objekt eine
+      Ausdehnung in drei Richtungen hat. Dies k\xF6nnen wir \xFCber ein Koordinatensystem
+      und deren drei Raumachsen in x-, y- und z-Dimension darstellen. Auch Vektoren
+      sind im Raum aus drei Komponenten zusammengesetzt."
+    picture: {fileID: 21300000, guid: d5c15dac55b42bd48804dafdb5c15ab2, type: 3}
+  - title: Was unterscheidet ein zentrales von einem allgemeinen Kraftsystem?
+    description: "In der Technischen Mechanik gibt es verschiedene Kraftsysteme.
+      Die bekanntesten sind das zentrale Kraftsystem und das allgemeine Kraftsystem.
+      \r\nBeim \\textbf{zentralen ebenen Kraftsystem} \n\\begin{itemize}\n\\item
+      schneiden sich die Wirkungslinien aller angreifen Kr\xE4fte am K\xF6rper in
+      einem Punkt\n\\end{itemize}\nDie gelben Gurte des Sitzbrettes verbinden den
+      grauen Karabiner mit dem Sitzbrett. Die Kr\xE4fte, die von den Seilen \xFCbertragen
+      werden, schneiden sich in einem Punkt im Bereich der \xD6se. \r\n\r\nBei einem
+      \\textbf{allgemeinen Kraftsystem} \n\\begin{itemize}\n\\item schneiden sich
+      die Wirkungslinien der angreifenden Kr\xE4fte nicht in einem Punkt. \n\\item
+      k\xF6nnen sich in mehreren Punkten schneiden oder \n\\item schneiden sich gar
+      nicht, wenn die Wirkungslinien parallel zueinander sind. \n\\end{itemize}\nDie
+      Kr\xE4fte auf die Pedale k\xF6nnen n\xE4herungsweise als parallel beschrieben
+      werden\r.\n"
+    picture: {fileID: 21300000, guid: f50dee705815f6449b4e42a80ef9dc8d, type: 3}
+  - title: Was ist ein zentrales ebenes Kraftsystem?
+    description: "Bei einem zentralen ebenen Kraftsystem (ZEK)\r\n\\begin{itemize}\n\\item
+      liegen die Kr\xE4fte alle in einer Ebene \r\n\\item alle Wirkungslinien schneiden
+      sich in einem gemeinsamen Punkt. \n\\end{itemize}\r\nDurch die Krafteinwirkungen
+      auf den K\xF6rper kann es zu einer Translation, also einer Verschiebung nach
+      rechts oder links und oben oder unten, kommen. \r\n"
+    picture: {fileID: 21300000, guid: 7f23efc1d7e203a4798e4f40b4a952e2, type: 3}
+  - title: Beispiel
+    description: "Die Abbildung zeigt eine typische Situation aus einem Pandemiegeschehen
+      in einem Supermarkt. Hamsterk\xE4ufe sind immer wieder vorhanden und so sieht
+      man 4 Personen an einer Klopapierpackung ziehen \u2013 jeder in eine andere
+      Richtung. \r\nDie Personen ziehen so, dass \r\n\\begin{itemize}\n\\item sich
+      die Kr\xE4fte auf einer Ebene befinden und \r\n\\item sich die Wirkungslinien
+      in einem Punkt schneiden. \r\nDurch die Krafteinwirkungen auf die Klopapierpackung
+      kann es zu einer Verschiebung kommen.     \n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 7cf0e2efb436e3843961c08836a6fba9, type: 3}
+  - title: "Wo finde ich weiterf\xFChrende Materialien?"
+    description: "\\begin{itemize}\n\\item ausf\xFChrliche Zusammenstellung von Informationen
+      zum zentralen ebenen Kraftsystem, inklusiver Beispiele:\r\nhttps://www.umwelt-campus.de/fileadmin/Umwelt-Campus/User/TPreussler/Download/Grundlagen_der_Mechanik_und_Maschinenelemente/Foliensaetze/03_Zentrales_System_16.3.18.pdf
+      \r\n\r\n\\item Video zum zentralen ebenen Kraftsystem von studyhelp.\r\nhttps://www.youtube.com/watch?v=nt8keGMpFXQ\r\n\\end{itemize}"
+    picture: {fileID: 0}

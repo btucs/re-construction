@@ -1,0 +1,20 @@
+title: Start
+tags: 
+colorID: 0
+position: 164,-160
+---
+Super, du hast alle Kraftarten richtig erkannt. Gut gemacht!
+<<event_continue>>
+Wenn du mal inhaltlich nicht weiter weißt, kannst du in die Bibliothek schauen. Guck mal rein!
+===
+title: End
+tags: 
+colorID: 0
+position: 166,109
+---
+Die Bibliothek wächst und wird auch mit deinen Erlebnissen und Erfahrungen größer.
+Schau also immer mal vorbei, um fit zu bleiben.
+Na gut. Es gibt noch viel zu tun... Wir sehen uns später!
+Und du weißt,... falls du Hilfe oder jemanden zum Quatschen brauchst, ich begleite dich immer als Hologramm oben rechts im Sichtfeld. 
+<<event_continue>>
+===

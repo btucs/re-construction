@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f490e5bd832dc7f488417dbeb6bc0cb9, type: 3}
+  m_Name: DefaultLine
+  m_EditorClassIdentifier: 
+  lineColor: {r: 0, g: 0, b: 0, a: 1}
+  LinePrefab: {fileID: 2327908439171527081, guid: bb8d477ec5b102c4ab1064f1a0a05f81,
+    type: 3}
+  startHandle: {fileID: 11400000, guid: 61efab87d2b2fc24fb4a90aa69629b1d, type: 2}
+  endHandle: {fileID: 11400000, guid: 61efab87d2b2fc24fb4a90aa69629b1d, type: 2}
+  lineWidth: 0.2

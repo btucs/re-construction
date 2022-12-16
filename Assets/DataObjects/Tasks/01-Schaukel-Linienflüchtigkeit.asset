@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: "01-Schaukel-Linienfl\xFCchtigkeit"
+  m_EditorClassIdentifier: 
+  uid: d5592478-a6f5-41f5-b345-2b2b3636e918
+  taskName: "Schaukel-Linienfl\xFCchtigkeit"
+  teaserDescription: Wir kommen hier mit der Konstruktion nicht weiter. Bei der Alten
+    bleiben oder die Neue installieren? Kannst du uns raten, welche der beiden mehr
+    belastet wird?
+  teaserSolvedCorrect: "Das Vorhaben Prototyp Therapieschaukel 2.0 wurde vorerst
+    abgeschlossen. Die Anzahl der Vorbestellungen steigt t\xE4glich. Es scheint ein
+    voller Erfolg zu werden.\r\n"
+  teaserSolvedWrong: 'Der Umbau der Schaukel liegt gerade auf Eis. Kannst du das
+    Projekt, durch das Anfertigen einer Skizze, erneut vorantreiben?
+
+'
+  fullDescription: "Bevor die Schaukel umgebaut wird, brauchen wir ein Modell davon.
+    Kannst du das \xFCbernehmen?\r\n"
+  teachAndPlayDescription: "Die VR-Brille zeigt eine Schaukel, die eine Etage nach
+    oben versetzt werden soll. Hier soll gezeigt werden, dass sich die Belastung
+    dadurch nicht \xE4ndert."
+  topic: {fileID: 11400000, guid: 5264d36122743ef48ad795d533d34fa8, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: P1
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 1
+      textValue: (-3 0 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ort, an dem die Schaukel 1 auf der Erh\xF6hung steht."
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: 
+    - name: P2
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 1
+      textValue: (3 0 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Ort, an dem die Schaukel 2 an der Erh\xF6hung h\xE4ngt."
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. "
+      textMeshProValue: 
+    dummyInputs: []
+    output:
+      name: F_1
+      icon: {fileID: 0}
+      textMeshProName: 
+      unit: 0
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 40cc7a949c3d9384ea2d4c7bfd1267eb, type: 2}
+    dialogs:
+    - "So, lass uns organisiert vorgehen wie die Pfadfinder. Hier w\xE4ren die zwei
+      Befestigungspunkte ~i:P_1~ und ~i:P_2~. Jetzt fehlt nur noch die Einwirkung.\r\n"
+    - "Ich bin froh, dass wir die beiden Optionen auf dem Papier ausprobieren. Nicht
+      auszudenken, was passieren w\xFCrde, wenn wir die schlechtere Version installierten."
+    - "An den Punkten ~i:P_1~ und ~i:P_2~ sollen die Kr\xE4fte der Schaukeln wirken."
+  - npc: {fileID: 0}
+    dialogs:
+    - Wie lang' sind die Pfeile, wie stark wirkt die Kraft? Mhh,  wohin wirkt die
+      Kraft? So viele Fragen... kriegen wir das zusammen hin?
+    - "\xC4hm, das ist schon ziemlich viel, was du dir merken musst, aber wir kriegen
+      das hin! Wie lang sind die Pfeile der Kr\xE4fte ~i:F_1~ und ~i:F_2~? Wohin
+      wirken sie? Das ist ja auch erstmal eine Entscheidugshilfe."
+  hashtags:
+  - "kr\xE4fte"
+  connectedObject: {fileID: 11400000, guid: ef15675e043b63640af4220035af40a2, type: 2}

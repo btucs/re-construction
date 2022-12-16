@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1de5f26358d27e49ad7937ce5ecd4c8, type: 3}
+  m_Name: 02_KraftBerechnen
+  m_EditorClassIdentifier: 
+  name: Kraft berechnen
+  internalName: CalculateForce
+  mles:
+  - {fileID: 11400000, guid: a6e4a5b1946338e4992a3a434f24b511, type: 2}
+  - {fileID: 11400000, guid: abd283d1f5af5cd48910b7acb086d1d8, type: 2}
+  prerequisites: []
+  descriptionText: "Wird angezeigt, wenn der Inhalt in der Liste ausgew\xE4hlt wurde."
+  glossaryLinks:
+  - {fileID: 11400000, guid: 4918db6c5b351404ea20f2a3dfee57d2, type: 2}
+  hasConnectedTasks: 1
+  icon: {fileID: 9215139621912585386, guid: 5757836ad70dc364c8b463067dccb62b, type: 3}

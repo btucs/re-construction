@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: ElectronicStore
+  m_EditorClassIdentifier: 
+  uid: 2eee88b5-c8f3-4190-b5b3-8a6e9e9fca4d
+  objectName: Flatscreen TV
+  objectDescription: "Der Elektroladen wird jetzt von der Polizei genutzt, um vor
+    Ort Eins\xE4tze zu planen."
+  objectPrefab: {fileID: 5423602347871783538, guid: ec31d801b8f02a349a9e5c028f9ad4a2,
+    type: 3}
+  objectThumbnail: {fileID: 8684834552768351979, guid: effc71fde23f6084dbaf5262e2089a98,
+    type: 3}
+  cameraOffset: {x: -0.25, y: -0.25, z: 0}
+  markerOffset: {x: 0.5, y: -0.5}
+  cameraZoom: 1.35
+  taskInfos:
+  - task: {fileID: 11400000, guid: 30d0cc492b739db43af244271edfde67, type: 2}
+    taskButtonPosition: {x: -1.5, y: -0.5}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: L_a
+        icon: {fileID: -2439658008142228181, guid: 203f7311dd2ad3549be823738a21ba24,
+          type: 3}
+        textMeshProName: L<sub>1</sub>
+        type: 0
+        textValue: 920 m
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Entfernung vom Patroullie Punkt B zu C
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+          eines K\xF6rpers in einer Richtung bzw Abstand zwischen zwei Objekten."
+        textMeshProValue: 12 m
+      localAnalyzePosition: {x: 0, y: 0, z: 0}
+    - itemData:
+        name: L_c
+        icon: {fileID: 8640777147669985405, guid: 203f7311dd2ad3549be823738a21ba24,
+          type: 3}
+        textMeshProName: H<sub>1</sub>
+        type: 0
+        textValue: 850 m
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Entfernung vom Patroullie Punkt A zu B
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik und beschreibt die Erstreckung
+          eines K\xF6rpers in einer Richtung bzw Abstand zwischen zwei Objekten."
+        textMeshProValue: 5 m
+      localAnalyzePosition: {x: 2, y: 0, z: 0}

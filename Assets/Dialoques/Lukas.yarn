@@ -1,0 +1,243 @@
+title: Start
+tags: 
+colorID: 0
+position: 22,-511
+---
+<<if visited("Lukas.Start") is false>>
+
+Hey, Newton Tag! Schön, dich wiederzusehen!
+<<AutoContinue>>
+Hast du eine Frage?
+[[Kann ich mit anpacken?|HelpInfo]]
+[[Was kannst du mir über die Krankheit erzählen?|PandemieInfo]]
+[[Ach nichts.|Exit]]
+
+<<else>>
+<<AutoContinue>>
+Da bist du ja schon wieder. Wie kann ich dir helfen?
+[[Was soll ich nochmal tun?|HelpInfo]]
+[[Ich brauch' mehr Infos über dieses Objekt.|Objektinfo]]
+[[Ach, wollte nur mal sehen, wie es dir geht.|Exit]]
+
+<<endif>>
+===
+title: HelpInfo
+tags: 
+colorID: 0
+position: -326,242
+---
+<<if visited("Thomas.HelpInfo") is false>>
+<<AutoContinue>>
+Geh einfach die Straße entlang. Es gibt eigentlich überall was zu tun.
+[[Dann leg' ich mal los.|Exit]]
+[[Und sag mal, was hat dich hierher verschlagen?|Hintergrund]]
+[[Was hat es mit diesen Objekten und Aufgaben auf sich?|Objektinfo]]
+
+
+<<else>>
+Bei so vielen Baustellen weiß man gar nicht, wo man anfangen soll, gell?
+Wenn du gar nicht weißt, was du machen sollst, frag am besten den Mentor oder deine Mentorin!
+<<AutoContinue>>
+Kann ich dir noch mit was anderem helfen?
+[[Dann leg' ich mal los.|Exit]]
+[[Und sag mal, was hat dich hierher verschlagen?|Hintergrund]]
+[[Was hat es mit diesen Objekten und Aufgaben auf sich?|Objektinfo]]
+
+
+
+<<endif>>
+===
+title: PandemieInfo
+tags: 
+colorID: 0
+position: 411,-53
+---
+<<if visited("Thomas.PandemieInfo") is false>>
+Wir wissen selbst noch nicht viel.
+<<AutoContinue>>
+Die Betroffenen sondern Unmengen an Schleim ab. Echt ekelig.
+[[Das war erstmal alles, was ich wissen wollte.|Exit]]
+[[Und wie kann ich helfen?|HelpInfo]]
+[[Wie bist du eigentlich hierher gekommen?|Hintergrund]]
+
+
+<<else>>
+Viel mehr wissen wir auch noch nicht.
+Es gibt Leute, die sagen, dass der Schleim nachts leuchtet...
+<<AutoContinue>>
+Voll der Quatsch...
+[[Das war erstmal alles, was ich wissen wollte.|Exit]]
+[[Und wie kann ich helfen?|HelpInfo]]
+[[Wie bist du eigentlich hierher gekommen?|Hintergrund]]
+
+
+
+<<endif>>
+===
+title: Exit
+tags: 
+colorID: 0
+position: 86,462
+---
+Pass auf dich auf!
+===
+title: Hintergrund
+tags: 
+colorID: 0
+position: 522,269
+---
+<<if visited("Thomas.Hintergrund") is false>>
+<<AutoContinue>>
+Warum ich hier bin...? Weil ich der Meinung bin, dass wenn jede und jeder seinen/ihren Teil beiträgt, wir die Sache schon in den Griff kriegen. 
+-> Ja, das stimmt wohl.
+    Kennst du Fuck 2040 von Scooter? 
+    -> Na klar!
+        Das trifft es doch, die Situation gerade ist einfach Kacke, ...
+        ...aber was hilft es, den Kopf in den Sand zu stecken?!
+        ... genau, gar nichts! Also ran an den Speck!
+        [[Alles klar, ich mach' mich mal nützlich.|Exit]]
+    -> Ne, was soll das sein?  
+        Das ist so ein Lied von Techno-Opis und die inoffizielle Hymne der Organisation.
+        Jetzt aber ran an den Speck!
+        
+        [[Alles klar, ich mach' mich mal nützlich.|Exit]]
+
+<<else>>
+Ich möchte nicht mehr drüber reden. Das stimmt mich bloß melancholisch.
+<<AutoContinue>>
+Hast du zwischenzeitlich in das Lied von Scooter reingehört?
+-> Na klar!
+    Und hat es dir gefallen?
+    -> Irgendwie nicht so meins. 
+        Ok, ja, das kann ich verstehen...
+        ist ein wenig ... laut.
+        [[Ja, ich denke auch... Ich mach' dann mal weiter.|Exit]]
+    -> Genau mein Geschmack!
+        Sag' ich ja! Ich brauche das einfach zum Runterkommen.
+        [[Auf jeden Fall.Ich mach' dann mal weiter.|Exit]]
+-> Noch nicht!
+    Halb so schlimm, es wird sich schon noch eine Möglichkeit ergeben.
+    [[Auf jeden Fall. Bis später! Ich mach' dann mal weiter.|Exit]]
+
+
+<<endif>>
+===
+title: Objektinfo
+tags: 
+colorID: 0
+position: -37,-77
+---
+<<if visited("Lukas.Objektinfo") is false>>
+Na klar, ich kann dir zu allen Dingen was sagen.
+<<AutoContinue>>
+Was interessiert dich am meisten?
+[[Was hat es mit diesem komischen Screen auf sich?|Mufu]]
+[[Was soll bei der Wand gemacht werden?|Wandbild]]
+[[Was ist der Hintergrund beim Auto?|Feuerwehr]]
+
+<<else>>
+Du gehst den Dingen ja richtig auf den Grund!
+<<AutoContinue>>
+Was willst du diesmal wissen?
+[[Was hat es mit diesem komischen Screen auf sich?|Mufu]]
+[[Was soll bei der Wand gemacht werden?|Wandbild]]
+[[Was ist der Hintergrund beim Auto?|Feuerwehr]]
+
+
+
+
+
+
+<<endif>>
+===
+title: Mufu
+tags: 
+colorID: 0
+position: 410,-672
+---
+<<if visited("Lukas.Mufi") is false>>
+Das ist eines dieser Mu-Fu-Boards, von denen wir auch eines in der Zentrale haben.
+Cooles Ding.
+Es erfasst die Fallzahlen des Virus und gibt uns die Möglichkeit, Prognosen zu stellen und in kritischen Situationen schnell zu reagieren.
+Das kennst du doch bestimmt noch von Corona. 
+<<AutoContinue>>
+Jeden Tag wurden die aktuellen Fallzahlen über Karten und Diagramme angezeigt.
+
+[[Alles klar, danke!|Exit]]
+[[Und was hat es mit dem Feuerwehrauto zu tun?|Feuerwehr]]
+[[Ok. Und was bedeutet das mit der Wand?|Wandbild]]
+
+<<else>>
+Das weißt du doch schon. Die Geräte heißen Mu-Fu-Boards.
+Mu-fu steht für Multifunktional und ist an einen DDR-Tisch angelehnt, der Mu-Fu-Tisch hieß.
+<<AutoContinue>>
+Leider benötigen wir das Board immer noch, um aktuelle Entwicklungen der Pandemie einzusehen.
+
+[[Alles klar, danke!|Exit]]
+[[Und was hat es mit dem Feuerwehrauto zu tun?|Feuerwehr]]
+[[Ok. Und was bedeutet das mit der Wand?|Wandbild]]
+
+
+<<endif>>
+===
+title: Wandbild
+tags: 
+colorID: 0
+position: 646,-535
+---
+<<if visited("Lukas.Wandbild") is false>>
+Das soll die Leute animieren, zusammenzuhalten.
+Das kommt dir bestimmt auch noch von Corona bekannt vor...
+... die Leute befinden sich in so einer großen Not, dass sie die ergriffenen Maßnahmen nicht nachvollziehen können und gegensätzlich handeln.
+<<AutoContinue>>
+Nichtsdestotrotz ist es wichtiger denn je, dass wir jetzt zusammenhalten.
+
+
+[[Alles klar, danke!|Exit]]
+[[Und was hat es mit dem Feuerwehrauto zu tun?|Feuerwehr]]
+[[Ok. Und was bedeutet das mit dem Screen?|Mufu]]
+
+<<else>>
+
+Bei der ganzen Informationsflut ist es manchmal gar nicht so einfach, Seriöses von Unseriösem auseinanderzuhalten.
+Mit dem Wandbild versuchen wir mal eine etwas informellere Variante.
+<<AutoContinue>>
+Kommunikation ist hier der Schlüssel, um den Zusammenhalt in der Krise, oder soll ich Krisen sagen (?), zu stärken.
+
+
+[[Hm, versteh' ich. Bis später!|Exit]]
+[[Und was hat es mit dem Feuerwehrauto zu tun?|Feuerwehr]]
+[[Ok. Und was bedeutet das mit dem Screen?|Mufu]]
+
+
+<<endif>>
+===
+title: Feuerwehr
+tags: 
+colorID: 0
+position: 888,-343
+---
+<<if visited("Lukas.Wandbild") is false>>
+Die alten Karren müssen jetzt nochmal alles geben. 
+Im Stresstest wird herausgefunden, was der Motor noch kann und ob er den Ansprüchen gerecht wird.
+Top! Jeder Wagen wird entsprechend seiner Fähigkeiten genutzt.
+<<AutoContinue>>
+Und unter uns - wir haben auch keine andere Wahl!
+
+[[Alles klar, danke!|Exit]]
+[[Und was hat es mit dem Screen zu tun?|Mufu]]
+[[Ok. Und was bedeutet das mit der Wand?|Wandbild]]
+
+
+<<else>>
+Ja, bei dem aktuellen Mangel müssen wir alles nutzen, was wir haben.
+Da gehört eben auch dazu, auf alle Feuerwehrwagen zurückzugreifen.
+Und da haben wir schon Glück, noch einen bekommen zu haben...
+<<AutoContinue>>
+... bei dem, was hier los ist.
+[[Alles klar!|Exit]]
+[[Und was hat es mit dem Screen zu tun?|Mufu]]
+[[Ok. Und was bedeutet das mit der Wand?|Wandbild]]
+
+<<endif>>
+===

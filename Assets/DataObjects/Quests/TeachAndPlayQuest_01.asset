@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801df15636ee0f84381ca88409fcee9f, type: 3}
+  m_Name: TeachAndPlayQuest_01
+  m_EditorClassIdentifier: 
+  title: Das VR-Ausbildungssystem
+  description: "Die Organisation will ein neues VR-System zur Vorbereitung auf Au\xDFeneins\xE4tze
+    etablieren."
+  objectives:
+  - type: 3
+    progressText: "Finde den Eingang zum Ausbildungsbereich im Mentorenb\xFCro"
+    requiredAmount: 1
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: TeachAndPlayScene
+    topic: {fileID: 0}
+  - type: 4
+    progressText: "Sprich mit Ausbilder J\xF6rg."
+    requiredAmount: 1
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: 
+    topic: {fileID: 0}
+  - type: 6
+    progressText: 
+    requiredAmount: 50
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: 
+    topic: {fileID: 0}
+  - type: 4
+    progressText: "Berichte Ausbilder J\xF6rg von deinen Erfahrungen."
+    requiredAmount: 1
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: 
+    topic: {fileID: 0}
+  - type: 6
+    progressText: 
+    requiredAmount: 100
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: 
+    topic: {fileID: 0}
+  - type: 4
+    progressText: "Berichte Ausbilder J\xF6rg von deinen Erfahrungen."
+    requiredAmount: 1
+    specificTopic: {fileID: 0}
+    specificTasks: []
+    targetAreaName: 
+    topic: {fileID: 0}
+  followUpQuest: {fileID: 0}
+  isMainQuest: 0
+  uid: aed4e554-e163-4eed-a498-8651ff6f406f

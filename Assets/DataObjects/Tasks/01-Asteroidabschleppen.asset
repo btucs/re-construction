@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-Asteroidabschleppen
+  m_EditorClassIdentifier: 
+  uid: 5325e926-2cfd-4cf4-862f-50d42bb8fe62
+  taskName: Asteroidabbschleppunggrafisch
+  teaserDescription: Bislang mussten immer zwei Raumschiffe an einen Asteroiden andocken,
+    um wertvolle Materialien abzubauen. Mit der Entwicklung neuer Technik ist jetzt
+    nur noch eins notwendig. Aber ein paar kleine Informationen brauchen wir vor
+    der Umsetzung noch.
+  teaserSolvedCorrect: 
+  teaserSolvedWrong: 
+  fullDescription: 
+  topic: {fileID: 11400000, guid: 057b61d933bd1eb46944dfd4faa1d35c, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: F_1
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 40000 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Zugkraftbetrag von Raumtransporter 1, welcher in Seilrichtung
+        wirkt.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 
+    - name: F_2
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 30000 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Zugkraftbetrag von Raumtransporter 2, welcher in Seilrichtung
+        wirkt.
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 
+    - name: alpha
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: "30 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung des Schleppseils von Raumtransporter 1.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: 
+    - name: beta
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: "40 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung des Schleppseils von Raumtransporter 2.
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: 
+    dummyInputs: []
+    output:
+      name: F_R
+      icon: {fileID: 0}
+      textMeshProName: 
+      unit: 3
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 0}
+    dialogs:
+    - 'Des revoluzioniert die Raumfahrt. Newen dem Mars kummen mer doann in noch
+      fernere Gegenden der Galaxien. '
+    - "Noch dockt des Raumschiff PamelaOne mid oaner Kraft ~i:F_1~ unn Raumschiff
+      SvenniTwu mid ~i:F_2~ an de Asteroiden an, awwer ball ben\xF6dischd 's blous
+      noch en Kraft. "
+    - "Joh, newen de beiden Kr\xE4fte ~i:F_1~ unn ~i:F_2~, is nadierlisch noch der
+      Winkel ~i:alpha|\u03B1 = 30\xB0~ unn ~i:beta|\u03B2 = 40\xB0~ notwendisch."
+  - npc: {fileID: 0}
+    dialogs:
+    - "De Konkurrenz schl\xE4ft nich. Wir brauchen die ~o:F_R|Ersatzkraft~ der beeden
+      Schiffe un dessen ~o:Omega|Winkel~. Mach mal hinne."
+    - Luki hat dich doch alles Notwendige gegeben. De ~o:F_R|Ersatzkraft~ plus  dessen
+      ~o:Omega|Winkel~ gilt, bestimmt zu werden.
+  hashtags: []

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 02StrategieplanerFailureFB
+  m_EditorClassIdentifier: 
+  uid: 3fd3844f-01d7-4925-afd9-af6f6fea94c5
+  author: {fileID: 11400000, guid: aaf810f3b5ed4924b812b400009ed97b, type: 2}
+  messageText: "Probleme bei Erstellung von Bewegungsdaten sollen nun von Expert/innengremium
+    ausgebadet werden. #Zeitverlust #bessersp\xE4talsnie #vektor "
+  relatedTask: {fileID: 11400000, guid: 07102daf5d6b54745855c82123cdce44, type: 2}
+  taskCondition: 1

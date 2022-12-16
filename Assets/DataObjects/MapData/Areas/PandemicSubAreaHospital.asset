@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96233c073d1720a45bb1431469c1f30e, type: 3}
+  m_Name: PandemicSubAreaHospital
+  m_EditorClassIdentifier: 
+  uid: 2a9a317c-0caa-4f70-8d11-8bfb6c6d31fc
+  areaName: Klinikum
+  sceneName: PandemicInnerHospitalArea
+  areaDescription: "Durch die ansteigenden Infektionszahlen ist das Krankenhaus zum
+    zentralen Anlaufpunkt geworden. Doch die Gesundheitsversorgung st\xF6\xDFt an
+    ihre Belastungsgrenzen. Mit Hilfe von improvisierten Probleml\xF6sungen wird
+    versucht, die Situation zu entsch\xE4rfen.\r"
+  areaPreviewIMG: {fileID: 21300000, guid: 31856c0c5da36554caa4e13266580ca4, type: 3}
+  areaIconIMG: {fileID: -8578271370445343074, guid: 68c716fd175aef64e91cacf8ae8e85a7,
+    type: 3}
+  mapPositionOrOffset: {x: -4, y: 2}

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e519fc6dc5070c946901aea2a19e9b92
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: de-DE
+  stringIDs:
+  - MapEvent-Start-0
+  - MapEvent-Start-1
+  - MapEvent-Start-2
+  - MapEvent-Start-3
+  - MapEvent-Start-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: e519fc6dc5070c946901aea2a19e9b92,
+    type: 3}
+  localizations: []

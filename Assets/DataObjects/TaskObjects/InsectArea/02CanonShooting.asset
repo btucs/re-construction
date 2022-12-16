@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 02CanonShooting
+  m_EditorClassIdentifier: 
+  uid: 52eb44f5-98c8-4c7a-95d3-9a2ec5c8e834
+  objectName: Fangnetzkanone
+  objectDescription: "Diese Kanone schie\xDFt Fangnetze ab, mit denen Insekten aus
+    der Luft gefischt werden k\xF6nnen."
+  objectPrefab: {fileID: 2112645616934359405, guid: 5ea9d66fe2111db4a8be0fee5fb2091a,
+    type: 3}
+  objectThumbnail: {fileID: 8724199996524416865, guid: 31acdd68183e274428c251dac6a5cac5,
+    type: 3}
+  cameraOffset: {x: -0.5, y: -1, z: 0}
+  markerOffset: {x: 0.25, y: -1.5}
+  cameraZoom: 1.1
+  taskInfos:
+  - task: {fileID: 11400000, guid: 04d5a43a24438b64ba0b21e2fdcd8830, type: 2}
+    taskButtonPosition: {x: -1, y: 1}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: P_1
+        icon: {fileID: -2587508390151529874, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+          type: 3}
+        textMeshProName: P<sub>1</sub>
+        type: 1
+        textValue: (-3 1 0)
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: Position des Verlassens der Insektenstopkugel aus der Kanone.
+        definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+          von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+          dargestellt. Hier Angriffspunkt der Kraft."
+        textMeshProValue: (-3 1 0)
+      localAnalyzePosition: {x: -1.97, y: 0.33, z: 0}
+    - itemData:
+        name: alpha
+        icon: {fileID: 4333750855001864491, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+          type: 3}
+        textMeshProName: "\u03B1"
+        type: 0
+        textValue: "142 \xB0"
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Neigung der Kanone f\xFCr den Abschuss."
+        definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+        textMeshProValue: "142 \xB0"
+      localAnalyzePosition: {x: -0.76, y: -1.52, z: 0}
+    - itemData:
+        name: F_1
+        icon: {fileID: -2775312652306825909, guid: a05d8e7cadfa9ff43a35ae44072ab63f,
+          type: 3}
+        textMeshProName: F<sub>1</sub>
+        type: 0
+        textValue: 500 N
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Kraftbetrag, mit der die Insektenstopkugel die Kanone
+          verl\xE4sst."
+        definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+        textMeshProValue: 500 N
+      localAnalyzePosition: {x: -0.37, y: -0.49, z: 0}

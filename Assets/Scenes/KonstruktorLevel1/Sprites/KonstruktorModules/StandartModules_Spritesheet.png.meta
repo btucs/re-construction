@@ -1,0 +1,943 @@
+fileFormatVersion: 2
+guid: 5052a7105289db647a1c2877d4f94403
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8631959366894758550
+    second: Constructor_WaterTank
+  - first:
+      213: 15663317960978227
+    second: Module_GateTop
+  - first:
+      213: -9061635566146824587
+    second: Module_GateBottom
+  - first:
+      213: 9077547640517948517
+    second: Module_InputOpening
+  - first:
+      213: 4903091828620805274
+    second: Module_OutputOpening
+  - first:
+      213: 487847643224083731
+    second: Module_InputBG_top
+  - first:
+      213: 1825537403758175880
+    second: Modules_Screen
+  - first:
+      213: 3935410298346687219
+    second: Modules_BubbleParticle
+  - first:
+      213: 7887806036625271800
+    second: Module_Output
+  - first:
+      213: 8600061454337367566
+    second: Module_Input_BG_bot
+  - first:
+      213: -2137812735728658953
+    second: Modules_Input_BG_leftBot
+  - first:
+      213: -3217526045525557105
+    second: Module_InputTankBG
+  - first:
+      213: -4363692614154618301
+    second: Module_PlaceholderBG_bot
+  - first:
+      213: -945637573187136691
+    second: Module_PlaceholderBG_left
+  - first:
+      213: 3232536882073230785
+    second: Module_PlaceholderBG_right
+  - first:
+      213: 278000390912182123
+    second: Module_PlaceholderBG_Decoration
+  - first:
+      213: -1230543612401617709
+    second: Module_Input_Screen
+  - first:
+      213: 6736775398180530074
+    second: Module_TankOutlineThin
+  - first:
+      213: -1503272786502257481
+    second: Module_TankOutline_Standart
+  - first:
+      213: 2395394862975622969
+    second: Module_Solid
+  - first:
+      213: -8499935879477146112
+    second: Module_TankBG
+  - first:
+      213: 7044223816566936542
+    second: Module_InputBG_botRight
+  - first:
+      213: 5232928682822700532
+    second: Module_InputBG_right
+  - first:
+      213: -539945435675964999
+    second: UI_selectModuleText
+  - first:
+      213: 5238725737820766283
+    second: UI_ConvertToModule
+  - first:
+      213: 1833072197222975148
+    second: UI_ConvertToInput
+  - first:
+      213: 2680803925175727447
+    second: UI_SelectModuleType
+  - first:
+      213: 3553358211589351767
+    second: UI_ConfigRequiredIcon
+  - first:
+      213: -6085216540725666721
+    second: UI_ConfigRequiredText
+  - first:
+      213: 5618729620328260972
+    second: PipeAnimationTest
+  - first:
+      213: -1991772426080129674
+    second: Module_PlaceholderBG_top
+  - first:
+      213: -2946642859030741565
+    second: UI_Outline
+  - first:
+      213: -3708946625821594066
+    second: Constructor_PipeShort
+  - first:
+      213: 1916163572190447221
+    second: Constructor_PipeLong
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Constructor_WaterTank
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 669
+        width: 328
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 141, y: 141, z: 139, w: 140}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3100285a137cc0342a8443419ec7aa51
+      internalID: -8631959366894758550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_GateTop
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 504
+        width: 147
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5778408, y: 0.42981812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cd71034b94b3841ac6c503e2137896
+      internalID: 15663317960978227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_GateBottom
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 498
+        width: 148
+        height: 151
+      alignment: 9
+      pivot: {x: 0.4027149, y: 0.5675489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c7ae24af3a1f54dac9d14f3b914aa3
+      internalID: -9061635566146824587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_InputOpening
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 635
+        width: 231
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf53ed53c81f2e64d893993046040981
+      internalID: 9077547640517948517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_OutputOpening
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 404
+        width: 194
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a874c1610e4c74cbaf3a880d123ddc
+      internalID: 4903091828620805274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_InputBG_top
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 886
+        width: 243
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 55, y: 74, z: 63, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b03cd52bcd57b40810f47e5ff414b5
+      internalID: 487847643224083731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modules_Screen
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 248
+        width: 330
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 114, y: 79, z: 113, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f2224793eb04e42848aa5662bbd9a6
+      internalID: 1825537403758175880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modules_BubbleParticle
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 435
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e83e24580361f4b9e3d62d4a57ae93
+      internalID: 3935410298346687219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_Output
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 41
+        width: 507
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bab8ad29e69a5746ac07bcc9024e8d8
+      internalID: 7887806036625271800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_Input_BG_bot
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 386
+        width: 179
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cb1578b994a134db5419cac9f81ed3
+      internalID: 8600061454337367566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modules_Input_BG_leftBot
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 380
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1ff2c8c37700c4d9556cffbff5f810
+      internalID: -2137812735728658953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_InputTankBG
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 62
+        width: 168
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 38, y: 19, z: 79, w: 19}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a726f84878bf8641a5fe9d0b3b5a66d
+      internalID: -3217526045525557105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_PlaceholderBG_bot
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 178
+        width: 459
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9713b1240eb38c4f9d892e16fc39f06
+      internalID: -4363692614154618301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_PlaceholderBG_left
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 252
+        width: 99
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f870915371a3114f82b1883868705ce
+      internalID: -945637573187136691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_PlaceholderBG_right
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 349
+        width: 29
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a411b53a2a223c438c56c8adb2b5816
+      internalID: 3232536882073230785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_PlaceholderBG_Decoration
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 252
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca1916aecf660b4eb23b0953ab5d09c
+      internalID: 278000390912182123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_Input_Screen
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 505
+        width: 250
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e96472f013f694389e624fa71f8ddc
+      internalID: -1230543612401617709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_TankOutlineThin
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 704
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 31, y: 31, z: 31, w: 31}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aac15ea309ef745a7ca4f9d0077616
+      internalID: 6736775398180530074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_TankOutline_Standart
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 832
+        width: 187
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 70, y: 42, z: 66, w: 51}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35bab444d8a85c4cb18a0c70ce5401c
+      internalID: -1503272786502257481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_Solid
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 946
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b8ef61c416f934c80bb4f2f4ca3c83
+      internalID: 2395394862975622969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_TankBG
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 887
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72db821559d92cd4191132f41204269e
+      internalID: -8499935879477146112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_InputBG_botRight
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 762
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b32a5d31671834cac4667ce1c77474
+      internalID: 7044223816566936542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_InputBG_right
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 63
+        width: 59
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0031009afd5c14c8e2d7c421b61101
+      internalID: 5232928682822700532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_selectModuleText
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 762
+        width: 157
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd612e0fcb2a2b4f8dc581fcd4d5822
+      internalID: -539945435675964999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_ConvertToModule
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 694
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e134d37ea7ed4541bd92eb45af8de52
+      internalID: 5238725737820766283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_ConvertToInput
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 837
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2add1908266b54c46b4a3005967b7342
+      internalID: 1833072197222975148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SelectModuleType
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 911
+        width: 105
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e94a8554dcdf043be128917394cce7
+      internalID: 2680803925175727447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_ConfigRequiredIcon
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 69
+        width: 119
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4f9952c78601b478be552033fc4588
+      internalID: 3553358211589351767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_ConfigRequiredText
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 125
+        width: 121
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2915d8a351893a24eaedcfc312e0bd37
+      internalID: -6085216540725666721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeAnimationTest
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 61
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f83f571ba59bb49aa3bde96155c8a0
+      internalID: 5618729620328260972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Module_PlaceholderBG_top
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 518
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd832866c30e8da45930ca7ae01eff01
+      internalID: -1991772426080129674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Outline
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 815
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 27, y: 26, z: 28, w: 26}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894d39ba003048a419180667e15657b7
+      internalID: -2946642859030741565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constructor_PipeShort
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 702
+        width: 183
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745c6c943240e2441a8b5732abcc54ba
+      internalID: -3708946625821594066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constructor_PipeLong
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 644
+        width: 359
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48278e4732ed9d49a44bfd0abee6521
+      internalID: 1916163572190447221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

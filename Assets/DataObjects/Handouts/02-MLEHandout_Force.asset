@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 02-MLEHandout_Force
+  m_EditorClassIdentifier: 
+  mleName: Kraft - Grundlagen
+  entries:
+  - title: Was ist eine Kraft?
+    description: "Eine Kraft gibt an, wie zwei K\xF6rper auf einander einwirken (z.
+      B. die Anziehungskraft zwischen Erde und Mond; Antriebskraft eines Triebwerkes
+      einer Rakete).\\\\\n\nIn der Technischen Mechanik, im Besonderen der Statik,
+      werden vor allem\n\\begin{itemize}\n\\item Gewichtskr\xE4fte,\n\\item Reibungskr\xE4fte
+      und Windlasten sowie \n\\item W\xE4rmewirkungen, die sich aus Temperatur\xE4nderungen
+      ergeben,\n\\end{itemize}\nbetrachtet.\n\nKr\xE4fte sind auch ein Ma\xDF daf\xFCr,
+      wie stark ein K\xF6rper beschleunigt wird. Das bedeutet auch, dass die Kraft
+      proportional zur Beschleunigung ist. Beispielsweise erkenne ich diesen Zusammenhang,
+      wenn ich die Spannkraft einer Handschleuder erh\xF6he, denn dann erf\xE4hrt
+      das Geschoss eine gr\xF6\xDFere Beschleunigung.\n\nNewton definiert die Kraft
+      als das auf einen K\xF6rper ausge\xFCbte Bestreben, seinen Form- oder Bewegungszustand
+      zu \xE4ndern. Einfach ausgedr\xFCckt bedeutet dies: \n\nEine Kraft, die auf
+      einen K\xF6rper wirkt, f\xFChrt zur \n\\begin{enumerate}\n\\item \xC4nderung
+      der Bewegung des K\xF6rpers (aus der Ruhe oder aus seiner gleichm\xE4\xDFigen
+      Bewegung) \t\n\\item zur \xC4nderung der Form des K\xF6rpers (Verformung).\n\\end{enumerate}"
+    picture: {fileID: 21300000, guid: 63ddf1283efb22645afcbf40c6a6b4cb, type: 3}
+  - title: Wie wird die Kraft berechnet?
+    description: "Die Kraft ist ein Ma\xDF daf\xFCr, wie stark eine Masse beschleunigt
+      wird. Daraus ergibt sich die Formel f\xFCr die Gewichtskraft g nach Newtons
+      zweitem Grundgesetz der Mechanik in vereinfachter vektorieller bzw. betragsm\xE4\xDFiger
+      Schreibweise:\n\n$$ \\vector{F} = m {\\cdot} \uF0D7\\vector{a}$$"
+    picture: {fileID: 0}
+  - title: Beispielrechnung
+    description: "Ein Feuerwehreinsatzfahrzeug mit einer Masse von 7,5 t beschleunigt
+      mit a\_=\_5\_m/s\xB2 f\xFCr t\_=\_3\_s. Welche Kraft bringt der Motor auf,
+      um das Fahrzeug zu beschleunigen?\n\n\\textit{Gegeben}: m = 7500 kg, a = 5
+      m/s^2\n\\textit{Gesucht}: F in N\n\n\\textit{L\xF6sung}:\n$$ F = m {\\cdot}
+      \uF0D7a$$\n$$ F = 7500 kg  {\uF0D7\\cdot} 5 m/s^2 $$\n$$ \\underline{F = 37.500
+      kg {\\cdot} m/s^2 =  37.500 N} $$"
+    picture: {fileID: 0}
+  - title: Welche Kraftarten gibt es?
+    description: "\\begin{itemize}\n\\item elektrische Kr\xE4fte\n\\item magnetische
+      Kr\xE4fte \n\\item Reibungskr\xE4fte\n\\item Gewichtskr\xE4fte \n\\item Muskelkr\xE4fte\n\\item
+      Adh\xE4sionskr\xE4fte \n\\item Koh\xE4sionskr\xE4fte\n\\item u. v. m.\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: 667316b4aee034f43ab4eb8be293e327, type: 3}
+  - title: "Wie gro\xDF ist der Betrag der Kraft f\xFCr \u2026.? "
+    description: "\\begin{itemize}\n\\item Der Betrag der Gewichtskraft von einer
+      Tafel Schokolade betr\xE4gt etwa 1 N.\r\n\\item Der Betrag der Gewichtskraft
+      von einem Menschen (mit einer Masse von ca. 50 bis 80 kg) betr\xE4gt zwischen
+      500 und 800 Newton.\r\n\\item Der Betrag der Zugkraft einer Lokomotive betr\xE4gt
+      etwa 200.000 N.\r\n\\end{itemize}"
+    picture: {fileID: 21300000, guid: f90908d57c8744a4e838611760ea26ec, type: 3}
+  - title: Wie zeichne ich eine Kraft?
+    description: "Wenn du die Kraft darstellen willst, dann machst du das \xFCber
+      einen \\textbf{Vektor}  (siehe blauer Pfeil).\r\nDer Pfeil liegt auf einer
+      gedachten Linie, der (grauen) \\textbf{Wirkungslinie} . Die Wirkungslinie legt
+      die Richtung fest, in der die die Kraft wirkt. \r\nDie Pfeilspitze zeigt die
+      Ausrichtung bzw. den \\textbf{Richtungssinn}  der Kraftwirkung auf dieser Linie
+      an. \r\nIn einem \\textbf{Koordinatensystem}  mit entsprechendem \\textbf{Ma\xDFstab} 
+      kann \xFCber die Pfeill\xE4nge auch der \\textbf{Betrag}  angegeben werden.
+      Das ist die Gr\xF6\xDFe, mit der die Kraft wirkt. \r\n"
+    picture: {fileID: 21300000, guid: e2a1f45fbdc20c0408e156f3e2378792, type: 3}

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: "24-Handout_ParallelGerichteteKr\xE4fte"
+  m_EditorClassIdentifier: 
+  mleName: "Parallelgerichtete Kr\xE4fte"
+  entries:
+  - title: Was muss ich wissen?
+    description: "\n\\begin{enumerate}\n    \\item bei parallel gerichteten Kr\xE4ften
+      l\xE4sst sich die Resultierende nicht \xFCber das Krafteck bestimmen\n    \\item
+      der Betrag der Resultierenden $F_R$ berechnet sich \xFCber die Summe der Betr\xE4ge
+      der Einzelkr\xE4fte: $$F_R=\\sum_ ^ F_i$$\n    \\item die Resultierende wirkt
+      in die gleiche Richtung wie die Einzelkr\xE4fte\n    \\item die Wirkungslinie
+      der Resultierenden verl\xE4uft durch den Punkt, in dem sich die Momente, die
+      durch die Einzelkr\xE4fte erzeugt wirken im    Gleichgewicht befinden. \xDCber
+      das Gesetzt von Archimedes l\xE4sst sich die Lage bestimmen: $M_1=M_2$\n\\end{enumerate}\n\t"
+    picture: {fileID: 0}
+  - title: "Was sind parallelgerichtete parallele Kr\xE4fte?"
+    description: "Bei gleichgerichteten parallelen Kr\xE4ften sind die \\textbf{Wirkungslinien} 
+      der Kr\xE4fte \\textbf{parallel}  zueinander, d.h sie schneiden sich nicht.
+      Hierbei kann die Resultierende \\textbf{nicht}  wie sonst \xFCber das \\textbf{Krafteck} 
+      bestimmt werden.\\\\\r\n\r\nIn Abbildung 1 stehen zwei Gegenst\xE4nde auf einem
+      Wandregal. Die beiden Gegenst\xE4nde haben jeweils eine Gewichtskraft, die
+      senkrecht nach unten wirkt. Da die Wirkungslinien parallel zueinander verlaufen
+      und keinen Schnittpunkt haben, kann die Resultierende nicht einfach \xFCber
+      ein Kr\xE4fteparallelogramm bestimmt werden.\\\\\r\n\r\nEs ist trotzdem sinnvoll
+      die Resultierende zu bestimmen und mehrere Kr\xE4fte zu einer \\textbf{resultierenden
+      Kraft}  zusammenzufassen oder eine Fl\xE4chenlast durch den Betrag der Kraft
+      und einen Angriffspunkt zu ersetzen. Das sorgt f\xFCr Vereinfachungen bei sp\xE4teren
+      Berechnungen, gerade wenn die Momentenwirkung betrachtet wird.\r\n"
+    picture: {fileID: 0}
+  - title: "Wie wird die Resultierende von parallel gerichteten Kr\xE4ften bestimmt?"
+    description: "\\begin{itemize}\r\n    \\item Der \\textbf{Betrag}  der Resultierenden
+      ergibt sich \xFCber die Addition der Einzelkr\xE4fte:\r\n$$F_R=\\sum_ ^ {F_i}
+      =F_{G,1}+F_{G,2}$$\r\n    \\item Die Resultierende wirkt dabei in die \\textbf{gleiche
+      Richtung wie die Einzelkr\xE4fte}. In Abbildung 1 wirken die Gewichtskr\xE4fte
+      nach unten, also wirkt auch die Resultierende nach unten.\r\n    \\item Die
+      \\textbf{Wirkungslinie}  der Resultierenden liegt irgendwo \\textbf{zwischen
+      den beiden Gegenst\xE4nden}.\r\n    \\begin{itemize}\r\n        \\item Die
+      beiden Kr\xE4fte $F_{G,1}$ und $F_{G,2}$ bewirken um jeden Punkt zwischen ihnen
+      ein jeweils Moment $M_1$ und $M_2$ (in Abb. 2 gr\xFCn markiert).\r\n       
+      \\item In dem Punkt, der auf der Wirkungslinie der Resultierenden liegt, befinden
+      sich die beiden Momente im Gleichgewicht.\r\n        \\item Das Hebelgesetz
+      von Archimedes besagt, dass sich Hebel im Gleichgewicht befinden, wenn die
+      Summe der Drehmomente in eine Richtung gleich der Summe der Drehmomente in
+      die entgegengesetzte Richtung ist:\r\n        $$M_1=M_2$$\r\n        $$F_{G,1}{\\cdot}a_1=F_{G,2}{\\cdot}a_2
+      \\ \\ (1)$$\r\n        \\item Au\xDFerdem ist folgender Zusammenhang zwischen
+      den Abst\xE4nden der Wrkungslinien bekannt:\r\n        $$h=a_1+a_2 \\ \\ (2)$$\r\n       
+      \\item Gleichung (2) wird nach $a_1$ umgestellt und in Gleichung (1) eingesetzt.
+      Es wird nach $a_2$ umgestellt und abschlie\xDFend kann $a_1$ berechnet werden:\r\n       
+      $$a_1=h-a_2$$\r\n        $$F_{G,1}{\\cdot}(h-a_2)=F_{G,2}{\\cdot}a_2$$\r\n       
+      $$F_{G,1}{\\cdot}h-F_{G,1}{\\cdot}a_2=F_{G,2}{\\cdot}a_2$$\r\n        $$F_{G,1}{\\cdot}h=F_{G,1}{\\cdot}a_2+F_{G,2}{\\cdot}a_2$$\r\n       
+      $$a_2{\\cdot}(F_{G,1}+F_{G,2})=F_{G,1}{\\cdot}h$$\r\n        $$a_2=\\frac{F_{G,1}{\\cdot}h}{F_{G,1}+F_{G,2}}=\\frac{F_{G,1}{\\cdot}h}{F_{R}}$$\r\n       
+      \\item Das gleiche kann analog f\xFCr den Abstand $a_1$ gemacht werden oder
+      $a_1$ wird \xFCber die folgende Formel berechnet:\r\n        $$a_1=h-a_2$$\r\n       
+      \\item Mit der Bestimmung der Hebelarme der Momente um den Punkt, in dem sich
+      die Momente der Kr\xE4fte im Gleichgewicht befinden, wird die Lage der Resultierenden
+      bestimmt.\r\n    \\end{itemize}\r\n\\end{itemize}\r"
+    picture: {fileID: 0}

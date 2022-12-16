@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Gleichgewichtsaxiom
+  m_EditorClassIdentifier: 
+  headline: Gleichgewichtsaxiom
+  easy:
+    content: "Das Gleich-Gewichts-Axiom beschreibt [Kr\xE4fte](glossary:Kraft) im
+      Gleich-Gewicht.\r\n\r\nWann ist ein K\xF6rper im Gleich-Gewicht?\r\n\r\n- Alle
+      Kr\xE4fte sind gleich gro\xDF.\r\n\r- Die Kr\xE4fte sind gegen\xFCber-gestellt.\r\n-
+      Die Kr\xE4fte befinden sich auf einer Linie.\r\n- Zum Beispiel: Bewegt sich
+      beim Tau-Ziehen **nichts**.\r\n  - Die Menschen ziehen am [Seil](glossary:Seile)-Ende.\r\n 
+      - Die Menschen stehen auf einer Linie.\r\n\r\nSind die Kr\xE4fte gleich stark?\r\n\r\n-
+      Dann bewegt sich der K\xF6rper **nicht**.\r\n- Die Summe aller Kr\xE4fte ist
+      gleich 0.\r\n- Der K\xF6rper ist im Gleichgewicht.\r\n\r\nSind die Kr\xE4fte
+      unterschiedlich gro\xDF?\r\n\r\n- Dann bewegt sich der K\xF6rper.\r\n- Die
+      Summe aller Kr\xE4fte ist **nicht** gleich 0.\r\n- Der K\xF6rper ist im Ungleich-Gewicht."
+    image: {fileID: 21300000, guid: 7419db9af4a570e41a39b5b5e92c671a, type: 3}
+    tmpContent: "Das Gleich-Gewichts-Axiom beschreibt <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      im Gleich-Gewicht.\n\nWann ist ein K\xF6rper im Gleich-Gewicht?\n\n\u2022 Alle
+      Kr\xE4fte sind gleich gro\xDF.\n\n\u2022 Die Kr\xE4fte sind gegen\xFCber-gestellt.\n\n\u2022
+      Die Kr\xE4fte befinden sich auf einer Linie.\n\n\u2022 Zum Beispiel: Bewegt
+      sich beim Tau-Ziehen <b>nichts</b>.\n  \n  \u2022 Die Menschen ziehen am <color=#131313><u><link=\"glossary:Seile\">Seil</link></u></color>-Ende.\n 
+      \u2022 Die Menschen stehen auf einer Linie.\n\nSind die Kr\xE4fte gleich stark?\n\n\u2022
+      Dann bewegt sich der K\xF6rper <b>nicht</b>.\n\u2022 Die Summe aller Kr\xE4fte
+      ist gleich 0.\n\u2022 Der K\xF6rper ist im Gleichgewicht.\n\nSind die Kr\xE4fte
+      unterschiedlich gro\xDF?\n\n\u2022 Dann bewegt sich der K\xF6rper.\n\u2022
+      Die Summe aller Kr\xE4fte ist <b>nicht</b> gleich 0.\n\u2022 Der K\xF6rper
+      ist im Ungleich-Gewicht."
+  medium:
+    content: "Nach dem Gleichgewichtsaxiom befindet sich ein K\xF6rper in Ruhe oder
+      im Gleichgewicht, wenn\r\n\r\n- die beteiligten [Kr\xE4fte](glossary:Kraft)
+      gleich gro\xDF sind,\r\n- sich ihre Wirkungen aufheben und \r\n- ihre Summe
+      gleich null ist.\r\n\r\nIst eine Kraft gr\xF6\xDFer als die andere Kraft, bewegt
+      sich der K\xF6rper (Ungleichgewicht). Ein Beispiel daf\xFCr ist das Tauziehen.
+      Die Personen sind beim Tauziehen im Gleichgewicht, wenn\r\n\r\n- sie gleich
+      stark ziehen (gleich gro\xDFe Kr\xE4fte),\r\n- sie jeweils am anderen Ende
+      ziehen (die Kr\xE4fte sind entgegengesetzt),\r\n- sie sich gegen\xFCberstehen
+      (sich auf einer [Wirkungslinie](glossary:Wirkungslinie) befinden)."
+    image: {fileID: 21300000, guid: 0fcf7931b5cd3f149a6cb0457db4c7ef, type: 3}
+    tmpContent: "Nach dem Gleichgewichtsaxiom befindet sich ein K\xF6rper in Ruhe
+      oder im Gleichgewicht, wenn\n\n\u2022 die beteiligten <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      gleich gro\xDF sind,\n\u2022 sich ihre Wirkungen aufheben und\n\u2022 ihre
+      Summe gleich null ist.\n\nIst eine Kraft gr\xF6\xDFer als die andere Kraft,
+      bewegt sich der K\xF6rper (Ungleichgewicht). Ein Beispiel daf\xFCr ist das
+      Tauziehen. Die Personen sind beim Tauziehen im Gleichgewicht, wenn\n\n\u2022
+      sie gleich stark ziehen (gleich gro\xDFe Kr\xE4fte),\n\u2022 sie jeweils am
+      anderen Ende ziehen (die Kr\xE4fte sind entgegengesetzt),\n\u2022 sie sich
+      gegen\xFCberstehen (sich auf einer <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      befinden)."
+  scientific:
+    content: "Zwei Kr\xE4fte sind im Gleichgewicht, wenn sie auf derselben [Wirkungslinie](glossary:Wirkungslinie)
+      angreifen, gleich gro\xDF und einander entgegengesetzt orientiert sind.  "
+    image: {fileID: 21300000, guid: 73c49d9787e8e7d4db8d699838a6a957, type: 3}
+    tmpContent: "Zwei Kr\xE4fte sind im Gleichgewicht, wenn sie auf derselben <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      angreifen, gleich gro\xDF und einander entgegengesetzt orientiert sind."
+  tmpHeadline: 

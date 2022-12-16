@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: "\xC4u\xDFere Kr\xE4fte"
+  m_EditorClassIdentifier: 
+  headline: "\xC4u\xDFere Kr\xE4fte"
+  easy:
+    content: "[Kr\xE4fte](glossary:Kraft) wirken auf K\xF6rper.\r\n\r\nDie Kraft
+      kann von au\xDFen oder von innen kommen.\r\n\r\nDie Kraft von au\xDFen hei\xDFt
+      \xE4u\xDFere Kraft.\r\n\r\nZum Beispiel: Du dr\xFCckst die Knete. \r\n\r\nDann
+      verformt sich die Knete.  "
+    image: {fileID: 21300000, guid: e042113e05f8882438bc2f225b6540a9, type: 3}
+    tmpContent: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      wirken auf K\xF6rper.\n\nDie Kraft kann von au\xDFen oder von innen kommen.\n\nDie
+      Kraft von au\xDFen hei\xDFt \xE4u\xDFere Kraft.\n\nZum Beispiel: Du dr\xFCckst
+      die Knete.\n\nDann verformt sich die Knete."
+  medium:
+    content: "[Kr\xE4fte](glossary:Kraft) k\xF6nnen von au\xDFen oder innen auf einen
+      K\xF6rper wirken. Wenn sie von au\xDFen auf einen K\xF6rper treffen oder wirken,
+      werden die Kr\xE4fte *\xE4u\xDFere Kr\xE4fte* genannt. \r\n\r\n\xC4u\xDFere
+      Kr\xE4fte sind z. B. ein Schlag in die Magengrube, mit dem Finger auf dem Handy
+      das Like-Symbol dr\xFCcken oder der stundenlang fernsehende Onkel auf der Couch
+      ([Gewichtskraft](glossary:Gewichtskraft))."
+    image: {fileID: 21300000, guid: d31bf1a053f715743a1870a85451da65, type: 3}
+    tmpContent: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      k\xF6nnen von au\xDFen oder innen auf einen K\xF6rper wirken. Wenn sie von
+      au\xDFen auf einen K\xF6rper treffen oder wirken, werden die Kr\xE4fte <i>\xE4u\xDFere
+      Kr\xE4fte</i> genannt.\n\n\xC4u\xDFere Kr\xE4fte sind z. B. ein Schlag in die
+      Magengrube, mit dem Finger auf dem Handy das Like-Symbol dr\xFCcken oder der
+      stundenlang fernsehende Onkel auf der Couch (<color=#131313><u><link=\"glossary:Gewichtskraft\">Gewichtskraft</link></u></color>)."
+  scientific:
+    content: "Von au\xDFen auf einen K\xF6rper einwirkende [Kr\xE4fte](glossary:Kraft),
+      wie [Gewichtskraft](glossary:Gewichtskraft) oder Reaktionskr\xE4fte.  "
+    image: {fileID: 21300000, guid: b58451289e978fc459f42ec42ae30221, type: 3}
+    tmpContent: "Von au\xDFen auf einen K\xF6rper einwirkende <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>,
+      wie <color=#131313><u><link=\"glossary:Gewichtskraft\">Gewichtskraft</link></u></color>
+      oder Reaktionskr\xE4fte."
+  tmpHeadline: 

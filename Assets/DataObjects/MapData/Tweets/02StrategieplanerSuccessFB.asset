@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 02StrategieplanerSuccessFB
+  m_EditorClassIdentifier: 
+  uid: 9b00eef3-5d1b-4f9b-9013-c2f06c078e18
+  author: {fileID: 11400000, guid: aaf810f3b5ed4924b812b400009ed97b, type: 2}
+  messageText: "Glorreiche Analyse der Bewegungsdaten von Heuschrecken dient als
+    Basis f\xFCr Fr\xFChwarnsystem. #goodday #heuschrecken-zu-futter #nevergiveup"
+  relatedTask: {fileID: 11400000, guid: 07102daf5d6b54745855c82123cdce44, type: 2}
+  taskCondition: 0

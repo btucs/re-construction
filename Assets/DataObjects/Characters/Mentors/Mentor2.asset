@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90bfcac71701ae458dd7d4615ef306e, type: 3}
+  m_Name: Mentor2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: spriteRenderDictionary
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 17
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Decoration
+    - Name: $v
+      Entry: 1
+      Data: Freckles
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Eyes
+    - Name: $v
+      Entry: 1
+      Data: EyesOld
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Foot_Back
+    - Name: $v
+      Entry: 1
+      Data: FootBack_BootsHigh2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Foot_Front#
+    - Name: $v
+      Entry: 1
+      Data: FootFront_BootsHigh2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hair_Back
+    - Name: $v
+      Entry: 1
+      Data: HairBack_FemaleDutt
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hair_Front#
+    - Name: $v
+      Entry: 1
+      Data: HairFront_FemaleDutt
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerBody_LowerLegBack
+    - Name: $v
+      Entry: 1
+      Data: LowerLegBack_Rock
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerBody_LowerLegFront
+    - Name: $v
+      Entry: 1
+      Data: LowerLegFront_Rock
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerBody_UpperLegBack
+    - Name: $v
+      Entry: 1
+      Data: UpperLegBack_Rock
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LowerBody_UpperLegFront#
+    - Name: $v
+      Entry: 1
+      Data: UpperLegFront_Rock
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mouth
+    - Name: $v
+      Entry: 1
+      Data: Mouth2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Nose
+    - Name: $v
+      Entry: 1
+      Data: Nose3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_LowerBackArm
+    - Name: $v
+      Entry: 1
+      Data: LowerArmBack_FemaleJacket
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_LowerFrontArm
+    - Name: $v
+      Entry: 1
+      Data: LowerArmFront_FemaleJacket
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_Torso#
+    - Name: $v
+      Entry: 1
+      Data: Torso_FemaleJacket
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_UpperBackArm
+    - Name: $v
+      Entry: 1
+      Data: UpperArmBack_FemaleJacket
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UpperBody_UpperFrontArm
+    - Name: $v
+      Entry: 1
+      Data: UpperArmFront_FemaleJacket
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  uid: a44bfdaa-3729-47f8-9f68-a7665a51d887
+  characterName: Olga
+  thumbnail: {fileID: 21300000, guid: 2b81bb2598f00dd46b67eb188851a67b, type: 3}
+  type: 2
+  hairColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
+  bodyColor: {r: 0.92549026, g: 0.7372549, b: 0.67058825, a: 1}

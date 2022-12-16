@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Tangens
+  m_EditorClassIdentifier: 
+  headline: Tangens
+  easy:
+    content: "Ein Drei-Eck besteht aus Seiten und Winkeln.\r\n\r\nDie Seiten und
+      Winkel sind voneinander abh\xE4ngig.\r\n\r\nDer Tangens beschreibt die Abh\xE4ngigkeiten
+      der Seiten und Winkel.\r\n\r\nWelche Seite betrachtest du?\r\n\r\n- Du betrachtest
+      die 2 k\xFCrzesten Seiten.\r\n\r\n- Die l\xE4ngste Seite hei\xDFt auch [Hypotenuse](glossary:Hypotenuse).\r\n\r\n-
+      Die benachbarte Seite hei\xDFt auch [Kathete](glossary:Kathete).\r\n\r\nWelchen
+      Winkel betrachtest du?\r\n\r\n- Du betrachtest den eingeschlossenen Winkel.\r\n\r\n-
+      Der Winkel ist zwischen der l\xE4ngsten Seite und der benachbarten Seite.\r\n\r\nDer
+      Tangens gilt nur f\xFCr das recht-winklige Drei-Eck.\r\n\r\n- Das recht-winklige
+      Drei-Eck hat einen 90 Grad Winkel.\r\n\r\nWie stellst du die Abh\xE4ngigkeit
+      der Seiten und Winkel dar?\r\n\r\n- Die Abh\xE4ngigkeiten stellst du \xFCber
+      den [Einheits-Kreis](glossary:Einheitskreis) dar.\r\n- Wie verwendest du den
+      Einheits-Kreis?\r\n  - Du nimmst eine Dreieck-Ecke.\r\n  - Dann ziehst du um
+      die l\xE4ngste Seite einen Kreis.\r\n  - Dann zeichnest du den [rechten Winkel](glossary:Rechter_Winkel).  "
+    image: {fileID: 21300000, guid: 3e155461b65a87a478cd2ed8b8929c17, type: 3}
+    tmpContent: "Ein Drei-Eck besteht aus Seiten und Winkeln.\n\nDie Seiten und Winkel
+      sind voneinander abh\xE4ngig.\n\nDer Tangens beschreibt die Abh\xE4ngigkeiten
+      der Seiten und Winkel.\n\nWelche Seite betrachtest du?\n\n\u2022 Du betrachtest
+      die 2 k\xFCrzesten Seiten.\n\n\u2022 Die l\xE4ngste Seite hei\xDFt auch <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>.\n\n\u2022
+      Die benachbarte Seite hei\xDFt auch <color=#131313><u><link=\"glossary:Kathete\">Kathete</link></u></color>.\n\nWelchen
+      Winkel betrachtest du?\n\n\u2022 Du betrachtest den eingeschlossenen Winkel.\n\n\u2022
+      Der Winkel ist zwischen der l\xE4ngsten Seite und der benachbarten Seite.\n\nDer
+      Tangens gilt nur f\xFCr das recht-winklige Drei-Eck.\n\n\u2022 Das recht-winklige
+      Drei-Eck hat einen 90 Grad Winkel.\n\nWie stellst du die Abh\xE4ngigkeit der
+      Seiten und Winkel dar?\n\n\u2022 Die Abh\xE4ngigkeiten stellst du \xFCber den
+      <color=#131313><u><link=\"glossary:Einheitskreis\">Einheits-Kreis</link></u></color>
+      dar.\n\u2022 Wie verwendest du den Einheits-Kreis?\n  \u2022 Du nimmst eine
+      Dreieck-Ecke.\n  \u2022 Dann ziehst du um die l\xE4ngste Seite einen Kreis.\n 
+      \u2022 Dann zeichnest du den <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color>."
+  medium:
+    content: "Seiten und Winkel eines Dreiecks stehen immer im Verh\xE4ltnis zueinander.
+      Der Tangens beschreibt das Verh\xE4ltnis der [Katheten](glossary:Kathete) im
+      rechtwinkligen Dreieck. Dabei wird von der Ankathete und der Gegenkathete gesprochen.
+      Die Ankathete ber\xFChrt den zu betrachtenden Winkel. Die Gegenkathete liegt
+      dem zu betrachtenden Winkel gegen\xFCber. \r\n\r\nDas Verh\xE4ltnis von Ankathete
+      und Gegenkathete kann im [Einheitskreis](glossary:Einheitskreis) visualisiert
+      werden. "
+    image: {fileID: 21300000, guid: 08cf82631ef39454fa9304eb1ea753a5, type: 3}
+    tmpContent: "Seiten und Winkel eines Dreiecks stehen immer im Verh\xE4ltnis zueinander.
+      Der Tangens beschreibt das Verh\xE4ltnis der <color=#131313><u><link=\"glossary:Kathete\">Katheten</link></u></color>
+      im rechtwinkligen Dreieck. Dabei wird von der Ankathete und der Gegenkathete
+      gesprochen. Die Ankathete ber\xFChrt den zu betrachtenden Winkel. Die Gegenkathete
+      liegt dem zu betrachtenden Winkel gegen\xFCber.\n\nDas Verh\xE4ltnis von Ankathete
+      und Gegenkathete kann im <color=#131313><u><link=\"glossary:Einheitskreis\">Einheitskreis</link></u></color>
+      visualisiert werden."
+  scientific:
+    content: "Der Tangens eines Winkels gibt das Verh\xE4ltnis der [Gegenkathete](glossary:Kathete)
+      zur [Ankathete](glossary:Kathete) in einem rechtwinkligen Dreieck wieder. Die
+      Verh\xE4ltnisse k\xF6nnen am [Einheitskreis](glossary:Einheitskreis) dargestellt
+      werden."
+    image: {fileID: 21300000, guid: 7731092669e48ef46aff93d611f1164a, type: 3}
+    tmpContent: "Der Tangens eines Winkels gibt das Verh\xE4ltnis der <color=#131313><u><link=\"glossary:Kathete\">Gegenkathete</link></u></color>
+      zur <color=#131313><u><link=\"glossary:Kathete\">Ankathete</link></u></color>
+      in einem rechtwinkligen Dreieck wieder. Die Verh\xE4ltnisse k\xF6nnen am <color=#131313><u><link=\"glossary:Einheitskreis\">Einheitskreis</link></u></color>
+      dargestellt werden."
+  tmpHeadline: 

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Wechselwirkungsaxiom
+  m_EditorClassIdentifier: 
+  headline: Wechselwirkungsaxiom
+  easy:
+    content: "[Kr\xE4fte](glossary:Kraft) treten immer als Paar auf.\r\n\r\nWelche
+      Besonderheiten hat das Kr\xE4fte-Paar?\r\n\r\n- Die Kr\xE4fte sind entgegen-gesetzt.\r\n\r\n-
+      Die Kr\xE4fte sind gleich gro\xDF.\r\n\r\n- Die Kr\xE4fte liegen auf einer
+      imagin\xE4ren Linie.\r\n\r  - Die Linie hei\xDFt auch [Wirkungs-Linie](glossary:Wirkungslinie).\r\n\r\nWas
+      passiert, wenn sich eine Kraft \xE4ndert?\r\n\r\n- Der Kr\xE4fte-Partner \xE4ndert
+      sich auch.\r\n\r\nDas Gesetzt ist von Isaac Newton.\r\n\r\nDas Gesetzt hei\xDFt
+      auch Aktion ist gleich Re-Aktion. "
+    image: {fileID: 21300000, guid: 8cfe629e9fcb8ca45b063508afbc9297, type: 3}
+    tmpContent: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      treten immer als Paar auf.\n\nWelche Besonderheiten hat das Kr\xE4fte-Paar?\n\n\u2022
+      Die Kr\xE4fte sind entgegen-gesetzt.\n\n\u2022 Die Kr\xE4fte sind gleich gro\xDF.\n\n\u2022
+      Die Kr\xE4fte liegen auf einer imagin\xE4ren Linie.\n  \n  \u2022 Die Linie
+      hei\xDFt auch <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungs-Linie</link></u></color>.\n\nWas
+      passiert, wenn sich eine Kraft \xE4ndert?\n\n\u2022 Der Kr\xE4fte-Partner \xE4ndert
+      sich auch.\n\nDas Gesetzt ist von Isaac Newton.\n\nDas Gesetzt hei\xDFt auch
+      Aktion ist gleich Re-Aktion."
+  medium:
+    content: "Das Wechselwirkungsgesetz beschreibt das Auftreten von [Kr\xE4ften](glossary:Kraft)
+      als Paare. Diese Kr\xE4ftepaare haben folgende Eigenschaften:\r\n\r\n- Sie
+      sind gleich gro\xDF.\r\n- Sie sind einander entgegengerichtet.\r\n- Sie liegen
+      auf einer imagin\xE4ren Linie ([Wirkungslinie](glossary:Wirkungslinie)). \r\n\r\nWirkt
+      eine Kraft auf einen K\xF6rper, so reagiert der K\xF6rper mit einer Gegenkraft.
+      Die Gegenkraft ist so gro\xDF wie sein Kraftpartner, befindet sich auf derselben
+      Linie und wirkt auf den treffenden K\xF6rper. \r\n\r\nDas Wechselwirkungsgesetz,
+      von Newton, wird auch \u201EAktion=Reaktion\u201C genannt."
+    image: {fileID: 21300000, guid: 2f2fedd9f1ef12f4aaa803770054bfe2, type: 3}
+    tmpContent: "Das Wechselwirkungsgesetz beschreibt das Auftreten von <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4ften</link></u></color>
+      als Paare. Diese Kr\xE4ftepaare haben folgende Eigenschaften:\n\n\u2022 Sie
+      sind gleich gro\xDF.\n\u2022 Sie sind einander entgegengerichtet.\n\u2022 Sie
+      liegen auf einer imagin\xE4ren Linie (<color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>).\n\nWirkt
+      eine Kraft auf einen K\xF6rper, so reagiert der K\xF6rper mit einer Gegenkraft.
+      Die Gegenkraft ist so gro\xDF wie sein Kraftpartner, befindet sich auf derselben
+      Linie und wirkt auf den treffenden K\xF6rper.\n\nDas Wechselwirkungsgesetz,
+      von Newton, wird auch \u201EAktion=Reaktion\u201C genannt."
+  scientific:
+    content: "Das Wechselwirkungsaxiom beschreibt das paarweise Auftreten von [Kr\xE4ften](glossary:Kraft).
+      \xDCbt ein K\xF6rper 1 auf ein anderen K\xF6rper 2 eine [Kraft](glossary:Kraft)
+      aus, so wirkt K\xF6rper 2 eine gleich gro\xDFe, entgegengesetzt gerichtete,
+      auf gleicher [Wirkungslinie](glossary:Wirkungslinie) liegende [Kraft](glossary:Kraft)
+      auf K\xF6rper 1 aus. Bekannt ist das Gesetz als Aktion = Reaktion von Newton."
+    image: {fileID: 21300000, guid: 66753d6767a8cb94599bc0b170452b22, type: 3}
+    tmpContent: "Das Wechselwirkungsaxiom beschreibt das paarweise Auftreten von
+      <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4ften</link></u></color>. \xDCbt
+      ein K\xF6rper 1 auf ein anderen K\xF6rper 2 eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      aus, so wirkt K\xF6rper 2 eine gleich gro\xDFe, entgegengesetzt gerichtete,
+      auf gleicher <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      liegende <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      auf K\xF6rper 1 aus. Bekannt ist das Gesetz als Aktion = Reaktion von Newton."
+  tmpHeadline: 

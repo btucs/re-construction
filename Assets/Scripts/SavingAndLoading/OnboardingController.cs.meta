@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 46a0aa512c6a82a48bf860900ec9ed97
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - onboardingMenuManager: {instanceID: 0}
+  - sceneIntroController: {instanceID: 0}
+  - unlockProfileEvent: {fileID: 11400000, guid: 8b4b7437edf2aa147acdfc32688568b9,
+      type: 2}
+  - unlockMapEvent: {fileID: 11400000, guid: d0708effd5235f74180b89eb9bbe7ea8, type: 2}
+  - unlockBibEvent: {fileID: 11400000, guid: 330507ac3d73cb643bf86681d3bf4307, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

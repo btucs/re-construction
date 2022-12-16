@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 02HilfskonstruktionFailureFB
+  m_EditorClassIdentifier: 
+  uid: 653a90da-7f7c-4e83-848d-20009d953f2e
+  author: {fileID: 11400000, guid: d60d2682d473dd94fa76bf04e84b0832, type: 2}
+  messageText: "Verz\xF6gerungen bei der Sch\xE4dlingsbek\xE4mpfung bei Wohnh\xE4usern
+    f\xFChrt zu Resistenz. #newideasneeded #pythagoras #hausbefall #insektenaufdenteller "
+  relatedTask: {fileID: 11400000, guid: 437da33957650eb4994ba4033ace8edb, type: 2}
+  taskCondition: 1

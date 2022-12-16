@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c19d0c4db390b49b119fe90a540e16, type: 3}
+  m_Name: 01-MLE_Ersatzmodell
+  m_EditorClassIdentifier: 
+  uid: 7438ef4c-3039-4ad3-99ff-53985e131c78
+  mleName: Ersatzmodell
+  mleHandout: {fileID: 11400000, guid: 59247002e0b5ed84ba548ffc6f0bc20f, type: 2}
+  mleIntroText: "Ersatzrealit\xE4t? Sch\xF6n w\xE4r's! Mit dem Ersatzmodell kannst
+    du allerdings komplexe Dinge einfacher darstellen."
+  videoData:
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:4f0b2ea8771ac82c076861adf8127754_1645194320.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Wie wird die vereinfachte Darstellung einer technischen Problemstellung
+        auch genannt? '
+      choices:
+      - name: 'Ersatzmodell '
+        isAnswer: 1
+        feedbackMessage: "Komplett richtig. Das Ersatzmodell wird aus einfachen Elementen,
+          wie Balken, St\xE4ben und Seilen aufgebaut.\r\n"
+      - name: 'Ersatzversuch '
+        isAnswer: 0
+        feedbackMessage: "Nein, aber fast. Ein Teil des Wortes ist richtig. Auf jeden
+          Fall wird die Realit\xE4t mit einem vereinfachten Modell ersetzt.\r\n"
+      - name: 'Realmodell '
+        isAnswer: 0
+        feedbackMessage: "Nein, aber fast. Ein Teil des Wortes ist richtig. Dabei
+          wird ein vereinfachtes Modell der Realit\xE4t dargestellt. \r\n"
+      - name: 'Nachbau. '
+        isAnswer: 0
+        feedbackMessage: 'Mh, nein so wird es nicht genannt. Aber in der Tat ist
+          es eine Art Nachbau eines realen Systems.
+
+'
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:3ac15ddcc85e1285c896c3fa627a8e35_1645194358.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Welchen Vorteil hat das Ersatzmodell? '
+      choices:
+      - name: "Die Vereinfachung eines realen komplexen Modells, so dass komplexe
+          Probleme l\xF6sbar werden. "
+        isAnswer: 1
+        feedbackMessage: 'Perfekt. Der Vorteil ist auch gleichzeitig die Funktion
+          des Ersatzmodells Vereinfachungen zu treffen, die das Problem noch hinreichend
+          beschreiben.
+
+'
+      - name: "Der Freischnitt kann \xFCbersprungen werden. "
+        isAnswer: 0
+        feedbackMessage: "Definitiv nicht, denn der Freischnitt ist f\xFCr die mathematische
+          Betrachtung essentiell und bringt die Kr\xE4fte ins Spiel.\r\n"
+      - name: "Das Ersatzmodell ist immer eindeutig festgelegt. Es gibt immer eine
+          universelle L\xF6sung. "
+        isAnswer: 0
+        feedbackMessage: "Absolut nicht. Es gibt nicht das universelle Modell f\xFCr
+          jedes Problem. Es ist meist ein iterativer Prozess.\r\n"
+      - name: "Das Ergebnis des Ersatzmodells ist eine \xDCbersicht aller Kr\xE4fte
+          am zu betrachtenden K\xF6rper. "
+        isAnswer: 0
+        feedbackMessage: 'Nein, das ist das Ergebnis des Freischnittes.
+
+'
+  - videoUrl: https://www.b-tu.de/streaming/vimp//smil:06e9ed96b62e9cccf0567d69ba0fe015_1645194473.smil/playlist.m3u8
+    navTitle: Video
+    questions:
+    - question: 'Wann wird ein Ersatzmodell erstellt? '
+      choices:
+      - name: 'Vor dem Freischnitt. '
+        isAnswer: 1
+        feedbackMessage: "Prima. Das Ersatzmodell ist essentiell f\xFCr den Freischnitt,
+          da es die Grundlage daf\xFCr bildet.\r\n"
+      - name: "Wenn ich das Ergebnis f\xFCr die gesuchten Gr\xF6\xDFen bereits habe. "
+        isAnswer: 0
+        feedbackMessage: "Nein, das stimmt nicht. Das Ergebnis der gesuchten Gr\xF6\xDFe
+          braucht zuvor das Ersatzmodell und den Freischnitt. Aber Achtung: das Ersatzmodell
+          kann nach dem Ergebnis angepasst werden.\r\n"
+      - name: 'Nach dem Freischnitt. '
+        isAnswer: 0
+        feedbackMessage: "Nein, das ist nicht der richtige Zeitpunkt f\xFCr das Ersatzmodell.
+          \xDCberlege dir, wozu das Ersatzmodell genutzt wird.\r\n"
+      - name: 'Zur Probe der Berechnung. '
+        isAnswer: 0
+        feedbackMessage: "Nicht korrekt. Das Ersatzmodell kann vielleicht zur Nachpr\xFCfung
+          verwendet werden, aber es ist da bereits vorhanden.\r\n"
+  requiredProgress: []

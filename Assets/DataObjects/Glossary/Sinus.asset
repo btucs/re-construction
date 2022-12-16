@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Sinus
+  m_EditorClassIdentifier: 
+  headline: Sinus
+  easy:
+    content: "Ein Drei-Eck besteht aus Seiten und Winkeln.\r\n\r\nDie Seiten und
+      Winkel sind voneinander abh\xE4ngig.\r\n\r\nDer Sinus beschreibt die Abh\xE4ngigkeiten
+      der Seiten und Winkel.\r\n\r\nWelche Seiten betrachtest du?\r\n\r\n- Du betrachtest
+      die l\xE4ngste Seite und eine weitere Seite.\r\n\r\n- Die l\xE4ngste Seite
+      hei\xDFt auch [Hypotenuse](glossary:Hypotenuse).\r\n\r\n- Die Seiten hei\xDFen
+      auch [Katheten](glossary:Kathete).\r\n\r\nWelchen Winkel betrachtest du?\r\n\r\n-
+      Der Winkel liegt der Kathete gegen-\xFCber.\r\n\r\n- Deshalb hei\xDFt die Kathete
+      auch Gegen-Kathete.\r\n\r\nDer Sinus gilt nur f\xFCr das recht-winklige Dreieck.\r\n\r\n-
+      Ein recht-winkliges Drei-Eck hat einen Winkel von 90 Grad.\r\n\r\nWie stellst
+      du die Abh\xE4ngigkeiten der Seiten und Winkel dar?\r\n\r\n- Die Abh\xE4ngigkeiten
+      stellst du \xFCber den [Einheits-Kreis](glossary:Einheitskreis) dar.\r\n\r\n-
+      Wie verwendest du den Einheits-Kreis?\r\n  - Du nimmst eine Dreieck-Ecke.\r\n-
+      Dann ziehst du um die l\xE4ngste Seite einen Kreis.\r\n  - Dann zeichnest du
+      den [rechten Winkel](glossary:Rechter_Winkel).  "
+    image: {fileID: 21300000, guid: ed4ea0eb54787a344bbf77287312a1fc, type: 3}
+    tmpContent: "Ein Drei-Eck besteht aus Seiten und Winkeln.\n\nDie Seiten und Winkel
+      sind voneinander abh\xE4ngig.\n\nDer Sinus beschreibt die Abh\xE4ngigkeiten
+      der Seiten und Winkel.\n\nWelche Seiten betrachtest du?\n\n\u2022 Du betrachtest
+      die l\xE4ngste Seite und eine weitere Seite.\n\n\u2022 Die l\xE4ngste Seite
+      hei\xDFt auch <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>.\n\n\u2022
+      Die Seiten hei\xDFen auch <color=#131313><u><link=\"glossary:Kathete\">Katheten</link></u></color>.\n\nWelchen
+      Winkel betrachtest du?\n\n\u2022 Der Winkel liegt der Kathete gegen-\xFCber.\n\n\u2022
+      Deshalb hei\xDFt die Kathete auch Gegen-Kathete.\n\nDer Sinus gilt nur f\xFCr
+      das recht-winklige Dreieck.\n\n\u2022 Ein recht-winkliges Drei-Eck hat einen
+      Winkel von 90 Grad.\n\nWie stellst du die Abh\xE4ngigkeiten der Seiten und
+      Winkel dar?\n\n\u2022 Die Abh\xE4ngigkeiten stellst du \xFCber den <color=#131313><u><link=\"glossary:Einheitskreis\">Einheits-Kreis</link></u></color>
+      dar.\n\n\u2022 Wie verwendest du den Einheits-Kreis?\n  \n  \u2022 Du nimmst
+      eine Dreieck-Ecke.\n\n\u2022 Dann ziehst du um die l\xE4ngste Seite einen Kreis.\n 
+      \n  \u2022 Dann zeichnest du den <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color>."
+  medium:
+    content: "Seiten und Winkel eines Dreiecks stehen immer im Verh\xE4ltnis zueinander.
+      Der Sinus beschreibt das Verh\xE4ltnis der Gegen[kathete](glossary:Kathete)
+      zur [Hypotenuse](glossary:Hypotenuse) im rechtwinkligen Dreieck. Die Hypotenuse
+      ist die l\xE4ngste Seite im rechtwinkligen Dreieck und liegt gegen\xFCber dem
+      rechten Winkel. Die Gegenkathete beschreibt die gegen\xFCber dem betrachteten
+      Winkel liegende Seite.\r\n\r\nDas Verh\xE4ltnis von Hypotenuse und Gegenkathete
+      kann im [Einheitskreis](glossary:Einheitskreis) visualisiert werden."
+    image: {fileID: 21300000, guid: f91a1be1fadeea844b4703b0f2559679, type: 3}
+    tmpContent: "Seiten und Winkel eines Dreiecks stehen immer im Verh\xE4ltnis zueinander.
+      Der Sinus beschreibt das Verh\xE4ltnis der Gegen<color=#131313><u><link=\"glossary:Kathete\">kathete</link></u></color>
+      zur <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>
+      im rechtwinkligen Dreieck. Die Hypotenuse ist die l\xE4ngste Seite im rechtwinkligen
+      Dreieck und liegt gegen\xFCber dem rechten Winkel. Die Gegenkathete beschreibt
+      die gegen\xFCber dem betrachteten Winkel liegende Seite.\n\nDas Verh\xE4ltnis
+      von Hypotenuse und Gegenkathete kann im <color=#131313><u><link=\"glossary:Einheitskreis\">Einheitskreis</link></u></color>
+      visualisiert werden."
+  scientific:
+    content: "Der Sinus eines Winkels gibt das Verh\xE4ltnis der [Gegenkathethe](glossary:Kathete)
+      zur [Hypotenuse](glossary:Hypotenuse) in einem rechtwinkligen Dreieck wieder.
+      Die Verh\xE4ltnisse k\xF6nnen am [Einheitskreis](glossary:Einheitskreis) dargestellt
+      werden."
+    image: {fileID: 21300000, guid: 84c718e6e746d2d4f8dde4f405b58702, type: 3}
+    tmpContent: "Der Sinus eines Winkels gibt das Verh\xE4ltnis der <color=#131313><u><link=\"glossary:Kathete\">Gegenkathethe</link></u></color>
+      zur <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>
+      in einem rechtwinkligen Dreieck wieder. Die Verh\xE4ltnisse k\xF6nnen am <color=#131313><u><link=\"glossary:Einheitskreis\">Einheitskreis</link></u></color>
+      dargestellt werden."
+  tmpHeadline: 

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: "St\xE4be"
+  m_EditorClassIdentifier: 
+  headline: "St\xE4be"
+  easy:
+    content: "Ein Stab ist eine technische Komponente.\r\n\r\n- Technische Komponenten
+      vereinfachen die Realit\xE4t.\r\n- Dadurch kannst du mit der Realit\xE4t einfacher
+      arbeiten.\r\n\r\nWelche Besonderheiten hat der Stab?\r\n\r\n- St\xE4be k\xF6nnen
+      auseinander-gezogen werden.\r\n  - Dann wirkt an den St\xE4ben die [Zug-Kraft](glossary:Zugkraft).\r\n\r\n-
+      St\xE4be k\xF6nnen zusammen-gedr\xFCckt werden.\r\n\r  - Dann wirkt an den
+      St\xE4ben die [Druck-Kraft](glossary:Druckkraft)."
+    image: {fileID: 21300000, guid: 3f6706929c83a0940b7232278800a3bd, type: 3}
+    tmpContent: "Ein Stab ist eine technische Komponente.\n\n\u2022 Technische Komponenten
+      vereinfachen die Realit\xE4t.\n\u2022 Dadurch kannst du mit der Realit\xE4t
+      einfacher arbeiten.\n\nWelche Besonderheiten hat der Stab?\n\n\u2022 St\xE4be
+      k\xF6nnen auseinander-gezogen werden.\n  \n  \u2022 Dann wirkt an den St\xE4ben
+      die <color=#131313><u><link=\"glossary:Zugkraft\">Zug-Kraft</link></u></color>.\n\n\u2022
+      St\xE4be k\xF6nnen zusammen-gedr\xFCckt werden.\n  \n  \u2022 Dann wirkt an
+      den St\xE4ben die <color=#131313><u><link=\"glossary:Druckkraft\">Druck-Kraft</link></u></color>."
+  medium:
+    content: "St\xE4be sind Elemente von technischen Systemen. Sie k\xF6nnen allerdings
+      nur [Normalkr\xE4fte](glossary:Normalkraft) aufnehmen, d. h. [Zug](glossary:Zugkraft)-
+      und [Druckkr\xE4fte](glossary:Druckkraft). Wird der Stab auseinandergezogen,
+      wirken Zugkr\xE4fte. Wird der Stab zusammengedr\xFCckt, wirken Druckkr\xE4fte.
+      St\xE4be k\xF6nnen keine Drehungen aufnehmen.   "
+    image: {fileID: 21300000, guid: 1a57a429a3500524396bc4a50bba1d80, type: 3}
+    tmpContent: "St\xE4be sind Elemente von technischen Systemen. Sie k\xF6nnen allerdings
+      nur <color=#131313><u><link=\"glossary:Normalkraft\">Normalkr\xE4fte</link></u></color>
+      aufnehmen, d. h. <color=#131313><u><link=\"glossary:Zugkraft\">Zug</link></u></color>-
+      und <color=#131313><u><link=\"glossary:Druckkraft\">Druckkr\xE4fte</link></u></color>.
+      Wird der Stab auseinandergezogen, wirken Zugkr\xE4fte. Wird der Stab zusammengedr\xFCckt,
+      wirken Druckkr\xE4fte. St\xE4be k\xF6nnen keine Drehungen aufnehmen."
+  scientific:
+    content: "St\xE4be sind Elemente von technischen Systemen, welche ausschlie\xDFlich
+      [Normalkr\xE4fte](glossary:Normalkraft) aufnehmen. Dies k\xF6nnen sowohl [Druck-](glossary:Druckkraft)
+      (F_D) als auch [Zugkr\xE4fte](glossary:Zugkraft) (F_Z) sein."
+    image: {fileID: 21300000, guid: 43e2ff8b528d83f4c9045fc6538154f4, type: 3}
+    tmpContent: "St\xE4be sind Elemente von technischen Systemen, welche ausschlie\xDFlich
+      <color=#131313><u><link=\"glossary:Normalkraft\">Normalkr\xE4fte</link></u></color>
+      aufnehmen. Dies k\xF6nnen sowohl <color=#131313><u><link=\"glossary:Druckkraft\">Druck-</link></u></color>
+      (F<sub>D</sub>) als auch <color=#131313><u><link=\"glossary:Zugkraft\">Zugkr\xE4fte</link></u></color>
+      (F<sub>Z</sub>) sein."
+  tmpHeadline: 

@@ -1,0 +1,12 @@
+title: Start
+tags: 
+colorID: 0
+position: 298,50
+---
+Newton Tag {$playername}! Du bist doch auch von der Organisation?! Ich bin Ischa.
+Willkommen am Stadtrand von Newton-Stadt! Hier kämpfen wir an vorderster Front gegen die drohende Insektenplage.
+Die Zeit rennt und die Heuschrecken kommen immer näher von Richtung Zittauer Steppe! Krempel die Ärmel hoch und packe überall mit an!
+Nur gemeinsam schaffen wir es, gegen die Ausbreitung der Insekten anzukommen.
+Jetzt aber zack zack! Falls du Fragen hast, komm vorbei.
+<<event_continue>>
+===

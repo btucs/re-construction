@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96233c073d1720a45bb1431469c1f30e, type: 3}
+  m_Name: InsectMountainData
+  m_EditorClassIdentifier: 
+  uid: 2fedf4ff-dff4-42e2-8295-f87a53f5077a
+  areaName: Oberlausitzer Bergland
+  sceneName: Insect_MountainArea
+  areaDescription: "Dieses Bergland hat eine gro\xDFe Wirkung auf das Klima, Wettergeschehen
+    und die biologische Vielfalt. Stabilisiere es, um angrenzende Bereiche und die
+    Erde als Ganzes zu sch\xFCtzen.\r"
+  areaPreviewIMG: {fileID: 21300000, guid: 6fd8f0ae4016b8249b8a17a8b6c273db, type: 3}
+  areaIconIMG: {fileID: 8305345774195920952, guid: 68c716fd175aef64e91cacf8ae8e85a7,
+    type: 3}
+  mapPositionOrOffset: {x: -2, y: -4}

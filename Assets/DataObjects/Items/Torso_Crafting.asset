@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca8b6fd127f4ca439e72d6e7381864e, type: 3}
+  m_Name: Torso_Crafting
+  m_EditorClassIdentifier: 
+  uid: 707f413f-4dc9-4986-8368-d17e469490df
+  itemName: "Werkzeugg\xFCrtel"
+  price: 100
+  image: {fileID: -7617163255550901300, guid: c54e64bb76dcf474a98042cdb9a7af62, type: 3}
+  canBeBought: 0
+  requirement:
+    requiredTasks: []
+    finishedTopic: {fileID: 0}
+    unlockedTopic: {fileID: 0}
+    finishedEvent: {fileID: 0}
+    activeQuest: {fileID: 0}
+    finishedQuest: {fileID: 0}
+    taskAmount: 0
+  category: 0
+  label: Crafting
+  availableOnGameStart: 0

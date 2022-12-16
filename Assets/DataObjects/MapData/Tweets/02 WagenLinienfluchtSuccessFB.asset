@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cc1408f42a74c46b78b0dc4b05def4, type: 3}
+  m_Name: 02 WagenLinienfluchtSuccessFB
+  m_EditorClassIdentifier: 
+  uid: 787e6a55-7cfa-47aa-9ba3-4a55f6eda0a9
+  author: {fileID: 11400000, guid: dc7ff0f388a706044a036afe62cbb1d2, type: 2}
+  messageText: "Kleingeistige Analyse zur besten L\xF6sung verz\xF6gert Hilfslieferung
+    ins Unermessliche. Das ist nicht euer Ernst! #Linienflucht #b\xFCrokratie #mankannauchzuvielmachen"
+  relatedTask: {fileID: 11400000, guid: 23e923a722b34e841a05b53a5bd62729, type: 2}
+  taskCondition: 0

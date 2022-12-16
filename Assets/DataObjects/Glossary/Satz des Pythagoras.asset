@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Satz des Pythagoras
+  m_EditorClassIdentifier: 
+  headline: Satz des Pythagoras
+  easy:
+    content: "Was besagt der Satz des Pythagoras?\r\n\r\n- Der Satz des Pythagoras
+      gilt nur bei einem recht-winkligen Drei-Eck.\r\n  - Ein recht-winkliges Drei-Eck
+      hat einen 90 Grad Winkel.\r\n\r\n- Das Quadrat der l\xE4ngsten Seite ist gleich
+      gro\xDF zur Summe der Quadrate der k\xFCrzeren Seiten.\r\n\r\nWie berechnest
+      du den Satz des Pythagoras?\r\n\r\n- c\xB2 = a\xB2 + b\xB2\r\n\r\n- c steht
+      f\xFCr die [Hypotenuse](glossary:Hypotenuse).\r\n\r  - Die Hypotenuse ist die
+      l\xE4ngste Seite.\r\n  - Die Hypotenuse befindet sich dem [rechten Winkel](glossary:Rechter_Winkel)
+      gegen\xFCber.\r\n\r\n- a und b sind [Katheten](glossary:Kathete).\r\n\r  -
+      Katheten ber\xFChren den rechten Winkel."
+    image: {fileID: 21300000, guid: d282d34e4e2e71b47a2db0829c6c9b41, type: 3}
+    tmpContent: "Was besagt der Satz des Pythagoras?\n\n\u2022 Der Satz des Pythagoras
+      gilt nur bei einem recht-winkligen Drei-Eck.\n  \n  \u2022 Ein recht-winkliges
+      Drei-Eck hat einen 90 Grad Winkel.\n\n\u2022 Das Quadrat der l\xE4ngsten Seite
+      ist gleich gro\xDF zur Summe der Quadrate der k\xFCrzeren Seiten.\n\nWie berechnest
+      du den Satz des Pythagoras?\n\n\u2022 c\xB2 = a\xB2 + b\xB2\n\n\u2022 c steht
+      f\xFCr die <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>.\n 
+      \n  \u2022 Die Hypotenuse ist die l\xE4ngste Seite.\n  \u2022 Die Hypotenuse
+      befindet sich dem <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color> gegen\xFCber.\n\n\u2022 a und b sind <color=#131313><u><link=\"glossary:Kathete\">Katheten</link></u></color>.\n 
+      \n  \u2022 Katheten ber\xFChren den rechten Winkel."
+  medium:
+    content: "Der Satz des Pythagoras lautet: \r\n\r\nIn einem rechtwinkligen Dreieck
+      ist das Quadrat der [Hypotenuse](glossary:Hypotenuse) genauso gro\xDF wie die
+      Summe der Quadrate der [Katheten](glossary:Kathete). \r\n\r\nDie Formel dazu
+      ist: c^2 = a^2 + b^2.\r\n\r\nc = Hypothenuse\r\n\r\na, b = Katheten\r\n\r\nDie
+      Hypotenuse beschreibt die l\xE4ngste und dem [rechten Winkel](glossary:Rechter_Winkel)
+      gegen\xFCberliegende Seite. Die Katheten beschreiben die k\xFCrzeren Seiten,
+      die an den rechten Winkel angrenzen. "
+    image: {fileID: 21300000, guid: 80f53e10d4f71de47b08dae451b9b188, type: 3}
+    tmpContent: "Der Satz des Pythagoras lautet:\n\nIn einem rechtwinkligen Dreieck
+      ist das Quadrat der <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenuse</link></u></color>
+      genauso gro\xDF wie die Summe der Quadrate der <color=#131313><u><link=\"glossary:Kathete\">Katheten</link></u></color>.\n\nDie
+      Formel dazu ist: c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup>.\n\nc = Hypothenuse\n\na,
+      b = Katheten\n\nDie Hypotenuse beschreibt die l\xE4ngste und dem <color=#131313><u><link=\"glossary:Rechter_Winkel\">rechten
+      Winkel</link></u></color> gegen\xFCberliegende Seite. Die Katheten beschreiben
+      die k\xFCrzeren Seiten, die an den rechten Winkel angrenzen."
+  scientific:
+    content: "Der Satz des Pythagoras sagt aus, dass die Summe der [Katheten](glossary:Kathete)quadrate
+      genauso gro\xDF ist wie das [Hypotenusen](glossary:Hypotenuse)quadrat. Wenn
+      c die Hypotenuse ist, ist der Satz des Pythagoras wie folgt definiert c^2 =
+      a^2 + b^2.\r\n\r\nAchtung: Der Satz des Pythagoras kann nur im rechtwinkligen
+      Dreieck verwendet werden."
+    image: {fileID: 21300000, guid: 609ad6af24a7b5e44978a837948093a1, type: 3}
+    tmpContent: "Der Satz des Pythagoras sagt aus, dass die Summe der <color=#131313><u><link=\"glossary:Kathete\">Katheten</link></u></color>quadrate
+      genauso gro\xDF ist wie das <color=#131313><u><link=\"glossary:Hypotenuse\">Hypotenusen</link></u></color>quadrat.
+      Wenn c die Hypotenuse ist, ist der Satz des Pythagoras wie folgt definiert
+      c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup>.\n\nAchtung: Der Satz des Pythagoras
+      kann nur im rechtwinkligen Dreieck verwendet werden."
+  tmpHeadline: 

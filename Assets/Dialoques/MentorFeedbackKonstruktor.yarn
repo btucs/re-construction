@@ -1,0 +1,59 @@
+title: Start
+tags: 
+colorID: 0
+position: 309,-386
+---
+<<if visited("MentorFeedbackKonstruktor.Start") is false>>
+Hallo! Schön von dir zu hören.
+<<endif>>
+<<AutoContinue>>
+Wie kann ich dir helfen?
+[[Ich wollte nur ein bisschen quatschen.|Chat]]
+[[Ich komme nicht weiter und brauche Hilfe.|Help]]
+===
+title: Help
+tags: 
+colorID: 0
+position: 13,-58
+---
+Klar, ich helfe immer gern!
+[[Was soll ich mit den gefundenen Variablen machen?|Modules]]
+[[Wie benutze ich das Analysetool?|Analyzer]]
+===
+title: Chat
+tags: 
+colorID: 0
+position: 598,-71
+---
+Wir können uns gerne ein bisschen unterhalten.
+Ich bin aktuell im Außeneinsatz, aber wir machen gerade eine kurze Pause.
+<<AutoContinue>>
+Wie geht es dir?
+-> Mir geht es gut.
+    Das freut mich.
+-> Könnte besser sein.
+    Kann es das nicht immer?
+[[Das war's erstmal.|Exit]]
+===
+title: Modules
+tags: 
+colorID: 0
+position: -189,269
+---
+Wähle einfach das passende Modul, aus der Liste, aus.
+===
+title: Analyzer
+tags: 
+colorID: 0
+position: 188,270
+---
+Starte den Analyzer, indem du den Button mit der Lupe betätigst.
+Bewege den Bereich, der anschließend erscheint, über das Objekt und halte die Augen nach Informationen offen.
+===
+title: Exit
+tags: 
+colorID: 0
+position: 589,527
+---
+Mach's gut!
+===

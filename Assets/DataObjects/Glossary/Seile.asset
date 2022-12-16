@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Seile
+  m_EditorClassIdentifier: 
+  headline: Seile
+  easy:
+    content: "Ein Seil ist eine technische Komponente.\r\n\r\n- Technische Komponenten
+      vereinfachen die Realit\xE4t.\r\n\r\n- Dadurch kannst du mit der Realit\xE4t
+      einfacher arbeiten.\r\n\r\nSeile ersetzen Ketten und Stahl-Seile. \r\n\r\nDu
+      kannst das Seil auseinander-ziehen.\r\n\r\n- Dann ist das Seil straff.\r\n\r\n-
+      Dann wirken [Zug-Kr\xE4fte](glossary:Zugkraft).\r\n\r\nDu kannst das Seil zusammen-dr\xFCcken.\r\n\r\n-
+      Dann ist das Seil schlaff.\r\n\r\n- Das Seil verformt sich.\r\n\r\nVerformt
+      sich das Seil?\r\n\r\n- Kannst du es nicht mehr nutzen.\r\n\r\n- Die [Kr\xE4fte](glossary:Kraft)
+      zeigen sich in der Seil-Verformung.\r\n\r\n- Deshalb betrachtest du im Seil
+      die [Quer-Kr\xE4fte](glossary:Querkraft) **nicht**."
+    image: {fileID: 21300000, guid: bd0029b2d3c46f445b2b7a4235500ff8, type: 3}
+    tmpContent: "Ein Seil ist eine technische Komponente.\n\n\u2022 Technische Komponenten
+      vereinfachen die Realit\xE4t.\n\n\u2022 Dadurch kannst du mit der Realit\xE4t
+      einfacher arbeiten.\n\nSeile ersetzen Ketten und Stahl-Seile.\n\nDu kannst
+      das Seil auseinander-ziehen.\n\n\u2022 Dann ist das Seil straff.\n\n\u2022
+      Dann wirken <color=#131313><u><link=\"glossary:Zugkraft\">Zug-Kr\xE4fte</link></u></color>.\n\nDu
+      kannst das Seil zusammen-dr\xFCcken.\n\n\u2022 Dann ist das Seil schlaff.\n\n\u2022
+      Das Seil verformt sich.\n\nVerformt sich das Seil?\n\n\u2022 Kannst du es nicht
+      mehr nutzen.\n\n\u2022 Die <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      zeigen sich in der Seil-Verformung.\n\n\u2022 Deshalb betrachtest du im Seil
+      die <color=#131313><u><link=\"glossary:Querkraft\">Quer-Kr\xE4fte</link></u></color>
+      <b>nicht</b>."
+  medium:
+    content: "Seile sind Elemente von technischen Systemen. Sie k\xF6nnen nur [Zugkr\xE4fte](glossary:Zugkraft)
+      aufnehmen (d. h. [Kr\xE4fte](glossary:Kraft), die wirken, wenn das Seil auseinandergezogen
+      wird). Sollte das Seil zusammengedr\xFCckt werden, verformt es sich und kann
+      nicht weiter betrachtet werden. Ketten und Stahlseile werden auch als Seile
+      verstanden. "
+    image: {fileID: 21300000, guid: 0f3f000d438c19d459ce7d1b4cdb4a44, type: 3}
+    tmpContent: "Seile sind Elemente von technischen Systemen. Sie k\xF6nnen nur
+      <color=#131313><u><link=\"glossary:Zugkraft\">Zugkr\xE4fte</link></u></color>
+      aufnehmen (d. h. <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>,
+      die wirken, wenn das Seil auseinandergezogen wird). Sollte das Seil zusammengedr\xFCckt
+      werden, verformt es sich und kann nicht weiter betrachtet werden. Ketten und
+      Stahlseile werden auch als Seile verstanden."
+  scientific:
+    content: "Seile sind Elemente von technischen Systemen, welche ausschlie\xDFlich
+      [Zugkr\xE4fte](glossary:Zugkraft) (F_Z) aufnehmen k\xF6nnen. Im [Ersatzmodell](glossary:Ersatzmodell)
+      werden Ketten und Stahlseile durch das Element des Seils ersetzt. "
+    image: {fileID: 21300000, guid: e718758447538ce4bb39ee02e65a780a, type: 3}
+    tmpContent: "Seile sind Elemente von technischen Systemen, welche ausschlie\xDFlich
+      <color=#131313><u><link=\"glossary:Zugkraft\">Zugkr\xE4fte</link></u></color>
+      (F<sub>Z</sub>) aufnehmen k\xF6nnen. Im <color=#131313><u><link=\"glossary:Ersatzmodell\">Ersatzmodell</link></u></color>
+      werden Ketten und Stahlseile durch das Element des Seils ersetzt."
+  tmpHeadline: 

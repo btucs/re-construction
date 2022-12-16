@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: 01-RUcksack
+  m_EditorClassIdentifier: 
+  uid: 173f0ec8-39cf-4bf6-b561-07ab69cb6fdf
+  objectName: Lebensmittelstation
+  objectDescription: "Die vielen Katastrophen f\xFChren zu starker Lebensmittelknappheit
+    in der Bev\xF6lkerung. Ein niedrigschwelliger Lieferdienst mit Drohnen soll schnell
+    und flexibel dorthin, wo die Not am gr\xF6\xDFten ist."
+  objectPrefab: {fileID: 481500083839276262, guid: 321a37e3d630ca94da24de1eb12e2e0c,
+    type: 3}
+  objectThumbnail: {fileID: -2361688701092690365, guid: 3ca3f3b6caeb3734c93a205808f6ed11,
+    type: 3}
+  cameraOffset: {x: 0.75, y: 1.2, z: 0}
+  markerOffset: {x: 0, y: 0}
+  cameraZoom: 1.1
+  taskInfos:
+  - task: {fileID: 11400000, guid: 1390dcc7e8b6bac41899542d1fb33a36, type: 2}
+    taskButtonPosition: {x: 1.75, y: -0.3}
+    isRepeatable: 1
+    hiddenVariables:
+    - itemData:
+        name: m
+        icon: {fileID: 0}
+        textMeshProName: m
+        type: 0
+        textValue: 6.5 kg
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Masse des \xDCberlebensrucksackes."
+        definition: "Ist eine Grundgr\xF6\xDFe der Physik, welche die Tr\xE4gheit
+          eines K\xF6rper gegen Beschleunigungskr\xE4fte beschreibt."
+        textMeshProValue: 6.5 kg
+      localAnalyzePosition: {x: 0, y: 0, z: 0}
+    - itemData:
+        name: g
+        icon: {fileID: -2260630754330411556, guid: c3730dbf4f9882545b337afab4cb3ced,
+          type: 3}
+        textMeshProName: g
+        type: 0
+        textValue: 9.81 m/s^2
+        startPointText: 
+        replacementModelType: -1
+        shortDescription: "Beschleunigung des K\xF6rpers durch Erdgravitation."
+        definition: "Beschleunigung, die ein K\xF6rper durch Gravitation auf der
+          Erde erf\xE4hrt."
+        textMeshProValue: 9.81 m/s<sup>2</sup>
+      localAnalyzePosition: {x: 2, y: 0, z: 0}

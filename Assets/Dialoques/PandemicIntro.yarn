@@ -1,0 +1,15 @@
+title: PandemicIntro.Start
+tags: 
+colorID: 0
+position: -53,-82
+---
+Newton Tag {$playername}! Ich habe schon gehört, dass du hierher unterwegs bist.
+Willkommen in Newton-Stadt! Ich bin Lukas. Wie du siehst, sind die Straßen wie leergefegt.
+Eine neue Infektionskrankheit breitet sich hier aus und wir versuchen, die Lage wieder unter Kontrolle zu bringen...
+Überfüllte Krankenhäuser, fehlende Materialien,... es ist zum Kotzen.
+... Wir müssen jetzt handeln und reagieren! Ich hab' allerdings leider keine Zeit, dich hier einzuarbeiten.
+Schau dich doch mal um und such' dir Aufgaben... 
+...und wenn du GAR NICHT weiter weißt, komm zu mir.
+Bis später!
+<<event_continue>>
+===

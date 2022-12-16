@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Ersatzmodell
+  m_EditorClassIdentifier: 
+  headline: Ersatzmodell
+  easy:
+    content: "Das Ersatz-Modell ist ein vereinfachtes Bild der Realit\xE4t.\r\n\r\nDas
+      Ersatz-Modell vereinfacht komplexe Dinge.\r\n\r\nMit dem Ersatz-Modell kannst
+      du ein technisches Problem vereinfacht darstellen. \r\n\r\nWie erstellst du
+      ein Ersatz-Modell?\r\n\r\n- Du ersetzt die einzelnen Bau-Teile mit [Seilen](glossary:Seile),
+      [St\xE4ben](glossary:St\xE4be) und [Balken](glossary:Balken).\r\n- Du zeichnest
+      die Verbindungen zwischen den K\xF6rpern."
+    image: {fileID: 21300000, guid: 3017ee008e5dab6478b1b0da6355b5d1, type: 3}
+    tmpContent: "Das Ersatz-Modell ist ein vereinfachtes Bild der Realit\xE4t.\n\nDas
+      Ersatz-Modell vereinfacht komplexe Dinge.\n\nMit dem Ersatz-Modell kannst du
+      ein technisches Problem vereinfacht darstellen.\n\nWie erstellst du ein Ersatz-Modell?\n\n\u2022
+      Du ersetzt die einzelnen Bau-Teile mit <color=#131313><u><link=\"glossary:Seile\">Seilen</link></u></color>,
+      <color=#131313><u><link=\"glossary:St\xE4be\">St\xE4ben</link></u></color>
+      und <color=#131313><u><link=\"glossary:Balken\">Balken</link></u></color>.\n\u2022
+      Du zeichnest die Verbindungen zwischen den K\xF6rpern."
+  medium:
+    content: "Das Ersatzmodell ist eine vereinfachte Darstellung der Realit\xE4t.
+      Des Weiteren hat es den Vorteil, die Komplexit\xE4t der Realit\xE4t stark zu
+      vereinfachen.\r\n\r\nEs dient der Bearbeitung einer technischen Problemstellung."
+    image: {fileID: 21300000, guid: 1f2fea0863d55b64a831ae00cde0143f, type: 3}
+    tmpContent: "Das Ersatzmodell ist eine vereinfachte Darstellung der Realit\xE4t.
+      Des Weiteren hat es den Vorteil, die Komplexit\xE4t der Realit\xE4t stark zu
+      vereinfachen.\n\nEs dient der Bearbeitung einer technischen Problemstellung."
+  scientific:
+    content: "Das Ersatzmodell ist eine vereinfachte Darstellung eines technischen
+      Systems zur Reduzierung der Komplexit\xE4t.   "
+    image: {fileID: 21300000, guid: bad781f0c26c9ac458b248d2c8103e2f, type: 3}
+    tmpContent: "Das Ersatzmodell ist eine vereinfachte Darstellung eines technischen
+      Systems zur Reduzierung der Komplexit\xE4t."
+  tmpHeadline: 

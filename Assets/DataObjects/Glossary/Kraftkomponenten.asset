@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Kraftkomponenten
+  m_EditorClassIdentifier: 
+  headline: Kraftkomponenten
+  easy:
+    content: "Eine [Kraft](glossary:Kraft) kann in mehrere Teile zerlegt werden.\r\n\r\nDie
+      Teile der Kraft hei\xDFen Kraft-Komponenten.\r\n\r\nDie Kraft-Komponenten zeigen
+      in eine bestimmte [Richtung](glossary:Richtung).\r\n\r\nWie gehst du bei der
+      Kraft-Zerlegung vor?\r\n\r\n- Du zeichnest die Kraft in ein [Koordinaten-System](glossary:Koordinatensystem).\r\n\r 
+      - Ein Koordinaten-System hat eine x- und eine y-Achse. \r\n\r\n- Dann zerlegst
+      du die Kraft:\r\n\r  - in x-Achsen-Richtung,\r\n  - in y-Achsen-Richtung.\r\n-
+      Dadurch bildet sich ein recht-winkliges Dreieck.\r\n\r\n- Die Kraft der x-Achse
+      ist die x-Komponente.\r\n\r\n- Die Kraft der y-Achse ist die y-Komponente."
+    image: {fileID: 21300000, guid: 74f00745291949f4297bf7be2eaa9d8f, type: 3}
+    tmpContent: "Eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      kann in mehrere Teile zerlegt werden.\n\nDie Teile der Kraft hei\xDFen Kraft-Komponenten.\n\nDie
+      Kraft-Komponenten zeigen in eine bestimmte <color=#131313><u><link=\"glossary:Richtung\">Richtung</link></u></color>.\n\nWie
+      gehst du bei der Kraft-Zerlegung vor?\n\n\u2022 Du zeichnest die Kraft in ein
+      <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordinaten-System</link></u></color>.\n 
+      \n  \u2022 Ein Koordinaten-System hat eine x- und eine y-Achse.\n\n\u2022 Dann
+      zerlegst du die Kraft:\n  \n  \u2022 in x-Achsen-Richtung,\n  \u2022 in y-Achsen-Richtung.\n\n\u2022
+      Dadurch bildet sich ein recht-winkliges Dreieck.\n\n\u2022 Die Kraft der x-Achse
+      ist die x-Komponente.\n\n\u2022 Die Kraft der y-Achse ist die y-Komponente."
+  medium:
+    content: "Eine [Kraft](glossary:Kraft) kann in zwei Komponenten eines [Koordianatensystems](glossary:Koordinatensystem)
+      zerlegt werden. \r\n\r\nDabei wird die Kraft unter der Verwendung des Winkels
+      \u03B1 in zwei Kr\xE4fte zerlegt: eine Kraft in x-Richtung und eine Kraft in
+      y-Richtung. Eine Kraftkomponente ist demnach der Anteil einer Kraft, der im
+      Koordinatensystem in eine bestimmte Richtung zeigt."
+    image: {fileID: 21300000, guid: d0980f94c078d7b4f8641bf8c1537dd2, type: 3}
+    tmpContent: "Eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      kann in zwei Komponenten eines <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordianatensystems</link></u></color>
+      zerlegt werden.\n\nDabei wird die Kraft unter der Verwendung des Winkels \u03B1
+      in zwei Kr\xE4fte zerlegt: eine Kraft in x-Richtung und eine Kraft in y-Richtung.
+      Eine Kraftkomponente ist demnach der Anteil einer Kraft, der im Koordinatensystem
+      in eine bestimmte Richtung zeigt."
+  scientific:
+    content: "Eine Kraftkomponente ist der Anteil einer [Kraft](glossary:Kraft) zu
+      einer Richtung in einem [Koordinatensystem](glossary:Koordinatensystem). Beispielsweise
+      m\xFCssen Kr\xE4fte oft in ihre Komponenten im kartesischen [Koordinatensystem](glossary:Koordinatensystem)
+      zerlegt werden, also in die Anteile in x- und y-Richtung."
+    image: {fileID: 21300000, guid: b29fae2121771dc4881b6fc19b855376, type: 3}
+    tmpContent: "Eine Kraftkomponente ist der Anteil einer <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      zu einer Richtung in einem <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordinatensystem</link></u></color>.
+      Beispielsweise m\xFCssen Kr\xE4fte oft in ihre Komponenten im kartesischen
+      <color=#131313><u><link=\"glossary:Koordinatensystem\">Koordinatensystem</link></u></color>
+      zerlegt werden, also in die Anteile in x- und y-Richtung."
+  tmpHeadline: 

@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: a05d8e7cadfa9ff43a35ae44072ab63f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 707062531907759736
+    second: AllgDreieckHaus_LongSearchedIcon
+  - first:
+      213: 3052292199809948077
+    second: AllgDreieckHaus_GroundSideIcon
+  - first:
+      213: -5669969295044634812
+    second: AllgDreieckHaus_WInkelIcon
+  - first:
+      213: 1130558919754626150
+    second: AllgDreieckHaus_HeightIcon
+  - first:
+      213: 824172911842530760
+    second: TaskInformationGraphics_AllgDreieckHaus_0
+  - first:
+      213: -4991240094301451485
+    second: TaskInformationGraphics_AllgDreieckHaus_1
+  - first:
+      213: -8900925128456137088
+    second: TaskInformationGraphics_AllgDreieckHaus_2
+  - first:
+      213: 4836742737289932935
+    second: TaskInformationGraphics_AllgDreieckHaus_3
+  - first:
+      213: -2432421373872174742
+    second: TaskInformationGraphics_AllgDreieckHaus_4
+  - first:
+      213: -2587508390151529874
+    second: TaskInformationGraphics_AllgDreieckHaus_5
+  - first:
+      213: 4333750855001864491
+    second: TaskInformationGraphics_AllgDreieckHaus_6
+  - first:
+      213: -2775312652306825909
+    second: TaskInformationGraphics_AllgDreieckHaus_7
+  - first:
+      213: -1426262081366220191
+    second: TaskInformationGraphics_AllgDreieckHaus_8
+  - first:
+      213: -3158249868346156849
+    second: TaskInformationGraphics_AllgDreieckHaus_9
+  - first:
+      213: -317474023387020557
+    second: TaskInformationGraphics_AllgDreieckHaus_10
+  - first:
+      213: -1770089608912049764
+    second: TaskInformationGraphics_AllgDreieckHaus_11
+  - first:
+      213: -8747185333878096440
+    second: TaskInformationGraphics_AllgDreieckHaus_12
+  - first:
+      213: -8696628528189939471
+    second: TaskInformationGraphics_AllgDreieckHaus_13
+  - first:
+      213: -1269085546589668386
+    second: TaskInformationGraphics_AllgDreieckHaus_14
+  - first:
+      213: 5249033872365608733
+    second: TaskInformationGraphics_AllgDreieckHaus_15
+  - first:
+      213: -2892846720587282512
+    second: TaskInformationGraphics_AllgDreieckHaus_16
+  - first:
+      213: -8822928219756337908
+    second: TaskInformationGraphics_AllgDreieckHaus_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TaskInformationGraphics_AllgDreieckHaus_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c59fdb85ec007b00800000000000000
+      internalID: 824172911842530760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_AllgDreieckHaus_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b8976349d8bbab0800000000000000
+      internalID: -4991240094301451485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_AllgDreieckHaus_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086160a31cf897480800000000000000
+      internalID: -8900925128456137088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_AllgDreieckHaus_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780fd16b4ef8f1340800000000000000
+      internalID: 4836742737289932935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_AllgDreieckHaus_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a690842e5ad4e3ed0800000000000000
+      internalID: -2432421373872174742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_AllgDreieckHaus_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6adcaf04d2571cd0800000000000000
+      internalID: -2587508390151529874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_AllgDreieckHaus_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b297e610173942c30800000000000000
+      internalID: 4333750855001864491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaskInformationGraphics_AllgDreieckHaus_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dba92d8db1c79d0800000000000000
+      internalID: -2775312652306825909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

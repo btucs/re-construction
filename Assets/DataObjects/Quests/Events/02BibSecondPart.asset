@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17198a4089eac5c44ba4a6639338a428, type: 3}
+  m_Name: 02BibSecondPart
+  m_EditorClassIdentifier: 
+  uid: 6a8ff3f0-faf1-43b2-91fe-1e4ba4a7f9e6
+  eventSceneName: OfficeStartScene
+  requirement:
+    requiredTasks: []
+    finishedTopic: {fileID: 0}
+    finishedEvent: {fileID: 11400000, guid: 330507ac3d73cb643bf86681d3bf4307, type: 2}
+    activeQuest: {fileID: 0}
+    finishedQuest: {fileID: 0}
+    taskAmount: 0

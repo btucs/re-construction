@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Freischneiden
+  m_EditorClassIdentifier: 
+  headline: Freischneiden
+  easy:
+    content: "Frei-Schneiden ist eine Methode.\r\n\r\nDas Frei-Schneiden stellt [innere
+      Kr\xE4fte](glossary:Innere_Kr\xE4fte) dar. \r\n\r\nInnere Kr\xE4fte wirken:\r\n\r\n-
+      innerhalb eines K\xF6rpers\r\n- zwischen mehreren K\xF6rpern\r\n\r\n Wie wird
+      frei-geschnitten?\r\n\r\n- Du trennst den K\xF6rper an Verbindungs-Punkten.\r\n\r 
+      - Verbindungs-Punkte verbinden 2 Komponenten an einer Stelle.\r\n  - Du kannst
+      den K\xF6rper an beliebigen Verbindungs-Punkten trennen.\r\n\r\n- Dann tr\xE4gst
+      du die vorhandenen Kr\xE4fte ein.\r\n\r  - Die vorhandenen Kr\xE4fte k\xF6nnen\r\n\r   
+      - [\xE4u\xDFere Kr\xE4fte](glossary:\xC4u\xDFere_Kr\xE4fte) oder\r\n    - innere
+      Kr\xE4fte sein.\r\n\r\nKr\xE4fte kommen immer als Paar vor.\r\n\r\nDeshalb
+      wirkt beim Frei-Schneiden das [Wechsel-Wirkungs-Prinzip](glossary:Wechselwirkungsaxiom)."
+    image: {fileID: 21300000, guid: 13f51b56fe940704aace307f8638de28, type: 3}
+    tmpContent: "Frei-Schneiden ist eine Methode.\n\nDas Frei-Schneiden stellt <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">innere
+      Kr\xE4fte</link></u></color> dar.\n\nInnere Kr\xE4fte wirken:\n\n\u2022 innerhalb
+      eines K\xF6rpers\n\u2022 zwischen mehreren K\xF6rpern\n\nWie wird frei-geschnitten?\n\n\u2022
+      Du trennst den K\xF6rper an Verbindungs-Punkten.\n  \n  \u2022 Verbindungs-Punkte
+      verbinden 2 Komponenten an einer Stelle.\n  \u2022 Du kannst den K\xF6rper
+      an beliebigen Verbindungs-Punkten trennen.\n\n\u2022 Dann tr\xE4gst du die
+      vorhandenen Kr\xE4fte ein.\n  \n  \u2022 Die vorhandenen Kr\xE4fte k\xF6nnen\n   
+      \n    \u2022 <color=#131313><u><link=\"glossary:\xC4u\xDFere_Kr\xE4fte\">\xE4u\xDFere
+      Kr\xE4fte</link></u></color> oder\n    \u2022 innere Kr\xE4fte sein.\n\nKr\xE4fte
+      kommen immer als Paar vor.\n\nDeshalb wirkt beim Frei-Schneiden das <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechsel-Wirkungs-Prinzip</link></u></color>."
+  medium:
+    content: "Die Methode des Freischneidens zeigt die [Kr\xE4fte](glossary:Kraft)
+      auf, die zwischen zwei K\xF6rpern wirken.\r\n\r\nBeim Freischneiden werden
+      \r\n\r\n1. die K\xF6rper gedanklich an ihren Verbindungspunkten getrennt,\r\n2.
+      die [inneren](glossary:Innere_Kr\xE4fte) und [\xE4u\xDFeren Kr\xE4fte](glossary:\xC4u\xDFere_Kr\xE4fte)
+      der beiden K\xF6rper eingetragen.\r\n\r\nDabei kann der Freischnitt an beliebigen
+      Stellen in und zwischen den K\xF6rpern durchgef\xFChrt werden. Beim Freischneiden
+      werden die paarweise auftretenden Kr\xE4fte sichtbar gemacht. Diese wirken
+      nach dem [Wechselwirkungsprinzip](glossary:Wechselwirkungsaxiom)."
+    image: {fileID: 21300000, guid: d3d5508a336a026429810a8b3b1ba99f, type: 3}
+    tmpContent: "Die Methode des Freischneidens zeigt die <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      auf, die zwischen zwei K\xF6rpern wirken.\n\nBeim Freischneiden werden\n\n1.
+      die K\xF6rper gedanklich an ihren Verbindungspunkten getrennt,\n2. die <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">inneren</link></u></color>
+      und <color=#131313><u><link=\"glossary:\xC4u\xDFere_Kr\xE4fte\">\xE4u\xDFeren
+      Kr\xE4fte</link></u></color> der beiden K\xF6rper eingetragen.\n\nDabei kann
+      der Freischnitt an beliebigen Stellen in und zwischen den K\xF6rpern durchgef\xFChrt
+      werden. Beim Freischneiden werden die paarweise auftretenden Kr\xE4fte sichtbar
+      gemacht. Diese wirken nach dem <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechselwirkungsprinzip</link></u></color>."
+  scientific:
+    content: "Freischneiden ist das gedankliche Trennen von Elementen / K\xF6rpern
+      des zu betrachtenden technischen Systems. Beim Freischneiden werden die Wirkungen
+      der [Kr\xE4fte](glossary:Kraft) zwischen den Elementen dargestellt. Der Freischnitt
+      kann an beliebigen Stellen in und zwischen den Objekten stattfinden. Es werden
+      sowohl [\xE4u\xDFere](glossary:\xC4u\xDFere_Kr\xE4fte) als auch [innere Kr\xE4fte](glossary:Innere_Kr\xE4fte)
+      sichtbar. Das [Wechselwirkungsprinzip](glossary:Wechselwirkungsaxiom) findet
+      hier Anwendung.  "
+    image: {fileID: 21300000, guid: 248ee03199b415244a4adf7c15df425f, type: 3}
+    tmpContent: "Freischneiden ist das gedankliche Trennen von Elementen / K\xF6rpern
+      des zu betrachtenden technischen Systems. Beim Freischneiden werden die Wirkungen
+      der <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      zwischen den Elementen dargestellt. Der Freischnitt kann an beliebigen Stellen
+      in und zwischen den Objekten stattfinden. Es werden sowohl <color=#131313><u><link=\"glossary:\xC4u\xDFere_Kr\xE4fte\">\xE4u\xDFere</link></u></color>
+      als auch <color=#131313><u><link=\"glossary:Innere_Kr\xE4fte\">innere Kr\xE4fte</link></u></color>
+      sichtbar. Das <color=#131313><u><link=\"glossary:Wechselwirkungsaxiom\">Wechselwirkungsprinzip</link></u></color>
+      findet hier Anwendung."
+  tmpHeadline: 

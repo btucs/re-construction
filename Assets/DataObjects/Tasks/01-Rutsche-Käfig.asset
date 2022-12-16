@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: "01-Rutsche-K\xE4fig"
+  m_EditorClassIdentifier: 
+  uid: d431c4bd-9c13-482a-9df4-4e6425a65992
+  taskName: Notrutsche
+  teaserDescription: "Baue eine Rutsche f\xFCr die Meerschweinchen."
+  teaserSolvedCorrect: 
+  teaserSolvedWrong: 
+  fullDescription: Nutze das Prinzip der Wechselwirkung, um eine Notrutsche zu konstruieren.
+  topic: {fileID: 0}
+  requiredTask: {fileID: 11400000, guid: 1b34a77a3151459438ee490069a5fb30, type: 2}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: h
+      icon: {fileID: 0}
+      textMeshProName: h
+      type: 0
+      textValue: 0.3 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 0.3 m
+    - name: l_1
+      icon: {fileID: 0}
+      textMeshProName: l<sub>1</sub>
+      type: 0
+      textValue: 0.4 m
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: 0.4 m
+    dummyInputs: []
+    output:
+      name: l_2
+      icon: {fileID: 0}
+      textMeshProName: l<sub>2</sub>
+      unit: 4
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: aec51d4329066cf43add4b3f8144ced4, type: 2}
+    dialogs:
+    - "Eins ist klar wie Klo\xDFbr\xFChe. Umso steiler die Rutsche, desto schneller
+      sind die todesmutigen Proband/innen unten."
+    - "Nach den Ma\xDFen von Marlen fehlt uns nur noch die ~o:l_2|Rutschl\xE4nge~."
+  - npc: {fileID: 11400000, guid: bcdfc3365b0a7be4aae2c968abf64e18, type: 2}
+    dialogs:
+    - "Meen Auge misst 'ne H\xF6he von ~i:h|0.3 Meter~ un 'ne L\xE4nge von ~i:l_1|0.4
+      Meter~. Mit der dritten L\xE4nge bin ick unsicher."
+    - "Keen Stress. Die dritte L\xE4nge, also die ~o:l_2|Rutschl\xE4nge~, muss berechnet
+      werden. "
+    - "Schreb das n\xE4chste Mal mit. H\xF6he ~i:h|0.3 Meter~ un L\xE4nge ~i:l_1|0.4
+      Meter~."
+  hashtags:
+  - analytisch

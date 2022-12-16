@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e124ce8cce024a97b13f5319f1a49, type: 3}
+  m_Name: 22-Handout_Lager
+  m_EditorClassIdentifier: 
+  mleName: Lager
+  entries:
+  - title: Was muss ich wissen?
+    description: "\\begin{itemize}\r\n    \\item ein Lager ist ein Bauteil, welches
+      die Bewegungsm\xF6glichkeit von K\xF6rpern einschr\xE4nkt\r\n    \\item die
+      Wertigkeit gibt an, wie viele Freiheitsgrade eingeschr\xE4nkt werden\r\n   
+      \\item die Lagerreaktion ist die Kraft, die vom Lager auf den K\xF6rper ausge\xFCbt
+      wird\r\n    \\item eine Lagerung ist statisch bestimmt, wenn es genauso viele
+      Lagerreaktionen wie Freiheitsgrade gibt\r\n\\end{itemize}\r\n"
+    picture: {fileID: 0}
+  - title: Was sind Lager?
+    description: "Ein Lager ist ein Bauteil, welches die \\textbf{Bewegungsm\xF6glichkeit
+      eines K\xF6rpers einschr\xE4nkt}. In der Ebene hat ein K\xF6rper 3 Freiheitsgrade.
+      Das hei\xDFt es gibt drei Bewegungsm\xF6glichkeiten \u2013 die Verschiebung
+      in die x-Richtung und in die y-Richtung sowie die Rotation. \\\\\r\n\r\nJe
+      nachdem wie viele Freiheitsgrade vom Lager eingeschr\xE4nkt werden, redet man
+      von einwertigen, zweiwertigen oder dreiwertigen Lagern. Die \\textbf{Wertigkeit} 
+      gibt also an, wie viele Freiheitsgrade eingeschr\xE4nkt werden.\\\\\r\n\r\nDie
+      Kr\xE4fte, die dem starren K\xF6rper entgegenwirken und von dem Lager ausgehen
+      werden \\textbf{Lagerreaktionen}  bezeichnet. Die Lagerreaktionen sind zun\xE4chst
+      unbekannt. Nach dem Erstellen des Ersatzmodells wird der K\xF6rper von dem
+      Lager freigeschnitten. An der Stelle des Lagers werden die entsprechenden Lagerreaktionen
+      eingezeichnet und mithilfe der Gleichgewichtsbedingungen bestimmt.\r\n\r\n"
+    picture: {fileID: 0}
+  - title: 'Welche Lagerarten gibt es: '
+    description: "\\textbf{Das einwertige Lager: }\r\n\\begin{itemize}\r\n    \\item
+      ein Freiheitsgrad wird eingeschr\xE4nkt\r\n    \\item nur eine Bewegungsm\xF6glichkeit
+      ist genommen, der K\xF6rper kann sich in zwei Richtungen bewegen\r\n    \\item
+      eine Lagerreaktion\r\n    \\item Bsp: Loslager\r\n    \\item Bsp im Alltag:
+      \r\n    \\begin{itemize}\r\n        \\item Laufkatze vorne am Kran    \r\n   
+      \\end{itemize}\r\n\\end{itemize}\r\n\\\\\r\n\\textbf{Das zweiwertige Lager:
+      }\r\n\\begin{itemize}\r\n    \\item zwei Freiheitsgrade werden eingeschr\xE4nkt\r\n   
+      \\item der K\xF6rper hat nur noch eine Bewegungsm\xF6glichkeit\r\n    \\item
+      zwei Lagerreaktionen\r\n    \\item Bsp: Festlager\r\n    \\item Bsp im Alltag:\r\n   
+      \\begin{itemize}\r\n        \\item normale T\xFCr, die sich zum \xD6ffnen und
+      Schlie\xDFen nur drehen kann, Verschiebungen sind nicht m\xF6glich\r\n       
+      \\item Schiebet\xFCr: es ist nur eine Verschiebung in eine Richtung m\xF6glich\r\n       
+      \\item \tRad am Fahrrad: nur die Rotation ist m\xF6glich, bezogen auf den Rest
+      des Fahrrads verschiebt sich das Rad nicht \r\n        \\item Lenkrad: eine
+      Verschiebung ist nicht m\xF6glich, man kann das Lenkrad nur drehen\r\n    \\end{itemize}\r\n\\end{itemize}
+      \r\n\\\\\t\r\n\\textbf{Das dreiwertige Lager: }\r\n\\begin{itemize}\r\n   
+      \\item drei Freiheitsgrade werden eingeschr\xE4nkt\r\n    \\item alle Bewegungsm\xF6glichkeiten
+      genommen, der K\xF6rper kann sich nicht mehr bewegen\r\n    \\item drei Lagerreaktionen\r\n   
+      \\item Bsp: Einspannung\r\n    \\item Bsp im Alltag:\r\n    \\begin{itemize}\r\n       
+      \\item Fahrradsattel\r\n        \\item Stra\xDFenlaterne\r\n    \\end{itemize}\r\n\\end{itemize}\r\n"
+    picture: {fileID: 0}
+  - title: Was ist eine statische bestimmte Lagerung
+    description: "\r\n\\textbf{statisch bestimmte Lagerung:}\r\n\\begin{itemize}\r\n   
+      \\item es gibt so viele Lagerreaktionen wie Freiheitsgrade des K\xF6rpers \\rightarrow
+      alle Bewegungsm\xF6glichkeiten eingeschr\xE4nkt\r\n    \\item Beispiele: \r\n   
+      \\begin{itemize}\r\n        \\item die Lagerung eines K\xF6rpers in der Ebene
+      durch eine Einspannung\r\n        \\item die Lagerung eines K\xF6rpers in der
+      Ebene durch ein Los- \\textbf{und}  ein Festlager\r\n        \\item bei beiden
+      Varianten gibt es drei Lagerreaktionen, die dem K\xF6rper alle Bewegungsm\xF6glichkeiten
+      nehmen\r\n    \\end{itemize} \r\n    \\item die Gleichgewichtsbedingungen lassen
+      sich mithilfe der Statik aufstellen und berechnen\r\n    \\item es kommt nicht
+      zu inneren Spannungen im Bauteil\r\n\\end{itemize}\r\n\\\\\r\n\\textbf{statisch
+      unterbestimmte Lagerung }\r\n\\begin{itemize}\r\n    \\item weniger Lagerreaktionen
+      als Freiheitsgrade des K\xF6rpers\r\n    \\item dem K\xF6rper wird nicht jede
+      Bewegungsm\xF6glichkeit genommen\r\n    \\item der K\xF6rper kann sich weiterhin
+      bewegen \r\n\\end{itemize}\r\n\\\\\r\n\\textbf{statisch unbestimmte Lagerung}
+      \r\n\\begin{itemize}\r\n    \\item mehr Lagerreaktionen als Freiheitsgrade
+      des K\xF6rpers\r\n    \\item Nachteil: der K\xF6rper kann sich bei thermischer
+      Ausdehnung nicht mehr frei ausbilden \\rightarrow innere Spannungen oder Verformungen
+      m\xF6glich\r\n    \\item mit der Statik allein k\xF6nnen unbestimmte Lagerungen
+      nicht berechnet werden\r\n    \\end{itemize}\r\n"
+    picture: {fileID: 0}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2e56ff7f2d6714183ea5f8b6931bf6, type: 3}
+  m_Name: "SwingAttachmentLinienfl\xFCchtigkeit"
+  m_EditorClassIdentifier: 
+  uid: a837801e-f6ad-4c29-8b1a-5e6a3bb90b71
+  objectName: Therapieschaukel
+  objectDescription: "Ob Spiel, Spa\xDF oder Training basaler K\xF6rperfunktionen,
+    so eine Schaukel sollte jede und jeder daheim haben. Sie ist gerade zur Wiedererlangung
+    bestimmter F\xE4higkeiten, nach z. B. Unf\xE4llen, interessant."
+  objectPrefab: {fileID: 7660985645835661060, guid: bcf6bacb3d978634084fa1fe1004b491,
+    type: 3}
+  objectThumbnail: {fileID: -8732767872028643921, guid: e5a1b8f56f206344d8c24bac8b0ababc,
+    type: 3}
+  cameraOffset: {x: -2, y: 5, z: 0}
+  markerOffset: {x: -2, y: 2.5}
+  cameraZoom: 0.7
+  taskInfos:
+  - task: {fileID: 11400000, guid: daf51e31b12a7ea4da3495b41f504daa, type: 2}
+    taskButtonPosition: {x: -0.5, y: -1.5}
+    isRepeatable: 1
+    hiddenVariables: []

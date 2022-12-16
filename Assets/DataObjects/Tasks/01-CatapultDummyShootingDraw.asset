@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: 01-CatapultDummyShootingDraw
+  m_EditorClassIdentifier: 
+  uid: 44e58d11-8da7-4a43-8246-cb95ae81e5b8
+  taskName: Austrittskraft zeichnen
+  teaserDescription: "Der erste Probeflug steht an. Kannst du zeigen, in welche Richtung
+    der Dummy mit seiner Beschleunigungskraft durch das B\xFCro fliegt?  "
+  teaserSolvedCorrect: Der erste Probeversuch wurde erfolgreich abgeschlossen und
+    weitere Entwicklungsschritte eingeleitet.
+  teaserSolvedWrong: "Der erste Versuch hat nicht zum erw\xFCnschten Erfolg gef\xFChrt.
+    Das Projekt stagniert vorerst. Kannst du unterst\xFCtzen und nochmal die Flugrichtung
+    einzeichnen?"
+  fullDescription: Zeichne den Kraftvektor, mit dem der Dummy durch den Raum fliegt!
+  teachAndPlayDescription: Das VR-System simuliert eine Laborumgebung, in der mit
+    einem Magnetkatapult experimentiert wird. Testweise wird ein Testdummy durch
+    die Luft katapultiert und die Kraft beim Verlassen der Maschine muss eingezeichnet
+    werden.
+  topic: {fileID: 11400000, guid: f518bd6517e68054c9898a7d36789002, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 2
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: 1760739755041792828, guid: c8856296191bae842bf5300f1182897c,
+        type: 3}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-2 3 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ort des Abschusses des Testdummys
+      definition: "Der Punkt ist ein geometrisches Objekt ohne Fl\xE4che zur Postitionsangabe
+        von Objekten und wird zur Veranschaulichung als Kreuz oder kleiner Kreis
+        dargestellt. Hier Angriffspunkt der Kraft."
+      textMeshProValue: (-2 3 0)
+    - name: alpha
+      icon: {fileID: 4048758661595808474, guid: c8856296191bae842bf5300f1182897c,
+        type: 3}
+      textMeshProName: "\u03B1"
+      type: 0
+      textValue: "16 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Ausrichtung des Abschusswinkels
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: "16 \xB0"
+    - name: F_1
+      icon: {fileID: 329665159147008118, guid: c8856296191bae842bf5300f1182897c, type: 3}
+      textMeshProName: F<sub>1</sub>
+      type: 0
+      textValue: 400 N
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Kraftbetrag, mit dem der Testdummy das Katapult verl\xE4sst."
+      definition: "Beschreibt die Gr\xF6\xDFe der Wirkung des Kraftvektors."
+      textMeshProValue: 400 N
+    dummyInputs: []
+    output:
+      name: F
+      icon: {fileID: -5766204359431747727, guid: c8856296191bae842bf5300f1182897c,
+        type: 3}
+      textMeshProName: F
+      unit: 2
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: 20e24fa6780fbe844aa80a40fbc629d6, type: 2}
+    dialogs:
+    - 'Hallo again! Hier siehst du den Luftstarter der Zukunft. Mal gucken, in welche
+      ~o:F|Richtung~ der Dummy fliegt. '
+    - "Eine Kraft von ~i:F_1|400 N~ im Startpunkt ~i:P_1|P1~ sollte erstmal reichen.
+      Wir wollen ja nicht verschwenderisch sein. \r"
+    - "Bitte verwende den Winkel ~i:alpha~. F\xFCr den haben wir noch keine Daten.
+      Der Ma\xDFstab ...? 1 LE ist gleich 100 N versteht sich.\r\n"
+  hashtags:
+  - 'kraft '
+  - nurfliegenistschoener
+  - 'kraftangeben '
+  - kraftvektor
+  connectedObject: {fileID: 11400000, guid: 318f08ecd626e69478ec4c4206408965, type: 2}

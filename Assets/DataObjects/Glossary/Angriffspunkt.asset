@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Angriffspunkt
+  m_EditorClassIdentifier: 
+  headline: Angriffspunkt
+  easy:
+    content: "Eine [Kraft](glossary:Kraft) wirkt auf einen K\xF6rper. Eine Kraft
+      kann z. B. ein Schlag sein.\r\n\r\nDie Kraft trifft beim K\xF6rper auf einen
+      bestimmten Punkt.\r\n\r\nDieser Punkt hei\xDFt Angriffs-Punkt.\r\n\r\nDie Kraft
+      greift den K\xF6rper am Angriffs-Punkt an."
+    image: {fileID: 21300000, guid: 449f0357db8e63f4797ee9fead04e3e4, type: 3}
+    tmpContent: "Eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      wirkt auf einen K\xF6rper. Eine Kraft kann z. B. ein Schlag sein.\n\nDie Kraft
+      trifft beim K\xF6rper auf einen bestimmten Punkt.\n\nDieser Punkt hei\xDFt
+      Angriffs-Punkt.\n\nDie Kraft greift den K\xF6rper am Angriffs-Punkt an."
+  medium:
+    content: "[Kr\xE4fte](glossary:Kraft) wirken auf K\xF6rper. Kr\xE4fte k\xF6nnen
+      z. B. ein Schlag durch Muskelkraft oder ein vom Baum fallender Apfel sein.
+      Der Angriffspunkt beschreibt dabei den Punkt, wo die Kraft auf den K\xF6rper
+      trifft. Bei Knete sieht man den Angriffspunkt an einer verformten Stelle. "
+    image: {fileID: 21300000, guid: ce17879f5b66bbd4ba7e8afdc97439d6, type: 3}
+    tmpContent: "<color=#131313><u><link=\"glossary:Kraft\">Kr\xE4fte</link></u></color>
+      wirken auf K\xF6rper. Kr\xE4fte k\xF6nnen z. B. ein Schlag durch Muskelkraft
+      oder ein vom Baum fallender Apfel sein. Der Angriffspunkt beschreibt dabei
+      den Punkt, wo die Kraft auf den K\xF6rper trifft. Bei Knete sieht man den Angriffspunkt
+      an einer verformten Stelle."
+  scientific:
+    content: "Punkt am K\xF6rper / der Geometrie, an dem eine [Kraft](glossary:Kraft)
+      einwirkt."
+    image: {fileID: 21300000, guid: 3144a6b3494304b4580ccce32ee34778, type: 3}
+    tmpContent: "Punkt am K\xF6rper / der Geometrie, an dem eine <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      einwirkt."
+  tmpHeadline: 

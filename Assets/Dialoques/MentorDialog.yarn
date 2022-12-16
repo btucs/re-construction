@@ -1,0 +1,670 @@
+title: Start
+tags: 
+colorID: 8
+position: 1820,-862
+---
+<<if visited("MentorFeedbackKonstruktor.Start") is false>>
+    <<AutoContinue>>
+    Hallo {$playername}! Schön, dass du da bist. Wie kann ich dir helfen?
+    <<if $isinkonstruktor is true>>
+        [[Ich brauche Hilfe bei meiner Mission.|Konstruktor_Nextsteps]]
+    <<else>>
+        [[Ich brauche Hilfe.|Help]]
+    <<endif>>
+    [[Ich wollte nur ein bisschen quatschen.|Mentor.Chat]]
+    [[Ach, nichts weiter. |Mentor.Exit]]
+<<else>>
+    <<AutoContinue>>
+    Hallo {$playername}! Schön, von dir zu hören. Was kann ich für dich tun?
+    <<if $isinkonstruktor is true>>
+        [[Ich brauche Hilfe bei meiner Mission.|Konstruktor_Nextsteps]]
+    <<else>>
+        [[Ich brauche Hilfe.|Help]]
+    <<endif>>
+    [[Ich wollte nur ein bisschen quatschen.|Mentor.Chat]]
+    [[Ach, nichts weiter.|Mentor.Exit]]
+<<endif>>
+===
+title: Help
+tags: 
+colorID: 0
+position: 1434,-596
+---
+<<AutoContinue>>
+Ich helfe immer gern! Wie kann ich dich unterstützen?
+    [[Ach, vielleicht doch lieber quatschen.|Mentor.Chat]]
+    <<if $isinprofile is true>>
+    [[Ich schau mir gerade mein Profil an und habe eine Frage.|MentorProfile]]
+    <<elseif $isinquests>>
+    [[Ich weiß nicht, wo ich hingehen soll.|MentorQuests]]
+    <<elseif $isingameworld>>
+    [[Ich weiß nicht, wo ich hingehen soll.|MentorGameWorld]]
+    <<elseif $isinkonstruktorstart>>
+    [[Ich habe schon beim ersten Schritt Schwierigkeiten.|Mentorkonstruktorstart]]
+    <<elseif $isinvarinspection>>
+    [[Ich stecke hier irgendwie bei den Variablen fest.|Mentorvarinspection]]
+    <<elseif $analyzeractive>>
+    [[Wie verwende ich diesen Analyzer?|Mentoranalyzer]]
+    <<elseif $isinworldmap>>
+    [[Ich weiß mit dieser Karte gar nichts anzufangen.|MentorWorldmap]]
+    <<elseif $isinbib>>
+    [[Bibliothek, Glossar, was?!|MentorBibo]]
+    <<endif>>
+[[Ich glaube, ich komme alleine klar, Danke.|Mentor.Exit]]
+===
+title: Mentor.Chat
+tags: 
+colorID: 0
+position: 2825,-378
+---
+<<if visited("Mentor.Chat") is false>>
+Wir können uns gerne ein bisschen unterhalten.
+Ich bin aktuell im Außeneinsatz, aber wir machen gerade eine kurze Pause.
+<<AutoContinue>>
+Wie geht es dir?
+-> Mir geht es gut.
+    <<AutoContinue>>
+    Das freut mich.
+    [[Kennst du einen Witz?|Jokes]]
+    [[Ich brauche was zum runterkommen.|Calm]]
+    [[Das war's erstmal.|Mentor.Exit]]
+-> Könnte besser sein.
+    <<AutoContinue>>
+    Kann es das nicht immer?
+    [[Kennst du einen Witz?|Jokes]]
+    [[Ich brauche was zum runterkommen.|Calm]]
+    [[Das war's erstmal.|Mentor.Exit]]
+<<else>>
+Ich bin immer für ein kurzes Gespräch zu haben!
+Es brennt zwar sprichwörtlich, aber für dich nehme ich mir Zeit.
+<<AutoContinue>>
+Wie geht es dir?
+-> Mir geht es tipptopp.
+    <<AutoContinue>>
+    Das freut mich.
+    [[Kennst du einen Witz?|Jokes]]
+    [[Ich brauche was zum entspannen.|Calm]]
+    [[Danke, das war's.|Mentor.Exit]]
+-> Heute ist nicht so mein Tag.
+    Meiner auch nicht...    
+    <<AutoContinue>>
+    Vielleicht kann ich dich etwas aufmuntern?
+    [[Kennst du einen Witz?|Jokes]]
+    [[Ich brauche was zum runterkommen.|Calm]]
+    [[Ok, tschüssi und bis bald.|Mentor.Exit]]
+<<endif>>
+===
+title: MentorProfile
+tags: 
+colorID: 8
+position: -44,-108
+---
+<<if visited("MentorFeedbackKonstruktor.MentorProfile") is false>>
+Das Profil gibt dir einen Überblick über deine bisherigen Erfahrungen, erreichte Punkte, vorhandenes Geld und deine Outfits.
+Auf der linken Seite kannst du dein Profilbild und deinen Rang einsehen.
+Außerdem wird dir angezeigt, wie viel Gelder du schon durch Aufträge erstanden hast.
+Klickst du auf dein Profilbild siehst du, welche Outfits du hast.
+<<AutoContinue>>
+Klickst du auf den Shop - kannst du mit deinem Geld neue Dinge ergattern.
+[[Was hat das mit den Rängen auf sich?|MentorRang]]
+[[Shop?|MentorShop]]
+[[Okay. Ich denke ich komme allein weiter.|Mentor.Exit]]
+<<else>>
+Du schon wieder
+Hier im Profil siehst du Infos zu deinen bisherigen Erfahrungen, erreichten Punkte, Geld und deine Outfits. 
+Über dein Profilbild kommst du quasi in deinen Kleiderschrank.
+Hier siehst du, welche Outfits du schon hast.
+Außerdem wird dir angezeigt, wie viel Gelder du schon durch Aufträge erstanden hast...
+... und welchen Rang du innehast.
+<<AutoContinue>>
+Klickst du auf den Shop - kannst du mit deinem Geld neue Dinge ergattern.
+[[Rang - Ränge - Ränger?|MentorRang]]
+[[Wie ist das mit dem Shop gemeint?|MentorShop]]
+[[Danke für die Info.|Mentor.Exit]]
+<<endif>>
+===
+title: MentorRang
+tags: 
+colorID: 7
+position: -336,392
+---
+<<if visited("MentorFeedbackKonstruktor.MentorRang") is false>>
+Die Ränge zeigen deinen Erfahrungsschatz an. 
+Je mehr Brandherde du gelöscht hast, ...
+...umso höher ist hier deine Punktzahl.
+Höhere Ränge zeigen nicht nur deine Expertise,...
+<<AutoContinue>>
+... sondern ermöglichen dir auch auf mehr Dinge im Shop zurückzugreifen.
+[[Supi und wie ist das mit dem Shop?|MentorShop]]
+[[Ok und jetzt noch was zur Aufmunterung, bitte!|Jokes]]
+[[Danke, das war erstmal alles.|Mentor.Exit]]
+<<else>>
+Die Ränge zeigen deine Erfahrungen an. 
+Je mehr Missionen du erfolgreich gelöst hast, ...
+...umso höher ist hier dein Rang.
+Denk dran! Höhere Ränge zeigen nicht nur deine Expertise,...
+<<AutoContinue>>
+... sondern ermöglichen dir auch auf mehr Auswahl im Shop.
+[[Supi und wie war das nochmal mit dem Shop?|MentorShop]]
+[[Ok und jetzt noch 5 Minuten Quatschen, bitte.|Mentor.Chat]]
+[[Danke, das war's erstmal.|Mentor.Exit]]
+<<endif>>
+===
+title: Mentor.Exit
+tags: 
+colorID: 8
+position: 2199,1016
+---
+Okay. Mach's gut!
+===
+title: MentorGameWorld
+tags: 
+colorID: 8
+position: -907,-216
+---
+<<if visited("MentorFeedbackKonstruktor.MentorGameWorld") is false>>
+Hilf mir auf die Sprünge.
+<<AutoContinue>>
+Weißt du nicht, was du tun sollst oder steckst du in der Umgebung fest?
+[[Ja, irgendwie stecke ich hier fest.|MentorGameworldslider]]
+[[Ich hab' überhaupt keinen Plan, was ich hier machen soll.|MentorMissionhelp]]
+[[Ach nein, ich mach' hier mal weiter.|Mentor.Exit]]
+<<else>>
+Sag mir genau, wo ich helfen kann.
+<<AutoContinue>>
+Weißt du gerade nicht, was du tun sollst oder steckst du in der Umgebung fest?
+[[Ja, ich komme nicht nach rechts oder links.|MentorGameworldslider]]
+[[Ich weiß nich, was ich hier machen soll.|MentorMissionhelp]]
+[[Ach nichts, ich mach' mal weiter.|Mentor.Exit]]
+<<endif>>
+===
+title: MentorKonstruktor
+tags: 
+colorID: 0
+position: 2070,513
+---
+<<AutoContinue>>
+Du bist bei mir genau richtig.
+[[Doch lieber schnacken!|Mentor.Chat]]
+[[Wie komme ich weiter?|Konstruktor_Nextsteps]]
+[[Ach ich probier's doch nochmal alleine.|Mentor.Exit]]
+===
+title: MentorWorldmap
+tags: 
+colorID: 0
+position: -959,435
+---
+<<if visited("MentorWorldmap") is false>>
+Die Karte gibt dir wichtiges Feedback zum aktuellen Zustand der Orte.
+Eher rötlich ist, sagen wir mal, eher nicht so gut, eher grünlich ist topp!
+Durch dein Engagement und deine Aktiionen kannst du den Zustand beeinflussen!
+Über die Karte können wir dich außerdem blitzschnell von Ort zu Ort beamen!
+Durch Wischen kannst du die Karte erkunden...
+... und durch Tippen auf einen Ort, werden dir Extrainfos über ihn angezeigt.
+<<AutoContinue>>
+Dann nur noch Betreten antippen und zwooussch - du bist da.
+[[Und was mach' ich, wenn ich in der Umgebung feststecke?|MentorGameworldslider]]
+[[Irgendwie bin ich auch grad ganz schön planlos.|MentorMissionhelp]]
+[[Cool, danke, ich probier' das mal aus.|Mentor.Exit]]
+<<else>>
+Die Karte gibt die Feedback über den Zustand der Orte und ist quasi unser persönliches Teleportationsgerät. 
+Durch Wischen kannst du die Karte erkunden...
+... und durch Tippen auf einen Ort, kannst du mehr über ihn erfahren.
+<<AutoContinue>>
+Dann nur noch Betreten antippen und zwooussch - beamen wir dich rüber.
+[[Und was mach' ich, wenn ich die Umgebung nicht erkunden kann?|MentorGameworldslider]]
+[[Ok, danke. Ich weiß allerdings noch nicht, was ich jetzt machen soll.|MentorMissionhelp]]
+[[Danke, dann probier' ich das mal aus.|Mentor.Exit]]
+<<endif>>
+===
+title: MentorGameworldslider
+tags: 
+colorID: 0
+position: -1690,325
+---
+<<if visited("MentorGameworldslider") is false>>
+Du kannst den Spielausschnitt verschieben, indem du mit dem Finger nach rechts oder links wischst.
+Durch Tippen auf ein Spielausschnitt bewegst du dich innerhalb des Bereichs direkt dorthin.
+<<AutoContinue>>
+Noch ein Tipp! Nähere dich Objekten, um mit ihnen interagieren zu können.
+[[Und wie gehe ich jetzt am besten vor?|MentorMissionhelp]]
+[[Kennst du einen Witz?|Jokes]]
+[[Alles klar!|Mentor.Exit]]
+<<else>>
+Verschiebe den einsehbaren Bereich, indem du mit dem Finger nach rechts oder links wischst.
+Durch Tippen auf einen bestimmten Punkt, bewegst du dich innerhalb des Bereichs direkt dorthin.
+<<AutoContinue>>
+Um mit den Objekten und Personen interagieren zu können, nähere dich ihnen an.
+[[Und was mache ich jetzt als nächstes?|MentorMissionhelp]]
+[[Jetzt brauch' ich erstmal Entspannung. |Calm]]
+[[Alles klar, Danke!|Mentor.Exit]]
+<<endif>>
+===
+title: MentorMissionhelp
+tags: 
+colorID: 0
+position: -1361,411
+---
+<<if visited("MentorMissionhelp") is false>>
+Wenn du mal bei den ganzen Brandherden den Überblick verloren hast, guck' mal in den Menüpunkt Quests.
+Dort kannst du unter Aktive Missionen einsehen, was als nächstes ansteht...
+... und was dir noch zur nächsten Mission fehlt.
+<<AutoContinue>>
+Abseits vom vorgegebenen Weg finden sich allerdings auch manchmal spannende Begegnungen.
+[[Ich stecke vielleicht auch noch in der Umgebung fest...|MentorGameworldslider]]
+[[Ich würde noch etwas zum Quatschen bleiben.|Mentor.Chat]]
+[[Alles klar, Merci!|Mentor.Exit]]
+<<else>>
+Schau doch mal zum Menüpunkt Quests.
+Dort kannst du unter Aktive Missionen einsehen, was als nächstes zu tun ist...
+... und was dir noch zur nächsten Mission fehlt.
+<<AutoContinue>>
+Vergiss nicht, dass manchmal auch abseits vom vorgegebenen Weg spannende Begegnungen möglich sind.
+[[Ok, kannst du mir noch sagen, wie ich die Umgebung erkunden kann?|MentorGameworldslider]]
+[[Ich würde mich gerne noch etwas unterhalten.|Mentor.Chat]]
+[[Alles klar, Merci dir!|Mentor.Exit]]
+<<endif>>
+===
+title: MentorBibo
+tags: 
+colorID: 0
+position: 742,-31
+---
+<<if visited("MentorBibo") is false>>
+Hier in der virtuellen Bibliothek liegt dir gebündeltes Wissen zu Füßen. 
+Egal, ob du nur Begriffe nachschlagen oder mehr über ein Thema wissen magst.
+Hier findest du alles!
+<<AutoContinue>>
+Hast du noch eine Frage zu dem Glossar oder den Wissens-Nuggets?
+[[Was genau hat es mit diesen Lerneinheiten auf sich?|MentorMLE]]
+[[Ich versteh' nur Bahnhof beim Glossar.|MentorGlossar]]
+[[Danke, das reicht erstmal.|Mentor.Exit]]
+<<else>>
+Hier in der virtuellen Bibliothek findest du alles, was du wissen musst. 
+<<AutoContinue>>
+Egal, ob du nur Begriffe nachschlagen oder mehr über ein Thema wissen magst.
+[[Ich bräuchte nochmal ein Update zu den Lerneinheiten.|MentorMLE]]
+[[Was soll dieses Glossar nochmal sein?|MentorGlossar]]
+[[Ok, zurück an die Arbeit.|Mentor.Exit]]
+<<endif>>
+===
+title: MentorMLE
+tags: 
+colorID: 0
+position: 897,355
+---
+<<if visited("MentorMLE") is false>>
+Willkommen im Gehirn der Organisation. Hier findest du Videos und Zusammenfassungen zu allen wichtigen Themen. 
+Klicke dafür einfach auf den Play-Button und wähle zwischen Video und Dokument.
+<<AutoContinue>>
+Durch das richtige Beantworten der Zwischenfragen erhälst du wertvolle Erfahrungspunkte.
+[[Ok. Und dieses Glossar?|MentorGlossar]]
+[[Och nö, nichts mit Lernen, ich brauch' jetzt Entspannung|Calm]]
+[[Okidoki.|Mentor.Exit]]
+<<else>>
+Wenn du einen Ort zum "Nachschlagen" brauchst, komm hierher.
+Hier findest du Videos und Zusammenfassungen zu allen wichtigen Themen. 
+Klicke dafür einfach auf den Play-Button und wähle zwischen Video und Dokument.
+<<AutoContinue>>
+Übrigens warten zwischendurch Fragen auf dich, deren Beantwortung deine Erfahrungspunkte auffüllt.
+[[Ach, ich brauch' noch ein kleines Update zum Glossar?|MentorGlossar]]
+[[Ich würde noch etwas zum Austauschen bleiben.|Mentor.Chat]]
+[[Ok. Ich bin dann mal weg.|Mentor.Exit]]
+<<endif>>
+===
+title: MentorGlossar
+tags: 
+colorID: 0
+position: 336,350
+---
+<<if visited("MentorGlossar") is false>>
+Ja, dieses Glossar beinhaltet einige Überraschungen.
+Erstens kannst du bei der Lupe (Begriffssuche) Wörter suchen.
+Zweitens kannst du zwischen unterschiedlichen Sprachregistern wählen.
+Bist du bereits Profi, wähle die schwere Sprache.
+Bist du neu im Business, nutze die leichte Sprache. Hier sind auch die Bilder praktischer ausgelegt.
+Und drittens: Tauche in die Fachwelt ein, indem du immer weiter auf unbekannte Begriffe klickst.
+<<AutoContinue>>
+PS: Die vorher aufgesuchten Begriffe werden gespeichert, du kannst also immer wieder zurück.
+[[Und wie ist das mit den Videolektionen?|MentorMLE]]
+[[Ich würde mich gerne noch etwas unterhalten|Mentor.Chat]]
+[[Ok, spannend.|Mentor.Exit]]
+<<else>>
+Das Glossar ist schon toll.
+Je nach eigener Vorliebe kannst du verschiedene Ausformulierungen wählen.
+Klicke dich durch die Begriffe oder gehe wieder durch die oben angezeigte Liste zu einem Wort zurück.
+Die Bilder der Leichten Sprache finde ich am coolsten.
+<<AutoContinue>>
+Das Glossar ist übrigens auch von anderen Bereichen der Welt erreichbar!
+[[Und wie ist das mit den Videolektionen?|MentorMLE]]
+[[Ich bleibe gerne noch auf einen kleinen Plausch.|Mentor.Chat]]
+[[Ok, cool, danke.|Mentor.Exit]]
+<<endif>>
+===
+title: Konstruktor_Nextsteps
+tags: 
+colorID: 1
+position: 1820,863
+---
+<<AutoContinue>>
+Okay, pass auf: {$konstruktorFeedbackText}
+-> Ich probier's mal. Danke!
+===
+title: MentorQuests
+tags: 
+colorID: 8
+position: -496,-122
+---
+<<if visited("MentorQuests") is false>>
+In der Übersicht werden deine aktuellen Missionen angezeigt. 
+Du kannst auf Aktive Missionen tippen, um eine ausführlichere Beschreibung zu erhalten.
+Dort siehst du auch, wie viele Aufgaben dir noch zum Erreichen der nächsten Mission fehlen.
+<<AutoContinue>>
+In der Spielwelt geben dir übrigens die kleinen gelben Ausrufezeichen an den Aufgaben einen Hinweis, dass du sie noch nicht gelöst hast.
+[[Argh, ich brauch' Ablenkung.|Mentor.Chat]]
+[[Okay. Ich denke, ich komme nun allein weiter.|Mentor.Exit]]
+<<else>>
+Hier findest du eine Übersicht zu deinen aktuellen Missionen. 
+Wenn du auf Aktive Missionen tippst, bekommst du eine ausführlichere Beschreibung.
+Dort siehst du auch, wie viele Aufgaben dir noch zur Erreichung der nächsten Mission fehlen.
+<<AutoContinue>>
+Und vergiss nicht:In der Spielwelt geben dir übrigens die kleinen gelben Ausrufezeichen an den Aufgaben einen Hinweis, dass du sie noch nicht gelöst hast.
+[[Ok, jetzt erstmal eine kleine Missionspause.|Mentor.Chat]]
+[[Okay. Ich denke, ich komme nun allein weiter.|Mentor.Exit]]
+<<endif>>
+===
+title: Jokes
+tags: 
+colorID: 0
+position: 3066,137
+---
+<<if visited("Jokes") is false>>
+Na logo, ohne Humor wäre das Ganze fast nicht auszuhalten.
+Also. Schnall dich fest.
+Der Optimist: "Das Glas ist halb voll".
+Der Pessimist: "Das Glas ist halb leer".
+Der Ingenieur: "Das Glas ist doppelt so groß, wie es sein müsste".
+<<AutoContinue>>
+Willst du noch einen hören?
+-> Auf jeden Fall!
+    Das freut mich.
+    Ein Mathematiker, ein Physiker und ein Ingenieur sollen das Volumen eines kleinen roten Gummiballs herausbekommen. 
+    Der Mathematiker misst den Durchmesser und rechnet dann das Volumen aus.
+    Der Physiker taucht den Ball in einen Eimer voll Wasser und schaut nach, was für eine Wasserverdrängung er hat.
+    Der Ingenieur guckt in der "DIN für kleine rote Gummibälle" nach!
+    [[Vielleicht brauch' ich eher was zum Entspannen.|Calm]]
+    [[Vielleicht brauch' ich doch noch Hilfe.|Help]]
+    [[Das war's erstmal.|Mentor.Exit]]
+-> Ach ne, lass mal.
+    <<AutoContinue>>
+    Schade, dass ich dich nicht aufmuntern konnte.
+    [[Vielleicht brauch' ich eher was zum Entspannen.|Calm]]
+    [[Vielleicht brauch' ich doch noch Hilfe.|Help]]
+    [[Das war's erstmal.|Mentor.Exit]]
+<<else>>
+Kennst du den schon?
+Noch vor 20 Jahren erklärten Eltern ihren Kindern: "Esst eure Teller leer, dann gibt es morgen schönes Wetter!"
+Und was haben wir jetzt davon?
+Schlecht ernährte Kinder und die Klimaerwärmung!
+<<AutoContinue>>
+Na, noch einen?
+-> Auf jeden Fall!
+    Das freut mich.
+    Ein Mathematiker und ein Physiker sind auf einem brennenden Dach. Die einzige Rettung ist es, 40 Stockwerke herunterzuspringen. 
+    Glücklicherweise ist unten ein drei Mal drei Meter großer Pool.
+    Der Physiker zückt seinen Taschenrechner, entwickelt eine komplizierte Formel, unter Berücksichtigung der Windgeschwindigkeit, der Erddrehung usw., springt, landet im Pool und überlebt.
+    Der Mathematiker zückt seinen Taschenrechner, entwickelt eine komplizierte Formel, unter Einbeziehung aller möglichen Variablen, springt und fliegt senkrecht nach oben bis er in den Wolken verschwindet! Was ist passiert?
+    <<AutoContinue>>
+    Ganz einfach: Vorzeichenfehler!
+    [[Vielleicht brauch' ich eher was zum Entspannen.|Calm]]
+    [[Vielleicht brauch' ich doch noch Hilfe.|Help]]
+    [[Lustig. Das war's erstmal.|Mentor.Exit]]
+-> Ach ne, lass mal.
+    <<AutoContinue>>
+    Kein Problem, dann das nächste Mal!
+    [[Ich brauch'noch etwas zum Entspannen.|Calm]]
+    [[Vielleicht brauch' ich doch noch Hilfe.|Help]]
+    [[Das war's erstmal.|Mentor.Exit]]
+<<endif>>
+===
+title: Calm
+tags: 
+colorID: 0
+position: 3586,-25
+---
+<<if visited("Calm") is false>>
+Wenn dir mal wieder alles zu viel wird, helfen vielleicht die folgenden Übungen.
+Um Stress zu vermeiden, hilft die richtige Atmung.
+Konzentriere dich auf deinen Atem und atme mit der Nase tief in den Bauch.
+Dein Bauch wölbt sich dabei nach außen.
+Halte die Luft einige Sekunden im Körper und atme dann durch den Mund aus.
+Schließe die Augen und wiederhole die Atmung fünf Mal.
+<<AutoContinue>>
+Hast du Lust auf mehr?
+-> Auf jeden Fall!
+    Ok, eine weitere Möglichkeit, akuten Stress entgegenzuwirken, ist die Muskelanspannung.
+    Spanne dazu einige Sekunden alle Muskeln deines Körpers gleichzeitig an.
+    Entspanne dann bewusst und wiederhole die Anspannung einige Male.
+    <<AutoContinue>>
+    Das kannst du auch nur in speziellen Körperregionen oder im Gesicht machen.
+        [[Mir ist doch mehr nach was Witzigem.|Jokes]]
+        [[Vielleicht brauch' ich doch noch Hilfe.|Help]]
+        [[Danke, das war's erstmal.|Mentor.Exit]]
+-> Erstmal nicht, Danke.
+    <<AutoContinue>>
+    Alles klar.
+        [[Mir ist doch mehr nach was Witzigem.|Jokes]]
+        [[Vielleicht brauch ich doch noch Hilfe.|Help]]
+        [[Danke, das war's erstmal.|Mentor.Exit]]
+<<else>>
+Willkommen zurück zur kurzen Auszeit.
+Um Stress zu vermeiden, hilft es, die Muskeln bewusst anzuspannen.
+Spanne dazu einige Sekunden alle Muskeln deines Körpers gleichzeitig an.
+Entspanne dann bewusst und wiederhole die Anspannung einige Male.
+Das kannst du auch nur in speziellen Körperregionen oder im Gesicht machen.
+<<AutoContinue>>
+Hast du Lust auf noch eine Runde?
+-> Auf jeden Fall!
+    Ok. Wenn der Kopf mal wieder drückt, schließe deine Augen und lege deine Handflächen auf die Augenlider
+    Schaue nun mit geschlossenen Augen zuerst nach rechts und links im Wechsel.
+    ... dann nach oben und unten.
+    ... und male schließlich noch ein paar Kreise mit den geschlossenen Augen nach.
+    Verbleibe noch einen Moment in der Pose und löse dich dann langsam.
+    <<AutoContinue>>
+    Nächster Stopp: Weltrettung!
+    [[Mir ist doch mehr nach was Witzigem.|Jokes]]
+    [[Vielleicht brauch' ich doch noch Hilfe.|Help]]
+    [[Danke, das war's erstmal.|Mentor.Exit]]
+-> Erstmal nicht, danke.
+    <<AutoContinue>>
+    Alles klar.
+    [[Mir ist doch mehr nach was Witzigem.|Jokes]]
+    [[Vielleicht brauch' ich doch noch Hilfe.|Help]]
+    [[Danke, das war's erstmal.|Mentor.Exit]]
+<<endif>>
+===
+title: MentorShop
+tags: 
+colorID: 0
+position: 96,334
+---
+<<if visited("MentorShop") is false>>
+Im Shop warten einige Schmankerl auf dich. 
+Durch Quests kannst du Punkte und Gelder sammeln, die du hier wieder ausgeben kannst.
+Manche Outfits schalten sich erst frei, wenn du bestimmte Quests gelöst hast.
+<<AutoContinue>>
+Versuch' also nichts auszulassen, damit du die volle Auswahl hast. 
+[[Alles klar und wie ist das mit den Rängen?|MentorRang]]
+[[Wow, ganz schön viele Infos, jetzt erstmal entspannen|Calm]]
+[[Ok, interessant, das war's erstmal.|Mentor.Exit]]
+<<else>>
+Au ja, im Shop gibt es schon einige Must-haves! 
+Löse eifrig und erfolgreich die Missionen und du erhälst ordentlich Geld zum Eintauschen.
+Und Achtung! Manche Outfits schalten sich erst frei, wenn du bestimmte Quests gelöst hast.
+<<AutoContinue>>
+Versuch' also nichts auszulassen, um auf die wirklichen Juwelen zurückzugreifen. 
+[[Danke und wie war das mit den Rängen?|MentorRang]]
+[[Und jetzt bitte noch etwas Seichtes.|Mentor.Chat]]
+[[Ok, das war's erstmal.|Mentor.Exit]]
+<<endif>>
+===
+title: Mentorkonstruktorstart
+tags: 
+colorID: 0
+position: 1107,-27
+---
+<<if visited("Mentorkonstruktorstart") is false>>
+In Gesprächen mit anderen Personen kannst du relevante Informationen herausfinden.
+Um mit anderen Personen zu sprechen, klicke auf die Sprechblase über ihren Köpfen.
+Wenn sie Infos für dich haben, sind diese im Text hervorgehoben.
+Um die Infos zur weiteren Bearbeitung zu speichern, ...
+...klicke auf den gewünschten Wert und ziehe ihn unten in dein Inventar.
+Aber Vorsicht, manchmal sind auch Werte dabei, die du nicht benötigst.
+Ziehe nun weitere Werte aus dem Dialog in dein Inventar, indem du weiter klickst oder ein weiteres Gespräch beginnst. 
+<<AutoContinue>>
+Hast du alle notwendigen Werte identifiziert, kannst du über den oberen rechten Pfeil zum nächsten Schritt wechseln.
+[[Danke, ich schau mal, ob ich das hinbekomme.|Mentor.Exit]]
+[[Ich habe noch eine andere Frage.|MentorKonstruktor]]
+[[Jetzt brauch' ich aber noch ein wenig Unterhaltung.|Mentor.Chat]]
+<<else>>
+Gehen wir es nochmal zusammen durch.
+Deine Mitstreiter/innen erzählen dir in Gesprächen relevante Informationen.
+Um mit ihnen zu sprechen, klickst du auf die Sprechblase über ihren Köpfen.
+Wenn sie Infos für dich haben, sind diese im Text hervorgehoben.
+Um die Infos zur weiteren Bearbeitung zu speichern, ...
+...klicke auf den gewünschten Wert und ziehe ihn unten rechts oder links in dein Inventar.
+Ins linke Inventar kommen die gegebenen Werte und ins rechte Inventar die Gesuchten.
+Aber pass auf, manchmal sind auch Werte dabei, die du nicht benötigst.
+Ziehe dann weitere Werte aus dem Dialog in dein Inventar, indem du auf weiter klickst oder ein weiteres Gespräch beginnst. 
+<<AutoContinue>>
+Wenn du dann alle notwendigen Werte identifiziert hast, kannst du über den oberen rechten Pfeil zum nächsten Schritt gehen.
+[[Danke, ich schau mal, ob ich das hinbekomme.|Mentor.Exit]]
+[[Ok, ich hätte noch eine andere Frage.|MentorKonstruktor]]
+[[Jetzt brauch' ich aber noch ein wenig Unterhaltung.|Mentor.Chat]]
+<<endif>>
+===
+title: Mentorvarinspection
+tags: 
+colorID: 0
+position: 1536,-10
+---
+<<if visited("Mentorvarinspection") is false>>
+Hier landest du, wenn du auf einen deiner gesammelten Werte klickst.
+Auf diesem Wege kannst du Details zu den Werten einsehen.
+Zu den Werten werden dir der genaue Wert bzw. die Lösungsformel und eine Kurzdefiniton angezeigt.
+Bei gesuchten Werten kannst du außerdem noch weitere Hintergrundinfos über die Lerneinheit erfahren.
+<<AutoContinue>>
+Verlasse nun die Ansicht, indem du auf den oberen linken Pfeil klickst.
+[[Danke, jetzt brauch ich erstmal Ablenkung.|Mentor.Chat]]
+[[Ok, eine Frage hätte ich noch.|MentorKonstruktor]]
+[[Gutti, das war's schon.|Mentor.Exit]]
+<<else>>
+Du bist schon wieder hier gefangen?
+Hier landest du, wenn du auf einen deiner gesammelten Werte klickst.
+Zu den Werten werden dir hier der genaue Wert bzw. die Lösungsformel und eine Kurzdefiniton angezeigt.
+Benötigst du zusätzliches Wissen?
+Dann kannst du bei den gesuchten Werten Hintergrundinfos über die Lerneinheit erfahren.
+<<AutoContinue>>
+Kehre nun zur Aufgabe zurück, indem du auf den oberen linken Pfeil klickst.
+[[Danke, wie wäre es noch mit einer kleinen Unterhaltung?|Mentor.Chat]]
+[[Ok, eine Frage hätte ich noch.|MentorKonstruktor]]
+[[Cool, danke und tschüss.|Mentor.Exit]]
+<<endif>>
+===
+title: Mentoranalyzer
+tags: 
+colorID: 0
+position: 2262,-296
+---
+<<if visited("Mentoranalyzer") is false>>
+Mit dem Analyzer kannst du deine Umgebung nach wertvollen Informationen absuchen.
+So kannst du alternativ alle notwendigen Infos sammeln.
+Starte den Analyzer, indem du den Button mit der Lupe oben mittig, neben dem Drop-down-menü, betätigst.
+Entdecke nun mit dem Analyzer die Umgebung, indem du den blauen Kreis, durch ziehen, bewegst.
+Verbleibe länger an einer interessanten Stelle und der analysierte Wert ploppt auf.
+Ziehe nun den gewünschten Wert in dein Inventar. 
+Suche und identifiziere weitere Werte mit dem Analyzer.
+Denk aber daran, dass nicht alle Werte für deine Mission notwendig sind.
+Weiterhin kannst du natürlich die notwendigen Informationen auch oder ergänzend durch die Dialoge erfahren.
+<<AutoContinue>>
+Schreite nun zum nächsten Schritt, indem du oben rechts auf den Pfeil klickst.
+[[Ok, und sonst so?|Mentor.Chat]]
+[[Danke, eine Frage hätte ich dennoch...|MentorKonstruktor]]
+[[Okay, ich probiere es gleich aus!|Mentor.Exit]]
+<<else>>
+Gehen wir alles nochmal gemeinsam durch.
+Mit dem Analyzer kannst du die Umgebung nach wertvollen Informationen absuchen.
+Starte den Analyzer, indem du den Button mit der Lupe oben mittig, neben dem Drop-down-menü, betätigst.
+Erkunde die Umgebung, indem du den blauen Kreis, durch ziehen, bewegst.
+Analysierte Werte ploppen auf, wenn du länger an einer interessanten Stelle verbleibst.
+Ziehe nun den gewünschten Wert in dein Inventar. 
+Suche und identifiziere weitere Werte mit dem Analyzer.
+Weiterhin kannst du natürlich die notwendigen Informationen auch oder ergänzend durch die Dialoge erfahren.
+Aber Achtung, nicht alle Werte sind relevant für deine Mission!
+<<AutoContinue>>
+Schreite nun zum nächsten Schritt, indem du oben rechts auf den Pfeil klickst.
+[[Ok, lass uns noch ein wenig quatschen.|Mentor.Chat]]
+[[Danke und eine letzte Frage.|MentorKonstruktor]]
+[[Okay, dann mal ran an die Wurst!|Mentor.Exit]]
+<<endif>>
+===
+title: Konstruktor.Multistep
+tags: 
+colorID: 0
+position: 2325,100
+---
+Diese Aufgabe ist ein wenig komplizierter als die Erste.
+Nachdem du die nötigen Informationen eingesammelt hast, musst du sie nutzen, um das gesuchte Ergebnis zu berechnen.
+Siehst du das Drop-Down-Menü, das oben angezeigt wird?
+Dort kannst du eine neue Aktion hinzufügen, zum Beispiel einen Rechenschritt.
+Probier' es mal aus und wenn du Fragen hast, bin ich für dich da!
+[[Okay, dann mal ran an die Wurst!|Mentor.Exit]]
+===
+title: Tutorial.SearchedVar
+tags: 
+colorID: 0
+position: 1999,26
+---
+Du kümmerst dich um die Organisation der Seenotrettung? Sehr gut, dann lass mich dir eine kleine Einführung geben.
+Zur Bearbeitung der Aufgaben haben unsere Fachkräfte ein neues Software-System entwickelt.
+Ich hab' gehört, du weißt schon, wie du neue Infos einsammelst? Klasse! Neben den gegebenen Informationen musst du aber auch den Wert eintragen, den du berechnen willst. 
+Wie gewohnt, sammelst du unten links die gegebenen Infos und nun auch unten rechts, die gesuchten Infos.
+Sprich mit unseren Team-Mitgliedern, um die gegebenen und gesuchten Wert zu finden und lege sie anschließend links oder rechts ab.
+===
+title: Tutorial.Multistep
+tags: 
+colorID: 0
+position: 2623,117
+---
+Jetzt wollen wir die dazugehörige Lösung erstellen. Siehst du das Drop-Down-Menü, das oben angezeigt wird?
+Es zeigt dir an, in welchem Aufgabenschritt du dich gerade befindest. Du startest bei jeder Aufgabe im Analysemodus.
+Über das Plus daneben kannst du einen neuen Aufgabenschritt hinzufügen, zum Beispiel einen Rechenschritt. 
+Im Verlauf deiner Arbeit hier wirst du stetig neue Aufgabenschritte freischalten, zwischen denen du wählen kannst.
+===
+title: Tutorial.Vektor
+tags: 
+colorID: 0
+position: 2347,336
+---
+Nun befindest du dich im Aufgabenschritt zur Erstellung eines Vektors.
+Links siehst du zwei Eingabefelder. Dort musst du die Informationen platzieren, die du für einen Vektor brauchst - also die Koordinaten von Start- und Endpunkt auf P1 oder P2 ziehen.
+Danach wird der gewünschte Punkt im Koordinatenursprung platziert und du kannst ihn durch Schieberegler vertikal und horizontal an die richtige Stelle setzen. 
+Falls dir Infos fehlen, kannst du über das Drop-Down-Menü wieder zum Analyse-Modus zurückkehren.
+===
+title: Tutorial.Solution
+tags: 
+colorID: 0
+position: 2080,258
+---
+Wie es aussieht, hast du eine Lösung erstellt! Wenn du sicher bist, dass sie stimmt, kannst du sie abgeben, indem du sie auf den gesuchten Wert ziehst und dann mit dem Button daneben bestätigst.
+===
+title: Tutorial.DummyValues
+tags: 
+colorID: 0
+position: 1761,227
+---
+Ach ja, bevor ich es vergesse: Du solltest übrigens darauf achten, dir in den Gesprächen nur die Informationen einzusammeln, die du auch für die jeweilige Aufgabe benötigst - manche Leute reden, wie der Tag lang ist!
+In den Gesprächen mit unseren Team-Membern wirst du manchmal auf Infos stoßen, die für die Lösungsfindung gar nicht relevant sind.
+Überlege dir also gut, was du lösen willst und welche Infos du dafür brauchst!
+Ich lass dich jetzt erstmal allein. Wenn irgendwas ist, ich bin wie immer oben rechts.
+===

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1b4b71a7eebd42a963f188414c5e4, type: 3}
+  m_Name: Richtung
+  m_EditorClassIdentifier: 
+  headline: Richtung
+  easy:
+    content: "[Vektoren](glossary:Vektor) haben eine Richtung.\n- Die [Kraft](glossary:Kraft)
+      ist ein Vektor.\r\n\r- Deshalb haben Kr\xE4fte auch eine Richtung.\r\n\r- Eine
+      Kraft kann ein Schlag sein.\r\n\r\nDer Vektor zeigt die Richtung \xFCber eine
+      imagin\xE4re Linie.\r\n\rDie imagin\xE4re Linie hei\xDFt auch [Wirkungs-Linie](glossary:Wirkungslinie).\r\n\rDer
+      Vektor liegt auf der Wirkungs-Linie."
+    image: {fileID: 21300000, guid: cfad73d8e33ac8f438e163f9b85a521a, type: 3}
+    tmpContent: "<color=#131313><u><link=\"glossary:Vektor\">Vektoren</link></u></color>
+      haben eine Richtung.\n\n\u2022 Die <color=#131313><u><link=\"glossary:Kraft\">Kraft</link></u></color>
+      ist ein Vektor.\n\n\u2022 Deshalb haben Kr\xE4fte auch eine Richtung.\n\n\u2022
+      Eine Kraft kann ein Schlag sein.\n\nDer Vektor zeigt die Richtung \xFCber eine
+      imagin\xE4re Linie.\n\nDie imagin\xE4re Linie hei\xDFt auch <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungs-Linie</link></u></color>.\n\nDer
+      Vektor liegt auf der Wirkungs-Linie."
+  medium:
+    content: "Der [Vektor](glossary:Vektor) hat eine Richtung. Damit wird die Ausrichtung
+      des Vektors beschrieben. Diese kann in zwei [Richtungssinne](glossary:Richtungssinn)
+      gehen:\r\n\r\n- zum Richtungssinn der Pfeilspitze des Vektors, \r\n- zum Richtungssinn
+      entgegen der Pfeilspitze. \r\n\r\nBei [Kr\xE4ften](glossary:Kraft) bestimmt
+      die [Wirkungslinie](glossary:Wirkungslinie) die Richtung. Die Wirkungslinie
+      ist eine imagin\xE4re Linie, auf der eine Kraft liegt. "
+    image: {fileID: 21300000, guid: 2d3ca6ab70038a84c9f7c71e4627f921, type: 3}
+    tmpContent: "Der <color=#131313><u><link=\"glossary:Vektor\">Vektor</link></u></color>
+      hat eine Richtung. Damit wird die Ausrichtung des Vektors beschrieben. Diese
+      kann in zwei <color=#131313><u><link=\"glossary:Richtungssinn\">Richtungssinne</link></u></color>
+      gehen:\n\n\u2022 zum Richtungssinn der Pfeilspitze des Vektors,\n\u2022 zum
+      Richtungssinn entgegen der Pfeilspitze.\n\nBei <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4ften</link></u></color>
+      bestimmt die <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      die Richtung. Die Wirkungslinie ist eine imagin\xE4re Linie, auf der eine Kraft
+      liegt."
+  scientific:
+    content: "Unter Richtung ist die prinzipielle Ausrichtung eines [Vektors](glossary:Vektor)
+      gemeint. Bei [Kr\xE4ften](glossary:Kraft) bestimmt die [Wirkungslinie](glossary:Wirkungslinie)
+      die prinzipielle Richtung.\r"
+    image: {fileID: 21300000, guid: 24c5bcdae5012b3488e465683da7e892, type: 3}
+    tmpContent: "Unter Richtung ist die prinzipielle Ausrichtung eines <color=#131313><u><link=\"glossary:Vektor\">Vektors</link></u></color>
+      gemeint. Bei <color=#131313><u><link=\"glossary:Kraft\">Kr\xE4ften</link></u></color>
+      bestimmt die <color=#131313><u><link=\"glossary:Wirkungslinie\">Wirkungslinie</link></u></color>
+      die prinzipielle Richtung."
+  tmpHeadline: 

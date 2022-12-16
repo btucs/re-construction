@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fadeeb9a6edfeb40828e7113bf6f4e1, type: 3}
+  m_Name: "01-M\xF6hre-BruniSiggi"
+  m_EditorClassIdentifier: 
+  uid: 9b458cae-374d-49c8-8b45-575ee1f059de
+  taskName: Gleichgewicht beschreiben
+  teaserDescription: "Gleich geht es los. Karotten sind Brunis und Siggis Lieblingsessen.
+    Da geht es jedes Mal ganz sch\xF6n ab. Wer wird wohl heute gewinnen ...?\nZeige
+    mit Kraftpfeilen, dass es sich hier um das Gleichgewichtsaxiom handelt!"
+  teaserSolvedCorrect: Alles ist gekommen, wie du es vorhergesagt hast. Die Schweine
+    und das Team sind zufrieden.
+  teaserSolvedWrong: "Es ist anders gekommen, als du vorhergesagt hast. Bald werden
+    die beiden erneut gef\xFCttert und du k\xF6nntest dich erneut probieren."
+  fullDescription: Die zwei Meerschweinchen ziehen gleich stark an den Karotten.
+    Zeige mit Kraftpfeilen, dass hier ein Gleichgewicht besteht.
+  topic: {fileID: 11400000, guid: a9178f4711b157145a6a8987e6cc2891, type: 2}
+  requiredTask: {fileID: 0}
+  taskType: 0
+  coordinateSystemData:
+    origin: {x: 0, y: 0}
+    dimensions:
+      posX: 10
+      posY: 10
+      negX: 10
+      negY: 10
+    unitSize: 50
+    intermediateSteps: 1
+    scale: 100
+  steps:
+  - inputs:
+    - name: P_1
+      icon: {fileID: 0}
+      textMeshProName: P<sub>1</sub>
+      type: 1
+      textValue: (-0.5 0 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: (-2 2 0)
+    - name: P_2
+      icon: {fileID: 0}
+      textMeshProName: P<sub>2</sub>
+      type: 1
+      textValue: (1 0 0)
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: 
+      definition: 
+      textMeshProValue: (2 2 0)
+    - name: alpha
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: "0 \xB0"
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: "Anbei\xDFwinkel."
+      definition: Ausrichtung der Gerade zu einer Bezugsgerade in der Ebene.
+      textMeshProValue: 
+    dummyInputs:
+    - name: m
+      icon: {fileID: 0}
+      textMeshProName: 
+      type: 0
+      textValue: 85 g
+      startPointText: 
+      replacementModelType: -1
+      shortDescription: Gewicht Karotte.
+      definition: "Die Masse beschreibt die Tr\xE4gheit eines K\xF6rpers gegen Beschleunigungskr\xE4fte."
+      textMeshProValue: 
+    output:
+      name: F_1
+      icon: {fileID: 0}
+      textMeshProName: F<sub>1</sub>
+      unit: 6
+      textMeshProUnit: 
+      expectedStartingPointText: 
+  taskNPCs:
+  - npc: {fileID: 11400000, guid: d1b05353feed0194180ca9fae9035148, type: 2}
+    dialogs:
+    - "Starten wir mal ganz smooth. Hier geht es zwar nicht um die Weltrettung, sondern
+      nur um die ~i:m|Karotte~, aber die beiden Nager lehren uns viel \xFCber die
+      Welt da drau\xDFen.\n\n\n"
+    - "Bei der F\xFCtterung gbt es regelm\xE4\xDFig Food Fights. Kannst du eine Zeichnung
+      machen, aus der hervorgeht, welche ~o:F_1|Force~ wo wirkt? Die Anbei\xDFpunkte
+      sind heute ~i:P_1|Punkto 1~ und ~i:P_2|Punkto 2~."
+    - 'Die beiden ziehen so ziemlich mit der gleichen Kraft, in dem gleichen ~i:alpha|Winkel~.
+
+      Dann
+      mal los. You can do it!'
+  hashtags:
+  - 'kraft '
+  connectedObject: {fileID: 11400000, guid: be6dc9c0111596f4b8fc7e5418313d7b, type: 2}
